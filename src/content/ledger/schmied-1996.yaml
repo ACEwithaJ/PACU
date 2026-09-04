@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: schmied-1996
+day: 7
+citation: Schmied H, Kurz A, Sessler DI, Kozek S, Reiter A. Mild hypothermia increases blood loss and transfusion requirements during total hip arthroplasty. Lancet. 1996 Feb 3;347(8997):289-292.
+doi: 10.1016/s0140-6736(96)90466-3
+pmid: "8569362"
+design: rct
+year: 1996
+n: UNVERIFIED
+access: paywalled
+currency: era_limited
+topic: thermoregulation
+claim_support: magnitude
+supports: The blood-loss limb of the hypothermia outcome argument, in total hip arthroplasty.
+found_via: ClinicalTrials.gov NCT03256786 PMID-indexed reference table
+verified_on: 2026-09-02, ClinicalTrials.gov structured reference table with PMID and DOI; primary record not opened

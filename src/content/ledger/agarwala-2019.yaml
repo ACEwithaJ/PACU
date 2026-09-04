@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: agarwala-2019
+day: 16
+citation: Agarwala AV, Lane-Fall MB, Greilich PE, et al. Consensus recommendations for the conduct, training, implementation, and research of perioperative handoffs. Anesth Analg. 2019;128:e71-e78.
+doi: null
+pmid: "30995210"
+design: consensus_statement
+year: 2019
+n: NA
+access: paywalled
+currency: current
+topic: handover
+claim_support: magnitude
+supports: The society-level statement on what a perioperative handover should contain and how it should be taught. Use for the structure of the handover, not for its effect.
+found_via: Multi-Center Handoff Collaborative bibliography (handoffs.org), PMID-annotated
+verified_on: 2026-09-02, PMID-annotated secondary bibliography; primary record not opened

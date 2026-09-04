@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: salmasi-2017
+day: 5
+citation: "Salmasi V, Maheshwari K, Yang D, Mascha EJ, Singh A, Sessler DI, Kurz A. Relationship between intraoperative hypotension, defined by either reduction from baseline or absolute thresholds, and acute kidney and myocardial injury after noncardiac surgery: a retrospective cohort analysis. Anesthesiology. 2017;126:47-65."
+doi: null
+pmid: "27792044"
+design: cohort
+year: 2017
+n: UNVERIFIED
+access: paywalled
+currency: current
+topic: hypotension
+claim_support: magnitude
+supports: The absolute-threshold versus relative-reduction comparison. Carries the finding that absolute MAP thresholds perform about as well as percentage reductions from baseline, which is what lets a PACU protocol use a fixed number.
+found_via: PLOS ONE systematic review 10.1371/journal.pone.0263737, PMID-annotated reference list
+verified_on: 2026-09-02, PMID read from a PMID-annotated secondary reference list, not from PubMed itself - CONFIRM BEFORE USE

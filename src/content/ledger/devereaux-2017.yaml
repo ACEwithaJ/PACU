@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: devereaux-2017
+day: 8
+citation: Writing Committee for the VISION Study Investigators; Devereaux PJ, Biccard BM, Sigamani A, Xavier D, Chan MTV, et al. Association of postoperative high-sensitivity troponin levels with myocardial injury and 30-day mortality among patients undergoing noncardiac surgery. JAMA. 2017;317:1642-1651.
+doi: 10.1001/jama.2017.4360
+pmid: "28444280"
+design: cohort
+year: 2017
+n: UNVERIFIED (>20,000)
+access: paywalled
+currency: current
+topic: myocardial_injury
+claim_support: magnitude
+supports: Fifth-generation hsTnT measured on the first 3 postoperative days in the VISION cohort; establishes the hsTnT thresholds now used for MINS (20-65 ng/L with absolute change >5 ng/L, or >=65 ng/L, judged ischaemic). A secondary commentary reports 17.9% met MINS criteria; THAT FIGURE WAS NOT READ FROM THE PRIMARY RECORD.
+found_via: null
+verified_on: 2026-09-02, PubMed record 28444280; MINS threshold wording confirmed from PubMed record 37459169 abstract

@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: saager-2019
+day: 1
+citation: "Saager L, Maiese EM, Bash LD, Meyer TA, Minkowitz H, Groudine S, Philip BK, Tanaka P, Gan TJ, Rodriguez-Blanco Y, Soto R, Heisel O. Incidence, risk factors, and consequences of residual neuromuscular block in the United States: the prospective, observational, multicenter RECITE-US study. J Clin Anesth. 2019 Aug;55:33-41."
+doi: 10.1016/j.jclinane.2018.12.042
+pmid: "30594097"
+design: cohort
+year: 2019
+n: "255"
+access: paywalled
+currency: current
+topic: residual_block
+claim_support: magnitude
+supports: Blinded multicentre cohort in operating and recovery rooms of 10 US community and academic hospitals; 64.7% (165/255) had residual block (TOF ratio <0.9) at extubation; 31.0% of those had TOF ratio <0.6; patients were judged suitable for extubation by routine clinical judgement and qualitative peripheral nerve stimulation
+found_via: null
+verified_on: 2026-09-02, PubMed record 30594097 + ScienceDirect abstract

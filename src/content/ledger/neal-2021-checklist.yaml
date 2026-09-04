@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: neal-2021-checklist
+day: 11
+citation: "Neal JM, Neal EJ, Weinberg GL. American Society of Regional Anesthesia and Pain Medicine Local Anesthetic Systemic Toxicity checklist: 2020 version. Reg Anesth Pain Med. 2021 Jan;46(1):81-82."
+doi: 10.1136/rapm-2020-101986
+pmid: "33148630"
+design: advisory
+year: 2021
+n: NA
+access: open
+currency: current
+topic: regional
+claim_support: magnitude
+supports: "The current cognitive aid, updated from the 2012/2017 versions in response to user feedback and simulation studies. CARRIES A CORRECTION NOTICE: Figure 1 was replaced after online-first publication, so any reproduced checklist graphic must come from the corrected version or from asra.com."
+found_via: null
+verified_on: 2026-09-02, PubMed record 33148630 + publisher PDF carrying the correction notice

@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: bmc-nppe-2025
+day: 2
+citation: "Negative pressure pulmonary edema resulting from upper airway obstruction during the post-anesthesia recovery period: a case series and literature review. BMC Anesthesiol. 2025. (author list UNVERIFIED)"
+doi: 10.1186/s12871-025-02998-z
+pmid: null
+design: case_series
+year: 2025
+n: "5"
+access: open
+currency: current
+topic: airway
+claim_support: magnitude
+supports: "Five NPPE cases during recovery from general anaesthesia at one institution: four attributed to glossoptosis after extubation, one to laryngeal mask displacement; all had typical clinical and imaging features; none had a poor outcome. Carries the point that the precipitant in the recovery period is not always laryngospasm."
+found_via: null
+verified_on: 2026-09-02, BMC/Springer article page; author list not captured in retrieved excerpt

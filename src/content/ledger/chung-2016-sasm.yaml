@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: chung-2016-sasm
+day: 14
+citation: Chung F, Memtsoudis SG, Ramachandran SK, et al. Society of Anesthesia and Sleep Medicine guidelines on preoperative screening and assessment of adult patients with obstructive sleep apnea. Anesth Analg. 2016. (volume and pages UNVERIFIED)
+doi: null
+pmid: null
+design: guideline
+year: 2016
+n: NA
+access: open
+currency: current
+topic: osa
+claim_support: magnitude
+supports: Explicitly records that few randomised studies exist in this field and that most recommendations were developed by experts through consensus with evidence grading. That self-description is itself the teaching point of the day. Also carries the disclaimer that the guideline may not be appropriate for all clinical situations.
+found_via: null
+verified_on: 2026-09-02, LWW full-text page for the 2016 SASM guideline; author list and pagination not captured

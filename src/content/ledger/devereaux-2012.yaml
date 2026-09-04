@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: devereaux-2012
+day: 8
+citation: Vascular Events In Noncardiac Surgery Patients Cohort Evaluation (VISION) Study Investigators; Devereaux PJ, Chan MTV, Alonso-Coello P, Walsh M, Berwanger O, et al. Association between postoperative troponin levels and 30-day mortality among patients undergoing noncardiac surgery. JAMA. 2012;307:2295-2304.
+doi: 10.1001/jama.2012.5502
+pmid: null
+design: cohort
+year: 2012
+n: UNVERIFIED
+access: paywalled
+currency: superseded_by:devereaux-2017
+topic: myocardial_injury
+claim_support: magnitude
+supports: The fourth-generation troponin T predecessor to the 2017 hsTnT analysis. Include only to show what changed when the assay generation changed; not a current source for thresholds.
+found_via: PMC article PMC8831428 reference list with DOI
+verified_on: 2026-09-02, secondary reference list with DOI; primary record not opened

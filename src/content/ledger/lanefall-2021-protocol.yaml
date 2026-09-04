@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: lanefall-2021-protocol
+day: 16
+citation: "Lane-Fall MB, et al. Handoffs and transitions in critical care - understanding scalability: study protocol for a multicenter stepped wedge type 2 hybrid effectiveness-implementation trial (HATRICC-US). Implement Sci. 2021;16:63."
+doi: 10.1186/s13012-021-01131-1
+pmid: "34130725"
+design: consensus_statement
+year: 2021
+n: NA
+access: open
+currency: current
+topic: handover
+claim_support: magnitude
+supports: PROTOCOL ONLY, registered as NCT04571749 on 1 October 2020, for a multicentre stepped-wedge trial of standardised OR-to-ICU handoffs across US academic ICUs. Design row, not a results row. Results may have published between this ledger's search date and use; see gaps.md.
+found_via: null
+verified_on: 2026-09-02, PMC record PMC8204062 + Implementation Science PDF; PMID from handoffs.org PMID-annotated bibliography

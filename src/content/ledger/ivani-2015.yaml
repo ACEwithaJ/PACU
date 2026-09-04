@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: ivani-2015
+day: 11
+citation: Ivani G, Suresh S, Ecoffey C, et al. The European Society of Regional Anaesthesia and Pain Therapy and the American Society of Regional Anesthesia and Pain Medicine Joint Committee Practice Advisory on Controversial Topics in Pediatric Regional Anesthesia. Reg Anesth Pain Med. 2015. (volume and pages UNVERIFIED)
+doi: null
+pmid: "26192549"
+design: advisory
+year: 2015
+n: NA
+access: paywalled
+currency: current
+topic: regional
+claim_support: magnitude
+supports: States that there are no current evidence-based data that the use of regional anaesthesia increases the risk of acute compartment syndrome or delays its diagnosis, and that high-level evidence is not available for the topics evaluated, with most recommendations based on Evidence B studies. NOTE THE SCOPE IS PAEDIATRIC. This is the strongest society statement retrieved on the compartment-syndrome question and it does not support the claim as the day currently words it.
+found_via: null
+verified_on: 2026-09-02, PubMed record 26192549

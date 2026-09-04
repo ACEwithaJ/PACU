@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: sessler-2018
+day: 5
+citation: "Sessler DI, Meyhoff CS, Zimmerman NM, et al. Period-dependent associations between hypotension during and for four days after noncardiac surgery and a composite of myocardial infarction and death: a substudy of the POISE-2 trial. Anesthesiology. 2018 Feb;128(2):317-327."
+doi: 10.1097/ALN.0000000000001985
+pmid: "29189290"
+design: cohort
+year: 2018
+n: "9765"
+access: open
+currency: current
+topic: hypotension
+claim_support: magnitude
+supports: Substudy of POISE-2 (10,010-patient factorial RCT); clinically important hypotension defined as SBP <90 mmHg requiring treatment; among 9,765 patients 42% experienced hypotension, 590 (6.0%) had infarction and 116 (1.2%) died within 30 days; intraoperative estimated average relative effect across MI and mortality 1.08 (98.3% CI 1.03-1.12). THE EXPOSURE UNIT FOR THAT 1.08 IS CUT OFF IN THE ABSTRACT - confirm in full text before writing it.
+found_via: null
+verified_on: 2026-09-02, PubMed record 29189290 + Anesthesiology abstract page

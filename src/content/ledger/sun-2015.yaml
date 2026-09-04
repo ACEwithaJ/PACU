@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: sun-2015
+day: 4
+citation: "Sun Z, Sessler DI, Dalton JE, et al. Postoperative hypoxemia is common and persistent: a prospective blinded observational study. Anesth Analg. 2015;121:709-715."
+doi: null
+pmid: null
+design: cohort
+year: 2015
+n: UNVERIFIED
+access: paywalled
+currency: current
+topic: respiratory_depression
+claim_support: magnitude
+supports: Blinded continuous oximetry showing postoperative hypoxaemia is both common and prolonged, and largely missed by intermittent nursing observation. Include only if the day quotes its duration figures; those figures were not read.
+found_via: Reference list of Anesth Analg 2017 systematic review, DOI 10.1213/ANE.0000000000002557
+verified_on: 2026-09-02, secondary reference list only - NOT VERIFIED

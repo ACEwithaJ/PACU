@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: gan-2026
+day: 9
+citation: "Gan TJ, Jin Z, Ayad S, Belani KG, Habib AS, Meyer TA, et al. Fifth Consensus Guidelines for the Management of Postoperative Nausea and Vomiting: Executive Summary. Anesth Analg. 2026 Sep;143(3):497-513."
+doi: 10.1213/ANE.0000000000007816
+pmid: "41237407"
+design: guideline
+year: 2026
+n: NA
+access: paywalled
+currency: current
+topic: ponv
+claim_support: magnitude
+supports: Current PONV guideline, in print September 2026 (online ahead of print 14 November 2025); supersedes the Fourth Consensus Guidelines. Graded statements read from the full text include A1 evidence that low-dose gabapentinoids (<300 mg pregabalin/day or <900 mg gabapentin/day) reduce PONV risk despite showing no significant analgesic efficacy, and A1 that opioid-free anaesthesia reduces PONV versus opioid-based anaesthesia; also cautions that nonselective NSAIDs may be associated with anastomotic leak in gastrointestinal surgery.
+found_via: null
+verified_on: 2026-09-02, PubMed record 41237407 + Anesthesia & Analgesia full-text page carrying final volume/issue/pages

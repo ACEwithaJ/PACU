@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: gan-2020
+day: 9
+citation: Gan TJ, Belani KG, Bergese S, Chung F, Diemunsch P, Habib AS, et al. Fourth Consensus Guidelines for the Management of Postoperative Nausea and Vomiting. Anesth Analg. 2020 Aug;131(2):411-448.
+doi: 10.1213/ANE.0000000000004833
+pmid: "32467512"
+design: guideline
+year: 2020
+n: NA
+access: open
+currency: superseded_by:gan-2026
+topic: ponv
+claim_support: magnitude
+supports: Literature search closed September 2019. Carries the additive-prophylaxis and risk-stratification architecture the day is built on, plus the institutional-protocol recommendations. Use only where the curriculum needs to show what changed between the Fourth and the Fifth.
+found_via: null
+verified_on: 2026-09-02, PubMed record 32467512 + LWW abstract page

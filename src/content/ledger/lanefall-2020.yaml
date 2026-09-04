@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: lanefall-2020
+day: 16
+citation: "Lane-Fall MB, Pascual JL, Peifer HG, Di Taranti LJ, Collard ML, Jablonski J, Gutsche JT, Halpern SD, Barg FK, Fleisher LA; HATRICC study team. A partially structured postoperative handoff protocol improves communication in 2 mixed surgical intensive care units: findings from the Handoffs and Transitions in Critical Care (HATRICC) prospective cohort study. Ann Surg. 2020 Mar;271(3):484-493."
+doi: 10.1097/SLA.0000000000003137
+pmid: "30499797"
+design: cohort
+year: 2020
+n: UNVERIFIED
+access: paywalled
+currency: current
+topic: handover
+claim_support: magnitude
+supports: Prospective interventional cohort (NCT02267174) in 2 surgical ICUs at 2 affiliated hospitals, 2014-2016; primary outcome was the number of information omissions out of 13 possible topics, recorded by trained observers; handoff duration increased from 4.1 (SD 3.3) to 8.0 (SD 3.9) minutes, P<0.001; ICU mortality and length of stay did not change. THIS IS THE STRONGEST OR-TO-ICU HANDOVER STUDY AND IT IS A BEFORE-AND-AFTER COHORT, NOT A TRIAL, AND IT IS NEGATIVE FOR CLINICAL OUTCOMES.
+found_via: null
+verified_on: 2026-09-02, PubMed record 30499797 + Penn PAIR Center abstract record

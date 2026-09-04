@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: olsson-1984
+day: 2
+citation: Olsson GL, Hallen B. Laryngospasm during anaesthesia. A computer-aided incidence study in 136,929 patients. Acta Anaesthesiol Scand. 1984;28(5):567-575.
+doi: null
+pmid: null
+design: cohort
+year: 1984
+n: "136929"
+access: paywalled
+currency: era_limited
+topic: airway
+claim_support: magnitude
+supports: The denominator study everyone cites for laryngospasm incidence. Include only if the day states an incidence figure; the figure itself was not read from the primary record.
+found_via: Reference list of Taylor & Francis / informahealthcare review 10.2147/TCRM.S200662
+verified_on: 2026-09-02, secondary reference list only - NOT VERIFIED

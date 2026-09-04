@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: taenzer-2010
+day: 4
+citation: "Taenzer AH, Pyke JB, McGrath SP, Blike GT. Impact of pulse oximetry surveillance on rescue events and intensive care unit transfers: a before-and-after concurrence study. Anesthesiology. 2010 Feb;112(2):282-287."
+doi: 10.1097/ALN.0b013e3181ca7a9b
+pmid: "20098128"
+design: cohort
+year: 2010
+n: UNVERIFIED
+access: open
+currency: current
+topic: respiratory_depression
+claim_support: magnitude
+supports: "Continuous pulse-oximetry surveillance with wireless pager notification on one postoperative unit, 11 months before and 10 months after, with two concurrent unchanged comparison units; rescue events fell from 3.4 (1.89-4.85) to 1.2 (0.53-1.88) and ICU transfers from 5.6 (3.7-7.4) to 2.9 (1.4-4.3) per 1000 patient days. Denominator for the rescue-event rate was corrected by erratum: see taenzer-2010-erratum."
+found_via: null
+verified_on: 2026-09-02, PubMed record 20098128 + Anesthesiology full-text page
