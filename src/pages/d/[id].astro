@@ -1,0 +1,74 @@
+---
+/**
+ * One day. The Day 3 prototype defines the visual contract for all sixteen.
+ *
+ * Slot order comes from the Markdown body itself; the validator (rule 1)
+ * guarantees the six level-2 headings are present and in order, so this page
+ * does not reorder anything. The rendered body is split once, at the
+ * "Check yourself" heading, so the source cards sit between the prose and the
+ * quiz and the quiz island lands under its own slot heading.
+ */
+import { getCollection, getEntries, type CollectionEntry } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import DraftBanner from "../../components/DraftBanner.astro";
+import EvidenceChip from "../../components/EvidenceChip.astro";
+import SourceCard from "../../components/SourceCard.astro";
+import Quiz from "../../components/Quiz.astro";
+
+export async function getStaticPaths() {
+  const days = await getCollection("days");
+  return days.map((entry) => ({ params: { id: entry.data.id }, props: { entry } }));
+}
+
+interface Props {
+  entry: CollectionEntry<"days">;
+}
+const { entry } = Astro.props;
+const d = entry.data;
+const dayNumber = Number(d.id.slice(4));
+
+const sources = await getEntries(d.evidence);
+
+const html = entry.rendered?.html ?? "";
+const marker = '<h2 id="check-yourself"';
+const cut = html.indexOf(marker);
+const before = cut === -1 ? html : html.slice(0, cut);
+const after = cut === -1 ? "" : html.slice(cut);
+---
+
+<Base title={`Day ${dayNumber} · ${d.title}`} description={d.claim}>
+  <main>
+    {d.draft && <DraftBanner />}
+
+    <header class="masthead">
+      <p class="kicker">PACU · Day {dayNumber} of 16</p>
+      <h1>{d.title}</h1>
+      <p class="claim">{d.claim}</p>
+      <EvidenceChip
+        mode={d.evidence_mode}
+        basis={d.consensus_basis}
+        physiology={d.physiology_status}
+        claim={d.clinical_claim_status}
+      />
+    </header>
+
+    <div class="body" set:html={before} />
+
+    <section class="sources" aria-label="Sources">
+      <h2>Sources</h2>
+      <p class="note">
+        Every number above carries its ledger key. Each key below resolves to the source record.
+      </p>
+      {sources.map((s) => <SourceCard entry={s} />)}
+    </section>
+
+    <div class="body" set:html={after} />
+
+    <Quiz items={d.quiz} dayId={d.id} />
+
+    <footer class="colophon">
+      Evidence mode: {d.evidence_mode}{d.consensus_basis ? ` (${d.consensus_basis})` : ""}.
+      {d.review_due ? ` Review due ${d.review_due.toISOString().slice(0, 10)}.` : " No review date set; the weekly link check is the review process."}
+    </footer>
+  </main>
+</Base>

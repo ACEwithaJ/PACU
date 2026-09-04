@@ -3,17 +3,22 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
+  "description": "PACU rotation curriculum - public, static, 16 days, ledger-enforced",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "npm run validate && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "validate": "node scripts/validate.mjs",
+    "validate:selftest": "node scripts/selftest.mjs",
+    "ledger:import": "node scripts/ledger-import.mjs"
   },
   "dependencies": {
     "astro": "^5.13.0"
   },
   "devDependencies": {
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "yaml": "^2.6.1"
   },
   "engines": {
     "node": ">=20.11.0"

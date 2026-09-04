@@ -1,0 +1,156 @@
+/* =========================================================================
+   PACU — design tokens and page styles.
+   The Day 3 prototype is the visual contract for all sixteen days.
+
+   Rules: every colour is defined on bare :root first; dark is redefined
+   under prefers-color-scheme (guarded) and again under [data-theme="dark"].
+   consensus_only is the common case and must not look like a failure state,
+   so the evidence-mode chip uses the neutral accent for both modes.
+   ========================================================================= */
+
+:root {
+  color-scheme: light dark;
+  --ground: #f3f5f6;
+  --surface: #ffffff;
+  --surface-2: #e9eef1;
+  --ink: #131a1f;
+  --ink-2: #4a5a63;
+  --ink-3: #7b8b94;
+  --rule: #d6dee2;
+  --accent: #1f5d6e;
+  --accent-soft: #dfeaee;
+  --warn: #9a5220;
+  --warn-soft: #f7ebe0;
+  --good: #2c6a4e;
+  --good-soft: #e1efe7;
+  --bad: #94352f;
+  --bad-soft: #f5e5e3;
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --measure: 68ch;
+  --page-max: 920px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #0f1519;
+    --surface: #171f25;
+    --surface-2: #1f2a31;
+    --ink: #e6ecef;
+    --ink-2: #aebac2;
+    --ink-3: #7f8d95;
+    --rule: #2c3941;
+    --accent: #7fb6c5;
+    --accent-soft: #1b323a;
+    --warn: #e0a06a;
+    --warn-soft: #3a2a1c;
+    --good: #7cc4a0;
+    --good-soft: #1c3329;
+    --bad: #e08a82;
+    --bad-soft: #3a2220;
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #0f1519;
+  --surface: #171f25;
+  --surface-2: #1f2a31;
+  --ink: #e6ecef;
+  --ink-2: #aebac2;
+  --ink-3: #7f8d95;
+  --rule: #2c3941;
+  --accent: #7fb6c5;
+  --accent-soft: #1b323a;
+  --warn: #e0a06a;
+  --warn-soft: #3a2a1c;
+  --good: #7cc4a0;
+  --good-soft: #1c3329;
+  --bad: #e08a82;
+  --bad-soft: #3a2220;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--ground); color: var(--ink); font-family: var(--font-body); line-height: 1.55; }
+body { margin: 0; }
+a { color: var(--accent); }
+main { max-width: var(--page-max); margin: 0 auto; padding: 1.5rem 1.25rem 4rem; }
+
+.site-header { border-bottom: 1px solid var(--rule); background: var(--surface); }
+.site-header .inner { max-width: var(--page-max); margin: 0 auto; padding: .8rem 1.25rem; display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+.site-header a.brand { color: var(--ink); text-decoration: none; font-family: var(--font-display); font-size: 1.05rem; }
+.site-header .tag { color: var(--ink-3); font-size: .85rem; }
+
+/* --- draft banner ------------------------------------------------------ */
+.draft-banner { background: var(--warn-soft); color: var(--warn); border: 1px solid var(--warn); border-radius: 6px; padding: .6rem .9rem; font-size: .92rem; margin: 0 0 1.25rem; }
+.draft-banner strong { letter-spacing: .04em; }
+
+/* --- masthead ---------------------------------------------------------- */
+.masthead .kicker { font-family: var(--font-mono); font-size: .8rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: .08em; margin: 0 0 .35rem; }
+.masthead h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(1.7rem, 3.5vw, 2.4rem); line-height: 1.15; margin: 0 0 .9rem; }
+.claim { font-size: 1.12rem; max-width: var(--measure); border-left: 3px solid var(--accent); padding-left: .9rem; margin: 0 0 1rem; color: var(--ink); }
+.chips { display: flex; flex-wrap: wrap; gap: .45rem; margin: 0 0 1.75rem; }
+
+/* --- chips ------------------------------------------------------------- */
+.chip { display: inline-flex; align-items: center; gap: .35rem; font-family: var(--font-mono); font-size: .74rem; letter-spacing: .02em; padding: .22rem .6rem; border-radius: 999px; border: 1px solid var(--rule); background: var(--surface); color: var(--ink-2); white-space: nowrap; }
+.chip .lbl { color: var(--ink-3); }
+.chip.mode { background: var(--accent-soft); border-color: transparent; color: var(--accent); font-weight: 600; }
+.chip.ok { background: var(--good-soft); border-color: transparent; color: var(--good); }
+.chip.mid { background: var(--warn-soft); border-color: transparent; color: var(--warn); }
+.chip.no { background: var(--bad-soft); border-color: transparent; color: var(--bad); }
+
+/* --- body slots -------------------------------------------------------- */
+.body { max-width: var(--measure); }
+.body h2 { font-family: var(--font-display); font-weight: 500; font-size: 1.35rem; margin: 2.2rem 0 .6rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+.body h2::before { content: counter(slot, decimal-leading-zero) " "; counter-increment: slot; font-family: var(--font-mono); font-size: .75rem; color: var(--ink-3); vertical-align: middle; margin-right: .4rem; }
+.body { counter-reset: slot; }
+.body p { margin: 0 0 1rem; }
+a.cite { font-family: var(--font-mono); font-size: .72rem; text-decoration: none; background: var(--accent-soft); color: var(--accent); padding: .05rem .38rem; border-radius: 4px; vertical-align: baseline; white-space: nowrap; }
+a.cite:hover { text-decoration: underline; }
+
+/* --- source cards ------------------------------------------------------ */
+.sources { margin: 2.2rem 0 0; }
+.sources h2 { font-family: var(--font-display); font-weight: 500; font-size: 1.35rem; margin: 0 0 .6rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+.sources .note { color: var(--ink-3); font-size: .88rem; margin: 0 0 1rem; }
+.src { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: .9rem 1rem; margin: 0 0 .8rem; scroll-margin-top: 1rem; }
+.src .head { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin-bottom: .5rem; }
+.src .key { font-family: var(--font-mono); font-size: .8rem; color: var(--accent); }
+.src .cit { margin: 0 0 .5rem; font-size: .95rem; }
+.src .supports { margin: 0 0 .5rem; color: var(--ink-2); font-size: .9rem; }
+.src .links { display: flex; flex-wrap: wrap; gap: .8rem; font-size: .88rem; }
+.src .links .none { color: var(--warn); }
+.badge { font-family: var(--font-mono); font-size: .7rem; padding: .15rem .45rem; border-radius: 4px; border: 1px solid var(--rule); color: var(--ink-2); }
+.badge.paywalled { background: var(--warn-soft); border-color: transparent; color: var(--warn); }
+.badge.open { background: var(--good-soft); border-color: transparent; color: var(--good); }
+
+/* --- quiz -------------------------------------------------------------- */
+.quiz { margin: 1rem 0 0; max-width: var(--measure); }
+.quiz .not-saved { font-size: .88rem; color: var(--ink-3); margin: 0 0 1rem; }
+.q { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 1rem; margin: 0 0 1rem; }
+.q .q-tag { font-family: var(--font-mono); font-size: .72rem; color: var(--ink-3); margin-bottom: .4rem; }
+.q .stem { margin: 0 0 .8rem; font-weight: 500; }
+.q .opts { display: grid; gap: .45rem; }
+.q .opt { display: flex; gap: .6rem; align-items: flex-start; text-align: left; font: inherit; color: var(--ink); background: var(--surface-2); border: 1px solid var(--rule); border-radius: 6px; padding: .55rem .7rem; cursor: pointer; }
+.q .opt:hover:not(:disabled) { border-color: var(--accent); }
+.q .opt:disabled { cursor: default; }
+.q .opt .k { font-family: var(--font-mono); font-size: .78rem; color: var(--ink-3); min-width: 1.2em; }
+.q .opt.correct { border-color: var(--good); background: var(--good-soft); }
+.q .opt.chosen-wrong { border-color: var(--bad); background: var(--bad-soft); }
+.q .opt.dim { opacity: .55; }
+.q .why { display: none; margin-top: .8rem; font-size: .93rem; }
+.q .why.show { display: block; }
+.q .why .lab { font-family: var(--font-mono); font-size: .75rem; font-weight: 600; }
+.q .why .lab.hit { color: var(--good); }
+.q .why .lab.miss { color: var(--bad); }
+.q .why p { margin: .3rem 0 0; }
+.quiz .summary { font-size: .92rem; color: var(--ink-2); margin-top: .5rem; }
+
+/* --- index ------------------------------------------------------------- */
+.days { list-style: none; padding: 0; margin: 1.5rem 0; display: grid; gap: .6rem; }
+.days li { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: .8rem 1rem; display: flex; gap: .8rem; align-items: baseline; flex-wrap: wrap; }
+.days .n { font-family: var(--font-mono); color: var(--ink-3); font-size: .8rem; min-width: 4.5em; }
+.days a { text-decoration: none; color: var(--ink); font-family: var(--font-display); font-size: 1.1rem; }
+.days a:hover { text-decoration: underline; }
+.days .missing { color: var(--ink-3); font-family: var(--font-display); font-size: 1.1rem; }
+.lede { max-width: var(--measure); color: var(--ink-2); }
+
+.colophon { margin-top: 3rem; border-top: 1px solid var(--rule); padding-top: 1rem; color: var(--ink-3); font-size: .82rem; }

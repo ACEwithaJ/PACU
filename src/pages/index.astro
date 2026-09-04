@@ -1,16 +1,45 @@
 ---
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
 
+const days = (await getCollection("days")).sort((a, b) => a.data.id.localeCompare(b.data.id));
+const byNumber = new Map(days.map((d) => [Number(d.data.id.slice(4)), d]));
+const numbers = Array.from({ length: 16 }, (_, i) => i + 1);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Base title="PACU rotation curriculum" description="A 16-day PACU curriculum for anesthesiology residents.">
+  <main>
+    <header class="masthead">
+      <p class="kicker">Sixteen days</p>
+      <h1>PACU rotation curriculum</h1>
+      <p class="lede">
+        One page per day. Each day states a claim, names the evidence mode it rests on, and cites
+        every number to a source ledger entry with a DOI or PMID. No account, nothing saved.
+      </p>
+    </header>
+
+    <ol class="days">
+      {
+        numbers.map((n) => {
+          const d = byNumber.get(n);
+          return (
+            <li>
+              <span class="n">Day {String(n).padStart(2, "0")}</span>
+              {d ? (
+                <>
+                  <a href={`/d/${d.data.id}/`}>{d.data.title}</a>
+                  {d.data.draft && <span class="chip mid">draft</span>}
+                  <span class="chip mode">{d.data.evidence_mode === "trial_based" ? "trial based" : "consensus only"}</span>
+                </>
+              ) : (
+                <span class="missing">not yet authored</span>
+              )}
+            </li>
+          );
+        })
+      }
+    </ol>
+
+    <footer class="colophon">Phase 0 skeleton. Content is authored day by day and cleared by the rotation director.</footer>
+  </main>
+</Base>

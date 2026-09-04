@@ -1,0 +1,103 @@
+name: bootstrap
+
+# The toolchain bridge. The director's machine has no Node, so the parts of
+# Phase 0 that must execute (generate package-lock.json, run the ledger import,
+# run the validator and the build) happen here and are committed back to the
+# branch. Modelled on the sibling project's bootstrap-lockfile workflow.
+#
+# Runs on every push to phase0-skeleton. Commits it makes use GITHUB_TOKEN,
+# which does not trigger further workflow runs, so there is no loop — and it
+# also means ci.yml does NOT run on the bot's commit. This workflow therefore
+# runs the full pipeline itself and writes the result to .ci/REPORT.md so the
+# evidence is readable with `git pull`.
+#
+# Delete after Phase 0, or keep as the "run the toolchain for me" button.
+
+on:
+  push:
+    branches: ["phase0-skeleton"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bootstrap-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install (generates package-lock.json if absent)
+        run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
+
+      - name: Ledger import (writes only files that do not exist yet)
+        run: npm run ledger:import
+
+      - name: Self-test, validate, build — captured
+        id: pipeline
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          mkdir -p .ci
+          {
+            echo "# CI report"
+            echo
+            echo "Commit: ${GITHUB_SHA}  ·  Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            echo
+            echo '## node -v'; echo '```'; node -v; echo '```'
+            echo
+            echo '## npm run validate:selftest'; echo '```'
+          } > .ci/REPORT.md
+          st=0
+          npm run validate:selftest 2>&1 | tee -a .ci/REPORT.md || st=1
+          echo '```' >> .ci/REPORT.md
+          echo >> .ci/REPORT.md
+          echo '## npm run validate' >> .ci/REPORT.md; echo '```' >> .ci/REPORT.md
+          npm run validate 2>&1 | tee -a .ci/REPORT.md || st=1
+          echo '```' >> .ci/REPORT.md
+          echo >> .ci/REPORT.md
+          echo '## npm run build' >> .ci/REPORT.md; echo '```' >> .ci/REPORT.md
+          npm run build 2>&1 | tee -a .ci/REPORT.md || st=1
+          echo '```' >> .ci/REPORT.md
+          echo >> .ci/REPORT.md
+          echo "## Result: $([ $st = 0 ] && echo GREEN || echo RED)" >> .ci/REPORT.md
+          exit $st
+
+      - name: Commit generated files and the report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A package-lock.json src/content/ledger docs/ledger-debt.md .ci/REPORT.md
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "ci: lockfile, ledger YAML, debt file, report (generated on CI)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin HEAD:"${GITHUB_REF_NAME}"
+          fi
+
+      - name: Upload dist
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Fail the job if the pipeline failed
+        if: steps.pipeline.outcome == 'failure'
+        run: |
+          echo "pipeline failed — see .ci/REPORT.md on the branch"
+          exit 1

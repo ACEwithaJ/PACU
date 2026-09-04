@@ -1,0 +1,59 @@
+---
+/**
+ * One ledger row, rendered. Links go to DOI resolvers and PubMed only
+ * (planning brief §3.3: no EZproxy). A row with neither identifier says so on
+ * the card rather than hiding it; that is the debt the validator warns about.
+ */
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  entry: CollectionEntry<"ledger">;
+}
+const { entry } = Astro.props;
+const s = entry.data;
+
+const DESIGN: Record<string, string> = {
+  rct: "randomised trial",
+  meta_rct: "meta-analysis of RCTs",
+  cohort: "cohort",
+  case_series: "case series",
+  guideline: "guideline",
+  consensus_statement: "consensus statement",
+  advisory: "advisory",
+};
+
+const superseded = s.currency.startsWith("superseded_by:") ? s.currency.slice("superseded_by:".length) : null;
+---
+
+<article class="src" id={`src-${s.key}`}>
+  <div class="head">
+    <span class="key">[[{s.key}]]</span>
+    <span class="badge">{DESIGN[s.design] ?? s.design}</span>
+    <span class="badge">{s.year ?? "year unverified"}</span>
+    <span class="badge">n: {s.n}</span>
+    <span class:list={["badge", s.access]}>{s.access}</span>
+    {s.currency === "era_limited" && <span class="badge">era-limited</span>}
+    {superseded && (
+      <span class="badge">
+        superseded by <a href={`#src-${superseded}`}>{superseded}</a>
+      </span>
+    )}
+  </div>
+  <p class="cit">{s.citation}</p>
+  <p class="supports">{s.supports}</p>
+  <div class="links">
+    {s.doi && (
+      <a href={`https://doi.org/${s.doi}`} rel="noopener noreferrer" target="_blank">
+        doi:{s.doi}
+      </a>
+    )}
+    {s.pmid && (
+      <a href={`https://pubmed.ncbi.nlm.nih.gov/${s.pmid}/`} rel="noopener noreferrer" target="_blank">
+        PMID {s.pmid}
+      </a>
+    )}
+    {!s.doi && !s.pmid && (
+      <span class="none">No DOI or PMID on record — listed in docs/ledger-debt.md</span>
+    )}
+  </div>
+</article>
