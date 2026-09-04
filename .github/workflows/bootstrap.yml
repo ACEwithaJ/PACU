@@ -71,6 +71,22 @@ jobs:
           npm run build 2>&1 | tee -a .ci/REPORT.md || st=1
           echo '```' >> .ci/REPORT.md
           echo >> .ci/REPORT.md
+          # Phase 0 exit criterion: Day 3 renders with the DRAFT banner, the
+          # evidence chip, a source card for fu-2004, and the quiz island.
+          # Nobody on this project can open dist/ locally, so the markers are
+          # counted here and written into the report.
+          echo '## Day 3 render markers (dist/d/day-03/index.html)' >> .ci/REPORT.md
+          echo '```' >> .ci/REPORT.md
+          f=dist/d/day-03/index.html
+          if [ -f "$f" ]; then
+            for m in 'class="draft-banner"' 'chip mode' 'Consensus only' 'id="src-fu-2004"' 'href="#src-fu-2004"' 'https://doi.org/' 'badge paywalled' 'id="quiz"' 'Progress is not saved' 'data-quiz-item' '<h2 id="check-yourself"' 'NUMBER NEEDED'; do
+              printf '%-28s %s\n' "$m" "$(grep -o -F "$m" "$f" | wc -l)" >> .ci/REPORT.md
+            done
+          else
+            echo "$f not built" >> .ci/REPORT.md
+          fi
+          echo '```' >> .ci/REPORT.md
+          echo >> .ci/REPORT.md
           echo "## Result: $([ $st = 0 ] && echo GREEN || echo RED)" >> .ci/REPORT.md
           exit $st
 
