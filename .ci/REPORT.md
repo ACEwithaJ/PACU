@@ -1,6 +1,6 @@
 # CI report
 
-Commit: 9acf18fba3b29a03486b5afd9627b5d1f70e9a4d  ·  Run: https://github.com/ACEwithaJ/PACU/actions/runs/33921256291
+Commit: 14628cbd803cdbbe8650644956ac1be2a59bb51f  ·  Run: https://github.com/ACEwithaJ/PACU/actions/runs/33966572012
 
 ## node -v
 ```
@@ -123,33 +123,33 @@ WARN RULE-05 src/content/ledger/sessler-2019.yaml 7 sessler-2019: neither doi no
 WARN RULE-05 src/content/ledger/sun-2015.yaml 7 sun-2015: neither doi nor pmid
 WARN RULE-09 src/content/ledger/sun-2015.yaml 12 sun-2015: access unverified (docs/ledger-debt.md §1)
 validate: 53 ledger rows, 1 days; 0 errors, 23 warnings
-[2m21:28:51[22m [34m[content][39m Syncing content
-[2m21:28:51[22m [34m[content][39m Synced content
-[2m21:28:51[22m [34m[types][39m Generated [2m724ms[22m
-[2m21:28:51[22m [34m[build][39m output: [34m"static"[39m
-[2m21:28:51[22m [34m[build][39m mode: [34m"static"[39m
-[2m21:28:51[22m [34m[build][39m directory: [34m/home/runner/work/PACU/PACU/dist/[39m
-[2m21:28:51[22m [34m[build][39m Collecting build info...
-[2m21:28:51[22m [34m[build][39m [32m✓ Completed in 734ms.[39m
-[2m21:28:51[22m [34m[build][39m Building static entrypoints...
-[2m21:28:52[22m [34m[vite][39m [32m✓ built in 1.40s[39m
-[2m21:28:52[22m [34m[build][39m [32m✓ Completed in 1.42s.[39m
+[2m12:37:53[22m [34m[content][39m Syncing content
+[2m12:37:53[22m [34m[content][39m Synced content
+[2m12:37:53[22m [34m[types][39m Generated [2m656ms[22m
+[2m12:37:53[22m [34m[build][39m output: [34m"static"[39m
+[2m12:37:53[22m [34m[build][39m mode: [34m"static"[39m
+[2m12:37:53[22m [34m[build][39m directory: [34m/home/runner/work/PACU/PACU/dist/[39m
+[2m12:37:53[22m [34m[build][39m Collecting build info...
+[2m12:37:53[22m [34m[build][39m [32m✓ Completed in 669ms.[39m
+[2m12:37:53[22m [34m[build][39m Building static entrypoints...
+[2m12:37:54[22m [34m[vite][39m [32m✓ built in 1.09s[39m
+[2m12:37:54[22m [34m[build][39m [32m✓ Completed in 1.12s.[39m
 
 [42m[30m building client (vite) [39m[49m
-[2m21:28:52[22m [34m[vite][39m transforming...
-[2m21:28:52[22m [34m[vite][39m [32m✓[39m 1 modules transformed.
-[2m21:28:52[22m [34m[vite][39m rendering chunks...
-[2m21:28:52[22m [34m[vite][39m [32m✓ built in 17ms[39m
+[2m12:37:54[22m [34m[vite][39m transforming...
+[2m12:37:54[22m [34m[vite][39m [32m✓[39m 1 modules transformed.
+[2m12:37:54[22m [34m[vite][39m rendering chunks...
+[2m12:37:54[22m [34m[vite][39m [32m✓ built in 18ms[39m
 
 [42m[30m generating static routes [39m[49m
-[2m21:28:52[22m [32m▶[39m src/pages/d/[id].astro
-[2m21:28:52[22m   [34m└─[39m [2m/d/day-03/index.html[22m [2m(+7ms)[22m 
-[2m21:28:52[22m [32m▶[39m src/pages/index.astro
-[2m21:28:52[22m   [34m└─[39m [2m/index.html[22m [2m(+2ms)[22m 
-[2m21:28:52[22m [32m✓ Completed in 27ms.
+[2m12:37:54[22m [32m▶[39m src/pages/d/[id].astro
+[2m12:37:54[22m   [34m└─[39m [2m/d/day-03/index.html[22m [2m(+10ms)[22m 
+[2m12:37:54[22m [32m▶[39m src/pages/index.astro
+[2m12:37:54[22m   [34m└─[39m [2m/index.html[22m [2m(+3ms)[22m 
+[2m12:37:54[22m [32m✓ Completed in 27ms.
 [39m
-[2m21:28:52[22m [34m[build][39m 2 page(s) built in [1m2.21s[22m
-[2m21:28:52[22m [34m[build][39m [1mComplete![22m
+[2m12:37:54[22m [34m[build][39m 2 page(s) built in [1m1.84s[22m
+[2m12:37:54[22m [34m[build][39m [1mComplete![22m
 ```
 
 ## Day 3 render markers (dist/d/day-03/index.html)
