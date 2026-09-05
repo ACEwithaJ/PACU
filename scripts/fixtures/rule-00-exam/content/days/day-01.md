@@ -13,10 +13,7 @@ review_due: null
 quiz:
   - id: fx-d01-q1
     stem: Which option is keyed?
-    teachingPoint: One sentence takeaway.
-    difficulty: basic
-    examAlignment: [ABA-BASIC, ITE]
-    tags: [pharmacology, airway]
+    examAlignment: [USMLE]
     options:
       - text: This one
         correct: true

@@ -1,0 +1,48 @@
+---
+/**
+ * One algorithm card. Standalone and full-screen-legible: large type, one
+ * column, no masthead chrome beyond the site header, prints on one sheet.
+ * The body is the algorithm; every step is a claim and carries its ledger
+ * key like any slot (rules 4 and 10). Sources sit under the steps so the
+ * card is complete on its own.
+ */
+import { getCollection, getEntries, type CollectionEntry } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import DraftBanner from "../../components/DraftBanner.astro";
+import SourceCard from "../../components/SourceCard.astro";
+
+export async function getStaticPaths() {
+  const cards = await getCollection("cards");
+  return cards.map((entry) => ({ params: { id: entry.data.id }, props: { entry } }));
+}
+
+interface Props {
+  entry: CollectionEntry<"cards">;
+}
+const { entry } = Astro.props;
+const c = entry.data;
+const sources = await getEntries(c.evidence);
+const dayId = `day-${String(c.day).padStart(2, "0")}`;
+---
+
+<Base title={`Card · ${c.title}`} description={c.purpose}>
+  <main class="card-page">
+    {c.draft && <DraftBanner />}
+    <header class="masthead">
+      <p class="kicker">Algorithm card · from <a href={`/d/${dayId}/`}>Day {c.day}</a></p>
+      <h1>{c.title}</h1>
+      <p class="claim">{c.purpose}</p>
+    </header>
+
+    <div class="card-body" set:html={entry.rendered?.html ?? ""} />
+
+    <section class="sources" aria-label="Sources">
+      <h2>Sources</h2>
+      {sources.map((s) => <SourceCard entry={s} />)}
+    </section>
+
+    <footer class="colophon">
+      Bedside teaching artifact. Educational only; not a protocol. Every step cites its ledger key.
+    </footer>
+  </main>
+</Base>

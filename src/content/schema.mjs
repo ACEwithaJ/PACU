@@ -1,5 +1,6 @@
 /**
- * PACU — content contract (execution brief Step 2; planning brief §5).
+ * PACU — content contract (execution brief Step 2; planning brief §5;
+ * director decisions of 2026-09-05: 20 days, cards collection, quiz fields).
  *
  * Plain JavaScript on purpose. This one module is imported by BOTH
  *   - src/content.config.ts      (Astro build-time validation, via astro:content)
@@ -7,9 +8,9 @@
  * so it must run under Node 20 without a compile step. Never fork it: a rule
  * enforced in two places drifts.
  *
- * Rule numbers refer to planning-brief.md §5.4. Where Zod enforces a rule, the
- * issue message is prefixed "RULE-NN:" so the validator can report it under
- * that number instead of as a generic schema failure (RULE-00).
+ * Rule numbers refer to planning-brief.md §5.4 (1–10) and README (11–12).
+ * Where Zod enforces a rule, the issue message is prefixed "RULE-NN:" so the
+ * validator can report it under that number instead of as RULE-00.
  */
 
 import { z } from "astro/zod";
@@ -28,6 +29,51 @@ import { z } from "astro/zod";
 export const STRICT_LEDGER = false;
 
 /* ------------------------------------------------------------------ *
+ * The day plan. Ids are permanent: never renumber, never reuse (D6).
+ * Days 1–16 are the original map (docs/gaps.md); 17–20 were added by the
+ * director on 2026-09-05 for domains that had no home
+ * (docs/content-coverage.md). `title` is a working title for the index
+ * until the day is authored; the authored day's own title wins.
+ * ------------------------------------------------------------------ */
+export const DAY_PLAN = [
+  { day: 1, topic: "residual_block", title: "Residual neuromuscular blockade" },
+  { day: 2, topic: "airway", title: "Upper airway obstruction and laryngospasm" },
+  { day: 3, topic: "oxygenation", title: "Supplemental oxygen hides hypoventilation" },
+  { day: 4, topic: "respiratory_depression", title: "Respiratory depression after the PACU" },
+  { day: 5, topic: "hypotension", title: "Postoperative hypotension" },
+  { day: 6, topic: "hypertension", title: "Postoperative hypertension" },
+  { day: 7, topic: "thermoregulation", title: "Perioperative hypothermia" },
+  { day: 8, topic: "myocardial_injury", title: "Myocardial injury after noncardiac surgery" },
+  { day: 9, topic: "ponv", title: "Postoperative nausea and vomiting" },
+  { day: 10, topic: "analgesia", title: "PACU opioid titration" },
+  { day: 11, topic: "regional", title: "Regional anaesthesia complications in the PACU" },
+  { day: 12, topic: "delirium", title: "Postoperative delirium" },
+  { day: 13, topic: "emergence", title: "Delayed emergence" },
+  { day: 14, topic: "osa", title: "Obstructive sleep apnoea" },
+  { day: 15, topic: "discharge", title: "Discharge criteria" },
+  { day: 16, topic: "handover", title: "Handover as a transfer of responsibility" },
+  { day: 17, topic: "urinary_retention", title: "Postoperative urinary retention" },
+  { day: 18, topic: "pdph", title: "Post-dural puncture headache" },
+  { day: 19, topic: "positioning_injury", title: "Positioning injuries" },
+  { day: 20, topic: "anaphylaxis", title: "Anaphylaxis in the PACU" },
+];
+export const DAY_COUNT = DAY_PLAN.length;
+
+/**
+ * The five algorithm cards (director's list). A card is a standalone,
+ * full-screen-legible bedside artifact. It carries the same citation rules
+ * as a day: every [[key]] must exist (rule 4) and every number must be cited
+ * (rule 10). Authored in Phase 2 after the day it depends on.
+ */
+export const CARD_PLAN = [
+  { id: "card-delayed-emergence", title: "Delayed emergence", dependsOn: 13 },
+  { id: "card-hypoxaemia", title: "Postoperative hypoxaemia", dependsOn: 3 },
+  { id: "card-hypotension", title: "PACU hypotension", dependsOn: 5 },
+  { id: "card-hypertension", title: "PACU hypertension", dependsOn: 6 },
+  { id: "card-laryngospasm", title: "Laryngospasm", dependsOn: 2 },
+];
+
+/* ------------------------------------------------------------------ *
  * Controlled vocabularies
  * ------------------------------------------------------------------ */
 
@@ -44,13 +90,17 @@ export const DESIGNS = [
 /** UNVERIFIED is not permitted (rule 9). */
 export const ACCESS = ["open", "paywalled"];
 
-/** Execution brief §2.1. The director may amend. */
+/**
+ * Execution brief §2.1 plus the director's additions of 2026-09-05:
+ * hypertension (Day 6 had no term), and one term per new day 17–20.
+ */
 export const TOPICS = [
   "residual_block",
   "airway",
   "oxygenation",
   "respiratory_depression",
   "hypotension",
+  "hypertension",
   "thermoregulation",
   "myocardial_injury",
   "ponv",
@@ -61,6 +111,10 @@ export const TOPICS = [
   "osa",
   "discharge",
   "handover",
+  "urinary_retention",
+  "pdph",
+  "positioning_injury",
+  "anaphylaxis",
 ];
 
 export const CLAIM_SUPPORT = ["mechanism", "magnitude", "boundary"];
@@ -85,6 +139,10 @@ export const CLINICAL_CLAIM_STATUS = [
   "refuted",
 ];
 
+/** Quiz item calibration (director's question schema). */
+export const DIFFICULTY = ["basic", "advanced", "expert"];
+export const EXAM_ALIGNMENT = ["ABA-BASIC", "ABA-ADVANCED", "ITE", "nursing"];
+
 /** Designs that count as randomised evidence for rule 2. */
 export const RANDOMISED_DESIGNS = ["rct", "meta_rct"];
 
@@ -107,6 +165,20 @@ export const CITE_TOKEN = /\[\[([a-z0-9-]+)\]\]/g;
 /** Rule 10, verbatim from execution brief 4.2. */
 export const NUMBER_WITH_UNIT = /\d+(\.\d+)?\s?(%|mg|ng\/L|mmHg|min|h|°C)/;
 
+/**
+ * Markers the validator collects into docs/content-review.md (rule 12).
+ *   [NUMBER NEEDED: what]     a number not in the held sources (execution brief 5.1)
+ *   [TODO_VERIFY: what]       same meaning, the director's spelling
+ *   [PRACTICE VARIES: what]   practice differs between institutions; the page says so
+ * A placeholder in a day or card with draft: false is an error: a placeholder
+ * cannot be published.
+ */
+export const PLACEHOLDER = /\[(NUMBER NEEDED|TODO_VERIFY):\s*([^\]]*)\]/g;
+export const PRACTICE_VARIES = /\[PRACTICE VARIES:\s*([^\]]*)\]/g;
+
+/** Rule 11: options that test nothing. */
+export const FORBIDDEN_OPTION = /^\s*(all|none|both|neither)\s+of\s+the\s+above\b/i;
+
 const KEY = /^[a-z0-9-]+$/;
 const CURRENCY = /^(current|era_limited|superseded_by:[a-z0-9-]+)$/;
 
@@ -119,7 +191,7 @@ const nullableString = z.string().trim().min(1).nullable();
 export const ledgerSchema = z
   .object({
     key: z.string().regex(KEY, "key must be lowercase-kebab"),
-    day: z.number().int().min(1).max(16).nullable(),
+    day: z.number().int().min(1).max(DAY_COUNT).nullable(),
     citation: z.string().trim().min(1),
     doi: nullableString,
     pmid: nullableString,
@@ -159,20 +231,35 @@ export const ledgerSchema = z
   });
 
 /* ------------------------------------------------------------------ *
- * days — Markdown with frontmatter, one file per day, filename day-NN.md
+ * quiz items
  * ------------------------------------------------------------------ */
 
 export const quizOptionSchema = z.object({
-  text: z.string().trim().min(1),
+  text: z
+    .string()
+    .trim()
+    .min(1)
+    .refine((t) => !FORBIDDEN_OPTION.test(t), {
+      message: 'RULE-11: "all/none of the above" is not a permitted option',
+    }),
   correct: z.boolean(),
   explanation: z.string().trim().min(1, "RULE-07: every quiz option needs an explanation"),
 });
 
+/**
+ * The brief's contract (id, stem, options) plus the director's optional
+ * fields. Optional now so Day 3's three items keep building; make them
+ * required once every authored day carries them.
+ */
 export const quizItemSchema = z
   .object({
     id: z.string().regex(KEY, "quiz id must be lowercase-kebab"),
     stem: z.string().trim().min(1),
     options: z.array(quizOptionSchema).min(3).max(5),
+    teachingPoint: z.string().trim().min(1).optional(),
+    difficulty: z.enum(DIFFICULTY).optional(),
+    examAlignment: z.array(z.enum(EXAM_ALIGNMENT)).min(1).optional(),
+    tags: z.array(z.string().regex(KEY, "tags are lowercase-kebab")).optional(),
   })
   .superRefine((item, ctx) => {
     const correct = item.options.filter((o) => o.correct).length;
@@ -184,6 +271,10 @@ export const quizItemSchema = z
       });
     }
   });
+
+/* ------------------------------------------------------------------ *
+ * days — Markdown with frontmatter, one file per day, filename day-NN.md
+ * ------------------------------------------------------------------ */
 
 /**
  * @param {import("astro/zod").ZodTypeAny} ledgerRef
@@ -214,6 +305,15 @@ export function makeDaySchema(ledgerRef) {
           message: "RULE-03: consensus_only requires a consensus_basis",
         });
       }
+      // The day must be on the plan.
+      const n = Number(day.id.slice(4));
+      if (!DAY_PLAN.some((d) => d.day === n)) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ["id"],
+          message: `RULE-08: ${day.id} is not on DAY_PLAN (src/content/schema.mjs); days are never added ad hoc`,
+        });
+      }
       // Rule 8 — quiz ids unique within the day (cross-day uniqueness is the validator's).
       const seen = new Set();
       for (const q of day.quiz) {
@@ -225,6 +325,34 @@ export function makeDaySchema(ledgerRef) {
           });
         }
         seen.add(q.id);
+      }
+    });
+}
+
+/* ------------------------------------------------------------------ *
+ * cards — Markdown with frontmatter, one file per card, filename <id>.md
+ * The body is the algorithm: numbered steps, each a claim, each cited.
+ * ------------------------------------------------------------------ */
+
+export function makeCardSchema(ledgerRef) {
+  return z
+    .object({
+      id: z.string().regex(/^card-[a-z0-9-]+$/, 'id must be "card-<slug>"'),
+      title: z.string().trim().min(1),
+      /** One sentence: when a resident reaches for this card. */
+      purpose: z.string().trim().min(1),
+      /** The day whose evidence this card summarises. */
+      day: z.number().int().min(1).max(DAY_COUNT),
+      evidence: z.array(ledgerRef).min(1, "RULE-02: evidence must list at least one ledger key"),
+      draft: z.boolean().default(true),
+    })
+    .superRefine((card, ctx) => {
+      if (!CARD_PLAN.some((c) => c.id === card.id)) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ["id"],
+          message: `RULE-08: ${card.id} is not on CARD_PLAN (src/content/schema.mjs)`,
+        });
       }
     });
 }

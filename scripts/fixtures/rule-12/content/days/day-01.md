@@ -8,15 +8,11 @@ physiology_status: established
 clinical_claim_status: supported
 evidence:
   - good-2000
-draft: true
+draft: false
 review_due: null
 quiz:
   - id: fx-d01-q1
     stem: Which option is keyed?
-    teachingPoint: One sentence takeaway.
-    difficulty: basic
-    examAlignment: [ABA-BASIC, ITE]
-    tags: [pharmacology, airway]
     options:
       - text: This one
         correct: true
@@ -34,19 +30,19 @@ A paragraph with a cited number, 5 mmHg [[good-2000]].
 
 ## Mechanism
 
-Prose without numbers.
+Prose with a [NUMBER NEEDED: fixture value] placeholder.
 
 ## Evidence
 
-Prose without numbers.
+Prose with a [NUMBER NEEDED: fixture value] placeholder.
 
 ## What this does not show
 
-Prose without numbers.
+Prose with a [NUMBER NEEDED: fixture value] placeholder.
 
 ## At the bedside
 
-Prose without numbers.
+Prose with a [NUMBER NEEDED: fixture value] placeholder.
 
 ## Check yourself
 

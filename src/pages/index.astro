@@ -1,16 +1,18 @@
 ---
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
+import { DAY_PLAN, CARD_PLAN } from "../content/schema.mjs";
 
-const days = (await getCollection("days")).sort((a, b) => a.data.id.localeCompare(b.data.id));
-const byNumber = new Map(days.map((d) => [Number(d.data.id.slice(4)), d]));
-const numbers = Array.from({ length: 16 }, (_, i) => i + 1);
+const days = await getCollection("days");
+const cards = await getCollection("cards");
+const dayByNumber = new Map(days.map((d) => [Number(d.data.id.slice(4)), d]));
+const cardById = new Map(cards.map((c) => [c.data.id, c]));
 ---
 
-<Base title="PACU rotation curriculum" description="A 16-day PACU curriculum for anesthesiology residents.">
+<Base title="PACU rotation curriculum" description="A PACU curriculum for anesthesiology residents.">
   <main>
     <header class="masthead">
-      <p class="kicker">Sixteen days</p>
+      <p class="kicker">{DAY_PLAN.length} days · {CARD_PLAN.length} algorithm cards</p>
       <h1>PACU rotation curriculum</h1>
       <p class="lede">
         One page per day. Each day states a claim, names the evidence mode it rests on, and cites
@@ -20,11 +22,11 @@ const numbers = Array.from({ length: 16 }, (_, i) => i + 1);
 
     <ol class="days">
       {
-        numbers.map((n) => {
-          const d = byNumber.get(n);
+        DAY_PLAN.map((p) => {
+          const d = dayByNumber.get(p.day);
           return (
             <li>
-              <span class="n">Day {String(n).padStart(2, "0")}</span>
+              <span class="n">Day {String(p.day).padStart(2, "0")}</span>
               {d ? (
                 <>
                   <a href={`/d/${d.data.id}/`}>{d.data.title}</a>
@@ -32,7 +34,36 @@ const numbers = Array.from({ length: 16 }, (_, i) => i + 1);
                   <span class="chip mode">{d.data.evidence_mode === "trial_based" ? "trial based" : "consensus only"}</span>
                 </>
               ) : (
-                <span class="missing">not yet authored</span>
+                <>
+                  <span class="missing">{p.title}</span>
+                  <span class="chip">not yet authored</span>
+                </>
+              )}
+            </li>
+          );
+        })
+      }
+    </ol>
+
+    <h2 class="section">Algorithm cards</h2>
+    <p class="lede">Standalone bedside cards. Each step cites its source, like any day.</p>
+    <ol class="days">
+      {
+        CARD_PLAN.map((p) => {
+          const c = cardById.get(p.id);
+          return (
+            <li>
+              <span class="n">Card</span>
+              {c ? (
+                <>
+                  <a href={`/c/${c.data.id}/`}>{c.data.title}</a>
+                  {c.data.draft && <span class="chip mid">draft</span>}
+                </>
+              ) : (
+                <>
+                  <span class="missing">{p.title}</span>
+                  <span class="chip">not yet authored · from Day {p.dependsOn}</span>
+                </>
               )}
             </li>
           );

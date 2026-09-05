@@ -1,6 +1,6 @@
 import { defineCollection, reference } from "astro:content";
 import { glob } from "astro/loaders";
-import { ledgerSchema, makeDaySchema } from "./content/schema.mjs";
+import { ledgerSchema, makeDaySchema, makeCardSchema } from "./content/schema.mjs";
 
 /**
  * The source ledger. One YAML file per row, filename = key. Generated once
@@ -21,4 +21,13 @@ const days = defineCollection({
   schema: makeDaySchema(reference("ledger")),
 });
 
-export const collections = { ledger, days };
+/**
+ * The algorithm cards (director's list, 2026-09-05). Same citation rules as
+ * a day; rendered full-screen at /c/<id>/.
+ */
+const cards = defineCollection({
+  loader: glob({ pattern: "card-*.md", base: "./src/content/cards" }),
+  schema: makeCardSchema(reference("ledger")),
+});
+
+export const collections = { ledger, days, cards };

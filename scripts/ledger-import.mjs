@@ -19,6 +19,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 
 import { join, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { stringify } from "yaml";
+import { DAY_PLAN } from "../src/content/schema.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const CSV = join(ROOT, "data", "ledger.csv");
@@ -27,33 +28,11 @@ const DEBT = join(ROOT, "docs", "ledger-debt.md");
 const FORCE = process.argv.includes("--force");
 
 /* ------------------------------------------------------------------ *
- * Day -> topic (execution brief 2.1 / 3.4).
- *
- * Derived from the day map in docs/gaps.md and the ledger's own `supports`
- * text. Fifteen vocabulary terms for sixteen days: Day 6 (postoperative
- * hypertension: POQI upper-limit statement, ASA cardiovascular monitoring
- * statement) has no term of its own and is assigned `hypotension` as the
- * nearest blood-pressure term. That assignment is listed in ledger-debt.md
- * section 4 for the director.
+ * Day -> topic (execution brief 2.1 / 3.4). One source of truth: DAY_PLAN in
+ * src/content/schema.mjs. Day 6 is `hypertension` since the director added
+ * that term on 2026-09-05.
  * ------------------------------------------------------------------ */
-const TOPIC_BY_DAY = {
-  1: "residual_block",
-  2: "airway",
-  3: "oxygenation",
-  4: "respiratory_depression",
-  5: "hypotension",
-  6: "hypotension", // vocabulary gap — see ledger-debt.md §4
-  7: "thermoregulation",
-  8: "myocardial_injury",
-  9: "ponv",
-  10: "analgesia",
-  11: "regional",
-  12: "delirium",
-  13: "emergence",
-  14: "osa",
-  15: "discharge",
-  16: "handover",
-};
+const TOPIC_BY_DAY = Object.fromEntries(DAY_PLAN.map((d) => [d.day, d.topic]));
 
 /* ------------------------------------------------------------------ *
  * RFC 4180 CSV parser: quoted fields, doubled quotes, CRLF or LF.
@@ -115,7 +94,6 @@ const debt = {
   ids: [], // §2 neither DOI nor PMID
   year: [], // §4 year UNVERIFIED -> null
   nUnverified: [], // §4 n UNVERIFIED (kept as the literal string)
-  topicGap: [], // §4 Day 6 vocabulary gap
 };
 
 const idOf = (v) => (v === "" || v === "UNVERIFIED" ? null : v);
@@ -151,7 +129,6 @@ for (const r of records) {
   else debt.year.push(o);
 
   if (o.n === "UNVERIFIED") debt.nUnverified.push(o);
-  if (day === 6) debt.topicGap.push(o);
 
   const topic = day === null ? null : TOPIC_BY_DAY[day];
   if (!topic) {
@@ -240,14 +217,6 @@ Passes the schema (\`n\` is a string) but renders as "UNVERIFIED" on a source ca
 
 ${list(debt.nUnverified)}
 
-### 4c. Topic vocabulary gap — Day 6 assigned \`hypotension\` (${debt.topicGap.length} rows)
-
-The §2.1 vocabulary has fifteen terms for sixteen days. Day 6 is postoperative
-hypertension (POQI upper-limit statement; ASA cardiovascular monitoring statement) and
-has no term. Assigned the nearest blood-pressure term. Director to amend the vocabulary
-or confirm.
-
-${list(debt.topicGap)}
 `;
 
 mkdirSync(dirname(DEBT), { recursive: true });
@@ -256,6 +225,5 @@ writeFileSync(DEBT, md, "utf8");
 console.log(
   `ledger-import: ${records.length} rows; wrote ${written} YAML files, skipped ${skipped} existing` +
     `${skipped ? " (use --force to overwrite)" : ""}; debt: ${debt.access.length} access, ` +
-    `${debt.ids.length} identifier, ${debt.year.length} year, ${debt.nUnverified.length} n, ` +
-    `${debt.topicGap.length} topic.`
+    `${debt.ids.length} identifier, ${debt.year.length} year, ${debt.nUnverified.length} n.`
 );

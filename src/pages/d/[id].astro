@@ -14,6 +14,7 @@ import DraftBanner from "../../components/DraftBanner.astro";
 import EvidenceChip from "../../components/EvidenceChip.astro";
 import SourceCard from "../../components/SourceCard.astro";
 import Quiz from "../../components/Quiz.astro";
+import { DAY_COUNT } from "../../content/schema.mjs";
 
 export async function getStaticPaths() {
   const days = await getCollection("days");
@@ -41,7 +42,7 @@ const after = cut === -1 ? "" : html.slice(cut);
     {d.draft && <DraftBanner />}
 
     <header class="masthead">
-      <p class="kicker">PACU · Day {dayNumber} of 16</p>
+      <p class="kicker">PACU · Day {dayNumber} of {DAY_COUNT}</p>
       <h1>{d.title}</h1>
       <p class="claim">{d.claim}</p>
       <EvidenceChip

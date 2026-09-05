@@ -158,3 +158,18 @@ a.cite:hover { text-decoration: underline; }
 /* --- site footer (educational-only statement, every page) ---------------- */
 .site-footer { border-top: 1px solid var(--rule); background: var(--surface); margin-top: 2rem; }
 .site-footer .inner { max-width: var(--page-max); margin: 0 auto; padding: 1rem 1.25rem 2rem; color: var(--ink-3); font-size: .82rem; max-width: var(--page-max); }
+
+/* --- algorithm cards (full-screen legible) ------------------------------ */
+.card-page { max-width: 780px; }
+.card-page h1 { font-size: clamp(2rem, 4.5vw, 3rem); }
+.card-body { font-size: 1.15rem; line-height: 1.6; }
+.card-body ol { padding-left: 1.4em; }
+.card-body li { margin: 0 0 .9rem; padding-left: .3em; }
+.card-body li::marker { font-family: var(--font-mono); color: var(--accent); font-weight: 600; }
+.card-body h2 { font-family: var(--font-display); font-weight: 500; font-size: 1.5rem; margin: 2rem 0 .6rem; border-top: 1px solid var(--rule); padding-top: 1rem; }
+h2.section { font-family: var(--font-display); font-weight: 500; font-size: 1.35rem; margin: 2.5rem 0 .3rem; }
+@media print {
+  .site-header, .site-footer, .draft-banner, .sources { display: none; }
+  .card-page { max-width: none; }
+  .card-body { font-size: 14pt; }
+}

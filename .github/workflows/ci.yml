@@ -33,6 +33,16 @@ jobs:
       - name: Validate content
         run: npm run validate
 
+      # The validator regenerates docs/content-review.md. If the committed copy
+      # is stale the author has not looked at the review list; fail so they do.
+      - name: Content review file is up to date
+        run: |
+          if ! git diff --quiet -- docs/content-review.md; then
+            echo "docs/content-review.md is stale. Run: npm run validate && commit docs/content-review.md"
+            git diff -- docs/content-review.md
+            exit 1
+          fi
+
       - name: Build
         run: npm run build
 
