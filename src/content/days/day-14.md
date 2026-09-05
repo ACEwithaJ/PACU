@@ -30,7 +30,7 @@ quiz:
         explanation: It is a practice guideline recommendation, not a regulation. Its force comes from professional agreement.
       - text: No qualifier at all
         correct: false
-        explanation: It carries an explicit qualifier, and the qualifier is the teaching point: it describes agreement among people, not strength of evidence.
+        explanation: "It carries an explicit qualifier, and the qualifier is the teaching point: it describes agreement among people, not strength of evidence."
   - id: pacu-d14-q2
     stem: "Why does this day describe the ASA discharge recommendation as circular as an operational rule?"
     teachingPoint: The obligation is defined by a condition the same document says the literature cannot identify.
@@ -62,7 +62,7 @@ quiz:
         explanation: The guideline explicitly records that few randomised studies exist in this field and that most recommendations were developed by experts through consensus processes with evidence grading. That self-description is the teaching point.
       - text: That its recommendations are based on multiple large randomised trials
         correct: false
-        explanation: The guideline says the opposite: few randomised studies exist.
+        explanation: "The guideline says the opposite: few randomised studies exist."
       - text: That it should be applied to every clinical situation without exception
         correct: false
         explanation: It carries the disclaimer that it may not be appropriate for all clinical situations.

@@ -17,6 +17,11 @@
   the PACU to **Day 7**, both in the "What this does not show" slot (`also` on `DAY_PLAN`).
   Neither has a ledger row yet; both are placeholders until one is retrieved.
 
+**Phase 1 authored 2026-09-05 (all `draft: true`, awaiting director clearance):** Day 5
+hypotension, Day 8 MINS, Day 9 PONV, Day 14 OSA. Placeholders left where the sources are
+silent: PONV drug specifics (dexamethasone timing, droperidol QT, ondansetron QT/vestibular,
+scopolamine), STOP-Bang items and cut-offs. See `docs/content-review.md` for the full list.
+
 Written 2026-09-05, Phase 0. The director supplied a list of material that the finished site
 must contain, organised as 13 domains plus five algorithm cards and a question item schema.
 This document maps every item on that list onto the 16-day structure and the 53-row ledger,
