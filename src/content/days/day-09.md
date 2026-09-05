@@ -12,6 +12,10 @@ evidence:
   - gan-2026
   - gan-2020
   - gan-2020-erratum
+  - wang-2000
+  - fda-droperidol-label-2009
+  - fda-ondansetron-inj-label-2025
+  - fda-scopolamine-label-2026
 draft: true
 review_due: null
 quiz:
@@ -120,7 +124,9 @@ The Apfel score is a population instrument with an area under the curve of about
 
 The IMPACT per-intervention incidence table broken down by number of antiemetics has not been extracted from the held paper; only the summary relative risk reductions appear here [[apfel-2004]]. The erratum to the Fourth guideline has not been read, so no dose or table from the 2020 document is quoted on this page [[gan-2020-erratum]].
 
-Drug-specific cautions the director's content list expects here, dexamethasone timing, the droperidol QT warning, ondansetron's QT effect and its limited action on the vestibular component, and scopolamine's anticholinergic burden in the elderly, are not in the held sources beyond what is quoted above. They are placeholders: [NUMBER NEEDED: dexamethasone timing at induction versus emergence] [NUMBER NEEDED: droperidol QT boxed warning wording and dose] [NUMBER NEEDED: ondansetron QT effect and vestibular limitation] [NUMBER NEEDED: scopolamine onset lag and anticholinergic burden in the elderly].
+The drug-specific points on the day's content list now have sources. Dexamethasone timing was tested directly: 10 mg intravenously before induction, at the end of anaesthesia, or placebo, in 120 women having abdominal hysterectomy, gave PONV in the first 2 h of 15%, 45% and 53%, rescue antiemetic use of 8%, 30% and 35%, and PONV at 2 to 24 h of 25%, 28% and 55%; giving it before induction was the more effective timing [[wang-2000]]. Droperidol carries a boxed warning: cases of QT prolongation and torsade de pointes have been reported at or below recommended doses; it is reserved for patients who fail other adequate treatments, a 12-lead ECG is taken before administration, and it is withheld if the QTc exceeds 440 msec in men or 450 msec in women; the maximum recommended initial dose is 2.5 mg intramuscularly or by slow intravenous injection, with additional 1.25 mg doses to effect [[fda-droperidol-label-2009]]. Ondansetron prolongs the QT interval in a dose-dependent manner, with postmarketing torsade, and is avoided in congenital long QT syndrome; its label also states that a second intravenous dose of 4 mg postoperatively does not provide additional control of nausea and vomiting, which is the class-change rule seen from the label's side [[fda-ondansetron-inj-label-2025]]. Its limited effect on the vestibular component is not in the label and was not found in a search: [TODO_VERIFY: a source for ondansetron's limited effect on vestibular nausea]. Transdermal scopolamine is applied the evening before surgery and removed 24 h after it; plasma concentrations are detected within 4 h with the peak, on average, at 24 h, which is the onset lag that makes it useless as rescue; and elderly patients had an increased risk of neurological and psychiatric adverse reactions such as hallucinations, confusion, dizziness and drug withdrawal syndrome [[fda-scopolamine-label-2026]].
+
+The Fifth guideline's rescue-class wording quoted above was extracted by the director from the held full text; the retriever could not re-read it because the publisher page is blocked, and it stands on that extraction [[gan-2026]].
 
 ## At the bedside
 

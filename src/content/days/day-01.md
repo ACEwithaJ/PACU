@@ -13,6 +13,10 @@ evidence:
   - kirmeier-2019
   - blobner-2020
   - fortier-2015
+  - kopman-1997
+  - fda-neostigmine-label-2024
+  - herbstreit-2010
+  - fda-sugammadex-label-2026
 draft: true
 review_due: null
 quiz:
@@ -121,7 +125,13 @@ No randomised trial shows that residual block below 0.9 causes PACU respiratory 
 
 The threshold itself is a convention under challenge. The reanalysis arguing for 0.95 is exploratory and contested, and this page does not adopt it [[blobner-2020]].
 
-Items on the director's content list for this day that the held sources do not carry are placeholders: [NUMBER NEEDED: sustained head lift and other clinical signs, their sensitivity for TOF below 0.9] [NUMBER NEEDED: neostigmine ceiling dose and the paradoxical weakness described when it is given at deep block] [NUMBER NEEDED: sugammadex dosing by depth of block, recurarisation, hormonal contraceptive interaction, bradycardia and anaphylaxis]. [TODO_VERIFY: edrophonium availability in the United States; the retrieval notes record every brand as discontinued, to be confirmed against the FDA discontinued drug product list before any reversal content names it.]
+The clinical signs fail at a measured point. In awake volunteers, a sustained 5-s head lift was achieved at a mean TOF ratio of 0.60 (range 0.45 to 0.75); diplopia and difficulty tracking a moving object accompanied a ratio of 0.90 or below in every subject; the incisor clench on a tongue depressor did not return until the ratio exceeded 0.85; and grip strength was 59% of control at 0.70, where every subject was symptomatic [[kopman-1997]]. A head lift is present well below the threshold the guideline sets.
+
+Neostigmine has a ceiling written on its label: a dose of 0.03 to 0.07 mg/kg will generally achieve a TOF ratio of 90%, the recommended maximum total dose is 0.07 mg/kg or 5 mg, whichever is less, and a first-twitch response of at least 10% of baseline must be present before it is given [[fda-neostigmine-label-2024]]. The same label warns that large doses given when blockade is minimal can produce neuromuscular dysfunction, and a volunteer study measured that effect: neostigmine 0.03 mg/kg with glycopyrrolate, given after the TOF ratio had recovered to 1.0, reduced genioglossus activity in response to negative pharyngeal pressure by 37% (SD 29), P=0.005, almost to the level seen at a ratio of 0.5, and increased upper airway collapsibility [[fda-neostigmine-label-2024]] [[herbstreit-2010]]. The sources describe weakness from neostigmine at minimal block or after full recovery; none retrieved describes paradoxical weakness from neostigmine given at deep block, and this page does not claim it.
+
+Sugammadex is dosed by depth: 2 mg/kg at the reappearance of the second twitch, 4 mg/kg at one to two post-tetanic counts, and 16 mg/kg about 3 min after 1.2 mg/kg of rocuronium [[fda-sugammadex-label-2026]]. Its label records anaphylaxis in 0.3% of 299 healthy volunteers (one case, in the 16 mg/kg group), marked bradycardia, some resulting in cardiac arrest, within minutes of administration, a higher risk of recurrent block after lower-than-recommended doses, an effect on hormonal contraceptives equivalent to a missed dose with a non-hormonal back-up method advised for the next 7 days, and waits before re-dosing a steroidal blocker of 5 min after 1.2 mg/kg rocuronium, 4 h after 0.6 mg/kg rocuronium or 0.1 mg/kg vecuronium, and 24 h after a 16 mg/kg dose or in renal impairment [[fda-sugammadex-label-2026]].
+
+Edrophonium has no marketed finished product in the United States: every FDA application for it, under the brand names Enlon, Enlon-Plus, Reversol and Tensilon and as generics, is listed as discontinued in Drugs@FDA, and no reversal content on this site names it. [TODO_VERIFY: a ledger row for the Drugs@FDA record before this statement appears in a quiz item.]
 
 ## At the bedside
 

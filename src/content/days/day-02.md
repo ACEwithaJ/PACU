@@ -11,6 +11,7 @@ evidence:
   - visvanathan-2005-airway
   - bmc-nppe-2025
   - olsson-1984
+  - fda-succinylcholine-label-2022
 draft: true
 review_due: null
 quiz:
@@ -84,7 +85,7 @@ Laryngospasm is a reflex closure of the glottis, triggered by stimulation of the
 
 ## Evidence
 
-The AIMS laryngospasm analysis reviewed 189 reports among the first 4000 incidents reported to the registry [[visvanathan-2005-laryngospasm]]. Desaturation occurred in over 60% of cases, bradycardia in 6% (23% in patients under one year), pulmonary oedema in 4% and pulmonary aspiration in 3% [[visvanathan-2005-laryngospasm]]. The authors state that, had a structured approach been used, earlier recognition or better management may have occurred in 16% of cases [[visvanathan-2005-laryngospasm]]. The same paper cites the incidence from the large Scandinavian denominator study as 0.78% in more than 130,000 anaesthetics; that figure is quoted here from the AIMS paper because the primary record has not been read [[visvanathan-2005-laryngospasm]] [[olsson-1984]].
+The AIMS laryngospasm analysis reviewed 189 reports among the first 4000 incidents reported to the registry [[visvanathan-2005-laryngospasm]]. Desaturation occurred in over 60% of cases, bradycardia in 6% (23% in patients under one year), pulmonary oedema in 4% and pulmonary aspiration in 3% [[visvanathan-2005-laryngospasm]]. The authors state that, had a structured approach been used, earlier recognition or better management may have occurred in 16% of cases [[visvanathan-2005-laryngospasm]]. The Scandinavian denominator study supplies the incidence: 1232 laryngospasms in 156,064 anaesthetics in 136,929 patients, about eight per thousand anaesthetics, with rates above 50 per 1000 in children with asthma, an airway infection, a previous anaesthetic complication, oesophagoscopy or hypospadias repair, and above 25 per 1000 at age 1 to 3 months [[olsson-1984]]. The AIMS paper cites the same study at 0.78% [[visvanathan-2005-laryngospasm]].
 
 The companion AIMS analysis of natural-airway obstruction supplies the observation that obstruction may present simply as desaturation, which is why a falling saturation in a recovering patient is an airway finding until the airway has been looked at [[visvanathan-2005-airway]].
 
@@ -96,7 +97,7 @@ Every source on this page is an incident registry or a case series [[visvanathan
 
 One figure that circulates from this series, that intubation was required in 43% of cases, does not appear in the paper's abstract or results and is not used here [[visvanathan-2005-laryngospasm]]. The bradycardia figure sometimes quoted at 11% is also wrong for the whole series; the paper gives 6%, with 23% in infants [[visvanathan-2005-laryngospasm]].
 
-The management ladder the director's content list expects here is not in the held sources: [NUMBER NEEDED: laryngospasm management sequence, the Larson manoeuvre, and intramuscular versus intravenous succinylcholine dosing]. The five-case series describes supportive management of negative-pressure pulmonary oedema only in outline [[bmc-nppe-2025]].
+The management ladder itself has no guideline or primary source in the ledger, and the paper usually cited for the Larson manoeuvre is a letter without an abstract that a later letter calls unproven; the sequence stays a placeholder: [NUMBER NEEDED: a sourced laryngospasm management sequence including the Larson manoeuvre]. What the succinylcholine label does supply is the dose by route: an average intravenous dose of 0.6 mg/kg to produce blockade and facilitate intubation, an intramuscular dose of up to 3 to 4 mg/kg not exceeding 150 mg in total, with intramuscular onset usually observed in about 2 to 3 min; the label carries no laryngospasm-specific dose and carries a boxed warning for hyperkalaemic cardiac arrest in children with undiagnosed myopathy [[fda-succinylcholine-label-2022]]. The five-case series describes supportive management of negative-pressure pulmonary oedema only in outline [[bmc-nppe-2025]].
 
 ## At the bedside
 

@@ -8,6 +8,11 @@ physiology_status: established
 clinical_claim_status: untested
 evidence:
   - asa-pacu-2013
+  - asa-pacu-standards-2024
+  - mulroy-2002
+  - aldrete-1995
+  - chung-1995-padss
+  - white-1999
 draft: true
 review_due: null
 quiz:
@@ -91,9 +96,9 @@ So the teaching structure is: the guideline declines to endorse the convention, 
 
 This day has one ledger row. That is sufficient, because the source is the entire argument, but it means the day cannot say anything the guideline does not. The guideline is thirteen years old and no successor practice guideline has been found; confirm that before asserting it is current [[asa-pacu-2013]].
 
-The guideline is also not the whole picture. The ASA Standards for Postanesthesia Care were amended in October 2024, and their discharge standard assigns the discharge decision to a physician using approved criteria without specifying what those criteria contain; that document has no ledger row yet: [TODO_VERIFY: ASA Standards for Postanesthesia Care as amended 23 October 2024, Standard V, wording and a ledger row.] Until it does, this page can say that the obligation to discharge against approved criteria is real, and cannot quote it.
+The guideline is also not the whole picture. The ASA Standards for Postanesthesia Care, last amended 23 October 2024, state in Standard V, verbatim: a physician is responsible for the discharge of the patient from the postanesthesia care unit; when discharge criteria are used, they must be approved by the Department of Anesthesiology and the medical staff, and they may vary depending upon whether the patient is discharged to a hospital room, to the ICU, to a short stay unit or home; in the absence of the physician responsible for the discharge, the PACU nurse shall determine that the patient meets the discharge criteria, and the name of the physician accepting responsibility for discharge shall be noted on the record [[asa-pacu-standards-2024]]. The obligation is current and the content of the criteria is left to the institution. A search for a newer practice guideline found only the 2013 update and the 2002 original; the 2024 change is to the Standards, not the guideline [[asa-pacu-2013]].
 
-The discharge instruments the director's content list expects here are not in the held sources: [NUMBER NEEDED: modified Aldrete score items and discharge threshold] [NUMBER NEEDED: Post-Anaesthetic Discharge Scoring System items and threshold] [NUMBER NEEDED: fast-track bypass criteria]. Nor is the comparison the list asks for: [NUMBER NEEDED: ambulatory discharge criteria and retention risk after neuraxial versus peripheral nerve block].
+The discharge instruments the day's content list expects have their source papers in the ledger but not yet their items. The modified Aldrete score comes from a 1995 paper with no abstract on its record; the Post-Anaesthetic Discharge Scoring System's threshold of at least 9 is confirmed in its abstract, which also reports a correlation of 0.89 between the score and clinical fitness for discharge and an internal consistency of 0.65 against 0.14 for clinical criteria; and the fast-track criteria come from a 1999 paper with no abstract on its record [[aldrete-1995]] [[chung-1995-padss]] [[white-1999]]. [NUMBER NEEDED: the modified Aldrete items and threshold, the five PADSS items, and the fast-track items, from the full texts.] The neuraxial comparison has its trial: low-risk ambulatory patients after short-acting spinal or epidural anaesthesia were discharged without voiding when a bladder ultrasound was below 400 mL, 22 min sooner than the standard pathway, P=0.002, with no urinary problems or returns; retention risk after a peripheral nerve block was not retrieved [[mulroy-2002]]. [NUMBER NEEDED: urinary retention risk after peripheral nerve block in ambulatory patients.]
 
 ## At the bedside
 

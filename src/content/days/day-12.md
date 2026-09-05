@@ -9,6 +9,9 @@ clinical_claim_status: uncertain
 evidence:
   - aldecoa-2024
   - aldecoa-2017
+  - sikich-2004
+  - costi-2014
+  - fda-dexmedetomidine-label-2026
 draft: true
 review_due: null
 quiz:
@@ -92,9 +95,9 @@ The guideline rests on a large randomised literature for prevention. It does not
 
 The rule the director's content list places here, that hypoxaemia, hypoglycaemia and pain must be excluded before either the delirium or the emergence-agitation label is applied, is likely in the guideline but has not been verified against its text: [TODO_VERIFY: the 2024 ESAIC wording on excluding hypoxaemia, hypoglycaemia and pain before labelling delirium or agitation.]
 
-Paediatric emergence delirium after sevoflurane is on the content list for this day and has no ledger row: [NUMBER NEEDED: incidence of emergence delirium after sevoflurane in children and the validated scale used to score it].
+Paediatric emergence delirium after sevoflurane has its scale and its relative risks. The Pediatric Anesthesia Emergence Delirium scale has five items, eye contact with the caregiver, purposeful actions, awareness of surroundings, restlessness and inconsolability, each scored 1 to 4 and summed, with internal consistency 0.89 and reliability 0.84 (0.76 to 0.90); scores were higher after sevoflurane than halothane, P less than 0.008, and the abstract gives no diagnostic cut-off [[sikich-2004]]. A Cochrane review of 158 trials in 14,045 children found, against sevoflurane, a relative risk of 0.51 (0.41 to 0.63) with halothane and 0.35 (0.25 to 0.51) with propofol throughout, and as adjuncts a relative risk of 0.37 (0.29 to 0.47) with dexmedetomidine and 0.37 (0.27 to 0.50) with fentanyl, with the authors flagging pain as a confounder of the diagnosis; it gives relative risks, not an absolute incidence [[costi-2014]]. [NUMBER NEEDED: absolute incidence of emergence delirium after sevoflurane in children.]
 
-Dexmedetomidine, if any delirium page comes to recommend it, carries a European regulatory warning about mortality in intensive care patients aged 65 or younger; a parallel US action has not been confirmed: [TODO_VERIFY: current US labelling for dexmedetomidine before any delirium or agitation page recommends it.]
+Dexmedetomidine has no US indication for delirium, emergence agitation or shivering. Its label indications are sedation of intubated adults in intensive care by infusion not exceeding 24 h, and procedural sedation of non-intubated adults and children; emergence delirium and agitation appear only as paediatric adverse reactions after discontinuation; and its principal warnings are hypotension and bradycardia, including fatalities, and transient hypertension during loading [[fda-dexmedetomidine-label-2026]]. Any use for delirium or agitation is off-label, and this page recommends none.
 
 ## At the bedside
 

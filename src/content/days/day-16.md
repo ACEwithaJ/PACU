@@ -12,6 +12,7 @@ evidence:
   - lanefall-2020
   - agarwala-2019
   - lanefall-2021-protocol
+  - asa-pacu-standards-2024
 draft: true
 review_due: null
 quiz:
@@ -91,7 +92,7 @@ Salzwedel 2016 ran the companion trial in the intensive care unit: 121 handovers
 
 HATRICC, a prospective interventional cohort in two surgical ICUs at two affiliated hospitals between 2014 and 2016, measured information omissions out of 13 possible topics by trained observers; handoff duration increased from 4.1 (SD 3.3) to 8.0 (SD 3.9) min, P less than 0.001, and ICU mortality and length of stay did not change [[lanefall-2020]]. It is the strongest operating-room-to-ICU handover study and it is a before-and-after cohort, not a trial, and it is negative for clinical outcomes.
 
-The society-level consensus recommendations describe what a perioperative handover should contain and how it should be taught; they are the source for the structure of the handover, not for its effect [[agarwala-2019]]. HATRICC-US, a multicentre stepped-wedge trial of standardised handoffs, was registered in October 2020 and was protocol-only when the ledger was built; its results, if published, would be the strongest evidence the day could have: [TODO_VERIFY: whether HATRICC-US, NCT04571749, has published results, and what they show.] [[lanefall-2021-protocol]]
+The society-level consensus recommendations describe what a perioperative handover should contain and how it should be taught; they are the source for the structure of the handover, not for its effect [[agarwala-2019]]. The obligation itself is in the ASA Standards for Postanesthesia Care, Standard III: upon arrival in the PACU the patient shall be re-evaluated and a verbal report provided to the responsible nurse by the member of the anesthesia care team who accompanies the patient, with information concerning the preoperative condition and the surgical and anaesthetic course transmitted to the receiving nurse [[asa-pacu-standards-2024]]. HATRICC-US, a multicentre stepped-wedge trial of standardised handoffs registered in October 2020, has no published primary results: its registry record on 6 September 2026 showed recruitment still enrolling by invitation, no results posted, and an estimated completion of 31 July 2026, and a search found only the protocol and a 2023 implementation-fidelity paper [[lanefall-2021-protocol]]. When it reports, it will be the strongest evidence this day could have.
 
 ## What this does not show
 
