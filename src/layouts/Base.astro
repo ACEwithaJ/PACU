@@ -24,6 +24,7 @@ const buildRef = (import.meta.env.CF_PAGES_COMMIT_SHA ?? process.env.CF_PAGES_CO
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     <meta name="x-build" content={buildRef} />
+    {Astro.site && <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body>
