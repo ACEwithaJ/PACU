@@ -1,7 +1,7 @@
 ---
 id: day-02
 title: Upper airway obstruction presents as a falling saturation
-claim: Upper airway obstruction in the recovering patient, whether laryngospasm or the tongue, is often visible as nothing more than a falling saturation, and its downstream harm is negative-pressure pulmonary oedema, aspiration and severe hypoxaemia.
+claim: Upper airway obstruction in the recovering patient, whether laryngospasm or the tongue, is often visible as nothing more than a falling saturation, and its downstream harm is negative-pressure pulmonary edema, aspiration and severe hypoxemia.
 evidence_mode: consensus_only
 consensus_basis: registry
 physiology_status: established
@@ -46,16 +46,16 @@ quiz:
         explanation: Presentation was clinically obvious in 77%, airway obstruction in 14%, regurgitation or vomiting in 5% and desaturation in 4%.
       - text: Desaturation alone in most cases
         correct: false
-        explanation: Desaturation alone was the presentation in 4%. The companion natural-airway series is where obstruction presenting simply as desaturation is emphasised.
+        explanation: Desaturation alone was the presentation in 4%. The companion natural-airway series is where obstruction presenting simply as desaturation is emphasized.
       - text: Bradycardia in most cases
         correct: false
         explanation: Bradycardia was a consequence in 6% overall, higher in infants under one year. It was not the usual presentation.
-      - text: Pulmonary oedema in most cases
+      - text: Pulmonary edema in most cases
         correct: false
-        explanation: Pulmonary oedema followed in 4%. It is the downstream harm, not the presentation.
+        explanation: Pulmonary edema followed in 4%. It is the downstream harm, not the presentation.
   - id: pacu-d02-q3
-    stem: "In the 2025 case series of negative-pressure pulmonary oedema during recovery from general anaesthesia, what was the precipitant in four of the five cases?"
-    teachingPoint: In the recovery period the obstruction that causes negative-pressure pulmonary oedema is not always laryngospasm.
+    stem: "In the 2025 case series of negative-pressure pulmonary edema during recovery from general anesthesia, what was the precipitant in four of the five cases?"
+    teachingPoint: In the recovery period the obstruction that causes negative-pressure pulmonary edema is not always laryngospasm.
     difficulty: advanced
     examAlignment: [ABA-ADVANCED, ITE]
     tags: [airway, pulmonary]
@@ -77,37 +77,37 @@ quiz:
 
 Airway obstruction in the recovering patient is the emergency the PACU exists for, and it does not always announce itself. In the Australian Incident Monitoring Study, laryngospasm was clinically obvious in 77% of reports; in the remainder it presented as airway obstruction in 14%, as regurgitation or vomiting in 5%, and as desaturation alone in 4% [[visvanathan-2005-laryngospasm]]. The companion analysis of natural-airway obstruction carries the same warning in a different setting: obstruction may present simply as desaturation [[visvanathan-2005-airway]].
 
-The consequence of getting this wrong is not the obstruction, which usually resolves. It is what obstruction does on the way to resolving: post-obstructive pulmonary oedema, aspiration and severe hypoxaemia are named by the AIMS authors as the morbidity of poorly managed laryngospasm [[visvanathan-2005-laryngospasm]].
+The consequence of getting this wrong is not the obstruction, which usually resolves. It is what obstruction does on the way to resolving: post-obstructive pulmonary edema, aspiration and severe hypoxemia are named by the AIMS authors as the morbidity of poorly managed laryngospasm [[visvanathan-2005-laryngospasm]].
 
 ## Mechanism
 
-Laryngospasm is a reflex closure of the glottis, triggered by stimulation of the larynx during light planes of anaesthesia, most often at emergence. The tongue obstructs by falling back against the posterior pharynx when pharyngeal muscle tone is lost, which is the common mechanism of obstruction in the recovering patient who is not yet awake. Both produce the same downstream physiology: a patient making strong inspiratory efforts against a closed or narrowed upper airway generates a large negative intrathoracic pressure, which draws fluid across the pulmonary capillary into the alveolus. That is negative-pressure pulmonary oedema, and it can follow either mechanism. Meanwhile the obstructed patient desaturates, and the unprotected airway is exposed to whatever is in the pharynx.
+Laryngospasm is a reflex closure of the glottis, triggered by stimulation of the larynx during light planes of anesthesia, most often at emergence. The tongue obstructs by falling back against the posterior pharynx when pharyngeal muscle tone is lost, which is the common mechanism of obstruction in the recovering patient who is not yet awake. Both produce the same downstream physiology: a patient making strong inspiratory efforts against a closed or narrowed upper airway generates a large negative intrathoracic pressure, which draws fluid across the pulmonary capillary into the alveolus. That is negative-pressure pulmonary edema, and it can follow either mechanism. Meanwhile the obstructed patient desaturates, and the unprotected airway is exposed to whatever is in the pharynx.
 
 ## Evidence
 
-The AIMS laryngospasm analysis reviewed 189 reports among the first 4000 incidents reported to the registry [[visvanathan-2005-laryngospasm]]. Desaturation occurred in over 60% of cases, bradycardia in 6% (23% in patients under one year), pulmonary oedema in 4% and pulmonary aspiration in 3% [[visvanathan-2005-laryngospasm]]. The authors state that, had a structured approach been used, earlier recognition or better management may have occurred in 16% of cases [[visvanathan-2005-laryngospasm]]. The Scandinavian denominator study supplies the incidence: 1232 laryngospasms in 156,064 anaesthetics in 136,929 patients, about eight per thousand anaesthetics, with rates above 50 per 1000 in children with asthma, an airway infection, a previous anaesthetic complication, oesophagoscopy or hypospadias repair, and above 25 per 1000 at age 1 to 3 months [[olsson-1984]]. The AIMS paper cites the same study at 0.78% [[visvanathan-2005-laryngospasm]].
+The AIMS laryngospasm analysis reviewed 189 reports among the first 4000 incidents reported to the registry [[visvanathan-2005-laryngospasm]]. Desaturation occurred in over 60% of cases, bradycardia in 6% (23% in patients under one year), pulmonary edema in 4% and pulmonary aspiration in 3% [[visvanathan-2005-laryngospasm]]. The authors state that, had a structured approach been used, earlier recognition or better management may have occurred in 16% of cases [[visvanathan-2005-laryngospasm]]. The Scandinavian denominator study supplies the incidence: 1232 laryngospasms in 156,064 anesthetics in 136,929 patients, about eight per thousand anesthetics, with rates above 50 per 1000 in children with asthma, an airway infection, a previous anesthetic complication, esophagoscopy or hypospadias repair, and above 25 per 1000 at age 1 to 3 months [[olsson-1984]]. The AIMS paper cites the same study at 0.78% [[visvanathan-2005-laryngospasm]].
 
 The companion AIMS analysis of natural-airway obstruction supplies the observation that obstruction may present simply as desaturation, which is why a falling saturation in a recovering patient is an airway finding until the airway has been looked at [[visvanathan-2005-airway]].
 
-A 2025 series describes five cases of negative-pressure pulmonary oedema during recovery from general anaesthesia at one institution: four attributed to glossoptosis after extubation and one to laryngeal mask displacement, all with typical clinical and imaging features, and none with a poor outcome [[bmc-nppe-2025]]. It carries the point that in the recovery period the precipitant is not always laryngospasm.
+A 2025 series describes five cases of negative-pressure pulmonary edema during recovery from general anesthesia at one institution: four attributed to glossoptosis after extubation and one to laryngeal mask displacement, all with typical clinical and imaging features, and none with a poor outcome [[bmc-nppe-2025]]. It carries the point that in the recovery period the precipitant is not always laryngospasm.
 
 ## What this does not show
 
-Every source on this page is an incident registry or a case series [[visvanathan-2005-laryngospasm]] [[visvanathan-2005-airway]] [[bmc-nppe-2025]]. Registry data describe how events presented and what followed them among reported cases; they do not give a true incidence, because reporting is voluntary, and they do not test any management. The 16% figure is the authors' judgement about what a structured approach might have changed, not a measured effect [[visvanathan-2005-laryngospasm]].
+Every source on this page is an incident registry or a case series [[visvanathan-2005-laryngospasm]] [[visvanathan-2005-airway]] [[bmc-nppe-2025]]. Registry data describe how events presented and what followed them among reported cases; they do not give a true incidence, because reporting is voluntary, and they do not test any management. The 16% figure is the authors' judgment about what a structured approach might have changed, not a measured effect [[visvanathan-2005-laryngospasm]].
 
 One figure that circulates from this series, that intubation was required in 43% of cases, does not appear in the paper's abstract or results and is not used here [[visvanathan-2005-laryngospasm]]. The bradycardia figure sometimes quoted at 11% is also wrong for the whole series; the paper gives 6%, with 23% in infants [[visvanathan-2005-laryngospasm]].
 
-The management ladder itself has no guideline or primary source in the ledger, and the paper usually cited for the Larson manoeuvre is a letter without an abstract that a later letter calls unproven; the sequence stays a placeholder: [NUMBER NEEDED: a sourced laryngospasm management sequence including the Larson manoeuvre]. What the succinylcholine label does supply is the dose by route: an average intravenous dose of 0.6 mg/kg to produce blockade and facilitate intubation, an intramuscular dose of up to 3 to 4 mg/kg not exceeding 150 mg in total, with intramuscular onset usually observed in about 2 to 3 min; the label carries no laryngospasm-specific dose and carries a boxed warning for hyperkalaemic cardiac arrest in children with undiagnosed myopathy [[fda-succinylcholine-label-2022]]. The five-case series describes supportive management of negative-pressure pulmonary oedema only in outline [[bmc-nppe-2025]].
+The management ladder itself has no guideline or primary source in the ledger, and the paper usually cited for the Larson maneuver is a letter without an abstract that a later letter calls unproven; the sequence stays a placeholder: [NUMBER NEEDED: a sourced laryngospasm management sequence including the Larson maneuver]. What the succinylcholine label does supply is the dose by route: an average intravenous dose of 0.6 mg/kg to produce blockade and facilitate intubation, an intramuscular dose of up to 3 to 4 mg/kg not exceeding 150 mg in total, with intramuscular onset usually observed in about 2 to 3 min; the label carries no laryngospasm-specific dose and carries a boxed warning for hyperkalemic cardiac arrest in children with undiagnosed myopathy [[fda-succinylcholine-label-2022]]. The five-case series describes supportive management of negative-pressure pulmonary edema only in outline [[bmc-nppe-2025]].
 
 ## At the bedside
 
 Treat a falling saturation in a recovering patient as an airway problem until you have looked at the airway. Both AIMS analyses say the same thing from different directions: obstruction can present as nothing but desaturation [[visvanathan-2005-laryngospasm]] [[visvanathan-2005-airway]].
 
-Distinguish the larynx from the tongue. In the recovery period the tongue is the likelier culprit, and the negative-pressure oedema that follows either looks the same [[bmc-nppe-2025]]. A jaw thrust and an oral or nasal airway address one; they do not address the other.
+Distinguish the larynx from the tongue. In the recovery period the tongue is the likelier culprit, and the negative-pressure edema that follows either looks the same [[bmc-nppe-2025]]. A jaw thrust and an oral or nasal airway address one; they do not address the other.
 
 Use a structured approach and know it before you need it, because the registry authors judged that recognition or management could have been better in about one case in six [[visvanathan-2005-laryngospasm]]. [PRACTICE VARIES: the institutional laryngospasm algorithm and the dose and route of succinylcholine it specifies differ between hospitals; know yours.]
 
-After any significant obstruction, watch for the oedema, the aspiration and the hypoxaemia that the registry names as its downstream harm, and do not discharge on the strength of the obstruction having resolved [[visvanathan-2005-laryngospasm]].
+After any significant obstruction, watch for the edema, the aspiration and the hypoxemia that the registry names as its downstream harm, and do not discharge on the strength of the obstruction having resolved [[visvanathan-2005-laryngospasm]].
 
 ## Check yourself
 

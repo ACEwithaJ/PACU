@@ -39,7 +39,7 @@ quiz:
     examAlignment: [ABA-ADVANCED, ITE, nursing]
     tags: [hemodynamics, sequencing]
     options:
-      - text: Look for a cause at the bedside, including pain, a distended bladder, hypercarbia and hypoxaemia, before giving an antihypertensive
+      - text: Look for a cause at the bedside, including pain, a distended bladder, hypercarbia and hypoxemia, before giving an antihypertensive
         correct: true
         explanation: The day's claim is that hypertension is a sign first. The reversible causes are found by examination and by looking at the ventilation and oxygenation, and treating them removes the number.
       - text: Give an intravenous antihypertensive immediately to bring the pressure below 160 mmHg
@@ -79,7 +79,7 @@ The consequence of getting this wrong is a patient whose pain, full bladder or r
 
 ## Mechanism
 
-Blood pressure rises after surgery when the sympathetic nervous system is driven by something. In the PACU the drivers are mostly ordinary and mostly reversible: pain, a distended bladder, hypercarbia from hypoventilation, hypoxaemia, shivering and cold, anxiety, and the abrupt withdrawal of an antihypertensive the patient takes at home. Each raises catecholamine output, heart rate and vascular tone. A vasodilator lowers the pressure by acting on the last step in that chain; it does nothing to the first. The mechanism therefore dictates the sequence: find what is driving the sympathetic response and remove it, and treat the pressure directly only when nothing reversible explains it or the level itself threatens harm.
+Blood pressure rises after surgery when the sympathetic nervous system is driven by something. In the PACU the drivers are mostly ordinary and mostly reversible: pain, a distended bladder, hypercarbia from hypoventilation, hypoxemia, shivering and cold, anxiety, and the abrupt withdrawal of an antihypertensive the patient takes at home. Each raises catecholamine output, heart rate and vascular tone. A vasodilator lowers the pressure by acting on the last step in that chain; it does nothing to the first. The mechanism therefore dictates the sequence: find what is driving the sympathetic response and remove it, and treat the pressure directly only when nothing reversible explains it or the level itself threatens harm.
 
 ## Evidence
 
@@ -91,7 +91,7 @@ The 2013 ASA guideline on postanesthetic care states that the literature continu
 
 Neither source tests any treatment of postoperative hypertension against any outcome. The POQI document is a consensus statement and the ASA document is a guideline that describes its own literature as insufficient [[sessler-2019-d6]] [[asa-pacu-2013-d6]]. The association above 160 mmHg is an association, and the statement that draws attention to it declines, in the same sentence, to turn it into a threshold [[sessler-2019-d6]].
 
-The differential itself, pain, bladder distension, hypercarbia, hypoxaemia and drug withdrawal, is clinical reasoning that the held sources support only in part: the bladder limb is in the ASA guideline, and the rest is physiology [[asa-pacu-2013-d6]]. The withdrawal limb has one sourced member. The clonidine label warns that sudden cessation of clonidine treatment has, in some cases, resulted in symptoms such as nervousness, agitation, headache and tremor accompanied or followed by a rapid rise in blood pressure and elevated catecholamine concentrations in the plasma, more likely after higher doses or with a beta-blocker, with rare hypertensive encephalopathy, stroke and death, and it instructs that clonidine be continued to within four hours of surgery and resumed as soon as possible afterwards [[fda-clonidine-label-2022]]. [TODO_VERIFY: the remainder of that warning sentence, paraphrased here beyond its first clause, to be re-quoted from the label; and a source for withdrawal of other antihypertensive classes.]
+The differential itself, pain, bladder distension, hypercarbia, hypoxemia and drug withdrawal, is clinical reasoning that the held sources support only in part: the bladder limb is in the ASA guideline, and the rest is physiology [[asa-pacu-2013-d6]]. The withdrawal limb has one sourced member. The clonidine label warns that sudden cessation of clonidine treatment has, in some cases, resulted in symptoms such as nervousness, agitation, headache and tremor accompanied or followed by a rapid rise in blood pressure and elevated catecholamine concentrations in the plasma, more likely after higher doses or with a beta-blocker, with rare hypertensive encephalopathy, stroke and death, and it instructs that clonidine be continued to within four hours of surgery and resumed as soon as possible afterwards [[fda-clonidine-label-2022]]. [TODO_VERIFY: the remainder of that warning sentence, paraphrased here beyond its first clause, to be re-quoted from the label; and a source for withdrawal of other antihypertensive classes.]
 
 This day has two ledger rows, both consensus documents, and no primary study. It is the thinnest day with sources on the site, and the topic term it carries was added to the vocabulary for it.
 

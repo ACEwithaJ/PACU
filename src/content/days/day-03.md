@@ -31,7 +31,7 @@ quiz:
         correct: false
         explanation: The room-air group did desaturate. The brevity of the protocol did not protect them; the inspired oxygen protected the other two groups.
   - id: pacu-d03-q2
-    stem: In phase 2 of Fu 2004, PACU patients were randomised to room air or supplemental oxygen and desaturation was counted. Desaturation was more common on room air. What is the correct reading of that result?
+    stem: In phase 2 of Fu 2004, PACU patients were randomized to room air or supplemental oxygen and desaturation was counted. Desaturation was more common on room air. What is the correct reading of that result?
     options:
       - text: Room air is unsafe in the PACU and every patient should receive oxygen
         correct: false
@@ -41,7 +41,7 @@ quiz:
         explanation: The point of phase 2 is the opposite of what the direction suggests. Supplemental oxygen removes the signal. Fewer desaturations on oxygen means less detection, not less hypoventilation.
       - text: The two groups hypoventilated at different rates, so the comparison is not valid
         correct: false
-        explanation: Randomisation is what makes the comparison valid. The groups differed in inspired oxygen, and inspired oxygen is exactly what changed the oximeter's sensitivity.
+        explanation: Randomization is what makes the comparison valid. The groups differed in inspired oxygen, and inspired oxygen is exactly what changed the oximeter's sensitivity.
       - text: The result was not significant, so no conclusion can be drawn
         correct: false
         explanation: The difference was statistically significant. The finding stands; what needs care is its interpretation.
@@ -51,15 +51,15 @@ quiz:
       - text: Both phases studied healthy volunteers in a laboratory
         correct: false
         explanation: Subjects were surgical patients, not volunteers. Phase 1 was conducted in the operating room and phase 2 in the PACU.
-      - text: Phase 2 was a prospective randomised clinical trial of surgical patients in the PACU
+      - text: Phase 2 was a prospective randomized clinical trial of surgical patients in the PACU
         correct: true
-        explanation: Phase 1 was a prospective patient-controlled clinical trial in the operating room; phase 2 was a prospective randomised clinical trial in the PACU.
+        explanation: Phase 1 was a prospective patient-controlled clinical trial in the operating room; phase 2 was a prospective randomized clinical trial in the PACU.
       - text: The study was a retrospective review of PACU oximetry records
         correct: false
-        explanation: Both phases were prospective. Phase 2 assigned inspired oxygen by randomisation and measured SpO2 every minute.
-      - text: Phase 1 randomised patients to room air or oxygen; phase 2 was observational
+        explanation: Both phases were prospective. Phase 2 assigned inspired oxygen by randomization and measured SpO2 every minute.
+      - text: Phase 1 randomized patients to room air or oxygen; phase 2 was observational
         correct: false
-        explanation: The randomised phase was phase 2, in the PACU. Phase 1 was the patient-controlled hypoventilation study in the operating room.
+        explanation: The randomized phase was phase 2, in the PACU. Phase 1 was the patient-controlled hypoventilation study in the operating room.
 ---
 ## Why it matters
 
@@ -69,25 +69,25 @@ The consequence of getting this wrong is not a missed alarm. It is an alarm that
 
 ## Mechanism
 
-Pulse oximetry measures arterial haemoglobin saturation, which sits on the flat upper part of the oxyhaemoglobin dissociation curve whenever alveolar oxygen is generous. Hypoventilation raises alveolar carbon dioxide and lowers alveolar oxygen. On room air, the fall in alveolar oxygen is enough to move saturation off the flat part of the curve, so the oximeter reads the change. With supplemental oxygen, the alveolar oxygen tension starts high enough that the same rise in carbon dioxide leaves saturation on the flat part, and the oximeter reads nothing.
+Pulse oximetry measures arterial hemoglobin saturation, which sits on the flat upper part of the oxyhemoglobin dissociation curve whenever alveolar oxygen is generous. Hypoventilation raises alveolar carbon dioxide and lowers alveolar oxygen. On room air, the fall in alveolar oxygen is enough to move saturation off the flat part of the curve, so the oximeter reads the change. With supplemental oxygen, the alveolar oxygen tension starts high enough that the same rise in carbon dioxide leaves saturation on the flat part, and the oximeter reads nothing.
 
 That is the whole mechanism: oxygen does not treat hypoventilation, it hides its only oximetric sign. Carbon dioxide rises exactly as it would have; the monitor no longer reports it.
 
 ## Evidence
 
-Fu 2004 is a two-phase study in surgical patients, not volunteers [[fu-2004]]. Phase 1, in the operating room, was a prospective patient-controlled clinical trial of 45 patients [[fu-2004]]. Phase 2, in the PACU, was a prospective randomised clinical trial of 288 patients [[fu-2004]].
+Fu 2004 is a two-phase study in surgical patients, not volunteers [[fu-2004]]. Phase 1, in the operating room, was a prospective patient-controlled clinical trial of 45 patients [[fu-2004]]. Phase 2, in the PACU, was a prospective randomized clinical trial of 288 patients [[fu-2004]].
 
 In phase 1, hypoventilation was defined as a 50% reduction in minute ventilation [[fu-2004]]. Patients breathed room air (FiO2 0.21, n=25) for up to 5 min or until SpO2 fell below 90%, or oxygen at FiO2 0.25 (n=10) or 0.30 (n=10) for up to 10 min [[fu-2004]]. SpO2 declined only in the room-air group; there was no decline at all at FiO2 0.25 or 0.30 [[fu-2004]].
 
-In phase 2, PACU patients were randomised to room air (n=155) or supplemental oxygen (n=133), with SpO2 recorded every minute for up to 40 min [[fu-2004]]. Desaturation, defined as SpO2 below 90%, occurred in 9.0% of the room-air group and 2.3% of the supplemental-oxygen group, P=0.02, roughly fourfold higher on room air [[fu-2004]].
+In phase 2, PACU patients were randomized to room air (n=155) or supplemental oxygen (n=133), with SpO2 recorded every minute for up to 40 min [[fu-2004]]. Desaturation, defined as SpO2 below 90%, occurred in 9.0% of the room-air group and 2.3% of the supplemental-oxygen group, P=0.02, roughly fourfold higher on room air [[fu-2004]].
 
 ## What this does not show
 
-Phase 2 found desaturation *more* common on room air: 9.0% versus 2.3% [[fu-2004]]. Read quickly, that says room air is dangerous and oxygen is protective. That reading inverts the study. Both groups were recovering from anaesthesia and both hypoventilated; the room-air group desaturated because room air lets the oximeter see hypoventilation, and the oxygen group did not desaturate because oxygen removes the signal. The direction of the result is the point, not a contradiction of it.
+Phase 2 found desaturation *more* common on room air: 9.0% versus 2.3% [[fu-2004]]. Read quickly, that says room air is dangerous and oxygen is protective. That reading inverts the study. Both groups were recovering from anesthesia and both hypoventilated; the room-air group desaturated because room air lets the oximeter see hypoventilation, and the oxygen group did not desaturate because oxygen removes the signal. The direction of the result is the point, not a contradiction of it.
 
 The study does not show that room air is the right choice for PACU patients, and it does not show that supplemental oxygen harms them. It shows that on supplemental oxygen the pulse oximeter is not a ventilation monitor. Whether routine oxygen changes any patient outcome is a separate question this source does not answer. The ward observation that respiratory depression episodes were 2.7 times more frequent on supplemental oxygen while desaturations did not differ is the same mechanism seen with capnography, and it comes from the ward, not the PACU [[doufas-2023]].
 
-The oximeter reads wrong in a second way, and this day carries it as its boundary. In methaemoglobinaemia the pulse oximeter overestimates the true saturation in proportion to the methaemoglobin fraction until about 35%, where it plateaus at 84 to 86% and does not fall further even as the true saturation continues to drop; that plateau was measured in anaesthetised dogs, and the design vocabulary has no term for an animal study [[barker-1989]]. In a summary of 242 published episodes related to local anaesthetics, a saturation of 90% or below with an arterial oxygen tension of 70 mmHg or more was present in 91.8%, the gap between the oximeter and co-oximetry ranged from minus 6.2% to 44.7%, a single spray of benzocaine was enough to induce it, coma was reported at methaemoglobin fractions of 32.2% in children and 29.1% in adults, and rebound to 59.9% up to 18 h after methylene blue was described with mucosal benzocaine; the author's conclusion is that benzocaine should no longer be used [[guay-2009]]. The treatment has a label: methylene blue 1 mg/kg intravenously over 5 to 30 min, repeated once after an hour if the fraction stays above 30% or symptoms persist; it is contraindicated in G6PD deficiency, where it risks haemolysis and may not work, it carries a boxed warning for serotonin syndrome with serotonergic drugs and opioids, and it can itself lower the oximeter reading [[fda-methylene-blue-label-2025]].
+The oximeter reads wrong in a second way, and this day carries it as its boundary. In methemoglobinemia the pulse oximeter overestimates the true saturation in proportion to the methemoglobin fraction until about 35%, where it plateaus at 84 to 86% and does not fall further even as the true saturation continues to drop; that plateau was measured in anesthetized dogs, and the design vocabulary has no term for an animal study [[barker-1989]]. In a summary of 242 published episodes related to local anesthetics, a saturation of 90% or below with an arterial oxygen tension of 70 mmHg or more was present in 91.8%, the gap between the oximeter and co-oximetry ranged from minus 6.2% to 44.7%, a single spray of benzocaine was enough to induce it, coma was reported at methemoglobin fractions of 32.2% in children and 29.1% in adults, and rebound to 59.9% up to 18 h after methylene blue was described with mucosal benzocaine; the author's conclusion is that benzocaine should no longer be used [[guay-2009]]. The treatment has a label: methylene blue 1 mg/kg intravenously over 5 to 30 min, repeated once after an hour if the fraction stays above 30% or symptoms persist; it is contraindicated in G6PD deficiency, where it risks hemolysis and may not work, it carries a boxed warning for serotonin syndrome with serotonergic drugs and opioids, and it can itself lower the oximeter reading [[fda-methylene-blue-label-2025]].
 
 ## At the bedside
 

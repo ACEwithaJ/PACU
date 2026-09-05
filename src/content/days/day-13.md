@@ -27,10 +27,10 @@ quiz:
         explanation: "That is the label's Dosage and Administration text. The serum half-life in adults ranged from 30 to 81 minutes (mean 64 minutes) in one study, shorter than most of the opioids it reverses."
       - text: "A single dose of naloxone reverses all opioid effect for at least four hours"
         correct: false
-        explanation: "The label says the opposite: some opioids outlast naloxone, and re-narcotisation is expected."
+        explanation: "The label says the opposite: some opioids outlast naloxone, and re-narcotization is expected."
       - text: "Re-sedation after naloxone cannot be opioid-related and indicates an intracranial event"
         correct: false
-        explanation: "Re-narcotisation is the first explanation. An intracranial event sits at the end of the ordered differential, not the beginning."
+        explanation: "Re-narcotization is the first explanation. An intracranial event sits at the end of the ordered differential, not the beginning."
       - text: "The patient should be given flumazenil"
         correct: false
         explanation: "Flumazenil reverses benzodiazepines, not opioids, and carries its own boxed warning."
@@ -54,7 +54,7 @@ quiz:
         correct: false
         explanation: "The seizure warning is the boxed warning, the strongest a label carries."
   - id: pacu-d13-q3
-    stem: "Link 1997 studied central anticholinergic syndrome in the recovery room. After excluding prolonged anaesthetic or relaxant effect, respiratory depression and metabolic disorder, what did the study find?"
+    stem: "Link 1997 studied central anticholinergic syndrome in the recovery room. After excluding prolonged anesthetic or relaxant effect, respiratory depression and metabolic disorder, what did the study find?"
     teachingPoint: "Central anticholinergic syndrome is a diagnosis of exclusion that responds to physostigmine and can relapse."
     difficulty: advanced
     examAlignment: [ABA-ADVANCED, ITE]
@@ -75,9 +75,9 @@ quiz:
 ---
 ## Why it matters
 
-A patient who does not wake is the PACU emergency that is most often mishandled by being handled in the wrong order. The list of causes is long and the dangerous ones are not the common ones, so the sequence matters more than the list. The simulation case used to teach this groups the causes as residual anaesthetics, pharmacological actions, surgical complications, neurological events, endocrine disturbances and patient factors [[ellis-2017]]. The two drugs reached for first, naloxone and flumazenil, each carry a label warning that bears directly on the PACU: naloxone can be outlasted by the opioid it reverses, and flumazenil can provoke seizures in exactly the patients most likely to be slow to wake from a benzodiazepine [[fda-naloxone-label-2023]] [[fda-flumazenil-label-2025]].
+A patient who does not wake is the PACU emergency that is most often mishandled by being handled in the wrong order. The list of causes is long and the dangerous ones are not the common ones, so the sequence matters more than the list. The simulation case used to teach this groups the causes as residual anesthetics, pharmacological actions, surgical complications, neurological events, endocrine disturbances and patient factors [[ellis-2017]]. The two drugs reached for first, naloxone and flumazenil, each carry a label warning that bears directly on the PACU: naloxone can be outlasted by the opioid it reverses, and flumazenil can provoke seizures in exactly the patients most likely to be slow to wake from a benzodiazepine [[fda-naloxone-label-2023]] [[fda-flumazenil-label-2025]].
 
-The consequence of getting this wrong runs two ways: a reversal agent given for a cause it does not treat, or a stroke found after an hour of waiting for the anaesthetic to wear off.
+The consequence of getting this wrong runs two ways: a reversal agent given for a cause it does not treat, or a stroke found after an hour of waiting for the anesthetic to wear off.
 
 ## Mechanism
 
@@ -87,11 +87,11 @@ Central anticholinergic syndrome sits inside the drug tier: a central effect of 
 
 ## Evidence
 
-The evidence for the differential is descriptive. Link 1997 followed 962 recovery-room inpatients for two months and, after excluding prolonged anaesthetic or relaxant effect, respiratory depression and metabolic disorder, found a distinct central anticholinergic syndrome in 18 (1.9%), with 6 of 60 after hysterectomy (P=0.003); untreated somnolence had lasted more than 2 h in 6 of the 18, all woke after physostigmine, and 6 relapsed and needed a second dose, one a third [[link-1997]].
+The evidence for the differential is descriptive. Link 1997 followed 962 recovery-room inpatients for two months and, after excluding prolonged anesthetic or relaxant effect, respiratory depression and metabolic disorder, found a distinct central anticholinergic syndrome in 18 (1.9%), with 6 of 60 after hysterectomy (P=0.003); untreated somnolence had lasted more than 2 h in 6 of the 18, all woke after physostigmine, and 6 relapsed and needed a second dose, one a third [[link-1997]].
 
 A 2023 cross-sectional study describes the distribution of normal emergence, delayed awakening, hypoactive emergence and emergence delirium and the factors associated with delay; several of its reported confidence intervals do not contain their own point estimates, so this page uses it for the shape of the differential and quotes none of its numbers [[bayable-2023]].
 
-The naloxone label states that, since the duration of action of some opioids may exceed that of naloxone, the patient should be kept under continued surveillance and repeated doses given as necessary; in one study the adult serum half-life ranged from 30 to 81 min (mean 64 min); for postoperative opioid depression the dose is increments of 0.1 to 0.2 mg intravenously at two to three minute intervals to the desired degree of reversal; and abrupt reversal may result in nausea, vomiting, sweating, tremulousness, tachycardia, increased blood pressure, seizures, ventricular tachycardia and fibrillation, pulmonary oedema and cardiac arrest [[fda-naloxone-label-2023]].
+The naloxone label states that, since the duration of action of some opioids may exceed that of naloxone, the patient should be kept under continued surveillance and repeated doses given as necessary; in one study the adult serum half-life ranged from 30 to 81 min (mean 64 min); for postoperative opioid depression the dose is increments of 0.1 to 0.2 mg intravenously at two to three minute intervals to the desired degree of reversal; and abrupt reversal may result in nausea, vomiting, sweating, tremulousness, tachycardia, increased blood pressure, seizures, ventricular tachycardia and fibrillation, pulmonary edema and cardiac arrest [[fda-naloxone-label-2023]].
 
 The flumazenil label carries a boxed warning: the use of flumazenil has been associated with the occurrence of seizures, most frequent in patients who have been on benzodiazepines for long-term sedation or in overdose cases showing signs of serious cyclic antidepressant overdose [[fda-flumazenil-label-2025]]. For reversal of sedation in adults the dose is 0.2 mg intravenously over 15 s, with further 0.2 mg doses at 60-s intervals up to four additional doses and a maximum cumulative dose of 1 mg; re-sedation occurred in 3% to 9% of conscious-sedation studies and the terminal half-life is 40 to 80 min [[fda-flumazenil-label-2025]].
 
@@ -101,13 +101,13 @@ No source on this page tests the ordered differential against any other order, o
 
 The requirement that a neurological examination be performed and documented before the patient leaves the PACU is on the director's content list and has no source: [TODO_VERIFY: a society standard or guideline statement requiring neurological examination before PACU discharge in delayed emergence.] It remains consensus on this page.
 
-The anaesthetic-specific numbers the list expects, how long each volatile agent or opioid delays emergence in a given patient, are not in the held sources: [NUMBER NEEDED: incidence of delayed emergence by anaesthetic agent and the time thresholds used to define it]. A published study of physostigmine after desflurane has been retracted and is not cited here.
+The anesthetic-specific numbers the list expects, how long each volatile agent or opioid delays emergence in a given patient, are not in the held sources: [NUMBER NEEDED: incidence of delayed emergence by anesthetic agent and the time thresholds used to define it]. A published study of physostigmine after desflurane has been retracted and is not cited here.
 
 ## At the bedside
 
 Work the order and say it aloud. Drug, paralysis, temperature, glucose, carbon dioxide, sodium, oxygen, brain. Each step has a test that takes less time than waiting: the monitor for paralysis, the thermometer, the glucose meter, the blood gas, the electrolytes. Do not skip to the end, and do not stop before it.
 
-If you give naloxone, you have committed to watching the patient for longer than the naloxone lasts; the label says so, and the re-narcotised patient is the one who has been handed to the ward in the meantime [[fda-naloxone-label-2023]]. Give it in the label's small increments rather than a full ampoule, because abrupt reversal has its own list of harms [[fda-naloxone-label-2023]].
+If you give naloxone, you have committed to watching the patient for longer than the naloxone lasts; the label says so, and the re-narcotized patient is the one who has been handed to the ward in the meantime [[fda-naloxone-label-2023]]. Give it in the label's small increments rather than a full ampoule, because abrupt reversal has its own list of harms [[fda-naloxone-label-2023]].
 
 Before you give flumazenil, ask what benzodiazepines the patient takes at home. The boxed warning is about chronic use, and the answer changes the decision [[fda-flumazenil-label-2025]].
 

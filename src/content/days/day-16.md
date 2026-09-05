@@ -17,7 +17,7 @@ draft: true
 review_due: null
 quiz:
   - id: pacu-d16-q1
-    stem: "In Salzwedel 2013, post-anaesthesia handovers were video-recorded before and after a checklist was introduced. What happened to the proportion of items handed over?"
+    stem: "In Salzwedel 2013, post-anesthesia handovers were video-recorded before and after a checklist was introduced. What happened to the proportion of items handed over?"
     teachingPoint: The checklist raised information transfer from about a third to under a half; the honest headline is the half that still went missing.
     difficulty: basic
     examAlignment: [ABA-BASIC, ITE, nursing]
@@ -25,7 +25,7 @@ quiz:
     options:
       - text: It rose from a median of 32.4% to 48.7%, and duration rose from 86 to 121 seconds
         correct: true
-        explanation: 120 handovers were recorded, 40 before and 80 after, with the after-handovers randomised to checklist or none. Items handed over rose from median 32.4% to 48.7%; duration rose from median 86 s to 121 s. Verbal instruction without a written checklist produced no increase in either.
+        explanation: 120 handovers were recorded, 40 before and 80 after, with the after-handovers randomized to checklist or none. Items handed over rose from median 32.4% to 48.7%; duration rose from median 86 s to 121 s. Verbal instruction without a written checklist produced no increase in either.
       - text: It rose to nearly 100%
         correct: false
         explanation: Even with the checklist, under half the items were handed over.
@@ -36,7 +36,7 @@ quiz:
         correct: false
         explanation: Duration rose by about half a minute and item transfer rose with it.
   - id: pacu-d16-q2
-    stem: "HATRICC (Lane-Fall 2020) standardised operating room to intensive care unit handoffs in two surgical ICUs. What did it find for clinical outcomes?"
+    stem: "HATRICC (Lane-Fall 2020) standardized operating room to intensive care unit handoffs in two surgical ICUs. What did it find for clinical outcomes?"
     teachingPoint: The strongest handoff cohort improved information transfer and changed neither mortality nor length of stay.
     difficulty: advanced
     examAlignment: [ABA-ADVANCED, ITE]
@@ -55,28 +55,28 @@ quiz:
         correct: false
         explanation: It measured information omissions against 13 defined topics, handoff duration, and clinical outcomes.
   - id: pacu-d16-q3
-    stem: "In Salzwedel 2013, what was the unit of randomisation, and why does it matter?"
-    teachingPoint: The trial randomised handovers, not patients or clinicians, so it tests the process and not the person.
+    stem: "In Salzwedel 2013, what was the unit of randomization, and why does it matter?"
+    teachingPoint: The trial randomized handovers, not patients or clinicians, so it tests the process and not the person.
     difficulty: expert
     examAlignment: [ABA-ADVANCED]
     tags: [handover, evidence-appraisal]
     options:
       - text: The handover itself, so the trial tests the checklist as a process rather than any clinician's skill
         correct: true
-        explanation: The randomisation unit was the handover, not the patient or the clinician. That is what makes the result about the tool.
+        explanation: The randomization unit was the handover, not the patient or the clinician. That is what makes the result about the tool.
       - text: The patient, so outcomes can be attributed to patient factors
         correct: false
-        explanation: Patients were not the unit of randomisation.
-      - text: The anaesthetist, so the result reflects training
+        explanation: Patients were not the unit of randomization.
+      - text: The anesthesiologist, so the result reflects training
         correct: false
-        explanation: Clinicians were not randomised; handovers were.
+        explanation: Clinicians were not randomized; handovers were.
       - text: The hospital, in a cluster design
         correct: false
-        explanation: It was a single-institution study with handover-level randomisation. The multicentre stepped-wedge design belongs to HATRICC-US, which was protocol-only when the ledger was built.
+        explanation: It was a single-institution study with handover-level randomization. The multicenter stepped-wedge design belongs to HATRICC-US, which was protocol-only when the ledger was built.
 ---
 ## Why it matters
 
-The PACU handover is the moment the anaesthetic ends and, for a few minutes, nobody clearly owns the patient. Residents treat it as a report. The sources on this day treat it as a process that can be measured, and what they measure is unflattering: before a checklist, a median 32.4% of defined items were handed over in a post-anaesthesia handover; with a written checklist, 48.7% [[salzwedel-2013]]. Even with the tool, under half the items arrived.
+The PACU handover is the moment the anesthetic ends and, for a few minutes, nobody clearly owns the patient. Residents treat it as a report. The sources on this day treat it as a process that can be measured, and what they measure is unflattering: before a checklist, a median 32.4% of defined items were handed over in a post-anesthesia handover; with a written checklist, 48.7% [[salzwedel-2013]]. Even with the tool, under half the items arrived.
 
 The consequence of getting this wrong is not that a handover is untidy. It is that the person who now holds responsibility for the patient does not hold the information that came with it.
 
@@ -86,17 +86,17 @@ A handover fails by omission, and omission is invisible to the person omitting. 
 
 ## Evidence
 
-Salzwedel 2013 video-recorded 120 post-anaesthesia handovers in the PACU: 40 before implementation and 80 after, with the after-handovers randomised to checklist or no checklist; the randomisation unit was the handover, not the patient or the clinician [[salzwedel-2013]]. Items handed over rose from a median of 32.4% to 48.7%, duration rose from a median of 86 s to 121 s, and verbal instruction without a written checklist produced no increase in either [[salzwedel-2013]].
+Salzwedel 2013 video-recorded 120 post-anesthesia handovers in the PACU: 40 before implementation and 80 after, with the after-handovers randomized to checklist or no checklist; the randomization unit was the handover, not the patient or the clinician [[salzwedel-2013]]. Items handed over rose from a median of 32.4% to 48.7%, duration rose from a median of 86 s to 121 s, and verbal instruction without a written checklist produced no increase in either [[salzwedel-2013]].
 
-Salzwedel 2016 ran the companion trial in the intensive care unit: 121 handovers, prospectively randomised, with items split into must-hand-over and should-hand-over categories; the must-hand-over items were transferred in 87.1% with the checklist versus 75.0% without, P less than 0.01 [[salzwedel-2016]].
+Salzwedel 2016 ran the companion trial in the intensive care unit: 121 handovers, prospectively randomized, with items split into must-hand-over and should-hand-over categories; the must-hand-over items were transferred in 87.1% with the checklist versus 75.0% without, P less than 0.01 [[salzwedel-2016]].
 
 HATRICC, a prospective interventional cohort in two surgical ICUs at two affiliated hospitals between 2014 and 2016, measured information omissions out of 13 possible topics by trained observers; handoff duration increased from 4.1 (SD 3.3) to 8.0 (SD 3.9) min, P less than 0.001, and ICU mortality and length of stay did not change [[lanefall-2020]]. It is the strongest operating-room-to-ICU handover study and it is a before-and-after cohort, not a trial, and it is negative for clinical outcomes.
 
-The society-level consensus recommendations describe what a perioperative handover should contain and how it should be taught; they are the source for the structure of the handover, not for its effect [[agarwala-2019]]. The obligation itself is in the ASA Standards for Postanesthesia Care, Standard III: upon arrival in the PACU the patient shall be re-evaluated and a verbal report provided to the responsible nurse by the member of the anesthesia care team who accompanies the patient, with information concerning the preoperative condition and the surgical and anaesthetic course transmitted to the receiving nurse [[asa-pacu-standards-2024]]. HATRICC-US, a multicentre stepped-wedge trial of standardised handoffs registered in October 2020, has no published primary results: its registry record on 6 September 2026 showed recruitment still enrolling by invitation, no results posted, and an estimated completion of 31 July 2026, and a search found only the protocol and a 2023 implementation-fidelity paper [[lanefall-2021-protocol]]. When it reports, it will be the strongest evidence this day could have.
+The society-level consensus recommendations describe what a perioperative handover should contain and how it should be taught; they are the source for the structure of the handover, not for its effect [[agarwala-2019]]. The obligation itself is in the ASA Standards for Postanesthesia Care, Standard III: upon arrival in the PACU the patient shall be re-evaluated and a verbal report provided to the responsible nurse by the member of the anesthesia care team who accompanies the patient, with information concerning the preoperative condition and the surgical and anesthetic course transmitted to the receiving nurse [[asa-pacu-standards-2024]]. HATRICC-US, a multicenter stepped-wedge trial of standardized handoffs registered in October 2020, has no published primary results: its registry record on 6 September 2026 showed recruitment still enrolling by invitation, no results posted, and an estimated completion of 31 July 2026, and a search found only the protocol and a 2023 implementation-fidelity paper [[lanefall-2021-protocol]]. When it reports, it will be the strongest evidence this day could have.
 
 ## What this does not show
 
-Both randomised trials and the cohort measure information transfer only. None measures a clinical outcome that improved [[salzwedel-2013]] [[salzwedel-2016]] [[lanefall-2020]]. The day's claim therefore stops where the evidence stops: handover is measurable, a written checklist improves it, and nobody has yet shown that the improvement changes mortality or length of stay. A resident who says a checklist saves lives is saying more than the sources do.
+Both randomized trials and the cohort measure information transfer only. None measures a clinical outcome that improved [[salzwedel-2013]] [[salzwedel-2016]] [[lanefall-2020]]. The day's claim therefore stops where the evidence stops: handover is measurable, a written checklist improves it, and nobody has yet shown that the improvement changes mortality or length of stay. A resident who says a checklist saves lives is saying more than the sources do.
 
 The two Salzwedel trials are the trial-grade evidence for the day, and neither has yet been verified beyond a citation string in the ledger; their figures here are from the director's extraction of the held papers [[salzwedel-2013]] [[salzwedel-2016]].
 
@@ -108,7 +108,7 @@ The other half of the original Day 16, that PACU capacity is an operating room p
 
 Use a written checklist, not a memory of one, because verbal instruction to be thorough changed nothing in the trial that tested it [[salzwedel-2013]]. Expect the handover to take longer; the trials measured that cost and it is small [[salzwedel-2013]] [[lanefall-2020]].
 
-Make the transfer of responsibility explicit. Say, and hear said, that the PACU now holds the patient, so that the gap between the anaesthetist leaving and the nurse accepting has a named owner [[agarwala-2019]]. [PRACTICE VARIES: the handover checklist used, who leads the handover, and whether the anaesthetist remains until vital signs are stable differ between institutions.]
+Make the transfer of responsibility explicit. Say, and hear said, that the PACU now holds the patient, so that the gap between the anesthesiologist leaving and the nurse accepting has a named owner [[agarwala-2019]]. [PRACTICE VARIES: the handover checklist used, who leads the handover, and whether the anesthesiologist remains until vital signs are stable differ between institutions.]
 
 Know that half the items still go missing with the best tool tested, and ask for what you have not been told rather than assuming it was not important [[salzwedel-2013]].
 

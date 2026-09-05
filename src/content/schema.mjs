@@ -42,9 +42,9 @@ export const DAY_PLAN = [
     day: 3,
     topic: "oxygenation",
     title: "Supplemental oxygen hides hypoventilation",
-    // Director 2026-09-05: methaemoglobinaemia lives here (boundary slot:
+    // Director 2026-09-05: methemoglobinemia lives here (boundary slot:
     // a second way the oximeter reads wrong). Needs its own ledger rows.
-    also: ["methaemoglobinaemia"],
+    also: ["methemoglobinemia"],
   },
   { day: 4, topic: "respiratory_depression", title: "Respiratory depression after the PACU" },
   { day: 5, topic: "hypotension", title: "Postoperative hypotension" },
@@ -60,10 +60,10 @@ export const DAY_PLAN = [
   { day: 8, topic: "myocardial_injury", title: "Myocardial injury after noncardiac surgery" },
   { day: 9, topic: "ponv", title: "Postoperative nausea and vomiting" },
   { day: 10, topic: "analgesia", title: "PACU opioid titration" },
-  { day: 11, topic: "regional", title: "Regional anaesthesia complications in the PACU" },
+  { day: 11, topic: "regional", title: "Regional anesthesia complications in the PACU" },
   { day: 12, topic: "delirium", title: "Postoperative delirium" },
   { day: 13, topic: "emergence", title: "Delayed emergence" },
-  { day: 14, topic: "osa", title: "Obstructive sleep apnoea" },
+  { day: 14, topic: "osa", title: "Obstructive sleep apnea" },
   { day: 15, topic: "discharge", title: "Discharge criteria" },
   { day: 16, topic: "handover", title: "Handover as a transfer of responsibility" },
   { day: 17, topic: "urinary_retention", title: "Postoperative urinary retention" },
@@ -81,7 +81,7 @@ export const DAY_COUNT = DAY_PLAN.length;
  */
 export const CARD_PLAN = [
   { id: "card-delayed-emergence", title: "Delayed emergence", dependsOn: 13 },
-  { id: "card-hypoxaemia", title: "Postoperative hypoxaemia", dependsOn: 3 },
+  { id: "card-hypoxemia", title: "Postoperative hypoxemia", dependsOn: 3 },
   { id: "card-hypotension", title: "PACU hypotension", dependsOn: 5 },
   { id: "card-hypertension", title: "PACU hypertension", dependsOn: 6 },
   { id: "card-laryngospasm", title: "Laryngospasm", dependsOn: 2 },
@@ -157,7 +157,7 @@ export const CLINICAL_CLAIM_STATUS = [
 export const DIFFICULTY = ["basic", "advanced", "expert"];
 export const EXAM_ALIGNMENT = ["ABA-BASIC", "ABA-ADVANCED", "ITE", "nursing"];
 
-/** Designs that count as randomised evidence for rule 2. */
+/** Designs that count as randomized evidence for rule 2. */
 export const RANDOMISED_DESIGNS = ["rct", "meta_rct"];
 
 /** Body slots: level-2 headings, this order, all required (rule 1). */
@@ -355,7 +355,7 @@ export function makeCardSchema(ledgerRef) {
       title: z.string().trim().min(1),
       /** One sentence: when a resident reaches for this card. */
       purpose: z.string().trim().min(1),
-      /** The day whose evidence this card summarises. */
+      /** The day whose evidence this card summarizes. */
       day: z.number().int().min(1).max(DAY_COUNT),
       evidence: z.array(ledgerRef).min(1, "RULE-02: evidence must list at least one ledger key"),
       draft: z.boolean().default(true),

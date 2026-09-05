@@ -1,7 +1,7 @@
 ---
 id: day-19
 title: Positioning injuries declare themselves after the PACU
-claim: Positioning injuries mostly declare themselves after the PACU, because persistent ulnar neuropathy is usually noticed more than a day after surgery and is not explained by anaesthetic technique or position, while ischaemic optic neuropathy after spinal fusion tracks male sex, obesity, the Wilson frame, long anaesthetics and blood loss.
+claim: Positioning injuries mostly declare themselves after the PACU, because persistent ulnar neuropathy is usually noticed more than a day after surgery and is not explained by anesthetic technique or position, while ischemic optic neuropathy after spinal fusion tracks male sex, obesity, the Wilson frame, long anesthetics and blood loss.
 evidence_mode: consensus_only
 consensus_basis: registry
 physiology_status: contested
@@ -15,7 +15,7 @@ draft: true
 review_due: null
 quiz:
   - id: pacu-d19-q1
-    stem: "In the Mayo series of more than a million sedated or anaesthetised patients (Warner 1994), when were the initial symptoms of persistent ulnar neuropathy usually noticed?"
+    stem: "In the Mayo series of more than a million sedated or anesthetized patients (Warner 1994), when were the initial symptoms of persistent ulnar neuropathy usually noticed?"
     teachingPoint: "Most ulnar neuropathies were noticed more than a day after the procedure, so the PACU rarely sees them."
     difficulty: basic
     examAlignment: [ABA-BASIC, ITE]
@@ -32,36 +32,36 @@ quiz:
         explanation: "Immediate symptoms were the exception."
       - text: "Only after discharge from hospital"
         correct: false
-        explanation: "Hospitalisation longer than 14 days was itself associated with the neuropathy; symptoms arose during the stay but after the first day."
+        explanation: "Hospitalization longer than 14 days was itself associated with the neuropathy; symptoms arose during the stay but after the first day."
   - id: pacu-d19-q2
     stem: "Which factors did the Mayo series find associated with persistent ulnar neuropathy, and which did it not?"
-    teachingPoint: "Male sex, long hospitalisation and body habitus were associated; anaesthetic technique and position were not."
+    teachingPoint: "Male sex, long hospitalization and body habitus were associated; anesthetic technique and position were not."
     difficulty: advanced
     examAlignment: [ABA-ADVANCED, ITE]
     tags: [positioning, neuropathy, evidence-appraisal]
     options:
-      - text: "Associated: male sex, hospitalisation over 14 days, very thin or obese habitus. Not associated: anaesthetic technique or patient position"
+      - text: "Associated: male sex, hospitalization over 14 days, very thin or obese habitus. Not associated: anesthetic technique or patient position"
         correct: true
-        explanation: "Male gender and hospitalisation longer than 14 days were associated at P below 0.01, as were very thin and obese body habitus. Neither anaesthetic technique nor position was associated, which is why the mechanism is marked contested on this page."
+        explanation: "Male gender and hospitalization longer than 14 days were associated at P below 0.01, as were very thin and obese body habitus. Neither anesthetic technique nor position was associated, which is why the mechanism is marked contested on this page."
       - text: "Associated: supine position with arms abducted. Not associated: sex"
         correct: false
         explanation: "Position was not associated in this series, and male sex was."
-      - text: "Associated: general anaesthesia. Not associated: regional anaesthesia"
+      - text: "Associated: general anesthesia. Not associated: regional anesthesia"
         correct: false
-        explanation: "Anaesthetic technique was not associated."
+        explanation: "Anesthetic technique was not associated."
       - text: "No factor was associated"
         correct: false
         explanation: "Sex, length of stay and habitus were associated."
   - id: pacu-d19-q3
-    stem: "In the Postoperative Visual Loss Study Group case-control study of ischaemic optic neuropathy after spinal fusion, which independent risk factor carried the largest odds ratio?"
-    teachingPoint: "The Wilson frame carried the largest odds ratio; duration and blood loss added risk per hour and per litre."
+    stem: "In the Postoperative Visual Loss Study Group case-control study of ischemic optic neuropathy after spinal fusion, which independent risk factor carried the largest odds ratio?"
+    teachingPoint: "The Wilson frame carried the largest odds ratio; duration and blood loss added risk per hour and per liter."
     difficulty: expert
     examAlignment: [ABA-ADVANCED, ITE]
     tags: [positioning, ophthalmic, spine]
     options:
       - text: "Use of the Wilson frame, odds ratio 4.30"
         correct: true
-        explanation: "Wilson frame OR 4.30 (2.13 to 8.75), obesity OR 2.83, male sex OR 2.53, anaesthesia duration OR 1.39 per hour, estimated blood loss OR 1.34 per litre, and colloid as a percentage of non-blood replacement OR 0.67 per 5%, protective; model AUC 0.85."
+        explanation: "Wilson frame OR 4.30 (2.13 to 8.75), obesity OR 2.83, male sex OR 2.53, anesthesia duration OR 1.39 per hour, estimated blood loss OR 1.34 per liter, and colloid as a percentage of non-blood replacement OR 0.67 per 5%, protective; model AUC 0.85."
       - text: "Male sex, odds ratio 2.53"
         correct: false
         explanation: "Male sex was a risk factor, with a smaller odds ratio than the Wilson frame."
@@ -74,21 +74,21 @@ quiz:
 ---
 ## Why it matters
 
-The positioning injury is the complication the PACU is asked to rule out and usually cannot. In the Mayo series of 1,129,692 sedated or anaesthetised patients, persistent ulnar neuropathy occurred in 414, about 1 in 2,729, and in most of them the initial symptoms were noticed more than 24 h after the procedure [[warner-1994]]. Postoperative visual loss after spinal fusion is rarer and worse, and its risk factors are set before the patient reaches the PACU: male sex, obesity, the Wilson frame, the length of the anaesthetic and the blood lost [[povl-study-group-2012]].
+The positioning injury is the complication the PACU is asked to rule out and usually cannot. In the Mayo series of 1,129,692 sedated or anesthetized patients, persistent ulnar neuropathy occurred in 414, about 1 in 2,729, and in most of them the initial symptoms were noticed more than 24 h after the procedure [[warner-1994]]. Postoperative visual loss after spinal fusion is rarer and worse, and its risk factors are set before the patient reaches the PACU: male sex, obesity, the Wilson frame, the length of the anesthetic and the blood lost [[povl-study-group-2012]].
 
 The consequence of getting this wrong is a normal PACU examination taken as proof that no injury occurred, and a complaint on the ward the next day that nobody documented a baseline for.
 
 ## Mechanism
 
-The textbook mechanism of ulnar neuropathy is compression or stretch of the nerve at the elbow during surgery. The largest series does not support that story cleanly: neither anaesthetic technique nor patient position was associated with the neuropathy, while male sex, a long hospital stay and both very thin and obese habitus were, and symptoms usually appeared after the first day [[warner-1994]]. The mechanism is therefore marked contested on this page. What is not contested is that a nerve injury takes time to declare itself, so the absence of a deficit in the PACU is a baseline, not a clearance.
+The textbook mechanism of ulnar neuropathy is compression or stretch of the nerve at the elbow during surgery. The largest series does not support that story cleanly: neither anesthetic technique nor patient position was associated with the neuropathy, while male sex, a long hospital stay and both very thin and obese habitus were, and symptoms usually appeared after the first day [[warner-1994]]. The mechanism is therefore marked contested on this page. What is not contested is that a nerve injury takes time to declare itself, so the absence of a deficit in the PACU is a baseline, not a clearance.
 
-Ischaemic optic neuropathy after prone spine surgery has a more coherent mechanism in the risk-factor pattern: venous congestion and raised orbital and optic-nerve pressure from prone positioning with the head dependent, prolonged operating time, large blood loss with crystalloid replacement, and a body habitus that raises venous pressure further. The Wilson frame, which lowers the head relative to the heart, sits at the top of the list [[povl-study-group-2012]].
+Ischemic optic neuropathy after prone spine surgery has a more coherent mechanism in the risk-factor pattern: venous congestion and raised orbital and optic-nerve pressure from prone positioning with the head dependent, prolonged operating time, large blood loss with crystalloid replacement, and a body habitus that raises venous pressure further. The Wilson frame, which lowers the head relative to the heart, sits at the top of the list [[povl-study-group-2012]].
 
 ## Evidence
 
-Warner 1994 reviewed Mayo Clinic patients from 1957 to 1991: persistent ulnar neuropathy, lasting more than three months, occurred in 414 of 1,129,692, about 1 per 2,729; 9% were bilateral; initial symptoms in most were noted more than 24 h after the procedure; male gender and hospitalisation longer than 14 days were associated (P less than 0.01), as were very thin and obese body habitus; neither anaesthetic technique nor patient position was associated; and 53% of the 382 patients alive at one year had recovered fully [[warner-1994]].
+Warner 1994 reviewed Mayo Clinic patients from 1957 to 1991: persistent ulnar neuropathy, lasting more than three months, occurred in 414 of 1,129,692, about 1 per 2,729; 9% were bilateral; initial symptoms in most were noted more than 24 h after the procedure; male gender and hospitalization longer than 14 days were associated (P less than 0.01), as were very thin and obese body habitus; neither anesthetic technique nor patient position was associated; and 53% of the 382 patients alive at one year had recovered fully [[warner-1994]].
 
-The Postoperative Visual Loss Study Group compared 80 cases of ischaemic optic neuropathy after spinal fusion with 315 controls: independent risk factors were male sex, OR 2.53 (1.35 to 4.91); obesity, OR 2.83 (1.52 to 5.39); the Wilson frame, OR 4.30 (2.13 to 8.75); anaesthesia duration, OR 1.39 per hour (1.22 to 1.58); estimated blood loss, OR 1.34 per litre (1.13 to 1.61); and colloid as a percentage of non-blood replacement, OR 0.67 per 5% (0.52 to 0.82), with a model area under the curve of 0.85 [[povl-study-group-2012]].
+The Postoperative Visual Loss Study Group compared 80 cases of ischemic optic neuropathy after spinal fusion with 315 controls: independent risk factors were male sex, OR 2.53 (1.35 to 4.91); obesity, OR 2.83 (1.52 to 5.39); the Wilson frame, OR 4.30 (2.13 to 8.75); anesthesia duration, OR 1.39 per hour (1.22 to 1.58); estimated blood loss, OR 1.34 per liter (1.13 to 1.61); and colloid as a percentage of non-blood replacement, OR 0.67 per 5% (0.52 to 0.82), with a model area under the curve of 0.85 [[povl-study-group-2012]].
 
 The current ASA practice advisories on the prevention of perioperative peripheral neuropathies (2018, superseding 2011 and 2000) and on perioperative visual loss associated with spine surgery (2019, superseding 2012 and 2006) are the society documents for this day; their identifiers and currency have been verified but their recommendation text has not been read, so no positioning recommendation is quoted here [[asa-neuropathy-2018]] [[asa-povl-2019]].
 
