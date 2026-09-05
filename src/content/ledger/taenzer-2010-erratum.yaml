@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: taenzer-2010-erratum
+day: 4
+citation: "Impact of Pulse Oximetry Surveillance on Rescue Events and Intensive Care Unit Transfers: A Before-and-After Concurrence Study: Erratum. Anesthesiology. 2020 Mar;132(3):602."
+doi: 10.1097/ALN.0000000000003091
+pmid: "31868773"
+design: guideline
+year: 2020
+n: NA
+access: open
+currency: current
+topic: respiratory_depression
+claim_support: magnitude
+supports: Corrects the denominator label for rescue-event rates from patient discharges to patient days, ten years after original publication; the authors state the findings are unaltered. Any teaching page quoting the 3.4 to 1.2 figures must use patient days.
+found_via: Listed as a linked comment on the PubMed record for the original
+verified_on: 2026-09-02, PubMed record 31868773 + Anesthesiology erratum text

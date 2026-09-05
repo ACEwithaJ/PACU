@@ -1,0 +1,45 @@
+---
+import "../styles/site.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = "" } = Astro.props;
+
+/**
+ * Which commit is live. Cloudflare Pages exposes CF_PAGES_COMMIT_SHA at build
+ * time; CI does not need to set anything. `curl -s <url> | grep x-build` then
+ * tells a failed deploy from a no-op one — the sibling project learned this
+ * the expensive way.
+ */
+const buildRef = (import.meta.env.CF_PAGES_COMMIT_SHA ?? process.env.CF_PAGES_COMMIT_SHA ?? "dev").slice(0, 7);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <meta name="x-build" content={buildRef} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="inner">
+        <a class="brand" href="/">PACU rotation curriculum</a>
+        <span class="tag">Public · static · no accounts</span>
+      </div>
+    </header>
+    <slot />
+    <footer class="site-footer">
+      <div class="inner">
+        Educational material for anesthesiology residents. Not clinical decision support and not
+        a substitute for institutional protocol. Where practice varies between institutions, a page
+        says so rather than asserting one answer.
+      </div>
+    </footer>
+  </body>
+</html>

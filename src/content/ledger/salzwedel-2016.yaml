@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: salzwedel-2016
+day: 16
+citation: "Salzwedel C, Mai V, Punke MA, et al. The effect of a checklist on the quality of patient handover from the operating room to the intensive care unit: a randomized controlled trial. J Crit Care. 2016;32:170-174."
+doi: null
+pmid: null
+design: rct
+year: 2016
+n: UNVERIFIED
+access: paywalled
+currency: current
+topic: handover
+claim_support: magnitude
+supports: The OR-to-ICU randomised checklist trial, distinct from the 2013 post-anaesthesia handover trial by the same group. Together these two are the trial-grade evidence the day needs.
+found_via: Reference list of Updates in Surgery 2023 article, DOI 10.1007/s13304-023-01551-2
+verified_on: 2026-09-02, secondary reference list only - NOT VERIFIED

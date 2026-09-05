@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: liem-2020
+day: 5
+citation: Liem VGB, Hoeks SE, Mol KHJM, et al. Postoperative hypotension after noncardiac surgery and the association with myocardial injury. Anesthesiology. 2020;133:510-522.
+doi: 10.1097/ALN.0000000000003368
+pmid: null
+design: cohort
+year: 2020
+n: "1710"
+access: paywalled
+currency: current
+topic: hypotension
+claim_support: magnitude
+supports: Single-centre observational cohort of 1710 patients aged 60 or older having intermediate- to high-risk noncardiac surgery, with frequent haemodynamic sampling on a postoperative high-dependency ward for the first 24 h; multiple absolute MAP thresholds from 50 to 75 mmHg characterised by cumulative minutes, duration and area under threshold. This is the closest published analogue to a PACU exposure model.
+found_via: null
+verified_on: 2026-09-02, Anesthesiology abstract page (10.1097/aln.0000000000003368). Frequently quoted figures (2 cumulative hours <60 mmHg in 8%; 4 continuous hours <75 mmHg in 48%) were read from a secondary Anesth Analg discussion, NOT from this record

@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: kirmeier-2019
+day: 1
+citation: "Kirmeier E, Eriksson LI, Lewald H, Jonsson Fagerlund M, Hoeft A, Hollmann M, Meistelman C, Hunter JM, Ulm K, Blobner M; POPULAR Contributors. Post-anaesthesia pulmonary complications after use of muscle relaxants (POPULAR): a multicentre, prospective observational study. Lancet Respir Med. 2019 Feb;7(2):129-140."
+doi: 10.1016/S2213-2600(18)30294-7
+pmid: "30224322"
+design: cohort
+year: 2019
+n: "22803"
+access: paywalled
+currency: current
+topic: residual_block
+claim_support: magnitude
+supports: 22,803 patients from 211 hospitals in 28 European countries; use of neuromuscular blocking agents associated with postoperative pulmonary complications, adjusted OR 1.86 (95% CI 1.53-2.26); the authors report that neither use of reversal agents nor use of neuromuscular monitoring reduced that risk in this cohort; primary endpoint was any POPC occurring or persisting after PACU discharge, so PACU-treated residual block is largely excluded from it
+found_via: null
+verified_on: 2026-09-02, PubMed record 30224322 + Lancet Respir Med correspondence pages

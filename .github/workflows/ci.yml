@@ -1,0 +1,54 @@
+name: ci
+
+# Execution brief 6.1. The gate from planning brief §5.4: self-test the
+# validator, validate the content, build. No deploy step — Cloudflare Pages
+# deploys by Git integration (6.3). No secrets.
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Validator self-test (every fixture fails on its own rule)
+        run: npm run validate:selftest
+
+      - name: Validate content
+        run: npm run validate
+
+      # The validator regenerates docs/content-review.md. If the committed copy
+      # is stale the author has not looked at the review list; fail so they do.
+      - name: Content review file is up to date
+        run: |
+          if ! git diff --quiet -- docs/content-review.md; then
+            echo "docs/content-review.md is stale. Run: npm run validate && commit docs/content-review.md"
+            git diff -- docs/content-review.md
+            exit 1
+          fi
+
+      - name: Build
+        run: npm run build
+
+      - name: Upload dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          retention-days: 7

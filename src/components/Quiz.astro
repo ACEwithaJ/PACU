@@ -1,0 +1,114 @@
+---
+/**
+ * Slot 6 — Check yourself. In-memory state only (planning brief §3.1).
+ *
+ * Every option and explanation is server-rendered into the page, so an answer
+ * explains itself with no network call. A resident can read the key from
+ * view-source; these items are formative and feed nothing, so that is fine.
+ * Nothing is stored anywhere — not localStorage, not a server. The page says
+ * so, because a resident who assumes otherwise will be misled.
+ */
+interface Option {
+  text: string;
+  correct: boolean;
+  explanation: string;
+}
+interface Item {
+  id: string;
+  stem: string;
+  options: Option[];
+}
+interface Props {
+  items: Item[];
+  dayId: string;
+}
+const { items, dayId } = Astro.props;
+const KEYS = ["A", "B", "C", "D", "E"];
+---
+
+<div class="quiz" id="quiz" data-day-id={dayId}>
+  <p class="not-saved">
+    <strong>Progress is not saved.</strong> Answers live on this page only and are gone when you
+    leave it. There are no accounts and nothing is recorded.
+  </p>
+  {
+    items.map((item, i) => (
+      <div class="q" data-quiz-item={item.id}>
+        <div class="q-tag">
+          Item {i + 1} of {items.length} · {item.id}
+        </div>
+        <p class="stem">{item.stem}</p>
+        <div class="opts" role="group" aria-label={`Item ${i + 1} options`}>
+          {item.options.map((o, j) => (
+            <button
+              type="button"
+              class="opt"
+              data-correct={o.correct ? "1" : "0"}
+              data-why={o.explanation}
+              data-key={KEYS[j]}
+            >
+              <span class="k">{KEYS[j]}</span>
+              <span>{o.text}</span>
+            </button>
+          ))}
+        </div>
+        <div class="why" role="status" aria-live="polite" />
+      </div>
+    ))
+  }
+  <p class="summary" data-summary hidden></p>
+</div>
+
+<script>
+  // In-memory only. No fetch, no storage. See the component comment.
+  const root = document.getElementById("quiz");
+  const state = { answered: 0, correct: 0 };
+
+  const esc = (s: string) =>
+    s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c] ?? c);
+
+  function answer(card: HTMLElement, chosen: HTMLButtonElement) {
+    if (card.dataset.answered) return;
+    card.dataset.answered = "1";
+    const buttons = Array.from(card.querySelectorAll<HTMLButtonElement>(".opt"));
+    const why = card.querySelector<HTMLElement>(".why");
+    const correctBtn = buttons.find((b) => b.dataset.correct === "1");
+    const hit = chosen.dataset.correct === "1";
+
+    buttons.forEach((b) => {
+      b.disabled = true;
+      if (b.dataset.correct === "1") b.classList.add("correct");
+      else if (b === chosen) b.classList.add("chosen-wrong");
+      else b.classList.add("dim");
+    });
+
+    if (why) {
+      const parts: string[] = [];
+      if (hit) {
+        parts.push(`<span class="lab hit">Correct · ${chosen.dataset.key}</span><p>${esc(chosen.dataset.why ?? "")}</p>`);
+      } else {
+        parts.push(`<span class="lab miss">Not quite · you chose ${chosen.dataset.key}</span><p>${esc(chosen.dataset.why ?? "")}</p>`);
+        if (correctBtn) {
+          parts.push(`<p><strong>${correctBtn.dataset.key} is correct.</strong> ${esc(correctBtn.dataset.why ?? "")}</p>`);
+        }
+      }
+      why.innerHTML = parts.join("");
+      why.classList.add("show");
+    }
+
+    state.answered++;
+    if (hit) state.correct++;
+    const total = root?.querySelectorAll("[data-quiz-item]").length ?? 0;
+    const summary = root?.querySelector<HTMLElement>("[data-summary]");
+    if (summary && state.answered === total) {
+      summary.textContent = `${state.correct} of ${total} correct. Not recorded anywhere.`;
+      summary.hidden = false;
+    }
+  }
+
+  root?.querySelectorAll<HTMLElement>("[data-quiz-item]").forEach((card) => {
+    card.querySelectorAll<HTMLButtonElement>(".opt").forEach((btn) => {
+      btn.addEventListener("click", () => answer(card, btn));
+    });
+  });
+</script>

@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: blobner-2020
+day: 1
+citation: "Blobner M, Hunter JM, Meistelman C, Hoeft A, Hollmann MW, Kirmeier E, Lewald H, Ulm K. Use of a train-of-four ratio of 0.95 versus 0.9 for tracheal extubation: an exploratory analysis of POPULAR data. Br J Anaesth. 2020 Jan;124(1):63-72."
+doi: 10.1016/j.bja.2019.08.023
+pmid: "31607388"
+design: cohort
+year: 2020
+n: UNVERIFIED
+access: paywalled
+currency: current
+topic: residual_block
+claim_support: magnitude
+supports: Exploratory reanalysis of POPULAR data comparing a 0.95 versus 0.9 TOF-ratio extubation threshold; carries the contested position that the conventional 0.9 threshold may be too permissive. Contested by Fuchs-Buder and Brull, Br J Anaesth 2020;124:12-14 (PMID 31685216)
+found_via: ClinicalTrials.gov NCT06238219 structured reference table (PMID-indexed)
+verified_on: 2026-09-02, ClinicalTrials.gov reference table; primary PubMed record not independently opened

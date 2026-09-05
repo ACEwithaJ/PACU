@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: visvanathan-2005-laryngospasm
+day: 2
+citation: "Visvanathan T, Kluger MT, Webb RK, Westhorpe RN. Crisis management during anaesthesia: laryngospasm. Qual Saf Health Care. 2005 Jun;14(3):e3."
+doi: 10.1136/qshc.2002.004275
+pmid: "15933300"
+design: case_series
+year: 2005
+n: 189 laryngospasm incidents
+access: open
+currency: era_limited
+topic: airway
+claim_support: magnitude
+supports: 189 reports of laryngospasm within the first 4000 incidents reported to the Australian Incident Monitoring Study; authors state that had a structured approach been used, earlier recognition or better management may have occurred in 16% of these cases; explicitly names post-obstructive pulmonary oedema, aspiration and severe hypoxaemia as the downstream morbidity of poorly managed laryngospasm
+found_via: null
+verified_on: 2026-09-02, PMC record PMC1744026 + BMJ Qual Saf abstract page

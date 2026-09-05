@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fu-2004
+day: 3
+citation: Fu ES, Downs JB, Schweiger JW, Miguel RV, Smith RA. Supplemental oxygen impairs detection of hypoventilation by pulse oximetry. Chest. 2004 Nov;126(5):1552-1558.
+doi: null
+pmid: null
+design: cohort
+year: 2004
+n: UNVERIFIED
+access: paywalled
+currency: era_limited
+topic: oxygenation
+claim_support: magnitude
+supports: The single primary source behind the whole day. Secondary descriptions state that after breathing at roughly half normal minute ventilation for ~10 min, about 50% of room-air subjects fell below SpO2 90% while nearly all subjects on FiO2 0.25-0.30 stayed above 90%. THESE NUMBERS ARE NOT VERIFIED AGAINST THE PRIMARY RECORD. Design assignment is provisional.
+found_via: Cited in APSF newsletter correspondence, Univ of Florida virtual anesthesia machine teaching page, and a US patent specification
+verified_on: 2026-09-02, citation string only, from three independent secondary sources - NOT VERIFIED

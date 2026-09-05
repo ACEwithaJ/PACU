@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: neal-2018
+day: 11
+citation: "Neal JM, Barrington MJ, Fettiplace MR, Gitman M, Memtsoudis SG, Morwald EE, Rubin DS, Weinberg G. The Third American Society of Regional Anesthesia and Pain Medicine Practice Advisory on Local Anesthetic Systemic Toxicity: Executive Summary 2017. Reg Anesth Pain Med. 2018 Feb;43(2):113-123."
+doi: 10.1097/AAP.0000000000000720
+pmid: "29356773"
+design: advisory
+year: 2018
+n: NA
+access: paywalled
+currency: current
+topic: regional
+claim_support: magnitude
+supports: Interim update to the 2010 advisory covering mechanisms of lipid resuscitation, updated frequency estimates for LAST, the preventive role of ultrasound guidance, changes in case presentation patterns, and the limited evidence around local infiltration anaesthesia and liposomal bupivacaine. This is the source for the atypical and delayed presentations that make LAST look unlike block regression.
+found_via: null
+verified_on: 2026-09-02, PubMed record 29356773

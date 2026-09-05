@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: gan-2020-erratum
+day: 9
+citation: "Fourth Consensus Guidelines for the Management of Postoperative Nausea and Vomiting: Erratum. Anesth Analg. 2020 Nov;131(5):e241."
+doi: 10.1213/ANE.0000000000005245
+pmid: "33094991"
+design: guideline
+year: 2020
+n: NA
+access: open
+currency: current
+topic: ponv
+claim_support: magnitude
+supports: Erratum to the Fourth Consensus Guidelines. Content of the correction not read; check before quoting any specific dose or table from the 2020 document.
+found_via: Linked comment on PubMed record 32467512
+verified_on: 2026-09-02, PubMed record 33094991 (citation only, no abstract)

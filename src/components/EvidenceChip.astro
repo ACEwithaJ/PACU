@@ -1,0 +1,36 @@
+---
+/**
+ * The evidence-mode chip (planning brief §5.2) plus the two status axes (§5.3).
+ *
+ * consensus_only is the common case in this rotation (8 of 53 ledger rows are
+ * randomised) and must not render as a failure state: both modes use the same
+ * accent treatment, and the basis is named rather than apologised for.
+ */
+interface Props {
+  mode: "trial_based" | "consensus_only";
+  basis: string | null;
+  physiology: string;
+  claim: string;
+}
+const { mode, basis, physiology, claim } = Astro.props;
+
+const BASIS: Record<string, string> = {
+  physiology: "physiology",
+  registry: "registry data",
+  guideline: "guideline",
+  practice_advisory: "practice advisory",
+  expert_consensus: "expert consensus",
+};
+
+const modeLabel = mode === "trial_based" ? "Trial based" : `Consensus only · rests on ${BASIS[basis ?? ""] ?? basis}`;
+
+const physClass = physiology === "established" ? "ok" : physiology === "contested" ? "mid" : "";
+const claimClass =
+  claim === "supported" ? "ok" : claim === "refuted" ? "no" : claim === "associational" ? "mid" : "";
+---
+
+<div class="chips">
+  <span class="chip mode" title="Evidence mode">{modeLabel}</span>
+  <span class:list={["chip", physClass]}><span class="lbl">mechanism</span> {physiology}</span>
+  <span class:list={["chip", claimClass]}><span class="lbl">clinical claim</span> {claim}</span>
+</div>

@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: epstein-2014
+day: 3
+citation: Epstein RH, Dexter F, Lopez MG, Ehrenfeld JM. Anesthesiologist staffing considerations consequent to the temporal distribution of hypoxemic episodes in the postanesthesia care unit. Anesth Analg. 2014 Dec;119(6):1322-1333.
+doi: 10.1213/ANE.0000000000000410
+pmid: "25185590"
+design: cohort
+year: 2014
+n: "137757"
+access: paywalled
+currency: current
+topic: oxygenation
+claim_support: magnitude
+supports: SpO2 recorded electronically every 30-60 s in 137,757 PACU patients across 80 four-week periods at one academic centre; hypoxaemic episode defined as SpO2 <90% lasting at least 2 min; episodes beginning <30 min after PACU admission compared with those beginning >=30 min after; resolution assessed at 3, 5 and 10 min. Carries the timing argument, i.e. that desaturation is not front-loaded into the first minutes of PACU stay.
+found_via: null
+verified_on: 2026-09-02, PubMed record 25185590

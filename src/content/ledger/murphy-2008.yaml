@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: murphy-2008
+day: 1
+citation: Murphy GS, Szokol JW, Marymont JH, Greenberg SB, Avram MJ, Vender JS. Residual neuromuscular blockade and critical respiratory events in the postanesthesia care unit. Anesth Analg. 2008 Jul;107(1):130-137.
+doi: 10.1213/ane.0b013e31816d1268
+pmid: "18635478"
+design: cohort
+year: 2008
+n: 7459 screened; 61 CREs; 42 matched case-control pairs analysed
+access: paywalled
+currency: current
+topic: residual_block
+claim_support: magnitude
+supports: 7459 general anaesthetics over 1 yr; 61 developed a predefined critical respiratory event in the first 15 min of PACU stay; 42 matched to controls; mean TOF ratio 0.62 (SD 0.20) in cases vs 0.98 (SD 0.07) in controls, difference -0.36 (95% CI -0.43 to -0.30, P<0.0001); 73.8% of cases had TOF <0.70 vs 0 controls; commonest CREs severe hypoxaemia 22/42 (52.4%) and upper airway obstruction 15/42 (35.7%)
+found_via: null
+verified_on: 2026-09-02, PubMed record 18635478 + LWW abstract page

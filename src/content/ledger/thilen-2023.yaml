@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: thilen-2023
+day: 1
+citation: Thilen SR, Weigel WA, Todd MM, Dutton RP, Lien CA, Grant SA, Szokol JW, Eriksson LI, Yaster M, Grant MD, Agarkar M, Marbella AM, Blanck JF, Domino KB. 2023 American Society of Anesthesiologists Practice Guidelines for Monitoring and Antagonism of Neuromuscular Blockade. Anesthesiology. 2023 Jan 1;138(1):13-41.
+doi: 10.1097/ALN.0000000000004379
+pmid: null
+design: guideline
+year: 2023
+n: NA
+access: open
+currency: current
+topic: residual_block
+claim_support: magnitude
+supports: TOF ratio >=0.9 is the stated recovery threshold; quantitative monitoring recommended over qualitative/clinical assessment; sugammadex recommended for deep, moderate and shallow rocuronium- or vecuronium-induced block; neostigmine described as a reasonable alternative only from minimal block (TOF ratio 0.4 to <0.9); patients with documented quantitative TOF ratio >=0.9 do not require pharmacologic antagonism
+found_via: null
+verified_on: 2026-09-02, LWW full-text record + ASA/APSF and Univ Minnesota bibliographic records; PMID not surfaced in any retrieved record

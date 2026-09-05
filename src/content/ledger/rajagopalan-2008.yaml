@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: rajagopalan-2008
+day: 7
+citation: "Rajagopalan S, Mascha E, Na J, Sessler DI. The effects of mild perioperative hypothermia on blood loss and transfusion requirement: a meta-analysis. Anesthesiology. 2008;108:71-77."
+doi: 10.1097/01.anes.0000296719.73450.52
+pmid: null
+design: meta_rct
+year: 2008
+n: UNVERIFIED
+access: paywalled
+currency: current
+topic: thermoregulation
+claim_support: magnitude
+supports: Meta-analysis pooling the blood loss and transfusion effect of mild perioperative hypothermia. Use for the pooled estimate rather than Schmied alone.
+found_via: PMC article PMC6849040 reference list with DOI
+verified_on: 2026-09-02, secondary reference list with DOI; primary record not opened

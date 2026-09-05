@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: kurz-1996
+day: 7
+citation: Kurz A, Sessler DI, Lenhardt R. Perioperative normothermia to reduce the incidence of surgical-wound infection and shorten hospitalization. Study of Wound Infection and Temperature Group. N Engl J Med. 1996 May 9;334(19):1209-1215.
+doi: 10.1056/NEJM199605093341901
+pmid: "8606715"
+design: rct
+year: 1996
+n: "200"
+access: paywalled
+currency: era_limited
+topic: thermoregulation
+claim_support: magnitude
+supports: "200 colorectal surgery patients randomised to routine intraoperative thermal care versus additional warming; the landmark wound-infection and length-of-stay result. Era limitations: single surgical population, pre-modern SSI bundle, pre-modern warming equipment."
+found_via: null
+verified_on: 2026-09-02, PubMed record 8786768 (linked comment) + ClinicalTrials.gov PMID-indexed reference tables; Semantic Scholar record for methods

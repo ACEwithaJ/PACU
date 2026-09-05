@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: khanna-2020
+day: 4
+citation: "Khanna AK, Bergese SD, Jungquist CR, et al; PRODIGY Group Collaborators. Prediction of opioid-induced respiratory depression on inpatient wards using continuous capnography and oximetry: an international prospective, observational trial. Anesth Analg. 2020 Oct;131(4):1012-1024."
+doi: 10.1213/ANE.0000000000004788
+pmid: "32925318"
+design: cohort
+year: 2020
+n: "1335"
+access: open
+currency: current
+topic: respiratory_depression
+claim_support: magnitude
+supports: 1335 patients on parenteral opioids, blinded continuous capnography and oximetry, 16 sites in the US, Europe and Asia, with vital signs otherwise taken intermittently per standard of care; respiratory depression episode defined as RR <=5/min, SpO2 <=85%, or EtCO2 <=15 or >=60 mmHg for >=3 min, apnoea >30 s, or any respiratory opioid-related adverse event; 46% of patients had at least one episode; PRODIGY risk score derived from 46 a priori risk factors by stepwise multivariable logistic regression, internally validated by bootstrapping
+found_via: null
+verified_on: 2026-09-02, PubMed record 32925318; NOTE a second PMID 32304460 appears against this DOI in one institutional record - resolve before citing the PMID

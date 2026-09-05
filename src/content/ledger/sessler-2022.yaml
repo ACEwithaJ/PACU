@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: sessler-2022
+day: 7
+citation: "Sessler DI, Pei L, Li K, Cui S, Chan MTV, Huang Y, Wu J, He X, Bajracharya GR, Rivas E, Lam CKM; PROTECT Investigators. Aggressive intraoperative warming versus routine thermal management during non-cardiac surgery (PROTECT): a multicentre, parallel group, superiority trial. Lancet. 2022 May 7;399(10337):1799-1808."
+doi: 10.1016/S0140-6736(22)00560-8
+pmid: "35390321"
+design: rct
+year: 2022
+n: 5056 enrolled; 5013 intention-to-treat
+access: paywalled
+currency: current
+topic: thermoregulation
+claim_support: magnitude
+supports: 12 sites; patients aged >=45 with at least one cardiovascular risk factor, inpatient noncardiac surgery 2-6 h under general anaesthesia, BMI >30 and dialysis excluded; aggressive warming reached mean final intraoperative core 37.1 C (SD 0.3) versus 35.6 C (SD 0.3) routine; the 30-day composite of myocardial injury, non-fatal cardiac arrest and all-cause mortality occurred in 246/2497 (9.9%) versus 239/2490 (9.6%); no difference in surgical site infection, transfusion, length of stay or readmission; authors conclude keeping core temperature at least 35.5 C appears sufficient. THIS IS THE ROW THAT QUALIFIES THE DAY AS WRITTEN.
+found_via: null
+verified_on: 2026-09-02, PubMed record 35390321 + Lancet abstract page

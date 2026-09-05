@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: neal-2015
+day: 11
+citation: "Neal JM, Barrington MJ, Brull R, Hadzic A, Hebl JR, Horlocker TT, Huntoon MA, Kopp SL, Rathmell JP, Watson JC. The Second ASRA Practice Advisory on Neurologic Complications Associated With Regional Anesthesia and Pain Medicine: Executive Summary 2015. Reg Anesth Pain Med. 2015 Sep-Oct;40(5):401-430."
+doi: null
+pmid: "26288034"
+design: advisory
+year: 2015
+n: NA
+access: paywalled
+currency: current
+topic: regional
+claim_support: magnitude
+supports: The framework for distinguishing prolonged block, block failure and neurologic injury on examination. Needed for the exam-findings half of the day.
+found_via: ClinicalTrials.gov NCT07238933 PMID-indexed reference table
+verified_on: 2026-09-02, ClinicalTrials.gov structured reference table; primary record not opened

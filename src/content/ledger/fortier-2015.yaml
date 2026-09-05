@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fortier-2015
+day: 1
+citation: "Fortier LP, McKeen D, Turner K, et al. The RECITE Study: a Canadian prospective, multicenter study of the incidence and severity of residual neuromuscular blockade. Anesth Analg. 2015;121:366-372."
+doi: null
+pmid: null
+design: cohort
+year: 2015
+n: UNVERIFIED
+access: paywalled
+currency: current
+topic: residual_block
+claim_support: magnitude
+supports: Canadian multicentre incidence estimate for residual block; needed only if the day quotes a non-US incidence figure alongside RECITE-US. Cited repeatedly but the primary record was not reached.
+found_via: APSF reference list (apsf.org, New Practice Guidelines for Neuromuscular Blockade)
+verified_on: 2026-09-02, secondary reference list only - NOT VERIFIED

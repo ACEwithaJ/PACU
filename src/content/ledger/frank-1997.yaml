@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: frank-1997
+day: 7
+citation: Frank SM, Fleisher LA, Breslow MJ, Higgins MS, Olson KF, Kelly S, Beattie C. Perioperative maintenance of normothermia reduces the incidence of morbid cardiac events. A randomized clinical trial. JAMA. 1997 Apr 9;277(14):1127-1134.
+doi: null
+pmid: "9087467"
+design: rct
+year: 1997
+n: UNVERIFIED
+access: paywalled
+currency: era_limited
+topic: thermoregulation
+claim_support: magnitude
+supports: RCT of routine thermal care versus supplemental warming in patients with cardiac risk factors having noncardiac surgery; conclusion is that maintaining normothermia is associated with a reduced incidence of morbid cardiac events and of ventricular tachycardia. The effect size and sample size were not read from the record.
+found_via: null
+verified_on: 2026-09-02, PubMed record 9087467

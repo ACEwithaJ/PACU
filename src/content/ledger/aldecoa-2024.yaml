@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: aldecoa-2024
+day: 12
+citation: Aldecoa C, Bettelli G, Bilotta F, Sanders RD, Aceto P, Audisio R, et al. Update of the European Society of Anaesthesiology and Intensive Care Medicine evidence-based and consensus-based guideline on postoperative delirium in adult patients. Eur J Anaesthesiol. 2024 Feb;41(2):81-108.
+doi: 10.1097/EJA.0000000000001876
+pmid: "37599617"
+design: guideline
+year: 2024
+n: NA
+access: open
+currency: current
+topic: delirium
+claim_support: magnitude
+supports: POD defined per DSM-5; the guideline requires POD to be measured with a validated screening tool at least once daily for at least 3 days, starting in the recovery room or PACU on the day of surgery or at latest on postoperative day 1 - this is the sentence that puts delirium screening inside the PACU rather than on the ward; 13 recommendations; the certainty of evidence across those recommendations ranges from very low to moderate; literature window 1 April 2015 to 28 February 2022.
+found_via: null
+verified_on: 2026-09-02, PMC record PMC10763721 + EJA full-text page; PMID from Guideline Central record

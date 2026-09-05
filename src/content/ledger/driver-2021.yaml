@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: driver-2021
+day: 4
+citation: Driver CN, Laporta ML, Bergese SD, Urman RD, Di Piazza F, Overdyk FJ, Sprung J, Weingarten TN. Frequency and temporal distribution of postoperative respiratory depressive events. Anesth Analg. (volume, issue and pages UNVERIFIED)
+doi: null
+pmid: null
+design: cohort
+year: null
+n: "250"
+access: paywalled
+currency: current
+topic: respiratory_depression
+claim_support: magnitude
+supports: "Post hoc analysis of PRODIGY patients from 2 US sites monitored on general care floors: 2539 adjudicated respiratory depression episodes in 155 of 250 patients (62.0%, 95% CI 55.7-68.0), median 2 episodes per patient [0-8], range 0-545; median time to the initial episode 8.8 h [5.1-18.0] postoperatively; PRODIGY risk distribution 100 low (40.0%), 79 intermediate (31.6%), 70 high (28.0%). Carries the episodic-and-unwitnessed claim more directly than the parent trial."
+found_via: SUNY Research Connect institutional publication record
+verified_on: 2026-09-02, institutional record with full abstract; journal volume/pages/DOI/PMID not captured - PARTIALLY VERIFIED
