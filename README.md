@@ -126,6 +126,8 @@ validator that has never been seen to fail is not verified.
 | `links.yml` | weekly (Mon 11:00 UTC); manual | builds, runs lychee on `dist/**/*.html`, opens an issue on failure. This is the review process (planning brief D7). |
 | `bootstrap.yml` | push to any branch except `main`; manual | the toolchain bridge: installs, generates the lockfile / ledger YAML / debt / content review, runs the full pipeline. Commits generated files back only when they changed (then push again so `ci` runs on the new head). The run log goes to the `ci-reports` branch as `reports/<branch>.md`: `git fetch origin ci-reports && git show origin/ci-reports:reports/<branch>.md` |
 
+Production: https://utk-pacu-anesthesia.com (Cloudflare Pages project `pacu`, custom domain; `pacu-7ub.pages.dev` is the fallback).
+
 There is no deploy step and there are no repository secrets. Cloudflare Pages deploys by Git
 integration: build command `npm run build`, output directory `dist`.
 
