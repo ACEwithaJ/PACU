@@ -49,7 +49,7 @@ quiz:
         explanation: Liem 2020 reports that intraoperative hypotension, which independently was not associated with myocardial injury, is separable from the postoperative exposure. The postoperative exposure carried the association.
       - text: Intraoperative hypotension was not measured
         correct: false
-        explanation: It was measured and analysed. The finding was a null independent association, which is a result, not an omission.
+        explanation: It was measured and analyzed. The finding was a null independent association, which is a result, not an omission.
       - text: The study excluded patients with any intraoperative hypotension
         correct: false
         explanation: No such exclusion is described. The cohort was defined by age and surgical risk, not by intraoperative pressure.
@@ -63,15 +63,15 @@ quiz:
       - text: Salmasi 2017, which found absolute thresholds perform about as well as percentage reductions from baseline
         correct: true
         explanation: Salmasi 2017 is the absolute-versus-relative comparison. Its finding that absolute MAP thresholds perform about as well as percentage reductions from baseline is what lets a protocol use a fixed number.
-      - text: Sessler 2018, because POISE-2 randomised patients to a blood pressure target
+      - text: Sessler 2018, because POISE-2 randomized patients to a blood pressure target
         correct: false
-        explanation: POISE-2 randomised aspirin and clonidine, not a pressure target. Hypotension in the substudy was an observed exposure.
+        explanation: POISE-2 randomized aspirin and clonidine, not a pressure target. Hypotension in the substudy was an observed exposure.
       - text: The POQI statements, which specify a single mandatory MAP for every patient
         correct: false
         explanation: The POQI statements describe ranges and risk, and record that a 2007 review found 140 definitions of intraoperative hypotension. They do not mandate one number for everyone.
       - text: Liem 2020, because it used only relative thresholds
         correct: false
-        explanation: Liem 2020 characterised multiple absolute MAP thresholds from 50 to 75 mmHg by cumulative minutes, duration and area under threshold. It is an absolute-threshold study, but the direct absolute-versus-relative comparison is Salmasi 2017.
+        explanation: Liem 2020 characterized multiple absolute MAP thresholds from 50 to 75 mmHg by cumulative minutes, duration and area under threshold. It is an absolute-threshold study, but the direct absolute-versus-relative comparison is Salmasi 2017.
   - id: pacu-d05-q4
     stem: "The POQI postoperative blood pressure statement describes the odds of a poor outcome with hypotension on postoperative days 1 to 4 as almost three times as high. Why does the statement single out that period?"
     teachingPoint: The largest hypotension exposure is the one nobody is watching.
@@ -82,7 +82,7 @@ quiz:
       - text: Because prolonged hypotension can go unseen when ward vital signs are taken only every 4 to 6 hours
         correct: true
         explanation: The statement links the elevated odds on days 1 to 4 to intermittent ward observation, where vital signs are taken only every 4 to 6 hours and prolonged hypotension can go unseen.
-      - text: Because anaesthetic drugs reach peak effect on postoperative day 2
+      - text: Because anesthetic drugs reach peak effect on postoperative day 2
         correct: false
         explanation: The statement makes no such claim. The point is about observation frequency, not drug pharmacology.
       - text: Because the PACU does not measure blood pressure after the first hour
@@ -90,7 +90,7 @@ quiz:
         explanation: PACU observation is continuous by staffing. The unobserved period the statement describes begins after the patient leaves.
       - text: Because hypotension on those days is always caused by bleeding
         correct: false
-        explanation: The statement does not attribute the hypotension to a single cause. It describes exposure and observation, not aetiology.
+        explanation: The statement does not attribute the hypotension to a single cause. It describes exposure and observation, not etiology.
 ---
 ## Why it matters
 
@@ -106,9 +106,9 @@ Perfusion of the myocardium and the kidney depends on the pressure gradient acro
 
 The POQI consensus statement on intraoperative hypotension records that a mean arterial pressure below 60 to 70 mmHg is associated with myocardial injury, acute kidney injury and death, and that injury is a function of both severity and duration [[sessler-2019]]. The same statement notes that a 2007 systematic review found 140 different definitions of intraoperative hypotension across 130 studies, which is why the day insists on an absolute threshold and a duration rather than a word [[sessler-2019]].
 
-Sessler 2018 analysed 9765 patients from the POISE-2 trial, in which clinically important hypotension was a systolic pressure below 90 mmHg requiring treatment [[sessler-2018]]. Hypotension occurred in 42% of patients; 590 (6.0%) had a myocardial infarction and 116 (1.2%) died within 30 days [[sessler-2018]]. For the composite of infarction and death, the intraoperative odds ratio was 1.08 (98.3% CI 1.03 to 1.12, P less than 0.001) per 10-minute increase in hypotension duration, and for the remainder of the day of surgery it was 1.03 (98.3% CI 1.01 to 1.05) per 10-minute increase [[sessler-2018]]. On postoperative days 1 to 4 the odds ratio was 2.83 (98.3% CI 1.26 to 6.35, P=0.002), but that exposure was binary, hypotension present or absent, so it cannot be quoted in the same per-time units as the other two [[sessler-2018]].
+Sessler 2018 analyzed 9765 patients from the POISE-2 trial, in which clinically important hypotension was a systolic pressure below 90 mmHg requiring treatment [[sessler-2018]]. Hypotension occurred in 42% of patients; 590 (6.0%) had a myocardial infarction and 116 (1.2%) died within 30 days [[sessler-2018]]. For the composite of infarction and death, the intraoperative odds ratio was 1.08 (98.3% CI 1.03 to 1.12, P less than 0.001) per 10-minute increase in hypotension duration, and for the remainder of the day of surgery it was 1.03 (98.3% CI 1.01 to 1.05) per 10-minute increase [[sessler-2018]]. On postoperative days 1 to 4 the odds ratio was 2.83 (98.3% CI 1.26 to 6.35, P=0.002), but that exposure was binary, hypotension present or absent, so it cannot be quoted in the same per-time units as the other two [[sessler-2018]].
 
-Liem 2020 followed 1710 patients aged 60 or older after intermediate-to-high-risk noncardiac surgery, with frequent haemodynamic sampling on a high-dependency ward for the first 24 h, and characterised multiple absolute MAP thresholds from 50 to 75 mmHg by cumulative minutes, duration and area under threshold [[liem-2020]]. Two cumulative hours below 60 mmHg occurred in 144 patients (8%), and four hours below 75 mmHg in 824 (48%) [[liem-2020]]. The primary outcome was a peak high-sensitivity troponin T of 50 ng/L or more within three postoperative days, and adjusted odds ratios across the thresholds ranged from 2.18 to 3.26 [[liem-2020]].
+Liem 2020 followed 1710 patients aged 60 or older after intermediate-to-high-risk noncardiac surgery, with frequent hemodynamic sampling on a high-dependency ward for the first 24 h, and characterized multiple absolute MAP thresholds from 50 to 75 mmHg by cumulative minutes, duration and area under threshold [[liem-2020]]. Two cumulative hours below 60 mmHg occurred in 144 patients (8%), and four hours below 75 mmHg in 824 (48%) [[liem-2020]]. The primary outcome was a peak high-sensitivity troponin T of 50 ng/L or more within three postoperative days, and adjusted odds ratios across the thresholds ranged from 2.18 to 3.26 [[liem-2020]].
 
 Salmasi 2017 supplies the comparison that makes a protocol possible: absolute MAP thresholds perform about as well as percentage reductions from each patient's baseline [[salmasi-2017]]. A PACU can therefore use one fixed number without pretending to know every patient's baseline.
 
@@ -116,7 +116,7 @@ The POQI postoperative statement gathers these into a bedside form: a systolic p
 
 ## What this does not show
 
-None of these sources randomised anyone to a blood pressure. Sessler 2018 sits inside a randomised trial, but hypotension there was an observed exposure, not an allocated one, so the design is a cohort analysis within a trial population [[sessler-2018]]. Liem 2020, Salmasi 2017 and both POQI statements are cohort and consensus [[liem-2020]] [[salmasi-2017]] [[mcevoy-2019]] [[sessler-2019]]. The dose-and-duration structure is real and quantified, and it is associational. Whether treating the exposure changes any outcome is not established by anything on this page.
+None of these sources randomized anyone to a blood pressure. Sessler 2018 sits inside a randomized trial, but hypotension there was an observed exposure, not an allocated one, so the design is a cohort analysis within a trial population [[sessler-2018]]. Liem 2020, Salmasi 2017 and both POQI statements are cohort and consensus [[liem-2020]] [[salmasi-2017]] [[mcevoy-2019]] [[sessler-2019]]. The dose-and-duration structure is real and quantified, and it is associational. Whether treating the exposure changes any outcome is not established by anything on this page.
 
 Liem 2020 also carries a result that cuts against the intuition the day builds on: in that cohort, intraoperative hypotension was independently not associated with myocardial injury [[liem-2020]]. The exposure that carried the association was the postoperative one. That is the reason this day is about the PACU and the ward rather than the operating room, and it is also a warning against assuming that the intraoperative and postoperative exposures are the same thing measured twice.
 

@@ -13,12 +13,12 @@
   `[TODO_VERIFY]` and `[PRACTICE VARIES]` markers; a placeholder in non-draft content fails
   the build (rule 12).
 - Rule 10 applies to thresholds (TOF 0.9, Aldrete, STOP-Bang): each needs a guideline row.
-- Methaemoglobinaemia is assigned to **Day 3** and malignant hyperthermia presenting late in
+- Methemoglobinemia is assigned to **Day 3** and malignant hyperthermia presenting late in
   the PACU to **Day 7**, both in the "What this does not show" slot (`also` on `DAY_PLAN`).
   Neither has a ledger row yet; both are placeholders until one is retrieved.
 
 **Retrieval round 2 integrated and all 20 days authored (2026-09-06, all `draft: true`):** the ledger
-is 107 rows; Days 10, 13, 17, 18, 19, 20 exist; the methaemoglobinaemia and malignant hyperthermia
+is 107 rows; Days 10, 13, 17, 18, 19, 20 exist; the methemoglobinemia and malignant hyperthermia
 boundaries are written into Days 3 and 7; and the placeholders on Days 1, 2, 6, 7, 9, 11, 12, 14, 15
 and 16 are resolved where the retriever found a source. What remains open is what it reported NOT
 FOUND or NOT READ: the laryngospasm ladder, a PACU-specific hypoventilation incidence, ondansetron
@@ -32,7 +32,7 @@ silent: PONV drug specifics (dexamethasone timing, droperidol QT, ondansetron QT
 scopolamine), STOP-Bang items and cut-offs. See `docs/content-review.md` for the full list.
 
 Written 2026-09-05, Phase 0. The director supplied a list of material that the finished site
-must contain, organised as 13 domains plus five algorithm cards and a question item schema.
+must contain, organized as 13 domains plus five algorithm cards and a question item schema.
 This document maps every item on that list onto the 16-day structure and the 53-row ledger,
 so that nothing on it is lost between phases. It is a target, not content: nothing here is
 authored, and nothing here may be authored from memory (execution brief, DO NOT list;
@@ -43,11 +43,11 @@ touches the item only in passing; **no source** = zero ledger rows, cannot be wr
 one is retrieved and verified.
 
 Ledger term counts on 2026-09-05 (rows whose `supports` or citation mention the term):
-apfel 4 · TOF 4 · sugammadex 1 · neostigmine 1 · laryngospasm 3 · negative-pressure oedema 2 ·
+apfel 4 · TOF 4 · sugammadex 1 · neostigmine 1 · laryngospasm 3 · negative-pressure edema 2 ·
 OSA/STOP-Bang 2 · voiding/escort 2 · LAST/lipid 4 · delirium 2 · emergence 1 · hypotension 7 ·
 hypertension 1 · MINS/troponin 9 · hypothermia 4 · handover 5 · hypoventilation/respiratory
 depression 4 · compartment 1. **Zero rows** for: antiemetic drug specifics, Aldrete/PADSS,
-shivering drugs, malignant hyperthermia, methaemoglobinaemia, phrenic/Horner/pneumothorax,
+shivering drugs, malignant hyperthermia, methemoglobinemia, phrenic/Horner/pneumothorax,
 urinary retention, PDPH, positioning injury, anaphylaxis, naloxone/flumazenil/central
 anticholinergic syndrome.
 
@@ -70,7 +70,7 @@ Rows: murphy-2008, thilen-2023, saager-2019, kirmeier-2019, blobner-2020, fortie
 
 | Item | Status | Note |
 |---|---|---|
-| TOF ≥0.9 threshold; clinical signs insensitive incl. head lift | sourced | thilen-2023 states the threshold; fortier-2015 (RECITE) for clinical-judgement failure. Head-lift specifically: verify it is in one of these before asserting |
+| TOF ≥0.9 threshold; clinical signs insensitive incl. head lift | sourced | thilen-2023 states the threshold; fortier-2015 (RECITE) for clinical-judgment failure. Head-lift specifically: verify it is in one of these before asserting |
 | Neostigmine ceiling and paradoxical weakness at deep block | thin | thilen-2023 restricts neostigmine to minimal block; the paradoxical-weakness claim needs its own row |
 | Sugammadex dosing by depth, recurarisation, contraceptive interaction, bradycardia, anaphylaxis | thin | thilen-2023 for depth-based recommendation; the four adverse-effect items need label or guideline rows |
 | Quantitative vs qualitative monitoring | sourced | thilen-2023, kirmeier-2019 (POPULAR: monitoring did not reduce complications — the boundary slot) |
@@ -80,8 +80,8 @@ Rows: **none**. new-sources-assessment.md accepts Bayable 2023 and Ellis 2017; n
 
 | Item | Status | Note |
 |---|---|---|
-| Ordered differential (drug → paralysis → temperature → glucose → CO2 → sodium → hypoxaemia → intracranial) | no source | Bayable 2023 review may carry the differential; must be added to the ledger first |
-| Naloxone re-narcotisation (half-life) | no source | |
+| Ordered differential (drug → paralysis → temperature → glucose → CO2 → sodium → hypoxemia → intracranial) | no source | Bayable 2023 review may carry the differential; must be added to the ledger first |
+| Naloxone re-narcotization (half-life) | no source | |
 | Flumazenil seizure risk in chronic benzodiazepine users | no source | |
 | Central anticholinergic syndrome | no source | |
 
@@ -94,20 +94,20 @@ taenzer-2010 (+erratum) · Day 14 gross-2014, chung-2016-sasm.
 
 | Item | Status | Note |
 |---|---|---|
-| Laryngospasm recognition, ladder, Larson manoeuvre, IM vs IV succinylcholine dose | thin | incidence sourced (olsson-1984, visvanathan); the management ladder and doses have no row. Doses are rule-10 numbers: placeholders until sourced |
+| Laryngospasm recognition, ladder, Larson maneuver, IM vs IV succinylcholine dose | thin | incidence sourced (olsson-1984, visvanathan); the management ladder and doses have no row. Doses are rule-10 numbers: placeholders until sourced |
 | NPPE pathophysiology and supportive management | sourced | bmc-nppe-2025 (case), visvanathan-2005-airway |
-| Hypoxaemia differential: atelectasis, hypoventilation, shunt, diffusion hypoxia, aspiration | thin | fu-2004 covers hypoventilation only; the rest is physiology (`consensus_basis: physiology`) but any number needs a row |
-| Methaemoglobinaemia: triggers, ~85% plateau, methylene blue, G6PD caveat | no source | not in the day map at all. Candidate: fold into Day 3 boundary slot, or a new day |
+| Hypoxemia differential: atelectasis, hypoventilation, shunt, diffusion hypoxia, aspiration | thin | fu-2004 covers hypoventilation only; the rest is physiology (`consensus_basis: physiology`) but any number needs a row |
+| Methemoglobinemia: triggers, ~85% plateau, methylene blue, G6PD caveat | no source | not in the day map at all. Candidate: fold into Day 3 boundary slot, or a new day |
 | OSA, STOP-Bang, monitoring duration and disposition | sourced | gross-2014, chung-2016-sasm; STOP-Bang cut-offs need the SASM guideline wording verified |
 
-### 5. Haemodynamic instability → Days 5, 6, 8
+### 5. Hemodynamic instability → Days 5, 6, 8
 Rows: Day 5 sessler-2018, liem-2020, salmasi-2017, mcevoy-2019, sessler-2019 · Day 6
 sessler-2019-d6, asa-pacu-2013-d6 · Day 8 devereaux-2012, devereaux-2017, botto-2014, ruetzler-2021.
 
 | Item | Status | Note |
 |---|---|---|
-| Hypotension differential (hypovolaemia, neuraxial, anaphylaxis, ischaemia, PE, tamponade, adrenal) | thin | rows quantify hypotension exposure and outcome; the differential itself is unsourced consensus. Needs a guideline/advisory row or `expert_consensus` basis with no numbers |
-| Hypertension differential (pain, bladder, CO2, hypoxaemia, withdrawal) | thin | Day 6 has two rows on the upper limit only. Also: topic vocabulary has no `hypertension` term (ledger-debt §4c) |
+| Hypotension differential (hypovolemia, neuraxial, anaphylaxis, ischemia, PE, tamponade, adrenal) | thin | rows quantify hypotension exposure and outcome; the differential itself is unsourced consensus. Needs a guideline/advisory row or `expert_consensus` basis with no numbers |
+| Hypertension differential (pain, bladder, CO2, hypoxemia, withdrawal) | thin | Day 6 has two rows on the upper limit only. Also: topic vocabulary has no `hypertension` term (ledger-debt §4c) |
 | MINS; most perioperative MI silent | sourced | devereaux-2017 (correction to the asymptomatic figure is in extraction-findings §A2); botto-2014 still unretrieved |
 
 ### 6. Temperature disturbance → Day 7 (topic `thermoregulation`)
@@ -142,7 +142,7 @@ Rows: neal-2015, neal-2018, neal-2021-checklist, ivani-2015.
 | LAST recognition, lipid emulsion dosing | sourced | neal-2018, neal-2021-checklist (note debt item 7: checklist Figure 1 correction) |
 | Interscalene phrenic palsy, Horner | no source | |
 | Pneumothorax after supraclavicular block | no source | |
-| (Day 11 as planned: compartment syndrome, both positions) | sourced | ivani-2015 (paediatric scope), neal-2015 |
+| (Day 11 as planned: compartment syndrome, both positions) | sourced | ivani-2015 (pediatric scope), neal-2015 |
 
 ### 9. Postoperative urinary retention → no day
 No source. Nearest home: Day 15 (voiding as a discharge non-requirement). Needs a row for risk
@@ -156,9 +156,9 @@ Rows: aldecoa-2017, aldecoa-2024.
 
 | Item | Status | Note |
 |---|---|---|
-| Postoperative delirium in the elderly | sourced | aldecoa-2024 (supersedes 2017); debt item 8 on dexmedetomidine labelling |
-| Paediatric emergence delirium after sevoflurane | no source | |
-| Exclude hypoxaemia, hypoglycaemia, pain before either label | thin | likely in aldecoa-2024; verify the wording |
+| Postoperative delirium in the elderly | sourced | aldecoa-2024 (supersedes 2017); debt item 8 on dexmedetomidine labeling |
+| Pediatric emergence delirium after sevoflurane | no source | |
+| Exclude hypoxemia, hypoglycemia, pain before either label | thin | likely in aldecoa-2024; verify the wording |
 
 ### 12. Positioning injuries → no day
 No source. Ulnar, brachial plexus, POVL/ION. Candidate rows: ASA practice advisories on
@@ -181,7 +181,7 @@ Phase 3 exit).
 ## Structural items on the list that are not content
 
 ### Five algorithm cards
-Delayed emergence · Postoperative hypoxaemia · PACU hypotension · PACU hypertension ·
+Delayed emergence · Postoperative hypoxemia · PACU hypotension · PACU hypertension ·
 Laryngospasm. Not in the execution brief. They are a new page type (full-screen, standalone).
 Every step on a card is a claim and falls under rules 4 and 10 like any slot. Proposal for the
 director: a `cards` collection with the same `evidence` and `[[key]]` rules, rendered at
@@ -220,7 +220,7 @@ site footer and the README; not yet present.
 | Bucket | Items |
 |---|---|
 | Sourced now, can be authored in Phase 1–2 | Apfel score, TOF threshold and monitoring, NPPE, OSA guideline, MINS, hypothermia outcomes (contested), voiding/escort, LAST, handover, delirium in the elderly |
-| Thin: a row exists but the specific claim needs verification or a second row | rescue-class rule, neostigmine ceiling, sugammadex adverse effects, laryngospasm ladder and doses, hypoxaemia differential, hypotension and hypertension differentials, STOP-Bang cut-offs, hypothermia drug-metabolism/O2 claims, 2024 ASA Standard, exclusion rule before a delirium label |
-| No source at all: retrieve before writing | antiemetic drug specifics, all of delayed emergence (incl. naloxone, flumazenil, central anticholinergic syndrome), methaemoglobinaemia, shivering drugs, malignant hyperthermia, Aldrete/PADSS/fast-track instruments, ambulatory discharge after blocks, phrenic/Horner, pneumothorax, urinary retention, PDPH, paediatric emergence delirium, positioning injuries, anaphylaxis |
-| No day on the map | urinary retention (9), PDPH (10), positioning injuries (12), anaphylaxis (13), methaemoglobinaemia, malignant hyperthermia. Sixteen days do not hold thirteen domains plus these; the director decides whether days are added or items are folded into boundary slots |
+| Thin: a row exists but the specific claim needs verification or a second row | rescue-class rule, neostigmine ceiling, sugammadex adverse effects, laryngospasm ladder and doses, hypoxemia differential, hypotension and hypertension differentials, STOP-Bang cut-offs, hypothermia drug-metabolism/O2 claims, 2024 ASA Standard, exclusion rule before a delirium label |
+| No source at all: retrieve before writing | antiemetic drug specifics, all of delayed emergence (incl. naloxone, flumazenil, central anticholinergic syndrome), methemoglobinemia, shivering drugs, malignant hyperthermia, Aldrete/PADSS/fast-track instruments, ambulatory discharge after blocks, phrenic/Horner, pneumothorax, urinary retention, PDPH, pediatric emergence delirium, positioning injuries, anaphylaxis |
+| No day on the map | urinary retention (9), PDPH (10), positioning injuries (12), anaphylaxis (13), methemoglobinemia, malignant hyperthermia. Sixteen days do not hold thirteen domains plus these; the director decides whether days are added or items are folded into boundary slots |
 | Schema decisions for the director | optional quiz fields (`teachingPoint`, `difficulty`, `examAlignment`, `tags`); a `cards` collection; a `hypertension` topic term; `docs/content-review.md` |

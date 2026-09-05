@@ -3,7 +3,7 @@ id: day-01
 title: Residual block is common, invisible, and dangerous
 claim: Residual neuromuscular blockade below a train-of-four ratio of 0.9 is common, is not detectable by clinical examination or qualitative nerve stimulation, and is strongly associated with critical respiratory events in the PACU.
 evidence_mode: consensus_only
-consensus_basis: registry
+consensus_basis: guideline
 physiology_status: established
 clinical_claim_status: associational
 evidence:
@@ -21,7 +21,7 @@ draft: true
 review_due: null
 quiz:
   - id: pacu-d01-q1
-    stem: "In RECITE-US (Saager 2019), patients were judged ready for extubation by routine clinical judgement and qualitative peripheral nerve stimulation. What proportion had a train-of-four ratio below 0.9 at extubation?"
+    stem: "In RECITE-US (Saager 2019), patients were judged ready for extubation by routine clinical judgment and qualitative peripheral nerve stimulation. What proportion had a train-of-four ratio below 0.9 at extubation?"
     teachingPoint: The clinical exam and a qualitative twitch monitor passed two out of three patients who were still blocked.
     difficulty: basic
     examAlignment: [ABA-BASIC, ITE]
@@ -99,19 +99,19 @@ quiz:
 ---
 ## Why it matters
 
-The patient who arrives in the PACU breathing, obeying commands and holding their head up can still have a train-of-four ratio far below the threshold at which the pharyngeal muscles protect the airway. In RECITE-US, patients were judged suitable for extubation by routine clinical judgement and qualitative peripheral nerve stimulation, and 64.7% of them (165 of 255) had a TOF ratio below 0.9 at extubation, with 31.0% of those below 0.6 [[saager-2019]]. The examination that was supposed to catch residual block passed two-thirds of the patients who had it.
+The patient who arrives in the PACU breathing, obeying commands and holding their head up can still have a train-of-four ratio far below the threshold at which the pharyngeal muscles protect the airway. In RECITE-US, patients were judged suitable for extubation by routine clinical judgment and qualitative peripheral nerve stimulation, and 64.7% of them (165 of 255) had a TOF ratio below 0.9 at extubation, with 31.0% of those below 0.6 [[saager-2019]]. The examination that was supposed to catch residual block passed two-thirds of the patients who had it.
 
-The consequence of getting this wrong arrives in the first minutes of the PACU stay, as hypoxaemia or airway obstruction in a patient nobody thought was at risk.
+The consequence of getting this wrong arrives in the first minutes of the PACU stay, as hypoxemia or airway obstruction in a patient nobody thought was at risk.
 
 ## Mechanism
 
-Non-depolarising blockers occupy nicotinic receptors at the neuromuscular junction. Recovery is a gradient: the diaphragm and the large muscles that generate a head lift or a hand grip recover before the small muscles of the pharynx and the upper oesophagus that keep the airway open and protect it from aspiration. A patient can therefore breathe adequately and pass every bedside test while the muscles that matter in the PACU are still partly blocked. Qualitative nerve stimulation, watching or feeling for fade, cannot resolve the difference between a TOF ratio of 0.5 and 0.9; only a quantitative monitor that measures the ratio can. That gap between what the bedside can see and what the junction is doing is the whole mechanism of the day.
+Non-depolarizing blockers occupy nicotinic receptors at the neuromuscular junction. Recovery is a gradient: the diaphragm and the large muscles that generate a head lift or a hand grip recover before the small muscles of the pharynx and the upper esophagus that keep the airway open and protect it from aspiration. A patient can therefore breathe adequately and pass every bedside test while the muscles that matter in the PACU are still partly blocked. Qualitative nerve stimulation, watching or feeling for fade, cannot resolve the difference between a TOF ratio of 0.5 and 0.9; only a quantitative monitor that measures the ratio can. That gap between what the bedside can see and what the junction is doing is the whole mechanism of the day.
 
 ## Evidence
 
-Murphy 2008 screened 7459 general anaesthetics over one year; 61 patients developed a predefined critical respiratory event in the first 15 min of PACU stay, and 42 were matched to controls [[murphy-2008]]. Mean TOF ratio was 0.62 (SD 0.20) in cases and 0.98 (SD 0.07) in controls, a difference of 0.36 (95% CI 0.30 to 0.43, P less than 0.0001); 73.8% of cases had a TOF ratio below 0.70 and no control did [[murphy-2008]]. The commonest events were severe hypoxaemia in 22 of 42 (52.4%) and upper airway obstruction in 15 of 42 (35.7%) [[murphy-2008]].
+Murphy 2008 screened 7459 general anesthetics over one year; 61 patients developed a predefined critical respiratory event in the first 15 min of PACU stay, and 42 were matched to controls [[murphy-2008]]. Mean TOF ratio was 0.62 (SD 0.20) in cases and 0.98 (SD 0.07) in controls, a difference of 0.36 (95% CI 0.30 to 0.43, P less than 0.0001); 73.8% of cases had a TOF ratio below 0.70 and no control did [[murphy-2008]]. The commonest events were severe hypoxemia in 22 of 42 (52.4%) and upper airway obstruction in 15 of 42 (35.7%) [[murphy-2008]].
 
-RECITE-US supplies the prevalence: in a blinded multicentre cohort across 10 US community and academic hospitals, 64.7% of patients had residual block at extubation despite having been judged suitable for extubation by clinical judgement and qualitative stimulation [[saager-2019]]. The Canadian RECITE study is the companion incidence estimate; its primary record has not been reached, so no figure from it appears here [[fortier-2015]].
+RECITE-US supplies the prevalence: in a blinded multicenter cohort across 10 US community and academic hospitals, 64.7% of patients had residual block at extubation despite having been judged suitable for extubation by clinical judgment and qualitative stimulation [[saager-2019]]. The Canadian RECITE study is the companion incidence estimate; its primary record has not been reached, so no figure from it appears here [[fortier-2015]].
 
 The 2023 ASA practice guideline states a TOF ratio of 0.9 or more as the recovery threshold, recommends quantitative monitoring over qualitative or clinical assessment, recommends sugammadex for deep, moderate and shallow rocuronium- or vecuronium-induced block, describes neostigmine as a reasonable alternative only from minimal block (TOF ratio 0.4 to less than 0.9), and states that patients with a documented quantitative TOF ratio of 0.9 or more do not require pharmacological antagonism [[thilen-2023]].
 
@@ -121,7 +121,7 @@ An exploratory reanalysis of POPULAR compared a 0.95 with a 0.9 extubation thres
 
 ## What this does not show
 
-No randomised trial shows that residual block below 0.9 causes PACU respiratory morbidity, and there could not easily be one [[murphy-2008]]. Murphy 2008 is a matched case-control study nested in a single-centre cohort; RECITE-US and POPULAR are observational cohorts; the ASA document is a guideline [[murphy-2008]] [[saager-2019]] [[kirmeier-2019]] [[thilen-2023]]. The association is strong and consistent. Whether monitoring and reversal prevent the harm is not established here, and POPULAR points the other way for the complications it measured [[kirmeier-2019]]. That is why the claim says common, invisible and associated, and not most preventable.
+No randomized trial shows that residual block below 0.9 causes PACU respiratory morbidity, and there could not easily be one [[murphy-2008]]. Murphy 2008 is a matched case-control study nested in a single-center cohort; RECITE-US and POPULAR are observational cohorts; the ASA document is a guideline [[murphy-2008]] [[saager-2019]] [[kirmeier-2019]] [[thilen-2023]]. The association is strong and consistent. Whether monitoring and reversal prevent the harm is not established here, and POPULAR points the other way for the complications it measured [[kirmeier-2019]]. That is why the claim says common, invisible and associated, and not most preventable.
 
 The threshold itself is a convention under challenge. The reanalysis arguing for 0.95 is exploratory and contested, and this page does not adopt it [[blobner-2020]].
 
@@ -139,7 +139,7 @@ Measure, do not judge. A quantitative TOF ratio is the only bedside finding on t
 
 If the ratio is documented at 0.9 or more, no antagonism is needed; if it is below 0.9, the choice of agent depends on the measured depth, with neostigmine reasonable only from minimal block [[thilen-2023]]. [PRACTICE VARIES: the institutional preference between sugammadex and neostigmine, and the availability of quantitative monitors in the PACU, differ between hospitals.]
 
-Treat hypoxaemia or airway obstruction in the first minutes of PACU stay as residual block until a monitor says otherwise, because those were the two commonest events in the matched cohort and the cases were, on average, still deeply blocked [[murphy-2008]].
+Treat hypoxemia or airway obstruction in the first minutes of PACU stay as residual block until a monitor says otherwise, because those were the two commonest events in the matched cohort and the cases were, on average, still deeply blocked [[murphy-2008]].
 
 ## Check yourself
 

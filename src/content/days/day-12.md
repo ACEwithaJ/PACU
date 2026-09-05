@@ -50,7 +50,7 @@ quiz:
       - text: The guideline does not grade its evidence
         correct: false
         explanation: It does, and the grading is the boundary this day teaches.
-      - text: It is moderate to high, based on large randomised trials
+      - text: It is moderate to high, based on large randomized trials
         correct: false
         explanation: The prevention literature includes trials, but the guideline's overall range is very low to moderate.
   - id: pacu-d12-q3
@@ -75,13 +75,13 @@ quiz:
 ---
 ## Why it matters
 
-Delirium after surgery is diagnosed late because it is looked for late, and it is looked for late because screening has been treated as a ward activity. The 2024 European Society of Anaesthesiology and Intensive Care guideline moves the start line: postoperative delirium, defined per DSM-5, is to be measured with a validated screening tool at least once daily for at least three days, starting in the recovery room or PACU on the day of surgery, or at latest on postoperative day 1 [[aldecoa-2024]]. That sentence puts the first screen inside the PACU.
+Delirium after surgery is diagnosed late because it is looked for late, and it is looked for late because screening has been treated as a ward activity. The 2024 European Society of Anesthesiology and Intensive Care guideline moves the start line: postoperative delirium, defined per DSM-5, is to be measured with a validated screening tool at least once daily for at least three days, starting in the recovery room or PACU on the day of surgery, or at latest on postoperative day 1 [[aldecoa-2024]]. That sentence puts the first screen inside the PACU.
 
 The consequence of getting this wrong is the quiet patient. The form of delirium that is easiest to miss is the one that does not disturb anyone, and a screen applied only when someone is disturbed will not find it.
 
 ## Mechanism
 
-The mechanism of postoperative delirium is not settled, and the status chip on this page says so. Candidate contributions include neuroinflammation triggered by surgical injury, disruption of neurotransmission by anaesthetic and sedative drugs, disturbed sleep and circadian rhythm, pain and its treatment, and the metabolic derangements of the perioperative period acting on a brain with reduced reserve. What is settled is the clinical shape: an acute disturbance of attention and awareness that fluctuates, which is why a single observation at one time of day can miss it and why the guideline specifies a validated tool applied repeatedly.
+The mechanism of postoperative delirium is not settled, and the status chip on this page says so. Candidate contributions include neuroinflammation triggered by surgical injury, disruption of neurotransmission by anesthetic and sedative drugs, disturbed sleep and circadian rhythm, pain and its treatment, and the metabolic derangements of the perioperative period acting on a brain with reduced reserve. What is settled is the clinical shape: an acute disturbance of attention and awareness that fluctuates, which is why a single observation at one time of day can miss it and why the guideline specifies a validated tool applied repeatedly.
 
 ## Evidence
 
@@ -91,13 +91,13 @@ It supersedes the 2017 ESAIC guideline, which is cited on this site only to show
 
 ## What this does not show
 
-The guideline rests on a large randomised literature for prevention. It does not rest on trials for the claim that emergence agitation and postoperative delirium are different entities with different time courses, or for the claim that the hypoactive form is both commoner and more often missed; those are descriptive epidemiology and screening-performance claims, and the guideline's own certainty of evidence is very low to moderate [[aldecoa-2024]]. This day is therefore tagged as resting on a guideline, with the prevention material understood as the trial-based portion.
+The guideline rests on a large randomized literature for prevention. It does not rest on trials for the claim that emergence agitation and postoperative delirium are different entities with different time courses, or for the claim that the hypoactive form is both commoner and more often missed; those are descriptive epidemiology and screening-performance claims, and the guideline's own certainty of evidence is very low to moderate [[aldecoa-2024]]. This day is therefore tagged as resting on a guideline, with the prevention material understood as the trial-based portion.
 
-The rule the director's content list places here, that hypoxaemia, hypoglycaemia and pain must be excluded before either the delirium or the emergence-agitation label is applied, is likely in the guideline but has not been verified against its text: [TODO_VERIFY: the 2024 ESAIC wording on excluding hypoxaemia, hypoglycaemia and pain before labelling delirium or agitation.]
+The rule the director's content list places here, that hypoxemia, hypoglycemia and pain must be excluded before either the delirium or the emergence-agitation label is applied, is likely in the guideline but has not been verified against its text: [TODO_VERIFY: the 2024 ESAIC wording on excluding hypoxemia, hypoglycemia and pain before labeling delirium or agitation.]
 
-Paediatric emergence delirium after sevoflurane has its scale and its relative risks. The Pediatric Anesthesia Emergence Delirium scale has five items, eye contact with the caregiver, purposeful actions, awareness of surroundings, restlessness and inconsolability, each scored 1 to 4 and summed, with internal consistency 0.89 and reliability 0.84 (0.76 to 0.90); scores were higher after sevoflurane than halothane, P less than 0.008, and the abstract gives no diagnostic cut-off [[sikich-2004]]. A Cochrane review of 158 trials in 14,045 children found, against sevoflurane, a relative risk of 0.51 (0.41 to 0.63) with halothane and 0.35 (0.25 to 0.51) with propofol throughout, and as adjuncts a relative risk of 0.37 (0.29 to 0.47) with dexmedetomidine and 0.37 (0.27 to 0.50) with fentanyl, with the authors flagging pain as a confounder of the diagnosis; it gives relative risks, not an absolute incidence [[costi-2014]]. [NUMBER NEEDED: absolute incidence of emergence delirium after sevoflurane in children.]
+Pediatric emergence delirium after sevoflurane has its scale and its relative risks. The Pediatric Anesthesia Emergence Delirium scale has five items, eye contact with the caregiver, purposeful actions, awareness of surroundings, restlessness and inconsolability, each scored 1 to 4 and summed, with internal consistency 0.89 and reliability 0.84 (0.76 to 0.90); scores were higher after sevoflurane than halothane, P less than 0.008, and the abstract gives no diagnostic cut-off [[sikich-2004]]. A Cochrane review of 158 trials in 14,045 children found, against sevoflurane, a relative risk of 0.51 (0.41 to 0.63) with halothane and 0.35 (0.25 to 0.51) with propofol throughout, and as adjuncts a relative risk of 0.37 (0.29 to 0.47) with dexmedetomidine and 0.37 (0.27 to 0.50) with fentanyl, with the authors flagging pain as a confounder of the diagnosis; it gives relative risks, not an absolute incidence [[costi-2014]]. [NUMBER NEEDED: absolute incidence of emergence delirium after sevoflurane in children.]
 
-Dexmedetomidine has no US indication for delirium, emergence agitation or shivering. Its label indications are sedation of intubated adults in intensive care by infusion not exceeding 24 h, and procedural sedation of non-intubated adults and children; emergence delirium and agitation appear only as paediatric adverse reactions after discontinuation; and its principal warnings are hypotension and bradycardia, including fatalities, and transient hypertension during loading [[fda-dexmedetomidine-label-2026]]. Any use for delirium or agitation is off-label, and this page recommends none.
+Dexmedetomidine has no US indication for delirium, emergence agitation or shivering. Its label indications are sedation of intubated adults in intensive care by infusion not exceeding 24 h, and procedural sedation of non-intubated adults and children; emergence delirium and agitation appear only as pediatric adverse reactions after discontinuation; and its principal warnings are hypotension and bradycardia, including fatalities, and transient hypertension during loading [[fda-dexmedetomidine-label-2026]]. Any use for delirium or agitation is off-label, and this page recommends none.
 
 ## At the bedside
 
