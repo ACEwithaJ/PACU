@@ -23,14 +23,13 @@ Rule 9 reports each of these as a warning until `STRICT_LEDGER` is true. Never s
 - `salzwedel-2016` — Salzwedel C, Mai V, Punke MA, et al. The effect of a checklist on the quality of patient handover from the…
 - `agarwala-2019` — Agarwala AV, Lane-Fall MB, Greilich PE, et al. Consensus recommendations for the conduct, training,…
 
-## 2. Neither DOI nor PMID (11 rows)
+## 2. Neither DOI nor PMID (10 rows)
 
 Rule 5 reports each of these as a warning until `STRICT_LEDGER` is true. The identifier
 must come from the primary record, not from memory.
 
 - `fortier-2015` — Fortier LP, McKeen D, Turner K, et al. The RECITE Study: a Canadian prospective, multicenter study of the…
 - `olsson-1984` — Olsson GL, Hallen B. Laryngospasm during anaesthesia. A computer-aided incidence study in 136,929 patients.…
-- `driver-2021` — Driver CN, Laporta ML, Bergese SD, Urman RD, Di Piazza F, Overdyk FJ, Sprung J, Weingarten TN. Frequency and…
 - `sun-2015` — Sun Z, Sessler DI, Dalton JE, et al. Postoperative hypoxemia is common and persistent: a prospective blinded…
 - `mcevoy-2019` — McEvoy MD, Gupta R, Koepke EJ, et al. Perioperative Quality Initiative consensus statement on postoperative…
 - `sessler-2019` — Sessler DI, Bloomstone JA, Aronson S, et al. Perioperative Quality Initiative consensus statement on…
@@ -47,11 +46,11 @@ decides per row whether it supports the day's mechanism, magnitude or boundary.
 
 ## 4. Other fields the import could not represent faithfully
 
-### 4a. `year` was UNVERIFIED — written as `null` (1 rows)
+### 4a. `year` was UNVERIFIED — written as `null` (0 rows)
 
 The schema admits `null` for `year` only so this row can exist without an invented value.
 
-- `driver-2021` — Driver CN, Laporta ML, Bergese SD, Urman RD, Di Piazza F, Overdyk FJ, Sprung J, Weingarten TN. Frequency and…
+_(none)_
 
 ### 4b. `n` is the literal string UNVERIFIED (15 rows)
 
