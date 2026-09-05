@@ -1,0 +1,195 @@
+# Content coverage map — the finished-site target
+
+Written 2026-09-05, Phase 0. The director supplied a list of material that the finished site
+must contain, organised as 13 domains plus five algorithm cards and a question item schema.
+This document maps every item on that list onto the 16-day structure and the 53-row ledger,
+so that nothing on it is lost between phases. It is a target, not content: nothing here is
+authored, and nothing here may be authored from memory (execution brief, DO NOT list;
+validator rule 10).
+
+Status key: **sourced** = ledger rows exist for the item; **thin** = one row, or a row that
+touches the item only in passing; **no source** = zero ledger rows, cannot be written until
+one is retrieved and verified.
+
+Ledger term counts on 2026-09-05 (rows whose `supports` or citation mention the term):
+apfel 4 · TOF 4 · sugammadex 1 · neostigmine 1 · laryngospasm 3 · negative-pressure oedema 2 ·
+OSA/STOP-Bang 2 · voiding/escort 2 · LAST/lipid 4 · delirium 2 · emergence 1 · hypotension 7 ·
+hypertension 1 · MINS/troponin 9 · hypothermia 4 · handover 5 · hypoventilation/respiratory
+depression 4 · compartment 1. **Zero rows** for: antiemetic drug specifics, Aldrete/PADSS,
+shivering drugs, malignant hyperthermia, methaemoglobinaemia, phrenic/Horner/pneumothorax,
+urinary retention, PDPH, positioning injury, anaphylaxis, naloxone/flumazenil/central
+anticholinergic syndrome.
+
+---
+
+## Tier 1
+
+### 1. PONV → Day 9 (topic `ponv`)
+Rows: apfel-1999, apfel-2004, gan-2020 (+erratum), gan-2026.
+
+| Item | Status | Note |
+|---|---|---|
+| Apfel score, four factors, risk-stratified prophylaxis | sourced | apfel-1999 ladder vs gan-2026 rounded banding; planning brief §10.5 recommends Gan 2026's |
+| Rescue with a different class than prophylaxis | thin | gan-2026 covers rescue; confirm the recommendation wording is in the guideline before quoting |
+| Dexamethasone timing, droperidol QT box, ondansetron QT / vestibular limit, scopolamine lag and anticholinergic burden | no source | drug-specific claims need rows (guideline text or label). Each number is a placeholder until then |
+| TIVA, nitrous avoidance, hydration, opioid-sparing | sourced (partly) | apfel-2004 factorial trial covers propofol/nitrous/dexamethasone/ondansetron/droperidol; hydration and opioid-sparing need gan-2026 wording |
+
+### 2. Residual neuromuscular blockade → Day 1 (topic `residual_block`)
+Rows: murphy-2008, thilen-2023, saager-2019, kirmeier-2019, blobner-2020, fortier-2015.
+
+| Item | Status | Note |
+|---|---|---|
+| TOF ≥0.9 threshold; clinical signs insensitive incl. head lift | sourced | thilen-2023 states the threshold; fortier-2015 (RECITE) for clinical-judgement failure. Head-lift specifically: verify it is in one of these before asserting |
+| Neostigmine ceiling and paradoxical weakness at deep block | thin | thilen-2023 restricts neostigmine to minimal block; the paradoxical-weakness claim needs its own row |
+| Sugammadex dosing by depth, recurarisation, contraceptive interaction, bradycardia, anaphylaxis | thin | thilen-2023 for depth-based recommendation; the four adverse-effect items need label or guideline rows |
+| Quantitative vs qualitative monitoring | sourced | thilen-2023, kirmeier-2019 (POPULAR: monitoring did not reduce complications — the boundary slot) |
+
+### 3. Delayed emergence → Day 13 (topic `emergence`)
+Rows: **none**. new-sources-assessment.md accepts Bayable 2023 and Ellis 2017; neither is in the ledger yet.
+
+| Item | Status | Note |
+|---|---|---|
+| Ordered differential (drug → paralysis → temperature → glucose → CO2 → sodium → hypoxaemia → intracranial) | no source | Bayable 2023 review may carry the differential; must be added to the ledger first |
+| Naloxone re-narcotisation (half-life) | no source | |
+| Flumazenil seizure risk in chronic benzodiazepine users | no source | |
+| Central anticholinergic syndrome | no source | |
+
+Also the algorithm card "Delayed emergence" (below) depends entirely on this day.
+
+### 4. Respiratory events → Days 2, 3, 4, 14
+Rows: Day 2 olsson-1984, visvanathan-2005-laryngospasm, visvanathan-2005-airway, bmc-nppe-2025 ·
+Day 3 fu-2004, epstein-2014, asa-pacu-2013-d3 · Day 4 khanna-2020, driver-2021, sun-2015,
+taenzer-2010 (+erratum) · Day 14 gross-2014, chung-2016-sasm.
+
+| Item | Status | Note |
+|---|---|---|
+| Laryngospasm recognition, ladder, Larson manoeuvre, IM vs IV succinylcholine dose | thin | incidence sourced (olsson-1984, visvanathan); the management ladder and doses have no row. Doses are rule-10 numbers: placeholders until sourced |
+| NPPE pathophysiology and supportive management | sourced | bmc-nppe-2025 (case), visvanathan-2005-airway |
+| Hypoxaemia differential: atelectasis, hypoventilation, shunt, diffusion hypoxia, aspiration | thin | fu-2004 covers hypoventilation only; the rest is physiology (`consensus_basis: physiology`) but any number needs a row |
+| Methaemoglobinaemia: triggers, ~85% plateau, methylene blue, G6PD caveat | no source | not in the day map at all. Candidate: fold into Day 3 boundary slot, or a new day |
+| OSA, STOP-Bang, monitoring duration and disposition | sourced | gross-2014, chung-2016-sasm; STOP-Bang cut-offs need the SASM guideline wording verified |
+
+### 5. Haemodynamic instability → Days 5, 6, 8
+Rows: Day 5 sessler-2018, liem-2020, salmasi-2017, mcevoy-2019, sessler-2019 · Day 6
+sessler-2019-d6, asa-pacu-2013-d6 · Day 8 devereaux-2012, devereaux-2017, botto-2014, ruetzler-2021.
+
+| Item | Status | Note |
+|---|---|---|
+| Hypotension differential (hypovolaemia, neuraxial, anaphylaxis, ischaemia, PE, tamponade, adrenal) | thin | rows quantify hypotension exposure and outcome; the differential itself is unsourced consensus. Needs a guideline/advisory row or `expert_consensus` basis with no numbers |
+| Hypertension differential (pain, bladder, CO2, hypoxaemia, withdrawal) | thin | Day 6 has two rows on the upper limit only. Also: topic vocabulary has no `hypertension` term (ledger-debt §4c) |
+| MINS; most perioperative MI silent | sourced | devereaux-2017 (correction to the asymptomatic figure is in extraction-findings §A2); botto-2014 still unretrieved |
+
+### 6. Temperature disturbance → Day 7 (topic `thermoregulation`)
+Rows: frank-1997, kurz-1996, schmied-1996, rajagopalan-2008, sessler-2022.
+
+| Item | Status | Note |
+|---|---|---|
+| Hypothermia consequences: coagulopathy, SSI, drug metabolism, delayed emergence, shivering O2 consumption | sourced (partly) | SSI kurz-1996; blood loss schmied-1996, rajagopalan-2008; cardiac frank-1997 vs sessler-2022 (planning brief §10.7, contested). Drug metabolism and O2 consumption need rows |
+| Shivering treatment: meperidine, dexmedetomidine, clonidine | no source | |
+| MH presenting late in PACU; distinction from other hyperthermia | no source | not in the day map. Candidate: Day 7 boundary slot or new day |
+
+### 7. Discharge criteria and disposition → Days 15, 16
+Rows: Day 15 asa-pacu-2013 · Day 16 agarwala-2019, lanefall-2020, lanefall-2021-protocol,
+salzwedel-2013, salzwedel-2016.
+
+| Item | Status | Note |
+|---|---|---|
+| Modified Aldrete, PADSS, fast-track criteria | no source | asa-pacu-2013 references scoring systems generally; the instruments themselves need rows (Aldrete 1995, Chung PADSS) |
+| Escort requirement; voiding and oral intake as non-requirements | sourced | asa-pacu-2013 verbatim in gaps.md §4; planning brief §10.4 adds the 2024 ASA Standard (needs its own row) |
+| Ambulatory discharge after neuraxial vs peripheral block | no source | |
+| ASA standards incl. handoff requirement | thin | 2024 amended Standards not yet a ledger row; handover rows are Day 16 |
+
+---
+
+## Tier 2
+
+### 8. Regional complications → Day 11 (topic `regional`)
+Rows: neal-2015, neal-2018, neal-2021-checklist, ivani-2015.
+
+| Item | Status | Note |
+|---|---|---|
+| LAST recognition, lipid emulsion dosing | sourced | neal-2018, neal-2021-checklist (note debt item 7: checklist Figure 1 correction) |
+| Interscalene phrenic palsy, Horner | no source | |
+| Pneumothorax after supraclavicular block | no source | |
+| (Day 11 as planned: compartment syndrome, both positions) | sourced | ivani-2015 (paediatric scope), neal-2015 |
+
+### 9. Postoperative urinary retention → no day
+No source. Nearest home: Day 15 (voiding as a discharge non-requirement). Needs a row for risk
+factors, bladder-volume threshold, neuraxial relationship.
+
+### 10. Post-dural puncture headache → no day
+No source. Needs a row (presentation, timing, conservative and definitive management).
+
+### 11. Neurocognitive disturbance → Day 12 (topic `delirium`)
+Rows: aldecoa-2017, aldecoa-2024.
+
+| Item | Status | Note |
+|---|---|---|
+| Postoperative delirium in the elderly | sourced | aldecoa-2024 (supersedes 2017); debt item 8 on dexmedetomidine labelling |
+| Paediatric emergence delirium after sevoflurane | no source | |
+| Exclude hypoxaemia, hypoglycaemia, pain before either label | thin | likely in aldecoa-2024; verify the wording |
+
+### 12. Positioning injuries → no day
+No source. Ulnar, brachial plexus, POVL/ION. Candidate rows: ASA practice advisories on
+peripheral neuropathies and on perioperative visual loss.
+
+### 13. Anaphylaxis in PACU → no day
+No source. Delayed latex/chlorhexidine presentations, grading, epinephrine by route. Also
+appears as a line in the Day 5 hypotension differential.
+
+---
+
+## Day 10 (topic `analgesia`) — on the day map, not on the director's list
+Zero ledger rows; new-sources-assessment accepts Aubrun (morphine titration). The director's
+list has no analgesia domain; the day is either the home for "opioid-sparing multimodal
+analgesia" (PONV item) and naloxone (delayed-emergence item), or it is cut (planning brief
+Phase 3 exit).
+
+---
+
+## Structural items on the list that are not content
+
+### Five algorithm cards
+Delayed emergence · Postoperative hypoxaemia · PACU hypotension · PACU hypertension ·
+Laryngospasm. Not in the execution brief. They are a new page type (full-screen, standalone).
+Every step on a card is a claim and falls under rules 4 and 10 like any slot. Proposal for the
+director: a `cards` collection with the same `evidence` and `[[key]]` rules, rendered at
+`/c/<id>/`, one per card, authored in Phase 2 after the days they depend on exist. Three of
+the five depend on days with thin or no sources (delayed emergence, hypotension differential,
+laryngospasm ladder).
+
+### Question item schema
+The brief's QuizItem is `id, stem, options[{text, correct, explanation}]`, min 3 max 5 options,
+exactly one correct, every option explained. The director's list adds: `domainId`, `topicId`,
+`correctAnswer`, `teachingPoint`, `difficulty` (basic/advanced/expert), `examAlignment`
+(ABA-BASIC/ABA-ADVANCED/ITE/nursing), `tags`. Additive; none conflicts. `correctAnswer` is
+already expressed by `correct: true`. Recommend adding `teachingPoint`, `difficulty`,
+`examAlignment`, `tags` as optional fields in Phase 1 and making them required once every day
+carries them, so that Day 3's three items do not break. `domainId`/`topicId` are the ledger
+`topic` vocabulary plus the day id, and need no new field.
+
+Quality rules (judgment over recall, "what next" items, no all/none-of-the-above, threshold
+item paired with an application item, 12–20 items per Tier 1 domain, BASIC weights mechanism,
+ADVANCED/ITE weight sequencing) are authoring rules, not schema. Two are enforceable by the
+validator later: no "all of the above"/"none of the above" option text; item count per day.
+
+### Accuracy requirements
+Already the design: `[NUMBER NEEDED: …]` is the brief's placeholder and rule 10 makes an
+unsourced number fail the build, which is stronger than a `TODO_VERIFY` marker. If the director
+prefers the `TODO_VERIFY` spelling, the validator can accept both. `CONTENT_REVIEW.md` maps onto
+`docs/ledger-debt.md` (source gaps) plus a to-be-created `docs/content-review.md` listing every
+placeholder and every "practice varies" statement per day; the validator can generate the
+placeholder half automatically. "Educational only, not clinical decision support" belongs in the
+site footer and the README; not yet present.
+
+---
+
+## Summary for the director
+
+| Bucket | Items |
+|---|---|
+| Sourced now, can be authored in Phase 1–2 | Apfel score, TOF threshold and monitoring, NPPE, OSA guideline, MINS, hypothermia outcomes (contested), voiding/escort, LAST, handover, delirium in the elderly |
+| Thin: a row exists but the specific claim needs verification or a second row | rescue-class rule, neostigmine ceiling, sugammadex adverse effects, laryngospasm ladder and doses, hypoxaemia differential, hypotension and hypertension differentials, STOP-Bang cut-offs, hypothermia drug-metabolism/O2 claims, 2024 ASA Standard, exclusion rule before a delirium label |
+| No source at all: retrieve before writing | antiemetic drug specifics, all of delayed emergence (incl. naloxone, flumazenil, central anticholinergic syndrome), methaemoglobinaemia, shivering drugs, malignant hyperthermia, Aldrete/PADSS/fast-track instruments, ambulatory discharge after blocks, phrenic/Horner, pneumothorax, urinary retention, PDPH, paediatric emergence delirium, positioning injuries, anaphylaxis |
+| No day on the map | urinary retention (9), PDPH (10), positioning injuries (12), anaphylaxis (13), methaemoglobinaemia, malignant hyperthermia. Sixteen days do not hold thirteen domains plus these; the director decides whether days are added or items are folded into boundary slots |
+| Schema decisions for the director | optional quiz fields (`teachingPoint`, `difficulty`, `examAlignment`, `tags`); a `cards` collection; a `hypertension` topic term; `docs/content-review.md` |
