@@ -49,7 +49,7 @@ quiz:
         explanation: Subjects were surgical patients, not volunteers. Phase 1 was conducted in the operating room and phase 2 in the PACU.
       - text: Phase 2 was a prospective randomised clinical trial of surgical patients in the PACU
         correct: true
-        explanation: Phase 1 was a prospective patient-controlled clinical trial in the operating room; phase 2 was a prospective randomised clinical trial in the PACU. The ledger's provisional design label of cohort is wrong and is a director item.
+        explanation: Phase 1 was a prospective patient-controlled clinical trial in the operating room; phase 2 was a prospective randomised clinical trial in the PACU.
       - text: The study was a retrospective review of PACU oximetry records
         correct: false
         explanation: Both phases were prospective. Phase 2 assigned inspired oxygen by randomisation and measured SpO2 every minute.
