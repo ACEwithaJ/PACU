@@ -1,21 +1,26 @@
 name: bootstrap
 
 # The toolchain bridge. The director's machine has no Node, so the parts of
-# Phase 0 that must execute (generate package-lock.json, run the ledger import,
-# run the validator and the build) happen here and are committed back to the
-# branch. Modelled on the sibling project's bootstrap-lockfile workflow.
+# the work that must execute (generate package-lock.json, run the ledger
+# import, regenerate docs/content-review.md, run the validator and the build)
+# happen here. Modelled on the sibling project's bootstrap-lockfile workflow.
 #
-# Runs on every push to phase0-skeleton. Commits it makes use GITHUB_TOKEN,
-# which does not trigger further workflow runs, so there is no loop — and it
-# also means ci.yml does NOT run on the bot's commit. This workflow therefore
-# runs the full pipeline itself and writes the result to .ci/REPORT.md so the
-# evidence is readable with `git pull`.
+# Runs on every push to any branch except main.
 #
-# Delete after Phase 0, or keep as the "run the toolchain for me" button.
+# Two outputs:
+#   1. Generated files (lockfile, ledger YAML, debt file, content review) are
+#      committed back to the branch ONLY when they changed. A bot commit moves
+#      the PR head without triggering ci.yml (GITHUB_TOKEN pushes never do),
+#      so after one the author must push again for the required check to run.
+#      The job says so in its summary.
+#   2. The full pipeline log goes to the `ci-reports` branch as
+#      reports/<branch>.md, never to the working branch, so the PR head does
+#      not move on every run. Read it with:
+#        git fetch origin ci-reports && git show origin/ci-reports:reports/<branch>.md
 
 on:
   push:
-    branches: ["phase0-skeleton"]
+    branches-ignore: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -51,7 +56,7 @@ jobs:
           set -o pipefail
           mkdir -p .ci
           {
-            echo "# CI report"
+            echo "# CI report — ${GITHUB_REF_NAME}"
             echo
             echo "Commit: ${GITHUB_SHA}  ·  Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
             echo
@@ -71,17 +76,13 @@ jobs:
           npm run build 2>&1 | tee -a .ci/REPORT.md || st=1
           echo '```' >> .ci/REPORT.md
           echo >> .ci/REPORT.md
-          # Phase 0 exit criterion: Day 3 renders with the DRAFT banner, the
-          # evidence chip, a source card for fu-2004, and the quiz island.
-          # Nobody on this project can open dist/ locally, so the markers are
-          # counted here and written into the report.
           echo '## Day 3 render markers (dist/d/day-03/index.html)' >> .ci/REPORT.md
           echo '```' >> .ci/REPORT.md
           f=dist/d/day-03/index.html
           if [ -f "$f" ]; then
             for m in 'class="draft-banner"' 'chip mode' 'Consensus only' 'id="src-fu-2004"' 'href="#src-fu-2004"' 'https://doi.org/' 'badge paywalled' 'id="quiz"' 'Progress is not saved' 'data-quiz-item' '<h2 id="check-yourself"' 'NUMBER NEEDED'; do
-              printf '%-28s %s\n' "$m" "$(grep -o -F "$m" "$f" | wc -l)" >> .ci/REPORT.md
-            done
+              printf '%-28s %s\n' "$m" "$(grep -o -F "$m" "$f" | wc -l)"
+            done >> .ci/REPORT.md
           else
             echo "$f not built" >> .ci/REPORT.md
           fi
@@ -90,18 +91,46 @@ jobs:
           echo "## Result: $([ $st = 0 ] && echo GREEN || echo RED)" >> .ci/REPORT.md
           exit $st
 
-      - name: Commit generated files and the report
+      - name: Commit generated files (only if they changed)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A package-lock.json src/content/ledger docs/ledger-debt.md docs/content-review.md .ci/REPORT.md
+          git add -A package-lock.json src/content/ledger docs/ledger-debt.md docs/content-review.md
           if git diff --cached --quiet; then
-            echo "nothing to commit"
+            echo "generated files unchanged; PR head not moved"
           else
-            git commit -m "ci: lockfile, ledger YAML, debt file, report (generated on CI)"
+            git commit -m "ci: generated files (lockfile / ledger YAML / debt / content review)"
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin HEAD:"${GITHUB_REF_NAME}"
+            echo "::warning::generated files were committed to ${GITHUB_REF_NAME}. The PR head moved and ci.yml did not run on it — push again so the required check runs."
+            echo "### Generated files committed — push again so ci runs on the new head" >> "$GITHUB_STEP_SUMMARY"
           fi
+
+      - name: Publish the report to the ci-reports branch
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          rep=$(mktemp -d)
+          cd "$rep"
+          git init -q
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git fetch -q origin ci-reports 2>/dev/null; then
+            git checkout -q -b ci-reports FETCH_HEAD
+          else
+            git checkout -q --orphan ci-reports
+            echo "# CI reports" > README.md
+            echo "One file per branch, overwritten on every bootstrap run. Read with: git show origin/ci-reports:reports/<branch>.md" >> README.md
+          fi
+          mkdir -p reports
+          cp "${GITHUB_WORKSPACE}/.ci/REPORT.md" "reports/${GITHUB_REF_NAME}.md"
+          git add -A
+          git commit -q -m "report: ${GITHUB_REF_NAME} @ ${GITHUB_SHA::7}" || echo "report unchanged"
+          git push -q origin HEAD:ci-reports
+          cat "${GITHUB_WORKSPACE}/.ci/REPORT.md" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload dist
         if: always()
@@ -115,5 +144,5 @@ jobs:
       - name: Fail the job if the pipeline failed
         if: steps.pipeline.outcome == 'failure'
         run: |
-          echo "pipeline failed — see .ci/REPORT.md on the branch"
+          echo "pipeline failed — see reports/${GITHUB_REF_NAME}.md on the ci-reports branch"
           exit 1

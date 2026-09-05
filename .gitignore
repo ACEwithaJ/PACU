@@ -24,3 +24,6 @@ pnpm-debug.log*
 
 # planning brief §3.2 / execution brief DO NOT: no third-party PDF ever enters this repo
 *.pdf
+
+# bootstrap workflow scratch; the report goes to the ci-reports branch
+.ci/

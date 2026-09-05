@@ -13,8 +13,9 @@
   `[TODO_VERIFY]` and `[PRACTICE VARIES]` markers; a placeholder in non-draft content fails
   the build (rule 12).
 - Rule 10 applies to thresholds (TOF 0.9, Aldrete, STOP-Bang): each needs a guideline row.
-- Still undecided: methaemoglobinaemia and malignant hyperthermia have no day. Candidates are
-  the boundary slots of Day 3 and Day 7, or Days 21–22.
+- Methaemoglobinaemia is assigned to **Day 3** and malignant hyperthermia presenting late in
+  the PACU to **Day 7**, both in the "What this does not show" slot (`also` on `DAY_PLAN`).
+  Neither has a ledger row yet; both are placeholders until one is retrieved.
 
 Written 2026-09-05, Phase 0. The director supplied a list of material that the finished site
 must contain, organised as 13 domains plus five algorithm cards and a question item schema.

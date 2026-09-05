@@ -38,11 +38,25 @@ export const STRICT_LEDGER = false;
 export const DAY_PLAN = [
   { day: 1, topic: "residual_block", title: "Residual neuromuscular blockade" },
   { day: 2, topic: "airway", title: "Upper airway obstruction and laryngospasm" },
-  { day: 3, topic: "oxygenation", title: "Supplemental oxygen hides hypoventilation" },
+  {
+    day: 3,
+    topic: "oxygenation",
+    title: "Supplemental oxygen hides hypoventilation",
+    // Director 2026-09-05: methaemoglobinaemia lives here (boundary slot:
+    // a second way the oximeter reads wrong). Needs its own ledger rows.
+    also: ["methaemoglobinaemia"],
+  },
   { day: 4, topic: "respiratory_depression", title: "Respiratory depression after the PACU" },
   { day: 5, topic: "hypotension", title: "Postoperative hypotension" },
   { day: 6, topic: "hypertension", title: "Postoperative hypertension" },
-  { day: 7, topic: "thermoregulation", title: "Perioperative hypothermia" },
+  {
+    day: 7,
+    topic: "thermoregulation",
+    title: "Perioperative hypothermia",
+    // Director 2026-09-05: malignant hyperthermia presenting late in the
+    // PACU lives here (boundary slot). Needs its own ledger rows.
+    also: ["malignant hyperthermia presenting late in the PACU"],
+  },
   { day: 8, topic: "myocardial_injury", title: "Myocardial injury after noncardiac surgery" },
   { day: 9, topic: "ponv", title: "Postoperative nausea and vomiting" },
   { day: 10, topic: "analgesia", title: "PACU opioid titration" },

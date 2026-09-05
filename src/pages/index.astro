@@ -39,6 +39,7 @@ const cardById = new Map(cards.map((c) => [c.data.id, c]));
                   <span class="chip">not yet authored</span>
                 </>
               )}
+              {p.also?.map((a) => <span class="chip">also: {a}</span>)}
             </li>
           );
         })
