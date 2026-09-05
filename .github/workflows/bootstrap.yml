@@ -125,7 +125,8 @@ jobs:
             echo "# CI reports" > README.md
             echo "One file per branch, overwritten on every bootstrap run. Read with: git show origin/ci-reports:reports/<branch>.md" >> README.md
           fi
-          mkdir -p reports
+          # branch names may contain slashes (ledger/fu-2004): create the subdirectory
+          mkdir -p "reports/$(dirname "${GITHUB_REF_NAME}")"
           cp "${GITHUB_WORKSPACE}/.ci/REPORT.md" "reports/${GITHUB_REF_NAME}.md"
           git add -A
           git commit -q -m "report: ${GITHUB_REF_NAME} @ ${GITHUB_SHA::7}" || echo "report unchanged"

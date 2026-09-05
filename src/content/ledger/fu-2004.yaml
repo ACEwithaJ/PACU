@@ -1,18 +1,26 @@
 # Generated from data/ledger.csv by scripts/ledger-import.mjs.
 # This file is now authoritative; the CSV is provenance. Edit here.
 # Rerunning the import will not overwrite it without --force.
+#
+# Corrected 2026-09-05 on director instruction, from director-held documents only:
+#   doi     - docs/phase0-execution-brief.md (verification criteria)
+#   design  - docs/extraction-findings.md section A4: two-phase study; phase 2 is a
+#             prospective randomised clinical trial (the phase the day's claim rests on)
+#   n       - docs/extraction-findings.md section A4 and section B Day 3
+#   supports- docs/extraction-findings.md section B Day 3, read from the held PDF
+# Still unverified, left as they were: pmid (null), access (paywalled, debt section 1).
 key: fu-2004
 day: 3
 citation: Fu ES, Downs JB, Schweiger JW, Miguel RV, Smith RA. Supplemental oxygen impairs detection of hypoventilation by pulse oximetry. Chest. 2004 Nov;126(5):1552-1558.
-doi: null
+doi: 10.1378/chest.126.5.1552
 pmid: null
-design: cohort
+design: rct
 year: 2004
-n: UNVERIFIED
+n: "Phase 1 n=45 (OR, patient-controlled: FiO2 0.21 n=25, 0.25 n=10, 0.30 n=10); phase 2 n=288 randomised in the PACU (room air 155, supplemental O2 133)"
 access: paywalled
 currency: era_limited
 topic: oxygenation
 claim_support: magnitude
-supports: The single primary source behind the whole day. Secondary descriptions state that after breathing at roughly half normal minute ventilation for ~10 min, about 50% of room-air subjects fell below SpO2 90% while nearly all subjects on FiO2 0.25-0.30 stayed above 90%. THESE NUMBERS ARE NOT VERIFIED AGAINST THE PRIMARY RECORD. Design assignment is provisional.
-found_via: Cited in APSF newsletter correspondence, Univ of Florida virtual anesthesia machine teaching page, and a US patent specification
-verified_on: 2026-09-02, citation string only, from three independent secondary sources - NOT VERIFIED
+supports: "Two-phase study in surgical patients, not volunteers. Phase 1 (OR, n=45): hypoventilation defined as a 50% reduction in minute ventilation; SpO2 declined only in the room-air group, with no decline at all at FiO2 0.25 or 0.30. Phase 2 (PACU, n=288, randomised room air vs supplemental O2, SpO2 every minute for up to 40 min): desaturation below SpO2 90% in 9.0% on room air vs 2.3% on supplemental O2, P=0.02. The direction is the teaching trap: supplemental oxygen removes the oximeter's hypoventilation signal."
+found_via: "Cited in APSF newsletter correspondence, Univ of Florida virtual anesthesia machine teaching page, and a US patent specification; PDF subsequently held and extracted (docs/extraction-findings.md)"
+verified_on: "2026-09-04, figures read from the held PDF (docs/extraction-findings.md A4 and B Day 3); DOI from docs/phase0-execution-brief.md; PMID and access status still unverified"
