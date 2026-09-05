@@ -17,6 +17,15 @@
   the PACU to **Day 7**, both in the "What this does not show" slot (`also` on `DAY_PLAN`).
   Neither has a ledger row yet; both are placeholders until one is retrieved.
 
+**Retrieval round 2 integrated and all 20 days authored (2026-09-06, all `draft: true`):** the ledger
+is 107 rows; Days 10, 13, 17, 18, 19, 20 exist; the methaemoglobinaemia and malignant hyperthermia
+boundaries are written into Days 3 and 7; and the placeholders on Days 1, 2, 6, 7, 9, 11, 12, 14, 15
+and 16 are resolved where the retriever found a source. What remains open is what it reported NOT
+FOUND or NOT READ: the laryngospasm ladder, a PACU-specific hypoventilation incidence, ondansetron
+and the vestibular component, Horner syndrome incidence, the Aldrete/PADSS/fast-track items, the
+ESAIC 2024 exclusion wording, brachial plexus injury, peripheral-block retention risk, and the five
+algorithm cards. `docs/content-review.md` is the live list.
+
 **Phase 1 authored 2026-09-05 (all `draft: true`, awaiting director clearance):** Day 5
 hypotension, Day 8 MINS, Day 9 PONV, Day 14 OSA. Placeholders left where the sources are
 silent: PONV drug specifics (dexamethasone timing, droperidol QT, ondansetron QT/vestibular,

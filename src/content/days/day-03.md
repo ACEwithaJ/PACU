@@ -8,6 +8,10 @@ physiology_status: established
 clinical_claim_status: supported
 evidence:
   - fu-2004
+  - doufas-2023
+  - guay-2009
+  - barker-1989
+  - fda-methylene-blue-label-2025
 draft: true
 review_due: null
 quiz:
@@ -59,7 +63,7 @@ quiz:
 ---
 ## Why it matters
 
-Most patients arrive in the PACU breathing supplemental oxygen, and most are monitored with a pulse oximeter. The oximeter is trusted as the monitor that will announce respiratory trouble. On supplemental oxygen it cannot do that job for hypoventilation: a patient can retain carbon dioxide for a long time while the saturation stays reassuring. The number that would tell you how often this happens on a typical PACU is [NUMBER NEEDED: incidence of hypoventilation or hypercapnia in PACU patients receiving supplemental oxygen], and it is not in the source held for this day.
+Most patients arrive in the PACU breathing supplemental oxygen, and most are monitored with a pulse oximeter. The oximeter is trusted as the monitor that will announce respiratory trouble. On supplemental oxygen it cannot do that job for hypoventilation: a patient can retain carbon dioxide for a long time while the saturation stays reassuring. The number that would tell you how often this happens on a typical PACU has not been found: [NUMBER NEEDED: incidence of hypoventilation or hypercapnia in PACU patients receiving supplemental oxygen]. The nearest measurement is from the ward, where patients on supplemental oxygen had 2.7 times the rate of opioid-induced respiratory depression episodes of patients on room air (incidence rate ratio 2.7, 95% CI 1.4 to 5.1) while their desaturation events did not differ [[doufas-2023]].
 
 The consequence of getting this wrong is not a missed alarm. It is an alarm that is structurally impossible on the monitor you are watching.
 
@@ -81,7 +85,9 @@ In phase 2, PACU patients were randomised to room air (n=155) or supplemental ox
 
 Phase 2 found desaturation *more* common on room air: 9.0% versus 2.3% [[fu-2004]]. Read quickly, that says room air is dangerous and oxygen is protective. That reading inverts the study. Both groups were recovering from anaesthesia and both hypoventilated; the room-air group desaturated because room air lets the oximeter see hypoventilation, and the oxygen group did not desaturate because oxygen removes the signal. The direction of the result is the point, not a contradiction of it.
 
-The study does not show that room air is the right choice for PACU patients, and it does not show that supplemental oxygen harms them. It shows that on supplemental oxygen the pulse oximeter is not a ventilation monitor. Whether routine oxygen changes any patient outcome is a separate question this source does not answer.
+The study does not show that room air is the right choice for PACU patients, and it does not show that supplemental oxygen harms them. It shows that on supplemental oxygen the pulse oximeter is not a ventilation monitor. Whether routine oxygen changes any patient outcome is a separate question this source does not answer. The ward observation that respiratory depression episodes were 2.7 times more frequent on supplemental oxygen while desaturations did not differ is the same mechanism seen with capnography, and it comes from the ward, not the PACU [[doufas-2023]].
+
+The oximeter reads wrong in a second way, and this day carries it as its boundary. In methaemoglobinaemia the pulse oximeter overestimates the true saturation in proportion to the methaemoglobin fraction until about 35%, where it plateaus at 84 to 86% and does not fall further even as the true saturation continues to drop; that plateau was measured in anaesthetised dogs, and the design vocabulary has no term for an animal study [[barker-1989]]. In a summary of 242 published episodes related to local anaesthetics, a saturation of 90% or below with an arterial oxygen tension of 70 mmHg or more was present in 91.8%, the gap between the oximeter and co-oximetry ranged from minus 6.2% to 44.7%, a single spray of benzocaine was enough to induce it, coma was reported at methaemoglobin fractions of 32.2% in children and 29.1% in adults, and rebound to 59.9% up to 18 h after methylene blue was described with mucosal benzocaine; the author's conclusion is that benzocaine should no longer be used [[guay-2009]]. The treatment has a label: methylene blue 1 mg/kg intravenously over 5 to 30 min, repeated once after an hour if the fraction stays above 30% or symptoms persist; it is contraindicated in G6PD deficiency, where it risks haemolysis and may not work, it carries a boxed warning for serotonin syndrome with serotonergic drugs and opioids, and it can itself lower the oximeter reading [[fda-methylene-blue-label-2025]].
 
 ## At the bedside
 

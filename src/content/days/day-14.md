@@ -9,6 +9,8 @@ clinical_claim_status: untested
 evidence:
   - gross-2014
   - chung-2016-sasm
+  - chung-2008-stop
+  - chung-2012-stopbang
 draft: true
 review_due: null
 quiz:
@@ -94,7 +96,7 @@ Neither guideline offers a duration, a monitoring modality or a discharge criter
 
 The two guidelines do not disagree; they hedge differently. The ASA document states an obligation with an opinion qualifier, and the SASM document states the limits of its own evidence base [[gross-2014]] [[chung-2016-sasm]]. Neither is a substitute for a monitoring protocol, and neither says that any particular protocol works.
 
-Screening instruments and their cut-offs are on the director's content list for this day and are not in the held sources: [NUMBER NEEDED: STOP-Bang questionnaire items and the cut-off scores used to define increased risk]. Until a ledger row carries them, this page does not state them.
+The screening instrument has its derivation. STOP asks four yes-or-no questions, Snoring, Tiredness, Observed apnoea and blood Pressure; in surgical patients its sensitivity for an apnoea-hypopnoea index above 5, 15 and 30 was 65.6%, 74.3% and 79.5%, rising to 83.6%, 92.9% and 100% when body mass index, age, neck circumference and gender were added to make STOP-Bang [[chung-2008-stop]]. The numeric Bang thresholds and the cut-off of three are not in the abstract: [NUMBER NEEDED: the STOP-Bang item thresholds and the cut-off score, from the full text]. What the score means at the top end is measured: among surgical patients with polysomnography, a STOP-Bang score of 5 carried an odds ratio of 4.8 for moderate-to-severe and 10.4 for severe sleep apnoea, a score of 6 carried 6.3 and 11.6, and a score of 7 to 8 carried 6.9 and 14.9, with the predicted probability of moderate-to-severe disease rising from 0.36 at a score of 3 to 0.60 at 7 to 8; a score of 5 to 8 identifies a high probability of moderate-to-severe apnoea [[chung-2012-stopbang]]. None of that supplies a monitoring duration, which is the number the guideline says does not exist.
 
 ## At the bedside
 

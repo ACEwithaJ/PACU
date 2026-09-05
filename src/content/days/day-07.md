@@ -12,6 +12,13 @@ evidence:
   - schmied-1996
   - rajagopalan-2008
   - sessler-2022
+  - leslie-1995
+  - hausmann-1991
+  - kranke-2002
+  - wang-2020-dex-shivering
+  - fda-dexmedetomidine-label-2026
+  - litman-2008
+  - larach-2010
 draft: true
 review_due: null
 quiz:
@@ -106,7 +113,7 @@ Core temperature falls under anaesthesia because vasodilatation redistributes he
 
 Frank 1997 randomised 300 patients with documented coronary disease or high cardiac risk having abdominal, thoracic or vascular surgery to routine thermal care or supplemental warming [[frank-1997]]. Mean postoperative core temperature was 35.4 °C (SD 0.1) in the hypothermic group and 36.7 °C (SD 0.1) in the normothermic group, P less than .001 [[frank-1997]]. Morbid cardiac events, unstable angina or ischaemia, cardiac arrest or myocardial infarction, occurred in 1.4% of normothermic and 6.3% of hypothermic patients, P=.02; hypothermia was an independent predictor, RR 2.2 (95% CI 1.1 to 4.7, P=.04), and postoperative ventricular tachycardia occurred in 2.4% versus 7.9%, P=.04, with outcomes assessed double-blind [[frank-1997]].
 
-Kurz 1996 randomised 200 colorectal surgery patients to routine intraoperative thermal care or additional warming and is the landmark wound-infection and length-of-stay result; the effect sizes have not been read from the primary record, so they are placeholders here: [NUMBER NEEDED: surgical site infection rates and length of stay by arm in Kurz 1996] [[kurz-1996]]. Schmied 1996 is the blood-loss limb in total hip arthroplasty [[schmied-1996]].
+Kurz 1996 randomised 200 colorectal surgery patients to routine intraoperative thermal care or additional warming: final core temperature was 34.7 °C (SD 0.6) against 36.6 °C (SD 0.5); surgical wound infection occurred in 18 of 96 (19%) hypothermic and 6 of 104 (6%) normothermic patients, P=0.009; sutures were removed one day later in the hypothermic group, P=0.002; and hospitalisation was prolonged by 2.6 days, about 20%, P=0.01 [[kurz-1996]]. Schmied 1996 is the blood-loss limb in total hip arthroplasty [[schmied-1996]].
 
 Rajagopalan 2008 pooled 14 studies for blood loss and 10 for transfusion, with hypothermia defined as 34 to 36 °C and a median temperature difference between arms of 0.85 °C (quartiles 0.60 and 1.1) [[rajagopalan-2008]]. The ratio of geometric means for blood loss was 0.84 (0.74 to 0.96), P=0.009, so hypothermia increased blood loss by about 16% (4 to 26%), and the transfusion relative risk was 0.78 (95% CI 0.63 to 0.97), P=0.027, so hypothermia increased the relative risk of transfusion by about 22% (3 to 37%) [[rajagopalan-2008]].
 
@@ -118,7 +125,11 @@ The reconciliation usually offered, that the old trials and PROTECT cover differ
 
 The 1990s trials are era-limited: single surgical populations, pre-modern infection bundles, pre-modern warming equipment [[kurz-1996]]. PROTECT excluded patients with a body mass index above 30 and those on dialysis [[sessler-2022]].
 
-Items on the director's content list for this day that the held sources do not carry are placeholders: [NUMBER NEEDED: effect of hypothermia on drug metabolism and on oxygen consumption with shivering] [NUMBER NEEDED: shivering treatment with meperidine, dexmedetomidine or clonidine, doses and evidence]. Malignant hyperthermia presenting late in the PACU is assigned to this day's boundary and has no ledger row yet: [NUMBER NEEDED: features distinguishing late malignant hyperthermia from other causes of hyperthermia and tachycardia in the PACU].
+The other consequences the day's content list expects have small, old sources. In six volunteers, mild hypothermia at 34 °C raised propofol blood concentrations by about 28% compared with 37 °C, P less than 0.05, and prolonged the action of atracurium by an amount that sits in the unread part of the abstract [[leslie-1995]]. Oxygen consumption with shivering was measured by indirect calorimetry in 24 patients: shivering occurred in 8 of 12 after isoflurane, with a maximum oxygen consumption of 639 mL/min against 121 to 225 mL/min during steady-state anaesthesia, and meperidine 25 mg intravenously reduced it significantly [[hausmann-1991]].
+
+Shivering treatment has a quantitative review: meperidine 25 mg had a number needed to treat of 1.3 at 5 min (relative risk 9.6, 95% CI 5.7 to 16), clonidine 150 µg 1.3 at 5 min (RR 6.8, 3.3 to 14.2), doxapram 100 mg 1.7 and ketanserin 10 mg 2.3, with adverse-effect reporting sparse and the search closed in 2000, before dexmedetomidine [[kranke-2002]]. A later meta-analysis of six trials after spinal anaesthesia found dexmedetomidine superior to clonidine for effective rate, time to cessation and recurrence, with less hypotension and more sedation, in a setting that is not the post-general-anaesthesia PACU and with effect sizes not captured [[wang-2020-dex-shivering]]. Dexmedetomidine's label carries no indication for shivering; its indications are ICU sedation of intubated adults and procedural sedation, with hypotension and bradycardia, including fatalities, as its principal warnings [[fda-dexmedetomidine-label-2026]].
+
+Malignant hyperthermia presenting late is this day's boundary. In the North American registry, postoperative malignant hyperthermia was confirmed in 10 of 528 suspected cases (1.9%); all had received a volatile agent and five also succinylcholine; all showed generalised rigidity, hypercapnia or tachypnoea, tachycardia and hyperthermia; no subject had hyperthermia as the presenting sign; and the latency from the end of anaesthesia to the first sign was 0 to 40 min [[litman-2008]]. Across 286 registry episodes from 1987 to 2006, the frequent initial signs were hypercarbia, sinus tachycardia and masseter spasm; a temperature abnormality, median maximum 39.1 °C, was among the first three signs in 63.5%; 78.6% had muscular abnormality with respiratory acidosis but only 26.0% metabolic acidosis; the median dantrolene dose was 5.9 mg/kg; complications occurred in 63 of 181 (34.8%), with the likelihood rising 2.9-fold per 2 °C rise in maximum temperature and 1.6-fold per 30-min delay in dantrolene [[larach-2010]]. The bedside distinction is therefore not the temperature, which comes late, but the rising carbon dioxide, the rigidity and the tachycardia in a patient who has just left a volatile anaesthetic.
 
 ## At the bedside
 

@@ -9,6 +9,7 @@ clinical_claim_status: untested
 evidence:
   - sessler-2019-d6
   - asa-pacu-2013-d6
+  - fda-clonidine-label-2022
 draft: true
 review_due: null
 quiz:
@@ -90,7 +91,7 @@ The 2013 ASA guideline on postanesthetic care states that the literature continu
 
 Neither source tests any treatment of postoperative hypertension against any outcome. The POQI document is a consensus statement and the ASA document is a guideline that describes its own literature as insufficient [[sessler-2019-d6]] [[asa-pacu-2013-d6]]. The association above 160 mmHg is an association, and the statement that draws attention to it declines, in the same sentence, to turn it into a threshold [[sessler-2019-d6]].
 
-The differential itself, pain, bladder distension, hypercarbia, hypoxaemia and drug withdrawal, is clinical reasoning that the held sources support only in part: the bladder limb is in the ASA guideline, and the rest is physiology [[asa-pacu-2013-d6]]. [TODO_VERIFY: a source for abrupt antihypertensive or clonidine withdrawal as a cause of PACU hypertension, before it appears in a quiz item.]
+The differential itself, pain, bladder distension, hypercarbia, hypoxaemia and drug withdrawal, is clinical reasoning that the held sources support only in part: the bladder limb is in the ASA guideline, and the rest is physiology [[asa-pacu-2013-d6]]. The withdrawal limb has one sourced member. The clonidine label warns that sudden cessation of clonidine treatment has, in some cases, resulted in symptoms such as nervousness, agitation, headache and tremor accompanied or followed by a rapid rise in blood pressure and elevated catecholamine concentrations in the plasma, more likely after higher doses or with a beta-blocker, with rare hypertensive encephalopathy, stroke and death, and it instructs that clonidine be continued to within four hours of surgery and resumed as soon as possible afterwards [[fda-clonidine-label-2022]]. [TODO_VERIFY: the remainder of that warning sentence, paraphrased here beyond its first clause, to be re-quoted from the label; and a source for withdrawal of other antihypertensive classes.]
 
 This day has two ledger rows, both consensus documents, and no primary study. It is the thinnest day with sources on the site, and the topic term it carries was added to the vocabulary for it.
 
