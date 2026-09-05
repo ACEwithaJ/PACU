@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: guay-2009
+day: 3
+citation: "Guay J. Methemoglobinemia related to local anesthetics: a summary of 242 episodes. Anesth Analg. 2009 Mar;108(3):837-845."
+doi: 10.1213/ane.0b013e318187c4b1
+pmid: "19224791"
+design: case_series
+year: 2009
+n: 242 published episodes
+access: paywalled
+currency: current
+topic: oxygenation
+claim_support: magnitude
+supports: "Systematic summary of 242 published episodes of local anaesthetic-related methaemoglobinaemia: SpO2 <=90% with PaO2 >=70 mmHg discrepancy in 91.8%; SpO2 minus co-oximetry difference -6.2% to 44.7%; a single spray of benzocaine may induce methaemoglobinaemia; coma reported at MetHb 32.2% (children) and 29.1% (adults); rebound MetHb up to 59.9% up to 18 h after methylene blue with mucosal benzocaine; complications include hypoxic encephalopathy, MI and death; conclusion 'Benzocaine should no longer be used'. Prilocaine adult limit 5.0 mg/kg. PubMed pubtype: Meta-Analysis."
+found_via: PubMed search
+verified_on: "2026-09-06, PubMed record 19224791 (abstract); publisher page not opened"

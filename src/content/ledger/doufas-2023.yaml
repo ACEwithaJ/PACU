@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: doufas-2023
+day: 3
+citation: "Doufas AG, et al. Incidence of postoperative opioid-induced respiratory depression episodes in patients on room air or supplemental oxygen: a post-hoc analysis of the PRODIGY trial. BMC Anesthesiol. 2023 Oct 4;23(1):332."
+doi: 10.1186/s12871-023-02291-x
+pmid: "37794334"
+design: cohort
+year: 2023
+n: "202"
+access: open
+currency: current
+topic: oxygenation
+claim_support: magnitude
+supports: "Surgical WARD patients (not PACU) with blinded continuous oximetry and capnography: 74 always on room air, 88 intermittent, 40 continuous supplemental oxygen. On supplemental oxygen vs room air: all OIRD episodes IRR 2.7 (95% CI 1.4-5.1), apnea IRR 2.8 (1.5-5.2), bradypnea IRR 3.0 (1.2-7.9); high PRODIGY score IRR 4.5 (2.2-9.6). 'Despite oxygen desaturation events not differing between SO and RA, SO may clinically promote OIRD.' Answers the Day 3 placeholder only by analogy (ward, not PACU)."
+found_via: PubMed search results alongside driver-2021
+verified_on: "2026-09-06, PubMed record 37794334 (abstract); PMC10548743 listed (Free PMC article)"

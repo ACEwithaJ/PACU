@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: frasca-2007
+day: 10
+citation: "[first author not captured - confirm] et al. Opioid-induced sedation in the postanesthesia care unit does not insure adequate pain relief: a case-control study. Anesth Analg. 2007 Oct;105(4):1143-1147."
+doi: 10.1213/01.ane.0000281441.93304.e3
+pmid: "17898402"
+design: cohort
+year: 2007
+n: 26 cases + 52 matched controls
+access: paywalled
+currency: current
+topic: analgesia
+claim_support: magnitude
+supports: "Case-control: 26 patients with Ramsay >3 AND VRS >=3 at PACU discharge vs 52 controls (VRS <3). Sedated group reported severe/moderate/no PACU pain 58%/16%/26% vs 18%/25%/57%; bad first-night sleep 54% vs 10% (P=0.001); severe pain at 24 h 50% vs 6% (P<0.0001); not satisfied 20% vs 2% (P<0.0001). Conclusion: clinically significant opioid sedation in the PACU does not insure adequate pain relief."
+found_via: PubMed search results alongside paqueron-2002
+verified_on: "2026-09-06, PubMed record 17898402 (abstract); author list not captured (output filter) - confirm first author on the record before use"

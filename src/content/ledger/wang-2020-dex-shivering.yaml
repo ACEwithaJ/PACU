@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: wang-2020-dex-shivering
+day: 7
+citation: "Wang N, et al. Intravenous dexmedetomidine versus intravenous clonidine for post spinal anesthesia shivering: a meta-analysis of randomized controlled trials. Scott Med J. 2020 Aug;65(3):94-102."
+doi: 10.1177/0036933020936283
+pmid: "32571181"
+design: meta_rct
+year: 2020
+n: 6 RCTs, 340 adults
+access: paywalled
+currency: current
+topic: thermoregulation
+claim_support: magnitude
+supports: "Post-SPINAL shivering (not post-GA PACU): dexmedetomidine superior to clonidine for effective rate, time to cessation and recurrence, with less hypotension and more sedation (effect sizes not captured - read from paper; doses per trial not in abstract)."
+found_via: PubMed search 'dexmedetomidine treatment postoperative shivering meta-analysis'
+verified_on: "2026-09-06, PubMed record 32571181 (abstract); publisher page not opened"

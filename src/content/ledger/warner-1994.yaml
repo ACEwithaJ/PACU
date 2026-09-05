@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: warner-1994
+day: 19
+citation: Warner MA, et al. Ulnar neuropathy. Incidence, outcome, and risk factors in sedated or anesthetized patients. Anesthesiology. 1994 Dec;81(6):1332-1340.
+doi: null
+pmid: "7992900"
+design: cohort
+year: 1994
+n: 1,129,692 (414 cases; 1:3 case-control)
+access: paywalled
+currency: current
+topic: positioning_injury
+claim_support: magnitude
+supports: "Mayo 1957-1991: persistent (>3 months) ulnar neuropathy in 414 patients = 1 per 2,729; 9% bilateral; initial symptoms in most noted more than 24 h after the procedure; associated with male gender and hospitalization >14 days (P<0.01) and with very thin or obese habitus; neither anesthetic technique nor patient position was associated; 53% of 382 one-year survivors recovered fully."
+found_via: PubMed search
+verified_on: "2026-09-06, PubMed record 7992900 (abstract); publisher page not opened"

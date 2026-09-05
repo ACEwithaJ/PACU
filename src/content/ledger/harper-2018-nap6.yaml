@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: harper-2018-nap6
+day: 20
+citation: "Harper NJN, Cook TM, Garcez T, et al. Anaesthesia, surgery, and life-threatening allergic reactions: epidemiology and clinical features of perioperative anaphylaxis in the 6th National Audit Project (NAP6). Br J Anaesth. 2018 Jul;121(1):159-171."
+doi: 10.1016/j.bja.2018.04.014
+pmid: "29935567"
+design: case_series
+year: 2018
+n: 266 Grade 3-5 reports (1 year, UK NHS)
+access: paywalled
+currency: current
+topic: anaphylaxis
+claim_support: magnitude
+supports: "Estimated incidence ~1:10,000 anaesthetics (true incidence possibly ~70% higher). Culprits (199 identified): antibiotics 94, NMBAs 65, chlorhexidine 18, Patent Blue 9; NO local anaesthetic or LATEX cases. Presenting features: hypotension 46%, bronchospasm 18%, tachycardia 9.8%, desaturation 4.7%, bradycardia 3%, reduced/absent capnography 2.3%; all hypotensive at some point. Onset rapid for NMBAs/antibiotics but DELAYED with chlorhexidine and Patent Blue. 10 deaths, 40 cardiac arrests (PEA usual, often with bradycardia); poor outcome associated with ASA class, obesity, beta-blockers, ACE inhibitors."
+found_via: PubMed search 'Harper Cook NAP6 perioperative anaphylaxis'
+verified_on: "2026-09-06, PubMed record 29935567 (abstract); publisher page not opened"

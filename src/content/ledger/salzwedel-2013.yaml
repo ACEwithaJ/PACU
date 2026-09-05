@@ -4,8 +4,8 @@
 key: salzwedel-2013
 day: 16
 citation: "Salzwedel C, Bartz HJ, Kuhnelt I, Appel D, Haupt O, Maisch S, Schmidt GN. The effect of a checklist on the quality of post-anaesthesia patient handover: a randomized controlled trial. Int J Qual Health Care. 2013;25:176-181."
-doi: null
-pmid: null
+doi: 10.1093/intqhc/mzt009
+pmid: "23360810"
 design: rct
 year: 2013
 n: UNVERIFIED
@@ -15,4 +15,4 @@ topic: handover
 claim_support: magnitude
 supports: One of the few genuine randomised trials of a handover checklist. Needed if the day claims handover is a MEASURABLE risk point rather than merely a plausible one.
 found_via: Reference list of BMC Surgery 2014 HATRICC protocol, DOI 10.1186/1471-2482-14-96
-verified_on: 2026-09-02, secondary reference list only - NOT VERIFIED
+verified_on: "2026-09-02, secondary reference list only - NOT VERIFIED; retrieval 2026-09-06: DOI and PMID read from PubMed record 23360810 (Int J Qual Health Care 2013;25(2):176-81)"

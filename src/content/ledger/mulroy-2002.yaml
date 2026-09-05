@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: mulroy-2002
+day: 17
+citation: Mulroy MF, et al. Ambulatory surgery patients may be discharged before voiding after short-acting spinal and epidural anesthesia. Anesthesiology. 2002 Aug;97(2):315-319.
+doi: 10.1097/00000542-200208000-00005
+pmid: "12151918"
+design: rct
+year: 2002
+n: 201 (163 randomized + 38 assigned to accelerated pathway)
+access: paywalled
+currency: current
+topic: urinary_retention
+claim_support: magnitude
+supports: "Also serves Day 15. Low-risk ambulatory patients (age <70, no hernia/rectal/urologic surgery, no voiding history) after short-acting spinal/epidural (procaine, lidocaine, 2-chloroprocaine, <7 mg bupivacaine, no epinephrine). Standard pathway (n=70) required voiding: discharged 153 +/- 49 min. Accelerated (n=131) not required: 62 voided (127 +/- 41 min); 46 discharged with bladder ultrasound <400 ml (120 +/- 42); 23 had >400 ml, of whom 20 voided within 1 h and 3 were catheterized. Accelerated pathway 22 min shorter (P=0.002); no urinary problems or returns."
+found_via: PubMed search
+verified_on: "2026-09-06, PubMed record 12151918 (abstract); publisher page not opened"

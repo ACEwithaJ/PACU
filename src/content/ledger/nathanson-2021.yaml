@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: nathanson-2021
+day: 11
+citation: "Nathanson MH, Harrop-Griffiths W, Aldington DJ, et al. Regional analgesia for lower leg trauma and the risk of acute compartment syndrome: Guideline from the Association of Anaesthetists. Anaesthesia. 2021 Nov;76(11):1518-1525."
+doi: 10.1111/anae.15504
+pmid: "34096035"
+design: guideline
+year: 2021
+n: NA
+access: open
+currency: current
+topic: regional
+claim_support: magnitude
+supports: "Association of Anaesthetists guideline: avoid neuraxial or peripheral techniques producing dense blocks of long duration that significantly exceed the duration of surgery; single-shot or continuous PNB with lower concentrations and no adjuncts not associated with diagnostic delay provided surveillance is appropriate; ward observations at set frequencies by staff trained to recognise ACS; objective scoring charts recommended; documented verbal consent; neither surgeon nor anaesthetist may veto the other's recommended treatment. The 'breakthrough pain is the signal' wording is not in the abstract - read the PMC full text."
+found_via: PubMed search 'Nathanson regional analgesia lower leg trauma compartment syndrome guideline'
+verified_on: "2026-09-06, PubMed record 34096035 (abstract); PMC9292897 listed (Free PMC article); co-authors not fully captured - confirm"

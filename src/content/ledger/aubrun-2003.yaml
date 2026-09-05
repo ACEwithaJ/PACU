@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: aubrun-2003
+day: 10
+citation: Aubrun F, et al. Relationships between measurement of pain using visual analog score and morphine requirements during postoperative intravenous morphine titration. Anesthesiology. 2003 Jun;98(6):1415-1421.
+doi: 10.1097/00000542-200306000-00017
+pmid: "12766651"
+design: cohort
+year: 2003
+n: "3045"
+access: paywalled
+currency: current
+topic: analgesia
+claim_support: magnitude
+supports: "PACU titration: bolus 2 mg (<=60 kg) or 3 mg (>60 kg) every 5 min, threshold VAS 30, relief VAS <=30. Mean initial VAS 73 +/- 19; mean dose to relief 0.17 +/- 0.10 mg/kg, median 4 boluses (range 1-20); VAS >=70 predicted need for >0.15 mg/kg (sensitivity 0.77, specificity 0.54); VAS-dose relationship sigmoid, not linear."
+found_via: PubMed search
+verified_on: "2026-09-06, PubMed record 12766651 (abstract); publisher page not opened"

@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: gauss-2014
+day: 11
+citation: Gauss A, Tugtekin I, Georgieff M, Dinse-Lambracht A, Keipke D, Gorsewski G. Incidence of clinically symptomatic pneumothorax in ultrasound-guided infraclavicular and supraclavicular brachial plexus block. Anaesthesia. 2014 Apr;69(4):327-336.
+doi: 10.1111/anae.12586
+pmid: "24641639"
+design: cohort
+year: 2014
+n: 6366 blocks
+access: paywalled
+currency: current
+topic: regional
+claim_support: magnitude
+supports: "Prospective observational: clinically symptomatic, radiologically confirmed pneumothorax in 4/6366 (0.06%; 95% CI 0.001-0.124); three of the four presented after a two-day latency; historical non-ultrasound risk quoted as up to 6.1%; all four operators had performed <20 blocks (not shown to be a significant risk factor)."
+found_via: PubMed search
+verified_on: "2026-09-06, PubMed record 24641639 (abstract); co-authors not fully captured - confirm; publisher page not opened"

@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-sugammadex-label-2026
+day: 1
+citation: Sugammadex Injection [prescribing information]. Fresenius Kabi USA, LLC. Revised 6/2026. DailyMed set ID 8e685b67-6804-4d97-b43e-0259b3fe231f.
+doi: null
+pmid: null
+design: advisory
+year: 2026
+n: NA
+access: open
+currency: current
+topic: residual_block
+claim_support: magnitude
+supports: "FDA label. Dosing by depth: 2 mg/kg at reappearance of T2; 4 mg/kg at 1-2 post-tetanic counts; 16 mg/kg ~3 min after 1.2 mg/kg rocuronium. Anaphylaxis 0.3% (1/299 healthy volunteers, in the 16 mg/kg group). 'Cases of marked bradycardia, some of which have resulted in cardiac arrest, have been observed within minutes after the administration.' Recurrence: lower-than-recommended doses increase risk of recurrence after initial reversal. Hormonal contraceptives: equivalent to a missed dose; additional non-hormonal contraception for 7 days. Waits before re-dosing steroidal NMBA: 5 min (1.2 mg/kg rocuronium), 4 h (0.6 mg/kg rocuronium or 0.1 mg/kg vecuronium), 24 h after 16 mg/kg or in renal impairment."
+found_via: DailyMed SPL search
+verified_on: "2026-09-06, DailyMed SPL (full label text) via fetch"

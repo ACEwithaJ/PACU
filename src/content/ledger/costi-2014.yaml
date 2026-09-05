@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: costi-2014
+day: 12
+citation: Costi D, Cyna AM, Ahmed S, et al. Effects of sevoflurane versus other general anaesthesia on emergence agitation in children. Cochrane Database Syst Rev. 2014 Sep 12;2014(9):CD007084.
+doi: 10.1002/14651858.CD007084.pub2
+pmid: "25212274"
+design: meta_rct
+year: 2014
+n: 158 RCTs, 14,045 children
+access: open
+currency: current
+topic: delirium
+claim_support: magnitude
+supports: "Versus sevoflurane: halothane RR 0.51 (0.41-0.63); propofol throughout RR 0.35 (0.25-0.51); propofol maintenance after sevoflurane induction RR 0.59 (0.46-0.76); desflurane RR 1.46 (0.92-2.31) and isoflurane RR 0.76 (0.46-1.23) no clear difference. Adjuncts: dexmedetomidine RR 0.37 (0.29-0.47), clonidine 0.45 (0.31-0.66), fentanyl 0.37 (0.27-0.50), propofol bolus 0.58, ketamine 0.30, end-of-case midazolam 0.57; midazolam premedication and parental presence ineffective. Authors flag pain as a confounder in EA diagnosis. Gives relative risks, not absolute incidence."
+found_via: PubMed search
+verified_on: "2026-09-06, PubMed record 25212274 (abstract); PMC10898224 listed (Free PMC article); co-authors not fully captured - confirm"

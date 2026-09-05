@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: ellis-2017
+day: 13
+citation: "Ellis TA 2nd, et al. Delayed Emergence From Anesthesia: A Simulation Case for Anesthesia Learners. MedEdPORTAL. 2017 Sep 18;13:10628."
+doi: 10.15766/mep_2374-8265.10628
+pmid: "30800829"
+design: consensus_statement
+year: 2017
+n: NA
+access: open
+currency: current
+topic: emergence
+claim_support: magnitude
+supports: "Educational simulation case (not a study): lists causes of delayed emergence as residual anesthetics, pharmacologic actions, surgical complications, neurologic events, endocrine disturbances, patient factors; emphasises pseudocholinesterase deficiency. Design vocabulary has no term for an educational resource; 'consensus_statement' is a placeholder the director should confirm or the row should be dropped from support and kept as found_via only."
+found_via: docs/new-sources-assessment.md; PubMed search
+verified_on: "2026-09-06, PubMed record 30800829 (abstract); PMC6338181 (Free PMC article); first-author name from record author list"

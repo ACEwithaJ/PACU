@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: barker-1989
+day: 3
+citation: Barker SJ, Tremper KK, Hyatt J. Effects of methemoglobinemia on pulse oximetry and mixed venous oximetry. Anesthesiology. 1989 Jan;70(1):112-117.
+doi: 10.1097/00000542-198901000-00021
+pmid: "2912291"
+design: cohort
+year: 1989
+n: 5 anesthetized dogs
+access: paywalled
+currency: current
+topic: oxygenation
+claim_support: magnitude
+supports: "ANIMAL study (design vocabulary has no term; 'cohort' is a placeholder - director to decide). MetHb induced up to 60% by intratracheal benzocaine on FiO2 1.0: SpO2 overestimated SaO2 proportionally until MetHb ~35%, then plateaued at 84-86% and did not fall further; with further desaturation SpO2 changed far less than SaO2 (slopes 0.16-0.32). This is the primary source for the '~85% plateau'."
+found_via: PubMed search
+verified_on: "2026-09-06, PubMed record 2912291 (abstract); co-author list from record; publisher page not opened"

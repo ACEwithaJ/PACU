@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: chung-2008-stop
+day: 14
+citation: "Chung F, Yegneswaran B, Liao P, et al. STOP questionnaire: a tool to screen patients for obstructive sleep apnea. Anesthesiology. 2008 May;108(5):812-821."
+doi: 10.1097/ALN.0b013e31816d83e4
+pmid: "18431116"
+design: cohort
+year: 2008
+n: 2467 screened; 211 polysomnography
+access: paywalled
+currency: current
+topic: osa
+claim_support: magnitude
+supports: Original STOP/STOP-Bang derivation and validation in surgical patients. STOP = Snoring, Tiredness, Observed apnea, blood Pressure (yes/no); 27.5% high risk; sensitivity at AHI >5/>15/>30 = 65.6/74.3/79.5%; adding BMI, age, neck circumference, gender (Bang) raised sensitivity to 83.6/92.9/100%. The numeric Bang thresholds (BMI >35, age >50, neck >40 cm, male) and the >=3 cut-off are NOT in the abstract - read the full text before quoting them.
+found_via: PubMed search
+verified_on: "2026-09-06, PubMed record 18431116 (abstract); publisher page not opened"

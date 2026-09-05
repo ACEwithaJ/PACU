@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: litman-2008
+day: 7
+citation: "Litman RS, Flood CD, Kaplan RF, Kim YL, Tobin JR. Postoperative malignant hyperthermia: an analysis of cases from the North American Malignant Hyperthermia Registry. Anesthesiology. 2008 Nov;109(5):825-829."
+doi: 10.1097/ALN.0b013e31818958e5
+pmid: "18946294"
+design: case_series
+year: 2008
+n: 528 suspected cases; 10 confirmed postoperative
+access: paywalled
+currency: current
+topic: thermoregulation
+claim_support: magnitude
+supports: "NAMHR: postoperative MH confirmed in 10/528 (1.9%); all had volatile agents, 5 also succinylcholine; all showed generalized rigidity, hypercapnia and/or tachypnea, tachycardia and hyperthermia, but NO subject had hyperthermia as the presenting sign; latency from end of anaesthesia to first sign 0 to 40 min."
+found_via: PubMed search 'Litman postoperative malignant hyperthermia registry'
+verified_on: "2026-09-06, PubMed record 18946294 (abstract); author list not fully captured - confirm; publisher page not opened"

@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-ondansetron-inj-label-2025
+day: 9
+citation: Ondansetron Hydrochloride Injection, USP [prescribing information]. Onesource Specialty Pharma. Revised November 2025. DailyMed set ID 438c3d28-8bed-50f0-e063-6394a90a18e4.
+doi: null
+pmid: null
+design: advisory
+year: 2025
+n: NA
+access: open
+currency: current
+topic: ponv
+claim_support: magnitude
+supports: "FDA label 5.2: 'Ondansetron prolongs the QT interval in a dose-dependent manner'; postmarketing torsade de pointes; avoid in congenital long QT syndrome; ECG monitoring recommended with electrolyte abnormalities, CHF, bradyarrhythmias or other QT-prolonging drugs. PONV dose 4 mg IV over >=30 s or IM, immediately before induction or postoperatively within 2 h. 14.3: 'Administration of a second intravenous dose of ondansetron 4 mg postoperatively does not provide additional control of nausea and vomiting.' No vestibular/motion-sickness statement in label."
+found_via: DailyMed SPL search
+verified_on: "2026-09-06, DailyMed SPL (full label text) via fetch"

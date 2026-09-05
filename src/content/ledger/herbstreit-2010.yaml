@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: herbstreit-2010
+day: 1
+citation: Herbstreit F, Zigrahn D, Ochterbeck C, Peters J, Eikermann M. Neostigmine/glycopyrrolate administered after recovery from neuromuscular block increases upper airway collapsibility by decreasing genioglossus muscle activity in response to negative pharyngeal pressure. Anesthesiology. 2010 Dec;113(6):1280-1288.
+doi: 10.1097/ALN.0b013e3181f70f3d
+pmid: "20980910"
+design: cohort
+year: 2010
+n: 10 healthy male volunteers
+access: paywalled
+currency: current
+topic: residual_block
+claim_support: magnitude
+supports: Neostigmine 0.03 mg/kg + glycopyrrolate 0.0075 mg/kg given AFTER TOF recovered to 1.0 reduced negative-pressure-evoked genioglossus activity by 37 +/- 29% (P=0.005), almost to the level seen at TOF 0.5, and increased upper-airway collapsibility (Pcrit value not captured); minute ventilation unchanged. Supports 'paradoxical weakness' when neostigmine is given after recovery; does NOT address deep block.
+found_via: PubMed search
+verified_on: "2026-09-06, PubMed record 20980910 (abstract); author list not fully captured - confirm; publisher page not opened"

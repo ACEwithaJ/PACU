@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: aubrun-2001
+day: 10
+citation: Aubrun F, et al. Postoperative titration of intravenous morphine. Eur J Anaesthesiol. 2001 Mar;18(3):159-165.
+doi: 10.1046/j.0265-0215.2000.00796.x
+pmid: "11298174"
+design: cohort
+year: 2001
+n: UNVERIFIED (not captured from abstract; read full text)
+access: paywalled
+currency: current
+topic: analgesia
+claim_support: magnitude
+supports: Prospective non-randomized PACU quality programme comparing four titration regimens; VAPS >30 mm to give morphine, relief = VAPS <=30. Group 4 (5-min boluses, unlimited number, early s.c. morphine) had the lowest end-PACU VAPS (26 +/- 17 mm) and most patients relieved (73%); sedated patients 62% (group 3) and 61% (group 4) vs 27% (group 1); no difference in morphine-related adverse effects.
+found_via: PubMed search 'Aubrun postoperative titration intravenous morphine'; cited in aubrun-2012 review (director-accepted)
+verified_on: "2026-09-06, PubMed record 11298174 (abstract); publisher page not opened"

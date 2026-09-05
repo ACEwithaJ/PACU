@@ -5,7 +5,7 @@ key: asa-pacu-2013-d6
 day: 6
 citation: "American Society of Anesthesiologists Task Force on Postanesthetic Care. Practice Guidelines for Postanesthetic Care: an updated report. Anesthesiology. 2013 Feb;118(2):291-307."
 doi: 10.1097/ALN.0b013e31827773e9
-pmid: null
+pmid: "23364567"
 design: guideline
 year: 2013
 n: NA
@@ -15,4 +15,4 @@ topic: hypertension
 claim_support: magnitude
 supports: States that the literature continues to be insufficient to evaluate the impact of cardiovascular assessment and monitoring, or of routine electrocardiographic monitoring, on perioperative complications. Also states that assessment of urine output and voiding should be done case by case, which is the bladder limb of this day's differential.
 found_via: null
-verified_on: 2026-09-02, Anesthesiology full-text page + ASA PDF
+verified_on: "2026-09-02, Anesthesiology full-text page + ASA PDF; retrieval 2026-09-06: PMID read from PubMed record 23364567; DOI confirmed"

@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: hausmann-1991
+day: 7
+citation: Hausmann D, et al. [O2 uptake in the recovery period. The effect of the anesthetic procedure and the postoperative administration of pethidine]. Anaesthesist. 1991 Apr;40(4):229-234. German.
+doi: null
+pmid: "2058825"
+design: cohort
+year: 1991
+n: 24 (12 isoflurane, 12 TIVA)
+access: paywalled
+currency: current
+topic: thermoregulation
+claim_support: magnitude
+supports: "Indirect calorimetry: steady-state GA reduced VO2 ~30%; in recovery, shivering occurred in 8/12 isoflurane patients (maximum VO2 639 ml/min) vs 2/12 TIVA (584 ml/min), P<0.05; meperidine 25 mg IV in 5 shivering patients reduced VO2 significantly to TIVA range. Small, German-language; the only primary O2-consumption-with-shivering source surfaced in one search."
+found_via: PubMed search 'postanesthetic shivering oxygen consumption'
+verified_on: "2026-09-06, PubMed record 2058825 (abstract); publisher page not opened"
