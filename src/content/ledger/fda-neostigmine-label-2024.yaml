@@ -15,4 +15,4 @@ topic: residual_block
 claim_support: magnitude
 supports: "FDA label. Section 2.2: 0.03-0.07 mg/kg 'will generally achieve a TOF twitch ratio of 90%'; 'The recommended maximum total dose is 0.07 mg/kg or up to a total of 5 mg, whichever is less'; a first-twitch response of at least 10% of baseline must be present before dosing; 0.03 mg/kg when T1 is substantially >10% of baseline or T2 present. Section 5.4: 'Large doses ... administered when neuromuscular blockade is minimal can produce neuromuscular dysfunction.' Section 5.1: atropine or glycopyrrolate before neostigmine to lessen bradycardia."
 found_via: DailyMed SPL search
-verified_on: 2026-09-06, DailyMed SPL (full label text) via fetch
+verified_on: "2026-09-06, DailyMed SPL (full label text) via fetch"

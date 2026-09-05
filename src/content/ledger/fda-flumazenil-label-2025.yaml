@@ -15,4 +15,4 @@ topic: emergence
 claim_support: magnitude
 supports: "FDA label. Boxed warning (WARNINGS): 'THE USE OF FLUMAZENIL HAS BEEN ASSOCIATED WITH THE OCCURRENCE OF SEIZURES. THESE ARE MOST FREQUENT IN PATIENTS WHO HAVE BEEN ON BENZODIAZEPINES FOR LONG-TERM SEDATION OR IN OVERDOSE CASES WHERE PATIENTS ARE SHOWING SIGNS OF SERIOUS CYCLIC ANTIDEPRESSANT OVERDOSE.' Reversal of sedation/anesthesia (adults): 0.2 mg IV over 15 s; further 0.2 mg at 60-s intervals up to 4 additional doses; maximum cumulative 1 mg. Resedation 3% to 9% in conscious-sedation studies; terminal half-life 40 to 80 minutes."
 found_via: DailyMed SPL search (drug_name=flumazenil)
-verified_on: 2026-09-06, DailyMed SPL (full label text) via fetch
+verified_on: "2026-09-06, DailyMed SPL (full label text) via fetch"

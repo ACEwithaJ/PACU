@@ -15,4 +15,4 @@ topic: oxygenation
 claim_support: magnitude
 supports: "FDA label: indicated for acquired methemoglobinemia (pediatric and adult); 1 mg/kg IV over 5-30 min, repeat 1 mg/kg after 1 h if MetHb remains >30% or symptoms persist; CONTRAINDICATED in G6PD deficiency (risk of hemolytic anemia) and 'may not be effective in patients with G6PD deficiency'; boxed warning for serotonin syndrome with serotonergic drugs and opioids; 'The presence of methylene blue in the blood may result in an underestimation of the oxygen saturation reading by pulse oximetry.'"
 found_via: DailyMed SPL search
-verified_on: 2026-09-06, DailyMed SPL (full label text) via fetch
+verified_on: "2026-09-06, DailyMed SPL (full label text) via fetch"

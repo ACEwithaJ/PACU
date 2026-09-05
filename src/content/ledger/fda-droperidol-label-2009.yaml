@@ -15,4 +15,4 @@ topic: ponv
 claim_support: magnitude
 supports: "FDA label, boxed warning: 'Cases of QT prolongation and/or torsade de pointes have been reported in patients receiving droperidol at doses at or below recommended doses'; reserve for patients who fail other adequate treatments; 12-lead ECG before administration; do not give if QTc >440 msec (males) or >450 msec (females). Dose: 'The maximum recommended initial dose of droperidol is 2.5 mg IM or slow IV. Additional 1.25 mg doses of droperidol may be administered to achieve the desired effect.' Contraindicated in known or suspected QT prolongation."
 found_via: DailyMed SPL search
-verified_on: 2026-09-06, DailyMed SPL (full label text) via fetch
+verified_on: "2026-09-06, DailyMed SPL (full label text) via fetch"

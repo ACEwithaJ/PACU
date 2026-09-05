@@ -15,4 +15,4 @@ topic: hypertension
 claim_support: magnitude
 supports: "FDA label, WARNINGS (withdrawal): 'Sudden cessation of clonidine treatment has, in some cases, resulted in symptoms such as nervousness, agitation, headache, and tremor accompanied or followed by a rapid rise in blood pressure and elevated catecholamine concentrations in the plasma' (first 125 characters verbatim; remainder paraphrased in findings - re-quote from label); reactions more likely after higher doses or with beta-blockers; rare hypertensive encephalopathy, stroke, death; taper over 2-4 days. PRECAUTIONS (perioperative): continue to within four hours of surgery and resume as soon as possible thereafter."
 found_via: DailyMed SPL search
-verified_on: 2026-09-06, DailyMed SPL via fetch (fetch tool quoted 125-character windows; full sentences to be re-quoted from label)
+verified_on: "2026-09-06, DailyMed SPL via fetch (fetch tool quoted 125-character windows; full sentences to be re-quoted from label)"

@@ -15,4 +15,4 @@ topic: residual_block
 claim_support: magnitude
 supports: TOF ratio >=0.9 is the stated recovery threshold; quantitative monitoring recommended over qualitative/clinical assessment; sugammadex recommended for deep, moderate and shallow rocuronium- or vecuronium-induced block; neostigmine described as a reasonable alternative only from minimal block (TOF ratio 0.4 to <0.9); patients with documented quantitative TOF ratio >=0.9 do not require pharmacologic antagonism
 found_via: null
-verified_on: 2026-09-02, LWW full-text record + ASA/APSF and Univ Minnesota bibliographic records; PMID not surfaced in any retrieved record; retrieval 2026-09-06: PMID from the PubMed search-result summary (DOI matches ledger)
+verified_on: "2026-09-02, LWW full-text record + ASA/APSF and Univ Minnesota bibliographic records; PMID not surfaced in any retrieved record; retrieval 2026-09-06: PMID from the PubMed search-result summary (DOI matches ledger)"

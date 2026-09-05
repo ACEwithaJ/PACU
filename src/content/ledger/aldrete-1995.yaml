@@ -15,4 +15,4 @@ topic: discharge
 claim_support: magnitude
 supports: Source of the modified Aldrete score. No abstract on the PubMed record; the five items (activity, respiration, circulation, consciousness, oxygen saturation; 0-2 each) and the discharge threshold must be read from the full text before they are quoted. Design vocabulary has no term for a scoring-system paper; placeholder.
 found_via: PubMed search
-verified_on: 2026-09-06, PubMed record 7772368 (identifiers only; no abstract)
+verified_on: "2026-09-06, PubMed record 7772368 (identifiers only; no abstract)"
