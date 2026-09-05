@@ -5,7 +5,7 @@ key: asa-pacu-2013
 day: 15
 citation: "American Society of Anesthesiologists Task Force on Postanesthetic Care; Apfelbaum JL, Silverstein JH, Chung FF, Connis RT, Fillmore RB, Hunt SE, Nickinovich DG, Schreiner MS. Practice Guidelines for Postanesthetic Care: an updated report. Anesthesiology. 2013 Feb;118(2):291-307."
 doi: 10.1097/ALN.0b013e31827773e9
-pmid: null
+pmid: "23364567"
 design: guideline
 year: 2013
 n: NA
@@ -15,4 +15,4 @@ topic: discharge
 claim_support: magnitude
 supports: Section V, Protocol for Discharge, states that the literature is insufficient to evaluate the benefits of requiring that patients urinate before discharge. The opinion survey reported alongside it records ASA member support for NOT requiring voiding before discharge at 85%, for requiring a responsible individual to accompany the patient home at 95%, and for not requiring a mandatory minimum stay in recovery at 85%. Requiring that patients drink water before discharge is listed among the interventions members did not support. This is the whole evidentiary basis for the day.
 found_via: null
-verified_on: 2026-09-02, Anesthesiology full-text page (118/2/291) + ASA-hosted guideline PDF
+verified_on: 2026-09-02, Anesthesiology full-text page (118/2/291) + ASA-hosted guideline PDF; retrieval 2026-09-06: PMID read from PubMed record 23364567; DOI confirmed

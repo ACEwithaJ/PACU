@@ -5,7 +5,7 @@ key: ruetzler-2021
 day: 8
 citation: "Ruetzler K, Smilowitz NR, Berger JS, Devereaux PJ, Maron BA, Newby LK, de Jesus Perez V, Sessler DI, Wijeysundera DN. Diagnosis and management of patients with myocardial injury after noncardiac surgery: a scientific statement from the American Heart Association. Circulation. 2021;144(19):e287-e305."
 doi: 10.1161/CIR.0000000000001024
-pmid: null
+pmid: "34601955"
 design: consensus_statement
 year: 2021
 n: NA
@@ -15,4 +15,4 @@ topic: myocardial_injury
 claim_support: magnitude
 supports: The society-level statement that decides what to do once MINS is found, i.e. the other half of the day's 'the decision not to look is a decision' claim. Needed if the day tells residents what follows a positive result.
 found_via: Wikipedia article citation carrying full bibliographic detail and DOI
-verified_on: 2026-09-02, secondary citation only, publisher record not opened - CONFIRM BEFORE USE
+verified_on: 2026-09-02, secondary citation only, publisher record not opened - CONFIRM BEFORE USE; retrieval 2026-09-06: PMID read from PubMed record 34601955; Circulation 2021;144(19):e287-e305 confirmed - the CONFIRM BEFORE USE flag is cleared

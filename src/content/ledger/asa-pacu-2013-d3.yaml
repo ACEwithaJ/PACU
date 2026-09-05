@@ -5,7 +5,7 @@ key: asa-pacu-2013-d3
 day: 3
 citation: "American Society of Anesthesiologists Task Force on Postanesthetic Care. Practice Guidelines for Postanesthetic Care: an updated report. Anesthesiology. 2013 Feb;118(2):291-307."
 doi: 10.1097/ALN.0b013e31827773e9
-pmid: null
+pmid: "23364567"
 design: guideline
 year: 2013
 n: NA
@@ -15,4 +15,4 @@ topic: oxygenation
 claim_support: magnitude
 supports: States that the original literature indicated assessment and monitoring of respiratory function during recovery is associated with early detection of hypoxaemia (Category A2-B evidence) and that new literature is insufficient to further evaluate that finding; consultants and ASA members agree airway patency, respiratory rate and SpO2 should be assessed periodically during emergence and recovery. Note this is oximetry-based; the guideline does not mandate a ventilation monitor.
 found_via: null
-verified_on: 2026-09-02, ASA/Anesthesiology full-text page + ASA PDF
+verified_on: 2026-09-02, ASA/Anesthesiology full-text page + ASA PDF; retrieval 2026-09-06: PMID read from PubMed record 23364567; DOI confirmed

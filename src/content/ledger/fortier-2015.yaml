@@ -4,8 +4,8 @@
 key: fortier-2015
 day: 1
 citation: "Fortier LP, McKeen D, Turner K, et al. The RECITE Study: a Canadian prospective, multicenter study of the incidence and severity of residual neuromuscular blockade. Anesth Analg. 2015;121:366-372."
-doi: null
-pmid: null
+doi: 10.1213/ANE.0000000000000757
+pmid: "25902322"
 design: cohort
 year: 2015
 n: UNVERIFIED
@@ -15,4 +15,4 @@ topic: residual_block
 claim_support: magnitude
 supports: Canadian multicentre incidence estimate for residual block; needed only if the day quotes a non-US incidence figure alongside RECITE-US. Cited repeatedly but the primary record was not reached.
 found_via: APSF reference list (apsf.org, New Practice Guidelines for Neuromuscular Blockade)
-verified_on: 2026-09-02, secondary reference list only - NOT VERIFIED
+verified_on: 2026-09-02, secondary reference list only - NOT VERIFIED; retrieval 2026-09-06: DOI and PMID read from PubMed record 25902322 (Anesth Analg 2015;121(2):366-72)

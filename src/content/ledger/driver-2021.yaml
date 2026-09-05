@@ -10,7 +10,7 @@ key: driver-2021
 day: 4
 citation: Driver CN, Laporta ML, Bergese SD, Urman RD, Di Piazza F, Overdyk FJ, Sprung J, Weingarten TN. Frequency and temporal distribution of postoperative respiratory depressive events. Anesth Analg. 2021;132(5):1206-1214.
 doi: 10.1213/ANE.0000000000005478
-pmid: null
+pmid: "33857962"
 design: cohort
 year: 2021
 n: "250"
@@ -20,4 +20,4 @@ topic: respiratory_depression
 claim_support: magnitude
 supports: "Post hoc analysis of PRODIGY patients from 2 US sites monitored on general care floors: 2539 adjudicated respiratory depression episodes in 155 of 250 patients (62.0%, 95% CI 55.7-68.0), median 2 episodes per patient [0-8], range 0-545; median time to the initial episode 8.8 h [5.1-18.0] postoperatively; peak of initial events 14:00-20:00, peak of all episodes 02:00-06:00; PRODIGY risk distribution 100 low (40.0%), 79 intermediate (31.6%), 70 high (28.0%). BOUNDARY: median time from end of surgery to start of monitoring was 4.3 h [3.2-6.2], i.e. monitoring began well after PACU discharge; this study cannot support a PACU claim (extraction-findings B Day 4)."
 found_via: "SUNY Research Connect institutional publication record; PDF subsequently held and extracted (docs/extraction-findings.md)"
-verified_on: "2026-09-04, bibliographic record and figures read from the held PDF (docs/extraction-findings.md B Day 4); PMID and access status still unverified"
+verified_on: "2026-09-04, bibliographic record and figures read from the held PDF (docs/extraction-findings.md B Day 4); PMID and access status still unverified; retrieval 2026-09-06: PMID read from PubMed record 33857962; DOI and 2021;132(5):1206-1214 confirmed"

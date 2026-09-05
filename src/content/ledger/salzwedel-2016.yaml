@@ -4,8 +4,8 @@
 key: salzwedel-2016
 day: 16
 citation: "Salzwedel C, Mai V, Punke MA, et al. The effect of a checklist on the quality of patient handover from the operating room to the intensive care unit: a randomized controlled trial. J Crit Care. 2016;32:170-174."
-doi: null
-pmid: null
+doi: 10.1016/j.jcrc.2015.12.016
+pmid: "26818630"
 design: rct
 year: 2016
 n: UNVERIFIED
@@ -15,4 +15,4 @@ topic: handover
 claim_support: magnitude
 supports: The OR-to-ICU randomised checklist trial, distinct from the 2013 post-anaesthesia handover trial by the same group. Together these two are the trial-grade evidence the day needs.
 found_via: Reference list of Updates in Surgery 2023 article, DOI 10.1007/s13304-023-01551-2
-verified_on: 2026-09-02, secondary reference list only - NOT VERIFIED
+verified_on: 2026-09-02, secondary reference list only - NOT VERIFIED; retrieval 2026-09-06: DOI and PMID read from PubMed record 26818630 (J Crit Care 2016;32:170-4)

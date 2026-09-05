@@ -4,7 +4,7 @@
 key: botto-2014
 day: 8
 citation: "Botto F, Alonso-Coello P, Chan MTV, et al. Myocardial injury after noncardiac surgery: a large, international, prospective cohort study establishing diagnostic criteria, characteristics, predictors, and 30-day outcomes. Anesthesiology. 2014;120:564-578."
-doi: null
+doi: 10.1097/ALN.0000000000000113
 pmid: "24534856"
 design: cohort
 year: 2014
@@ -15,4 +15,4 @@ topic: myocardial_injury
 claim_support: magnitude
 supports: 15,065 patients aged 45 or older; MINS diagnostic criterion peak troponin T >=0.03 ng/mL judged due to myocardial ischaemia; 1200 patients (8.0%) had MINS; 58.2% of them would not have met the universal definition of myocardial infarction; only 15.8% experienced an ischaemic symptom; adjusted hazard ratio for 30-day mortality 3.87 (95% CI 2.96-5.08); highest population-attributable risk of any perioperative complication at 34.0% (95% CI 26.6-41.5). This row carries the silence claim outright.
 found_via: null
-verified_on: 2026-09-02, PubMed record 24534856
+verified_on: 2026-09-02, PubMed record 24534856; retrieval 2026-09-06: DOI from the PubMed search-result summary (Anesthesiology 2014;120(3):564-78); abstract still unread
