@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: asa-acute-pain-2012
+day: 10
+citation: "American Society of Anesthesiologists Task Force on Acute Pain Management. Practice guidelines for acute pain management in the perioperative setting: an updated report. Anesthesiology. 2012 Feb;116(2):248-273."
+doi: 10.1097/ALN.0b013e31823c1030
+pmid: "22227789"
+design: guideline
+year: 2012
+n: NA
+access: paywalled
+currency: current
+topic: analgesia
+claim_support: magnitude
+supports: Society guideline candidate for Day 10 (multimodal analgesia, opioid titration principles). Identifiers read from the PubMed search-result summary only; content NOT read; include only after the record and text are read.
+found_via: PubMed search-result list (appeared alongside ASA advisory searches)
+verified_on: "2026-09-06, PubMed search-result summary only; record and text not opened; currency note: no later ASA update surfaced in the searches run, not specifically checked"

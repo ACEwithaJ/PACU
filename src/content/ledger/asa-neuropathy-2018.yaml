@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: asa-neuropathy-2018
+day: 19
+citation: "American Society of Anesthesiologists Task Force on Prevention of Perioperative Peripheral Neuropathies. Practice Advisory for the Prevention of Perioperative Peripheral Neuropathies 2018: An Updated Report. Anesthesiology. 2018 Jan;128(1):11-26."
+doi: 10.1097/ALN.0000000000001937
+pmid: "29116945"
+design: advisory
+year: 2018
+n: NA
+access: paywalled
+currency: current
+topic: positioning_injury
+claim_support: magnitude
+supports: Current ASA advisory on positioning to prevent ulnar, brachial plexus and other perioperative neuropathies. Recommendation text NOT read (identifiers and currency only); read before quoting any positioning recommendation.
+found_via: PubMed search 'Practice Advisory for the Prevention of Perioperative Peripheral Neuropathies 2018'
+verified_on: "2026-09-06, PubMed record 29116945 (no abstract on record); older versions seen in the same search; currency note: supersedes the 2011 (PMID 21364463) and 2000 (PMID 10754638) advisories"

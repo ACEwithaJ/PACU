@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: asa-povl-2019
+day: 19
+citation: "American Society of Anesthesiologists Task Force on Perioperative Visual Loss, North American Neuro-Ophthalmology Society, Society for Neuroscience in Anesthesiology and Critical Care. Practice Advisory for Perioperative Visual Loss Associated with Spine Surgery 2019: An Updated Report. Anesthesiology. 2019 Jan;130(1):12-30."
+doi: 10.1097/ALN.0000000000002503
+pmid: "30531555"
+design: advisory
+year: 2019
+n: NA
+access: open
+currency: current
+topic: positioning_injury
+claim_support: magnitude
+supports: Current advisory on perioperative visual loss / ischaemic optic neuropathy in spine surgery. Recommendation text NOT read; PMC9556164 available (Free PMC article) for reading.
+found_via: PubMed search
+verified_on: "2026-09-06, PubMed record 30531555; PMC9556164 listed (Free PMC article); text not read; currency note: supersedes the 2012 (PMID 22227790) and 2006 (PMID 16732103) advisories"

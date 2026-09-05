@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: urmey-1991
+day: 11
+citation: Urmey WF, Talts KH, Sharrock NE. One hundred percent incidence of hemidiaphragmatic paresis associated with interscalene brachial plexus anesthesia as diagnosed by ultrasonography. Anesth Analg. 1991 Apr;72(4):498-503.
+doi: 10.1213/00000539-199104000-00014
+pmid: "2006740"
+design: cohort
+year: 1991
+n: "13"
+access: paywalled
+currency: current
+topic: regional
+claim_support: magnitude
+supports: "Paresthesia-technique interscalene block (34-52 mL 1.5% mepivacaine): ipsilateral hemidiaphragmatic paresis on ultrasound in 13/13 within 5 min (11/13 at 2 min); motion normal in 10/11 by 3-4 h and in the last by 5 h. 'Diaphragmatic paresis appears to be an inevitable consequence of interscalene brachial plexus block when providing anesthesia sufficient for shoulder surgery.'"
+found_via: PubMed search
+verified_on: 2026-09-06, PubMed record 2006740 (abstract); co-authors not fully captured - confirm; publisher page not opened

@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-naloxone-label-2023
+day: 13
+citation: Naloxone Hydrochloride Injection, USP [prescribing information]. Hospira, Inc. Revised 07/2023. DailyMed set ID 8535cc84-ad4a-4d67-8480-fb5a2e3406f8.
+doi: null
+pmid: null
+design: advisory
+year: 2023
+n: NA
+access: open
+currency: current
+topic: emergence
+claim_support: magnitude
+supports: "FDA label. Dosage and Administration: 'Since the duration of action of some opioids may exceed that of naloxone, the patient should be kept under continued surveillance. Repeated doses of naloxone should be administered, as necessary.' Pharmacokinetics: 'the serum half-life in adults ranged from 30 to 81 minutes (mean 64 +/- 12 minutes).' Postoperative opioid depression: 'increments of 0.1 to 0.2 mg intravenously at two to three minute intervals to the desired degree of reversal.' Precautions: abrupt reversal may cause nausea, vomiting, sweating, tremulousness, tachycardia, increased blood pressure, seizures, ventricular tachycardia and fibrillation, pulmonary edema, and cardiac arrest."
+found_via: DailyMed SPL search (drug_name=naloxone hydrochloride)
+verified_on: 2026-09-06, DailyMed SPL (full label text) via fetch; no DOI/PMID applies (regulatory document) - design term 'advisory' is a placeholder for label

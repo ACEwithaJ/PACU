@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-succinylcholine-label-2022
+day: 2
+citation: QUELICIN (succinylcholine chloride) Injection, USP [prescribing information]. Hospira, Inc. Revised 11/2022. DailyMed set ID fb08161e-7711-406d-e7b3-ea4515c07983.
+doi: null
+pmid: null
+design: advisory
+year: 2022
+n: NA
+access: open
+currency: current
+topic: airway
+claim_support: magnitude
+supports: "FDA label. IV: 'The average dose required to produce neuromuscular blockade and to facilitate tracheal intubation is 0.6 mg/kg.' IM: 'up to 3 mg/kg to 4 mg/kg to infants, older pediatric patients, or adults. The total dose administered by the intramuscular route should not exceed 150 mg.' IM onset 'usually observed in about 2 to 3 minutes.' Boxed warning: hyperkalemic rhabdomyolysis/cardiac arrest in children with undiagnosed myopathy (Duchenne). Label carries no laryngospasm-specific dose."
+found_via: DailyMed SPL search
+verified_on: 2026-09-06, DailyMed SPL (full label text) via fetch

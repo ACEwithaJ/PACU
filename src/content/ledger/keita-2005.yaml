@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: keita-2005
+day: 17
+citation: Keita H, et al. Predictive factors of early postoperative urinary retention in the postanesthesia care unit. Anesth Analg. 2005 Aug;101(2):592-596.
+doi: 10.1213/01.ANE.0000159165.90094.40
+pmid: "16037182"
+design: cohort
+year: 2005
+n: "313"
+access: paywalled
+currency: current
+topic: urinary_retention
+claim_support: magnitude
+supports: "Prospective PACU cohort with ultrasound bladder volume on entry and before discharge. Retention defined as bladder volume >600 mL with inability to void within 30 min; incidence 16%. Independent predictors: age >=50 yr, intraoperative fluids >=750 mL, bladder volume on PACU entry >=270 mL (odds ratios not captured - read from paper)."
+found_via: PubMed search 'Keita predictive factors early postoperative urinary retention PACU'
+verified_on: 2026-09-06, PubMed record 16037182 (abstract); publisher page not opened

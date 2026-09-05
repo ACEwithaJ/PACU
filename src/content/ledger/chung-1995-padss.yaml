@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: chung-1995-padss
+day: 15
+citation: Chung F, Chan VW, Ong D. A post-anesthetic discharge scoring system for home readiness after ambulatory surgery. J Clin Anesth. 1995 Sep;7(6):500-506.
+doi: 10.1016/0952-8180(95)00130-a
+pmid: "8534468"
+design: rct
+year: 1995
+n: "247"
+access: paywalled
+currency: current
+topic: discharge
+claim_support: magnitude
+supports: "Randomized open study, ambulatory GA patients: assessed at 1 h then every 30 min until PADSS >=9 and Clinical Discharge Criteria met; time-to-fitness correlation r=0.89; internal consistency alpha 0.65 (PADSS) vs 0.14 (clinical criteria). The threshold >=9 is in the abstract; the five PADSS items are not - read full text."
+found_via: PubMed search
+verified_on: 2026-09-06, PubMed record 8534468 (abstract); co-authors not fully captured - confirm; publisher page not opened

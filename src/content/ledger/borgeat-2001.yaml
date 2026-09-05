@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: borgeat-2001
+day: 11
+citation: "Borgeat A, Ekatodramis G, Kalberer F, Benz C. Acute and nonacute complications associated with interscalene block and shoulder surgery: a prospective study. Anesthesiology. 2001 Oct;95(4):875-880."
+doi: 10.1097/00000542-200110000-00015
+pmid: "11605927"
+design: cohort
+year: 2001
+n: 521 enrolled, 520 analysed
+access: paywalled
+currency: current
+topic: regional
+claim_support: magnitude
+supports: "Acute: pneumothorax 1 (0.2%), CNS toxicity 1 (0.2%). Symptomatic (paresthesia/dysesthesia/non-surgical pain) 14% at 10 days, 7.9% at 1 month, 0.9% at 6 months, 0.2% at 9 months; overall short- and severe long-term complication rate 0.4%. Horner syndrome is NOT reported in the abstract; if the day needs a Horner figure it must come from the full text or another source."
+found_via: PubMed search
+verified_on: 2026-09-06, PubMed record 11605927 (abstract; 3-month figure lost to output filter); co-authors not fully captured - confirm; publisher page not opened

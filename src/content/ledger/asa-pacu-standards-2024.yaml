@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: asa-pacu-standards-2024
+day: 15
+citation: American Society of Anesthesiologists. Standards for Postanesthesia Care. Approved by the House of Delegates October 27, 2004; last amended October 23, 2024. https://www.asahq.org/standards-and-practice-parameters/standards-for-postanesthesia-care
+doi: null
+pmid: null
+design: guideline
+year: 2024
+n: NA
+access: open
+currency: current
+topic: discharge
+claim_support: magnitude
+supports: "Standard V (verbatim): 'A PHYSICIAN IS RESPONSIBLE FOR THE DISCHARGE OF THE PATIENT FROM THE POSTANESTHESIA CARE UNIT. 1. When discharge criteria are used, they must be approved by the Department of Anesthesiology and the medical staff. They may vary depending upon whether the patient is discharged to a hospital room, to the ICU, to a short stay unit or home. 2. In the absence of the physician responsible for the discharge, the PACU nurse shall determine that the patient meets the discharge criteria. The name of the physician accepting responsibility for discharge shall be noted on the record.' Standard III: 'UPON ARRIVAL IN THE PACU, THE PATIENT SHALL BE RE-EVALUATED AND A VERBAL REPORT PROVIDED TO THE RESPONSIBLE NURSE BY THE MEMBER OF THE ANESTHESIA CARE TEAM WHO ACCOMPANIES THE PATIENT.' Also serves Day 16 (handover requirement)."
+found_via: docs/planning-brief.md 10.4; asahq.org
+verified_on: 2026-09-06, asahq.org standards page read via fetch (society document; no DOI/PMID)

@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-scopolamine-label-2026
+day: 9
+citation: Scopolamine Transdermal System [prescribing information]. Rhodes Pharmaceuticals LLC. Revised 5/2026. DailyMed set ID ba5a1237-4d23-441a-808e-96b97045fbe2.
+doi: null
+pmid: null
+design: advisory
+year: 2026
+n: NA
+access: open
+currency: current
+topic: ponv
+claim_support: magnitude
+supports: "FDA label. PONV: 'Apply one scopolamine transdermal system the evening before scheduled surgery. Remove the transdermal system 24 hours following surgery.' PK: 'circulating plasma concentrations are detected within 4 hours with peak concentrations being obtained, on average, within 24 hours.' Geriatric: 'Elderly patients had an increased risk of neurologic and psychiatric adverse reactions, such as hallucinations, confusion, dizziness, and drug withdrawal syndrome.' Angle-closure glaucoma warning."
+found_via: DailyMed SPL search
+verified_on: 2026-09-06, DailyMed SPL (full label text) via fetch

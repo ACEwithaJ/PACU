@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: sikich-2004
+day: 12
+citation: Sikich N, Lerman J. Development and psychometric evaluation of the pediatric anesthesia emergence delirium scale. Anesthesiology. 2004 May;100(5):1138-1145.
+doi: 10.1097/00000542-200405000-00015
+pmid: "15114210"
+design: cohort
+year: 2004
+n: 50 children
+access: paywalled
+currency: current
+topic: delirium
+claim_support: magnitude
+supports: "PAED scale: five items (eye contact with caregiver; purposeful actions; aware of surroundings; restless; inconsolable), each 1-4 with reverse scoring where applicable, summed; internal consistency 0.89; reliability 0.84 (0.76-0.90); scores higher after sevoflurane than halothane (P<0.008); negative correlation with age and time to awakening; sensitivity 0.64. No diagnostic cut-off in the abstract."
+found_via: PubMed search
+verified_on: 2026-09-06, PubMed record 15114210 (abstract); publisher page not opened

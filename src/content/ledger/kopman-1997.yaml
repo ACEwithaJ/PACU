@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: kopman-1997
+day: 1
+citation: Kopman AF, Yee PS, Neuman GG. Relationship of the train-of-four fade ratio to clinical signs and symptoms of residual paralysis in awake volunteers. Anesthesiology. 1997 Apr;86(4):765-771.
+doi: 10.1097/00000542-199704000-00005
+pmid: "9105219"
+design: cohort
+year: 1997
+n: 10 volunteers
+access: paywalled
+currency: current
+topic: residual_block
+claim_support: magnitude
+supports: "Head-lift insensitivity: a sustained 5-s head-lift was achieved at a mean TOF ratio of 0.60 (range 0.45-0.75), i.e. present well below 0.9. TOF <=0.90 was accompanied by diplopia and difficulty tracking moving objects in all subjects; incisor clench (tongue depressor) not until TOF >0.85; grip strength 59% of control at 0.70; all symptomatic at 0.70; authors conclude recovery requires TOF >0.90."
+found_via: PubMed search
+verified_on: 2026-09-06, PubMed record 9105219 (abstract); co-authors from record; publisher page not opened

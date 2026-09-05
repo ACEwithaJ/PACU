@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: paqueron-2002
+day: 10
+citation: Paqueron X, et al. Is morphine-induced sedation synonymous with analgesia during intravenous morphine titration? Br J Anaesth. 2002 Nov;89(5):697-701.
+doi: null
+pmid: "12393765"
+design: cohort
+year: 2002
+n: "73"
+access: paywalled
+currency: current
+topic: analgesia
+claim_support: magnitude
+supports: "Makes the day's claim directly: 73 PACU patients titrated with morphine; 52 slept, 21 did not; titration stopped at sleep. Ramsay 1.7 (0.4) -> 2.4 (0.6) and BIS 95 (5.0) -> 89.8 (10.2) at sleep onset; VAS fell comparably in both groups (78 -> 39 sleep, 64 -> 30.4 awake); 13/52 sleepers (25%) still had VAS >50 mm at 30 min. Conclusion: sedation precedes analgesia and is not an indicator of adequate analgesia."
+found_via: PubMed search 'Paqueron morphine-induced sedation synonymous analgesia'
+verified_on: "2026-09-06, PubMed record 12393765 (abstract); publisher page not opened; DOI note: candidate 10.1093/bja/aef274 tested at doi.org resolves to a different article - do not use"

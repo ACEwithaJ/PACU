@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: wang-2000
+day: 9
+citation: Wang JJ, Ho ST, Tzeng JI, Tang CS. The effect of timing of dexamethasone administration on its efficacy as a prophylactic antiemetic for postoperative nausea and vomiting. Anesth Analg. 2000 Jul;91(1):136-139.
+doi: 10.1097/00000539-200007000-00025
+pmid: "10866900"
+design: rct
+year: 2000
+n: 120 (3 x 40)
+access: paywalled
+currency: current
+topic: ponv
+claim_support: magnitude
+supports: "Dexamethasone 10 mg IV before induction vs at end of anesthesia vs placebo, abdominal hysterectomy. PONV 0-2 h: 15% vs 45% vs 53%; rescue antiemetic 0-2 h: 8% vs 30% vs 35%; PONV 2-24 h: 25% and 28% vs 55%. Conclusion: dexamethasone immediately before induction is more effective than at the end of anesthesia."
+found_via: PubMed search
+verified_on: 2026-09-06, PubMed record 10866900 (abstract); co-authors not fully captured - confirm; publisher page not opened

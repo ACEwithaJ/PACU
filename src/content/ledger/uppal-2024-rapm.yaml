@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: uppal-2024-rapm
+day: 18
+citation: "Uppal V, et al. Evidence-based clinical practice guidelines on postdural puncture headache: a consensus report from a multisociety international working group. Reg Anesth Pain Med. 2024 Jul 8;49(7):471-501."
+doi: 10.1136/rapm-2023-104817
+pmid: "37582578"
+design: guideline
+year: 2024
+n: NA (50 recommendations)
+access: paywalled
+currency: current
+topic: pdph
+claim_support: magnitude
+supports: Full-length version of uppal-2023 (same working group; 50 vs 47 recommendations). Not read; listed so the day can cite the full guideline when the summary is quoted.
+found_via: PubMed search
+verified_on: 2026-09-06, PubMed record 37582578 (abstract only); text not read

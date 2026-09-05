@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: aldrete-1995
+day: 15
+citation: Aldrete JA. The post-anesthesia recovery score revisited. J Clin Anesth. 1995 Feb;7(1):89-91.
+doi: 10.1016/0952-8180(94)00001-k
+pmid: "7772368"
+design: consensus_statement
+year: 1995
+n: NA
+access: paywalled
+currency: current
+topic: discharge
+claim_support: magnitude
+supports: Source of the modified Aldrete score. No abstract on the PubMed record; the five items (activity, respiration, circulation, consciousness, oxygen saturation; 0-2 each) and the discharge threshold must be read from the full text before they are quoted. Design vocabulary has no term for a scoring-system paper; placeholder.
+found_via: PubMed search
+verified_on: 2026-09-06, PubMed record 7772368 (identifiers only; no abstract)

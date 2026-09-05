@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: link-1997
+day: 13
+citation: Link J, et al. Distinct central anticholinergic syndrome following general anaesthesia. Eur J Anaesthesiol. 1997 Jan;14(1):15-23.
+doi: 10.1046/j.1365-2346.1997.00004.x
+pmid: "9049553"
+design: cohort
+year: 1997
+n: "962"
+access: paywalled
+currency: current
+topic: emergence
+claim_support: magnitude
+supports: "Prospective 2-month recovery-room study: 18/962 (1.9%) developed distinct central anticholinergic syndrome after other causes (prolonged anaesthetic/relaxant action, respiratory depression, metabolic disorder) were excluded; 6/60 women after hysterectomy (P=0.003); untreated somnolence >2 h in 6/18; all woke after physostigmine, 6 relapsed and needed a second (one a third) dose."
+found_via: PubMed search 'central anticholinergic syndrome after anesthesia physostigmine'
+verified_on: 2026-09-06, PubMed record 9049553 (abstract); publisher page not opened

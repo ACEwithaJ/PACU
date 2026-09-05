@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-flumazenil-label-2025
+day: 13
+citation: Flumazenil Injection, USP [prescribing information]. Fresenius Kabi USA, LLC. Revised January 2025. DailyMed set ID a72d9fc1-121c-455d-93a9-002378c9968f.
+doi: null
+pmid: null
+design: advisory
+year: 2025
+n: NA
+access: open
+currency: current
+topic: emergence
+claim_support: magnitude
+supports: "FDA label. Boxed warning (WARNINGS): 'THE USE OF FLUMAZENIL HAS BEEN ASSOCIATED WITH THE OCCURRENCE OF SEIZURES. THESE ARE MOST FREQUENT IN PATIENTS WHO HAVE BEEN ON BENZODIAZEPINES FOR LONG-TERM SEDATION OR IN OVERDOSE CASES WHERE PATIENTS ARE SHOWING SIGNS OF SERIOUS CYCLIC ANTIDEPRESSANT OVERDOSE.' Reversal of sedation/anesthesia (adults): 0.2 mg IV over 15 s; further 0.2 mg at 60-s intervals up to 4 additional doses; maximum cumulative 1 mg. Resedation 3% to 9% in conscious-sedation studies; terminal half-life 40 to 80 minutes."
+found_via: DailyMed SPL search (drug_name=flumazenil)
+verified_on: 2026-09-06, DailyMed SPL (full label text) via fetch

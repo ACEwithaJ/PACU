@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-dexmedetomidine-label-2026
+day: 12
+citation: PRECEDEX (dexmedetomidine hydrochloride) Injection [prescribing information]. Hospira, Inc. Revised 5/2026. DailyMed set ID 92b7ddaa-e45a-4b64-a802-bb5df8771dd6.
+doi: null
+pmid: null
+design: advisory
+year: 2026
+n: NA
+access: open
+currency: current
+topic: delirium
+claim_support: magnitude
+supports: "FDA label indications: 1.1 sedation of initially intubated, mechanically ventilated adults in an intensive care setting by continuous infusion 'not to exceed 24 hours'; 1.2 procedural sedation of non-intubated adults, and of non-intubated pediatric patients aged 1 month to <18 years for non-invasive procedures. NO indication or dosing for delirium, emergence agitation or shivering (these appear only as pediatric adverse reactions after discontinuation). 5.2 hypotension/bradycardia including fatalities, more pronounced with hypovolemia, diabetes, chronic hypertension, elderly; 5.3 transient hypertension during loading."
+found_via: DailyMed SPL search
+verified_on: 2026-09-06, DailyMed SPL (full label text) via fetch
