@@ -39,6 +39,9 @@ const href = (p: { day: number }) => `/d/day-${String(p.day).padStart(2, "0")}/`
 
 const sources = await getEntries(d.evidence);
 
+/* The algorithm card for this day, when one has been written (audit P1-019). */
+const card = (await getCollection("cards")).find((c) => c.data.day === dayNumber) ?? null;
+
 const html = entry.rendered?.html ?? "";
 const marker = '<h2 id="check-yourself"';
 const cut = html.indexOf(marker);
@@ -60,6 +63,11 @@ const after = cut === -1 ? "" : html.slice(cut);
         physiology={d.physiology_status}
         claim={d.clinical_claim_status}
       />
+      {card && (
+        <p class="cardlink">
+          Bedside card: <a href={`/c/${card.data.id}/`}>{card.data.title}</a>
+        </p>
+      )}
     </header>
 
     <div class="body" set:html={before} />
