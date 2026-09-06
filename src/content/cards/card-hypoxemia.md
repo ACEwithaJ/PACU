@@ -10,7 +10,7 @@ evidence:
   - barker-1989
   - fda-methylene-blue-label-2025
   - asa-pacu-2013-d3
-draft: true
+draft: false
 ---
 ## First move
 
