@@ -12,8 +12,8 @@ evidence:
   - guay-2009
   - barker-1989
   - fda-methylene-blue-label-2025
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d03-q1
     stem: In phase 1 of Fu 2004, surgical patients had their minute ventilation halved while breathing room air, or oxygen at an FiO2 of 0.25 or 0.30. In which group did SpO2 fall?
@@ -63,7 +63,7 @@ quiz:
 ---
 ## Why it matters
 
-Most patients arrive in the PACU breathing supplemental oxygen, and most are monitored with a pulse oximeter. The oximeter is trusted as the monitor that will announce respiratory trouble. On supplemental oxygen it cannot do that job for hypoventilation: a patient can retain carbon dioxide for a long time while the saturation stays reassuring. The number that would tell you how often this happens on a typical PACU has not been found: [NUMBER NEEDED: incidence of hypoventilation or hypercapnia in PACU patients receiving supplemental oxygen]. The nearest measurement is from the ward, where patients on supplemental oxygen had 2.7 times the rate of opioid-induced respiratory depression episodes of patients on room air (incidence rate ratio 2.7, 95% CI 1.4 to 5.1) while their desaturation events did not differ [[doufas-2023]].
+Most patients arrive in the PACU breathing supplemental oxygen, and most are monitored with a pulse oximeter. The oximeter is trusted as the monitor that will announce respiratory trouble. On supplemental oxygen it cannot do that job for hypoventilation: a patient can retain carbon dioxide for a long time while the saturation stays reassuring. How often that happens on a typical PACU has never been measured, so this page teaches the mechanism rather than a rate. The nearest measurement is from the ward, where patients on supplemental oxygen had 2.7 times the rate of opioid-induced respiratory depression episodes of patients on room air (incidence rate ratio 2.7, 95% CI 1.4 to 5.1) while their desaturation events did not differ [[doufas-2023]].
 
 The consequence of getting this wrong is not a missed alarm. It is an alarm that is structurally impossible on the monitor you are watching.
 
