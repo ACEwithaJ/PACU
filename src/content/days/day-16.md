@@ -104,7 +104,7 @@ The number the day leads with is the half that still went missing. Even with the
 
 The other half of the original Day 16, that PACU capacity is an operating room problem, has no source in this ledger and has been dropped from the day.
 
-The multicenter successor trial still has no results. Its registry record was re-checked on 2026-09-06: it is enrolling by invitation, holds no posted results, and its estimated primary completion and study completion dates of 31 July 2026 have both passed without an update, the record having last been verified in August 2025. The only 2026 output is a pre-implementation methods paper. Nothing on this page rests on it, and it should not be quoted as a source until it reports.
+The multicenter successor trial still has no results. Its registry record was re-checked on 2026-09-06: it is enrolling by invitation, holds no posted results, and its estimated primary completion and study completion dates of 31 July 2026 have both passed without an update, and the record was last verified in August 2025. The only 2026 output is a pre-implementation methods paper. Nothing on this page rests on it, and it should not be quoted as a source until it reports.
 
 ## At the bedside
 
