@@ -48,7 +48,7 @@ quiz:
         explanation: In the 20 to under 65 band the absolute change must be at least 5 ng/L. A change of 3 does not qualify.
       - text: hsTnT 18 ng/L on a single measurement
         correct: false
-        explanation: Below 20 ng/L does not meet either arm of the definition, and the 30-day mortality in that band was 0.5%.
+        explanation: Below 20 ng/L does not meet either arm of the definition. The paper's own low-risk reference stratum is a peak below 5 ng/L, not below 20.
       - text: hsTnT 10 ng/L with a change of 6 ng/L
         correct: false
         explanation: The absolute value must be at least 20 ng/L for the change criterion to apply. A value of 10 does not enter the definition.
@@ -84,7 +84,7 @@ Surgery imposes a sustained supply-demand stress on the myocardium: tachycardia,
 
 ## Evidence
 
-The definition comes from the 2017 VISION analysis, in which fifth-generation high-sensitivity troponin T was measured on the first three postoperative days [[devereaux-2017]]. MINS was an hsTnT of 20 to less than 65 ng/L with an absolute change of at least 5 ng/L, or an hsTnT of 65 ng/L or more, judged due to ischemia [[devereaux-2017]]. Thirty-day mortality rose with the peak value: 0.5% below 20 ng/L, 3.0% at 20 to less than 65 ng/L, 9.1% at 65 to less than 1000 ng/L, and 29.6% at 1000 ng/L or more, against an overall 30-day mortality of 266 patients (1.2%) [[devereaux-2017]].
+The definition comes from the 2017 VISION analysis of 21,842 patients, in which fifth-generation high-sensitivity troponin T was measured 6 to 12 hours after surgery and daily for three days [[devereaux-2017]]. MINS is defined there, verbatim, as myocardial injury caused by ischemia that occurs during or within 30 days after surgery and is independently associated with mortality, and the diagnostic criterion is an elevated postoperative hsTnT of 20 to less than 65 ng/L with an absolute change of at least 5 ng/L, or an hsTnT of 65 ng/L or more [[devereaux-2017]]. Both of this page's headline figures were read from that primary record on 2026-09-06: 3904 patients (17.9%, 95% CI 17.4 to 18.4) met MINS criteria, and 3633 of them (93.1%, 95% CI 92.2 to 93.8) had no ischemic symptom [[devereaux-2017]]. Thirty-day death occurred in 266 patients (1.2%, 95% CI 1.1 to 1.4), and it rose with the peak value: 3.0% at 20 to less than 65 ng/L, 9.1% at 65 to less than 1000, and 29.6% at 1000 or above [[devereaux-2017]].
 
 The earlier VISION analysis used a fourth-generation troponin T assay and is superseded by the 2017 thresholds; it is on this page only to mark that the assay generation, and therefore the numbers, changed [[devereaux-2012]].
 
