@@ -79,3 +79,24 @@ page. The 500 microgram figure in wide use in national anaphylaxis guidance is n
 ledger, so no dose is quoted from it; the page tells the reader to find out which number their
 institution follows. A row for that national guidance would let the page state both figures with
 their provenance, which is the safer teaching.
+
+## Day 2 — laryngospasm
+
+**The management ladder and its doses.** Removed from the page 2026-09-06 when the director
+cleared Day 2, having been carried as a general recommendation: propofol about 0.5 to 1 mg/kg,
+and succinylcholine variously at 0.1 to 0.5 mg/kg, 1 to 1.5 mg/kg, or 3 to 4 mg/kg
+intramuscularly. None had a source in this ledger. Round 3 confirmed that no society guideline
+states a sequence at all, and named two primary papers for individual rungs that were not
+retrieved, Chung and Rowbottom 1993 for low-dose suxamethonium and Batra 2005 for propofol,
+noting that the latter is about prevention rather than rescue. The card at /c/card-laryngospasm/
+still carries the ladder and is still a draft. Round 4 should retrieve those rungs.
+
+## Day 5 — PACU hypotension
+
+**The differential and the first-move vasopressor doses.** Removed from the page 2026-09-06 when
+the director cleared Day 5, having been carried as general recommendations: the differential of
+hypovolemia, vasodilatation, anaphylaxis, sepsis and cardiac causes, and first moves of
+phenylephrine about 50 to 100 micrograms or ephedrine about 5 to 10 mg escalating to
+norepinephrine. None had a source in this ledger and none of those agents has outcome evidence in
+this setting. The card at /c/card-hypotension/ still carries both and is still a draft. Round 4
+has no target for this yet and should be given one.

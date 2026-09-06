@@ -12,8 +12,8 @@ evidence:
   - bmc-nppe-2025
   - olsson-1984
   - fda-succinylcholine-label-2022
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d02-q1
     stem: "In the Australian Incident Monitoring Study analysis of laryngospasm (Visvanathan 2005), what did the authors conclude a structured approach would have changed?"
@@ -99,6 +99,7 @@ One figure that circulates from this series, that intubation was required in 43%
 
 The management ladder itself has no guideline source, and that is now a finding rather than a gap. On 2026-09-06 the two society documents that would be expected to carry it were searched. The Difficult Airway Society extubation guideline was read in full: it treats laryngospasm only as a risk, states no sequence, contains no jaw thrust, no laryngospasm notch and no succinylcholine for post-extubation laryngospasm, and its single pharmacological statement is that robust evidence for doxapram in this indication is lacking. The Association of Paediatric Anaesthetists of Great Britain and Ireland has no laryngospasm guideline at all, and the joint paediatric difficult airway guidelines do not mention it. The ladder residents are taught is a textbook construction, not a society recommendation, and neither of those documents has a ledger row yet. The paper usually cited for the Larson maneuver remains a letter without an abstract that a later letter calls unproven. What the succinylcholine label does supply is the dose by route: an average intravenous dose of 0.6 mg/kg to produce blockade and facilitate intubation, an intramuscular dose of up to 3 to 4 mg/kg not exceeding 150 mg in total, with intramuscular onset usually observed in about 2 to 3 min; the label carries no laryngospasm-specific dose and carries a boxed warning for hyperkalemic cardiac arrest in children with undiagnosed myopathy [[fda-succinylcholine-label-2022]]. The five-case series describes supportive management of negative-pressure pulmonary edema only in outline [[bmc-nppe-2025]].
 
+Until this day was cleared it also carried the commonly taught sequence itself, with propofol and succinylcholine doses, marked as a general recommendation. Those doses had no source in this ledger, and a dose is the last thing that should be asserted without one, so they were removed rather than relabeled. The succinylcholine doses the FDA label does give are quoted above. Follow your institution's laryngospasm algorithm.
 ## At the bedside
 
 Treat a falling saturation in a recovering patient as an airway problem until you have looked at the airway. Both AIMS analyses say the same thing from different directions: obstruction can present as nothing but desaturation [[visvanathan-2005-laryngospasm]] [[visvanathan-2005-airway]].
@@ -108,13 +109,6 @@ Distinguish the larynx from the tongue. In the recovery period the tongue is the
 Use a structured approach and know it before you need it, because the registry authors judged that recognition or management could have been better in about one case in six [[visvanathan-2005-laryngospasm]]. [PRACTICE VARIES: the institutional laryngospasm algorithm and the dose and route of succinylcholine it specifies differ between hospitals; know yours.]
 
 After any significant obstruction, watch for the edema, the aspiration and the hypoxemia that the registry names as its downstream harm, and do not discharge on the strength of the obstruction having resolved [[visvanathan-2005-laryngospasm]].
-
-
-### General recommendations
-
-These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
-
-[GENERAL: A commonly taught laryngospasm sequence: call for help and give 100% oxygen; remove the stimulus, including blood and secretions; jaw thrust with firm pressure in the laryngospasm notch behind the earlobe, the Larson maneuver; continuous positive airway pressure by a tight-fitting mask, avoiding vigorous inflation that fills the stomach; deepen anesthesia with propofol about 0.5 to 1 mg/kg intravenously; and if obstruction persists or the patient is desaturating, succinylcholine, often quoted as 0.1 to 0.5 mg/kg intravenously at low dose or 1 to 1.5 mg/kg with intubation, or 3 to 4 mg/kg intramuscularly to a maximum of 150 mg when there is no intravenous access, with atropine in children for bradycardia. No trial compares sequences.]
 
 ## Check yourself
 

@@ -12,8 +12,8 @@ evidence:
   - salmasi-2017
   - mcevoy-2019
   - sessler-2019
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d05-q1
     stem: "In the POISE-2 substudy (Sessler 2018), the intraoperative odds ratio of 1.08 for the composite of myocardial infarction and death is expressed per what unit of exposure?"
@@ -122,6 +122,7 @@ Liem 2020 also carries a result that cuts against the intuition the day builds o
 
 The 98.3% confidence intervals in Sessler 2018 are not a misprint: they reflect the trial's correction for multiple comparisons, and they should be quoted as printed [[sessler-2018]].
 
+Until this day was cleared it also carried a working differential for PACU hypotension and a set of first-move vasopressor doses, marked as general recommendations. Neither had a source in this ledger, and none of those agents has outcome evidence in this setting, so both were removed rather than relabeled as a local preference. What survives here is what the sources actually establish: that hypotension is an exposure that accrues, that absolute thresholds perform about as well as thresholds relative to a patient's own baseline, and that anaphylaxis presents as hypotension often enough to belong on any list you make.
 ## At the bedside
 
 Record hypotension the way the sources measure it: how far below which number, and for how long. A single reading is a sample of an exposure, not the exposure.
@@ -131,15 +132,6 @@ When you set a PACU threshold, use an absolute number and say what it is. Salmas
 Before you sign a patient out to a ward where vital signs are taken every 4 to 6 h, ask how much of their hypotension dose has already accrued and whether the next four hours unobserved are acceptable [[mcevoy-2019]]. The decision to discharge from the PACU is a decision about who watches the pressure next.
 
 Treat the association as a reason to look and to act on a protocol, not as proof that the protocol changes outcome. Say so when you teach it.
-
-
-### General recommendations
-
-These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
-
-[GENERAL: A working differential for PACU hypotension: hypovolemia and ongoing bleeding; vasodilatation from residual anesthetic or a neuraxial sympathectomy; anaphylaxis; sepsis; and cardiac causes including ischemia, arrhythmia, tamponade, pulmonary embolism and tension pneumothorax.]
-
-[GENERAL: Commonly used first moves are a fluid bolus with phenylephrine about 50 to 100 micrograms or ephedrine about 5 to 10 mg by bolus, escalating to a norepinephrine infusion if the pressure does not hold. None of these agents has outcome evidence in this setting.]
 
 ## Check yourself
 
