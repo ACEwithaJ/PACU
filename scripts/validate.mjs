@@ -30,6 +30,7 @@
  *   RULE-12  a [NUMBER NEEDED]/[TODO_VERIFY] placeholder in a day or card with draft: false
  *   RULE-13  more than 40% of quiz keys render at the same option position
  *   RULE-14  a quiz stem that asks about the site rather than about care
+ *   RULE-15  a [GENERAL:] recommendation in a day or card with draft: false
  *
  * Every placeholder and every [PRACTICE VARIES] marker, draft or not, is
  * written to docs/content-review.md (or --review) for physician review.
@@ -53,6 +54,7 @@ import {
   NUMBER_WITH_UNIT,
   PLACEHOLDER,
   PRACTICE_VARIES,
+  GENERAL_REC,
   ledgerSchema,
   makeDaySchema,
   makeCardSchema,
@@ -150,10 +152,22 @@ function checkBody(file, body, bodyOffset, draft) {
     for (const m of l.matchAll(fresh(PRACTICE_VARIES))) {
       review.push({ file: rel(file), line: i + 1 + bodyOffset, kind: "practice varies", text: m[0] });
     }
+    // Rule 15 + review — a general recommendation carries no ledger entry, so
+    // a page holding one cannot be cleared for publication.
+    for (const m of l.matchAll(fresh(GENERAL_REC))) {
+      review.push({ file: rel(file), line: i + 1 + bodyOffset, kind: "general recommendation", text: m[0] });
+      if (!draft) {
+        error("15", file, i + 1 + bodyOffset, `general recommendation in content with draft: false: ${m[0].slice(0, 70)}…`);
+      }
+    }
   });
 
   // Rule 10 — a number with a unit needs a citation token in the same paragraph.
   // A paragraph is a run of non-blank lines that is not a heading.
+  //
+  // A [GENERAL:] paragraph is exempt: it has no ledger entry by definition and
+  // the callout it renders into states that in the reader's face, which is a
+  // stronger disclosure than a citation would be.
   let block = [];
   let blockStart = 0;
   const flush = () => {
@@ -161,7 +175,8 @@ function checkBody(file, body, bodyOffset, draft) {
     const text = block.join("\n");
     if (!text.trim().startsWith("#")) {
       const num = NUMBER_WITH_UNIT.exec(text);
-      if (num && !fresh(CITE_TOKEN).test(text)) {
+      const exempt = fresh(GENERAL_REC).test(text);
+      if (num && !exempt && !fresh(CITE_TOKEN).test(text)) {
         error("10", file, blockStart + bodyOffset, `"${num[0]}" has no [[key]] citation in its paragraph`);
       }
     }
@@ -376,6 +391,10 @@ for (const f of listFiles(DAYS_DIR, ".md")) {
     for (const m of l.matchAll(fresh(PRACTICE_VARIES))) {
       review.push({ file: rel(file), line: i + 2, kind: "practice varies", text: m[0] });
     }
+    for (const m of l.matchAll(fresh(GENERAL_REC))) {
+      review.push({ file: rel(file), line: i + 2, kind: "general recommendation", text: m[0] });
+      if (!day.draft) error("15", file, i + 2, `general recommendation in a quiz item with draft: false`);
+    }
   });
 }
 
@@ -450,7 +469,7 @@ const reviewMd = [
   "statement in days and cards, for physician review before a day leaves draft.",
   "A placeholder in content with `draft: false` fails the build (rule 12).",
   "",
-  `Placeholders: ${review.filter((r) => r.kind === "placeholder").length} · Practice varies: ${review.filter((r) => r.kind === "practice varies").length}`,
+  `Placeholders: ${review.filter((r) => r.kind === "placeholder").length} · Practice varies: ${review.filter((r) => r.kind === "practice varies").length} · General recommendations: ${review.filter((r) => r.kind === "general recommendation").length}`,
   "",
 ];
 if (byFile.size === 0) {

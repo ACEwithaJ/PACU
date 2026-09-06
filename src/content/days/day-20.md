@@ -104,6 +104,13 @@ Grade the reaction, then dose the epinephrine to the grade: 20 µg for Grade II,
 
 Do not reach for sugammadex as a treatment for suspected anaphylaxis, whatever the neuromuscular blocker was; the consensus is explicit that it has no immediate role [[garvey-2019]]. Send the tryptase at the times the consensus specifies, and refer for investigation, because the next anesthetic depends on knowing the culprit [[garvey-2019]].
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: National anaphylaxis guidance outside the operating room commonly gives 500 micrograms intramuscularly for an adult, where the perioperative consensus quoted above gives 300 micrograms for the same situation. The perioperative figure assumes an anesthesiologist with intravenous access; if you are giving an intramuscular dose, know which number your institution follows.]
+
 ## Check yourself
 
 Three items. Every option carries an explanation. Progress is not saved.

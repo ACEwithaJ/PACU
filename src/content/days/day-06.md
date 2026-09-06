@@ -103,6 +103,17 @@ Treat what you find. A pressure that falls when the pain is treated or the bladd
 
 If nothing reversible explains it and the level is one you judge dangerous for this patient, then treat the pressure, knowing that no general threshold has evidence behind it and that the number above which injury has been associated is 160 mmHg [[sessler-2019-d6]]. [PRACTICE VARIES: the pressure at which a PACU protocol calls for direct treatment, and the agent used, differ between institutions; follow local protocol and know that the threshold is a local decision, not an evidence-based one.]
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: Populations where an explicit upper pressure limit usually does exist, set by the surgical or obstetric service rather than by evidence: after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia.]
+
+[GENERAL: When direct treatment is chosen, the agents usually stocked for the PACU are labetalol in 5 to 10 mg intravenous increments, hydralazine 5 to 10 mg intravenously, and a nicardipine or clevidipine infusion where titratable control is wanted.]
+
+[GENERAL: Beta-blockers a patient already takes are generally continued through the perioperative period rather than stopped, which is the other half of the withdrawal limb of this differential.]
+
 ## Check yourself
 
 Three items. Every option carries an explanation. Progress is not saved.

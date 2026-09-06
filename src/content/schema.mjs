@@ -190,6 +190,23 @@ export const NUMBER_WITH_UNIT = /\d+(\.\d+)?\s?(%|mg|ng\/L|mmHg|min|h|°C)/;
 export const PLACEHOLDER = /\[(NUMBER NEEDED|TODO_VERIFY):\s*([^\]]*)\]/g;
 export const PRACTICE_VARIES = /\[PRACTICE VARIES:\s*([^\]]*)\]/g;
 
+/**
+ * [GENERAL: text] — a widely taught recommendation this project has NOT
+ * verified against a primary record.
+ *
+ * Added by the director on 2026-09-06 so that a resident is not left without
+ * the number they need at the bedside while retrieval catches up. It is
+ * deliberately a different kind of statement from everything else here: it
+ * renders inside a callout that says so, it is exempt from rule 10 because
+ * the callout itself is the disclosure, it is collected into
+ * docs/content-review.md as a retrieval target, and rule 15 refuses to let a
+ * page carrying one leave draft.
+ *
+ * It must never become a keyed quiz answer. Replace it with a cited sentence
+ * as soon as a retrieval round supplies the source.
+ */
+export const GENERAL_REC = /\[GENERAL:\s*([^\]]*)\]/g;
+
 /** Rule 11: options that test nothing. */
 export const FORBIDDEN_OPTION = /^\s*(all|none|both|neither)\s+of\s+the\s+above\b/i;
 

@@ -105,6 +105,13 @@ Use the volume, not the void, as the decision. A patient below the local thresho
 
 Write the volume in the discharge note, because the ward that receives the patient will otherwise start the folklore again.
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: A bladder volume of about 500 to 600 mL is the threshold most institutions use to catheterize a patient who cannot void, though volumes up to about 800 mL have been studied without an excess of urological complications. Know which number your unit uses.]
+
 ## Check yourself
 
 Three items. Every option carries an explanation. Progress is not saved.

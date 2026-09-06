@@ -64,3 +64,34 @@ Council divergence; PDPH incidence by needle.
    recovery, minor injuries). They are reasonable and none has sources in the ledger yet.
 5. Learning objectives per day. The report is right that the claim line is a thesis, not a
    measurable objective. Writing them is cheap; agreeing the verbs is a director decision.
+
+---
+
+## Addendum, 2026-09-06: the general recommendations were added after all
+
+The director reviewed the rejection above and directed that the dozen clinical numbers be added
+with a note saying they are general recommendations only. That has been done, and this section
+records exactly what was and was not conceded.
+
+**What was added.** Twenty-seven statements across fourteen days, each inside a `[GENERAL: …]`
+marker: the sleep-apnea monitoring medians and the room-air observation test, the STOP-Bang
+bands and items, the 36.0 °C transfer threshold, dantrolene dosing and the MHAUS hotline, the
+laryngospasm ladder, the PONV dose table and the three-or-more-factor practice, multimodal
+analgesia and the sedation scales, the adult delirium screening tools and the treatment stance,
+naloxone, flumazenil, physostigmine and sugammadex doses for delayed emergence, the hypotension
+and hypertension differentials with their usual agents, the populations that do carry explicit
+pressure limits, the three discharge instruments with their items and thresholds, the bladder
+volume thresholds, the positioning recommendations and the recovery-room vision check, the
+sugammadex renal limit and the monitoring site, and the intramuscular epinephrine divergence.
+
+**What was not conceded.** These are not citations and they are not ledger rows. Each renders in
+a bordered callout headed "General recommendation" whose second line tells the reader the
+statement is widely taught, is not verified against a primary source by this project, carries no
+ledger entry, and is subordinate to local protocol. They are exempt from rule 10 only because
+that callout is a stronger disclosure than a citation would be, they are collected in
+`docs/content-review.md` alongside the placeholders as retrieval targets, and rule 15 fails the
+build if a page carrying one is ever marked cleared. None of them is a keyed quiz answer.
+
+**What this changes about the retrieval rounds.** Nothing. Every one of these statements remains
+a target in the round 3 prompt, and each should be replaced by a cited sentence when the source
+is read. The marker exists to make the unverified visible, not to make it permanent.

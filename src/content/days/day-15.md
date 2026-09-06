@@ -108,6 +108,17 @@ Assess the bladder case by case, in the patients and after the procedures where 
 
 Write the discharge against the criteria your institution has approved, and know who is accountable for the decision, because the obligation is current even where its content is not specified.
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: The modified Aldrete score has five items, activity, respiration, circulation, consciousness and oxygen saturation, each scored 0 to 2, with 9 or more of 10 usually required for discharge.]
+
+[GENERAL: The post-anesthetic discharge scoring system has five items, vital signs, activity, nausea and vomiting, pain, and surgical bleeding, each scored 0 to 2, with 9 or more of 10 usually required for home readiness.]
+
+[GENERAL: The White fast-track criteria have seven items, level of consciousness, physical activity, hemodynamic stability, respiratory stability, oxygen saturation, pain and emetic symptoms, each scored 0 to 2, with 12 or more of 14 and no single item scored 0 usually required to bypass phase one recovery.]
+
 ## Check yourself
 
 Three items. Every option carries an explanation. Progress is not saved.

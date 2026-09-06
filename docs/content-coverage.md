@@ -17,6 +17,11 @@
   the PACU to **Day 7**, both in the "What this does not show" slot (`also` on `DAY_PLAN`).
   Neither has a ledger row yet; both are placeholders until one is retrieved.
 
+**General recommendations added 2026-09-06 (director decision).** Twenty-seven widely taught
+statements now appear on fourteen days inside `[GENERAL:]` callouts that declare them unverified
+and unsourced. They are retrieval targets, not content: rule 15 stops any page carrying one from
+leaving draft, and each should be replaced by a cited sentence when round 3 supplies the source.
+
 **Retrieval round 2 integrated and all 20 days authored (2026-09-06, all `draft: true`):** the ledger
 is 107 rows; Days 10, 13, 17, 18, 19, 20 exist; the methemoglobinemia and malignant hyperthermia
 boundaries are written into Days 3 and 7; and the placeholders on Days 1, 2, 6, 7, 9, 11, 12, 14, 15

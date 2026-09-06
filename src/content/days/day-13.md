@@ -115,6 +115,13 @@ Before you give flumazenil, ask what benzodiazepines the patient takes at home. 
 
 When the commoner causes are excluded and the patient remains somnolent or agitated after antimuscarinic drugs, think of central anticholinergic syndrome; it responds to physostigmine and it can relapse [[link-1997]]. [PRACTICE VARIES: the availability of physostigmine, and the local threshold for imaging a patient who has not woken, differ between institutions.]
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: Doses commonly used in this sequence: naloxone 0.04 to 0.1 mg intravenously in increments; flumazenil 0.2 mg intravenously repeated to a maximum of 1 mg; physostigmine 0.5 to 2 mg intravenously given slowly, with atropine available for bradycardia and an awareness of its seizure risk; sugammadex 2 to 4 mg/kg by measured depth of block; and dextrose for a low glucose.]
+
 ## Check yourself
 
 Three items. Every option carries an explanation. Progress is not saved.

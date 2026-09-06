@@ -141,6 +141,15 @@ If the ratio is documented at 0.9 or more, no antagonism is needed; if it is bel
 
 Treat hypoxemia or airway obstruction in the first minutes of PACU stay as residual block until a monitor says otherwise, because those were the two commonest events in the matched cohort and the cases were, on average, still deeply blocked [[murphy-2008]].
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: Monitor at the adductor pollicis with the ulnar nerve stimulated at the wrist. Acceleromyographic devices read high and need normalization to a baseline; electromyographic devices do not.]
+
+[GENERAL: Sugammadex is not recommended when the creatinine clearance is below 30 mL/min, because the sugammadex-relaxant complex is cleared renally.]
+
 ## Check yourself
 
 Four items. Every option carries an explanation. Progress is not saved.
