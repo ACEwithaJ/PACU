@@ -10,7 +10,7 @@ general recommendation (rule 15): a page carrying either cannot be cleared. The 
 recommendations are the ones to replace first — each is a widely taught statement that
 carries no ledger entry, and a retrieval round should turn it into a cited sentence.
 
-Placeholders: 10 · Practice varies: 25 · General recommendations: 39
+Placeholders: 10 · Practice varies: 25 · General recommendations: 34
 
 ## src/content/cards/card-delayed-emergence.md
 
@@ -85,9 +85,8 @@ Placeholders: 10 · Practice varies: 25 · General recommendations: 39
 ## src/content/days/day-09.md
 
 - line 156 — placeholder: `[TODO_VERIFY: a source for ondansetron's limited effect on vestibular nausea]`
-- line 166 — practice varies: `[PRACTICE VARIES: the specific rescue agents stocked and the order in which they are used differ between institutions; the class-change rule does not.]`
+- line 167 — practice varies: `[PRACTICE VARIES: the specific rescue agents stocked and the order in which they are used differ between institutions; the class-change rule does not.]`
 - line 173 — general recommendation: `[GENERAL: Two adult prophylactic doses in common use are not in the Fifth guideline's table: dimenhydrinate about 1 mg/kg intravenously, and promethazine 6.25 to 12.5 mg intravenously for prophylaxis rather than rescue. The guideline's own doses are cited in the evidence slot above and are not general recommendations.]`
-- line 175 — general recommendation: `[GENERAL: Adding a third agent for a patient with three or more risk factors is widely taught, and it is not what the guideline recommends. The guideline's position, quoted in the evidence slot, is to maximize risk mitigation instead, with acupoint stimulation offered where three or more interventions are required. Treat the third drug as local practice, not as guideline.]`
 
 ## src/content/days/day-10.md
 
@@ -115,10 +114,7 @@ Placeholders: 10 · Practice varies: 25 · General recommendations: 39
 
 ## src/content/days/day-14.md
 
-- line 107 — practice varies: `[PRACTICE VARIES: the monitored setting used after PACU discharge for patients at increased risk from OSA, the monitoring modality, and the criteria for ending it differ between institutions; follow local protocol and know which guideline it cites.]`
-- line 114 — general recommendation: `[GENERAL: The figures usually quoted here, a median of about 3 hours of extra monitoring and a median of about 7 hours after the last episode of airway obstruction or hypoxemia on room air, are not in the 2014 guideline. Its full text was searched on 2026-09-06 for each of those phrases and they are absent; the 2014 document carries the discharge obligation and the room-air observation but no duration at all. The figures belong to the superseded 2006 original, where they are consultant survey medians, and the 2014 update dropped them. They are not current ASA guidance, no row for the 2006 document exists in this ledger yet, and the numbers therefore stay off this page as anything other than this note.]`
-- line 116 — general recommendation: `[GENERAL: The room-air, unstimulated observation is the practical test the guidance points at: watch the patient asleep and undisturbed on room air and see whether the saturation holds.]`
-- line 118 — general recommendation: `[GENERAL: The STOP-Bang score is commonly banded as 0 to 2 low risk, 3 to 4 intermediate, and 5 to 8 high risk. Only the top of that scale has a source in this ledger: the 5 to 8 band is measured, and the 3 to 4 intermediate band traces to a narrative review, which this project does not admit as a source. Treat the intermediate band as convention rather than evidence. The four Bang item thresholds are no longer general and are cited in the evidence slot above.]`
+- line 111 — practice varies: `[PRACTICE VARIES: the monitored setting used after PACU discharge for patients at increased risk from OSA, the monitoring modality, and the criteria for ending it differ between institutions; follow local protocol and know which guideline it cites.]`
 
 ## src/content/days/day-15.md
 
@@ -146,9 +142,8 @@ Placeholders: 10 · Practice varies: 25 · General recommendations: 39
 
 - line 99 — placeholder: `[TODO_VERIFY: the recommendation text of the 2019 ASA perioperative visual loss advisory, from the PMC copy.]`
 - line 99 — placeholder: `[NUMBER NEEDED: incidence, mechanism and timing of perioperative brachial plexus injury outside cardiac surgery]`
-- line 107 — practice varies: `[PRACTICE VARIES: whether a formal visual check is part of PACU discharge after spine surgery, and how peripheral nerve findings are documented, differ between institutions.]`
-- line 114 — general recommendation: `[GENERAL: One item of commonly taught positioning practice does not match the advisory's wording and is worth correcting. Residents are taught to pad the elbow at the cubital tunnel. The advisory asks instead that the upper extremity be positioned to decrease pressure on the postcondylar groove, and it mentions padding only inside a general list of positioning strategies, protective padding and equipment placement. Padding is a means; decreasing pressure on the groove is the instruction. The abduction limit and the forearm position are no longer general and are cited in the evidence slot above.]`
-- line 116 — general recommendation: `[GENERAL: After prone spine surgery in a high-risk patient, ask about vision as soon as the patient is alert enough to answer, and obtain urgent ophthalmology review for any visual complaint rather than waiting for it to declare itself.]`
+- line 108 — practice varies: `[PRACTICE VARIES: whether a formal visual check is part of PACU discharge after spine surgery, and how peripheral nerve findings are documented, differ between institutions.]`
+- line 114 — general recommendation: `[GENERAL: After prone spine surgery in a high-risk patient, ask about vision as soon as the patient is alert enough to answer, and obtain urgent ophthalmology review for any visual complaint rather than waiting for it to declare itself.]`
 
 ## src/content/days/day-20.md
 
