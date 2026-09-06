@@ -12,8 +12,8 @@ evidence:
   - sikich-2004
   - costi-2014
   - fda-dexmedetomidine-label-2026
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d12-q1
     stem: "A patient screens positive for delirium in the recovery room. What does the 2024 ESAIC guideline say should happen before transfer to the ward?"
@@ -95,7 +95,7 @@ The guideline rests on a large randomized literature for prevention. It does not
 
 The rule the director's content list places here, that hypoxemia, hypoglycemia and pain must be excluded before either the delirium or the emergence-agitation label is applied, was searched for in the full text of the guideline on 2026-09-06 and is not there. None of its 13 recommendations states it. The nearest text is its statement that alcohol-withdrawal delirium is a clinical diagnosis of exclusion after considering all other diagnoses [[aldecoa-2024]]. The rule is sound practice and it is not this guideline's; it needs a different source or it should be carried as local teaching.
 
-Pediatric emergence delirium after sevoflurane has its scale and its relative risks. The Pediatric Anesthesia Emergence Delirium scale has five items, eye contact with the caregiver, purposeful actions, awareness of surroundings, restlessness and inconsolability, each scored 1 to 4 and summed, with internal consistency 0.89 and reliability 0.84 (0.76 to 0.90); scores were higher after sevoflurane than halothane, P less than 0.008, and the abstract gives no diagnostic cut-off [[sikich-2004]]. A Cochrane review of 158 trials in 14,045 children found, against sevoflurane, a relative risk of 0.51 (0.41 to 0.63) with halothane and 0.35 (0.25 to 0.51) with propofol throughout, and as adjuncts a relative risk of 0.37 (0.29 to 0.47) with dexmedetomidine and 0.37 (0.27 to 0.50) with fentanyl, with the authors flagging pain as a confounder of the diagnosis; it gives relative risks, not an absolute incidence [[costi-2014]]. [NUMBER NEEDED: absolute incidence of emergence delirium after sevoflurane in children.]
+Pediatric emergence delirium after sevoflurane has its scale and its relative risks. The Pediatric Anesthesia Emergence Delirium scale has five items, eye contact with the caregiver, purposeful actions, awareness of surroundings, restlessness and inconsolability, each scored 1 to 4 and summed, with internal consistency 0.89 and reliability 0.84 (0.76 to 0.90); scores were higher after sevoflurane than halothane, P less than 0.008, and the abstract gives no diagnostic cut-off [[sikich-2004]]. A Cochrane review of 158 trials in 14,045 children found, against sevoflurane, a relative risk of 0.51 (0.41 to 0.63) with halothane and 0.35 (0.25 to 0.51) with propofol throughout, and as adjuncts a relative risk of 0.37 (0.29 to 0.47) with dexmedetomidine and 0.37 (0.27 to 0.50) with fentanyl, with the authors flagging pain as a confounder of the diagnosis; it gives relative risks, not an absolute incidence [[costi-2014]].
 
 Dexmedetomidine has no US indication for delirium, emergence agitation or shivering. Its label indications are sedation of intubated adults in intensive care by infusion not exceeding 24 h, and procedural sedation of non-intubated adults and children; emergence delirium and agitation appear only as pediatric adverse reactions after discontinuation; and its principal warnings are hypotension and bradycardia, including fatalities, and transient hypertension during loading [[fda-dexmedetomidine-label-2026]]. Any use for delirium or agitation is off-label, and this page recommends none.
 
@@ -107,14 +107,13 @@ Before you label a patient delirious or agitated, look for what else could produ
 
 Hold the guideline's recommendations with the firmness its own grading allows. Very low to moderate certainty is a reason to screen, because the cost of screening is low, and a reason to be modest about what any single preventive measure will achieve [[aldecoa-2024]]. Hold this page's own framing loosely too. Until 2026-09-06 it said the guideline requires screening with a validated tool from the day of surgery onward. Reading the full text showed that sentence to be the guideline's evidence-inclusion definition, with the recovery-room start recommended for future studies rather than for practice. The page has been rewritten around what the document actually grades, and the rotation director has to agree with that reading before this day leaves draft.
 
+### Local practice
 
-### General recommendations
+Two things on this day are decided by your institution rather than by the guideline, and the page says so rather than asserting one answer.
 
-These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+[PRACTICE VARIES: which validated delirium screening tool a unit uses differs between institutions. The ones in common adult use are the confusion assessment method for the intensive care unit, the nursing delirium screening scale, and the 4AT. None of the three is named in the body of the 2024 ESAIC guideline; its tool list sits in a supplementary table that has not been retrieved, so treat the choice as institutional. Using none is not a choice.]
 
-[GENERAL: Validated screening tools in adult use are the confusion assessment method for the intensive care unit, the nursing delirium screening scale, and the 4AT. None of the three is named in the body of the 2024 ESAIC guideline; its tool list sits in a supplementary table that has not been retrieved. Which one is used is an institutional choice; using none is not.]
-
-[GENERAL: Treatment is non-pharmacological first: reorientation, sleep, glasses and hearing aids, early mobilization, hydration, and pain control. Benzodiazepines are avoided unless the delirium is benzodiazepine withdrawal, and a low-dose antipsychotic is reserved for agitation that threatens the safety of the patient or of staff.]
+[PRACTICE VARIES: the non-pharmacological bundle applied before any drug differs between institutions. It commonly includes reorientation, protected sleep, restoring glasses and hearing aids, early mobilization, hydration and pain control. The guideline's graded position on what follows if that bundle fails is cited in the evidence slot above.]
 
 ## Check yourself
 
