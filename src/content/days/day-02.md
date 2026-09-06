@@ -109,6 +109,13 @@ Use a structured approach and know it before you need it, because the registry a
 
 After any significant obstruction, watch for the edema, the aspiration and the hypoxemia that the registry names as its downstream harm, and do not discharge on the strength of the obstruction having resolved [[visvanathan-2005-laryngospasm]].
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: A commonly taught laryngospasm sequence: call for help and give 100% oxygen; remove the stimulus, including blood and secretions; jaw thrust with firm pressure in the laryngospasm notch behind the earlobe, the Larson maneuver; continuous positive airway pressure by a tight-fitting mask, avoiding vigorous inflation that fills the stomach; deepen anesthesia with propofol about 0.5 to 1 mg/kg intravenously; and if obstruction persists or the patient is desaturating, succinylcholine, often quoted as 0.1 to 0.5 mg/kg intravenously at low dose or 1 to 1.5 mg/kg with intubation, or 3 to 4 mg/kg intramuscularly to a maximum of 150 mg when there is no intravenous access, with atropine in children for bradycardia. No trial compares sequences.]
+
 ## Check yourself
 
 Three items. Every option carries an explanation. Progress is not saved.

@@ -19,7 +19,7 @@ src/content/cards/card-*.md one file per algorithm card, YAML frontmatter + the 
 src/content/schema.mjs     the content contract (Zod) + DAY_PLAN + CARD_PLAN; imported by Astro AND the validator
 src/content.config.ts      Astro collections: ledger, days, cards
 scripts/ledger-import.mjs  CSV -> YAML + docs/ledger-debt.md      (npm run ledger:import)
-scripts/validate.mjs       the fourteen-rule validator               (npm run validate)
+scripts/validate.mjs       the fifteen-rule validator               (npm run validate)
 scripts/selftest.mjs       proves each rule can fail               (npm run validate:selftest)
 scripts/fixtures/          one deliberately broken content tree per rule, plus clean/
 src/lib/keyplace.mjs       deterministic option rotation, shared by the page and the validator
@@ -104,6 +104,25 @@ position A, which is what this machinery exists to prevent.
 "this page", "this site", "teaching page", "the ledger" or "the director". Editorial reasoning
 belongs in the "What this does not show" slot, not in an item.
 
+
+### General recommendations
+
+A `[GENERAL: …]` marker carries a widely taught statement that this project has **not** read from
+a primary source. The director added the mechanism on 2026-09-06 so that a resident is not left
+without the number they need at the bedside while retrieval catches up.
+
+```
+[GENERAL: A bladder volume of about 500 to 600 mL is the threshold most institutions use…]
+```
+
+It renders as a callout headed "General recommendation" that tells the reader, in the same
+breath, that the statement is unverified here and carries no ledger entry. It is therefore exempt
+from rule 10, because the callout is a stronger disclosure than a citation would be. Every one is
+listed in `docs/content-review.md`, and rule 15 refuses to let a page carrying one leave draft.
+
+Two hard limits. A general recommendation must never be the keyed answer to a quiz item, and it
+must be replaced by a cited sentence as soon as a retrieval round supplies the source. It is a
+bridge, not a destination.
 ## The validator
 
 `npm run validate` runs before every build and exits non-zero on any error. Output is one
@@ -131,6 +150,7 @@ WARN RULE-NN <file> <line> <message>     warning — reported, does not fail
 | 12 | placeholder marker in a day or card with `draft: false` | validator |
 | 13 | more than 40% of quiz keys render at the same option position | validator |
 | 14 | a quiz stem that asks about the site rather than about patient care | validator |
+| 15 | a `[GENERAL:]` recommendation in a day or card with `draft: false` | validator |
 
 Rules 5 and 9 flip from warning to error when `STRICT_LEDGER` in `src/content/schema.mjs`
 is set to `true`. Set it only when `docs/ledger-debt.md` sections 1 and 2 are empty. The

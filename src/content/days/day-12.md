@@ -107,6 +107,15 @@ Before you label a patient delirious or agitated, look for what else could produ
 
 Hold the guideline's recommendations with the firmness its own grading allows. Very low to moderate certainty is a reason to screen, because the cost of screening is low, and a reason to be modest about what any single preventive measure will achieve [[aldecoa-2024]].
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: Validated screening tools in adult use are the confusion assessment method for the intensive care unit, the nursing delirium screening scale, and the 4AT. Which one is used is an institutional choice; using none is not.]
+
+[GENERAL: Treatment is non-pharmacological first: reorientation, sleep, glasses and hearing aids, early mobilization, hydration, and pain control. Benzodiazepines are avoided unless the delirium is benzodiazepine withdrawal, and a low-dose antipsychotic is reserved for agitation that threatens the safety of the patient or of staff.]
+
 ## Check yourself
 
 Three items. Every option carries an explanation. Progress is not saved.

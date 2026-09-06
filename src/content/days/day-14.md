@@ -106,6 +106,17 @@ When you write the disposition, write which guideline you are applying and what 
 
 [PRACTICE VARIES: the monitored setting used after PACU discharge for patients at increased risk from OSA, the monitoring modality, and the criteria for ending it differ between institutions; follow local protocol and know which guideline it cites.]
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: The 2014 guideline's discharge section is often quoted as recording consultant opinion that patients at increased perioperative risk from obstructive sleep apnea be monitored for a median of about 3 hours longer than patients without it, and for a median of about 7 hours after the last episode of airway obstruction or hypoxemia while breathing room air in an unstimulated environment. Those are opinion medians rather than evidence, and this project has not yet read them in the guideline itself.]
+
+[GENERAL: The room-air, unstimulated observation is the practical test the guidance points at: watch the patient asleep and undisturbed on room air and see whether the saturation holds.]
+
+[GENERAL: The STOP-Bang score is commonly banded as 0 to 2 low risk, 3 to 4 intermediate, and 5 to 8 high risk, with the individual items being a body mass index above 35, age over 50, a neck circumference above about 40 cm, and male sex.]
+
 ## Check yourself
 
 Three items. Every option carries an explanation. Progress is not saved.

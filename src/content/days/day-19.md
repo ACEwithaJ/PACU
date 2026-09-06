@@ -106,6 +106,15 @@ Tell the patient and the ward what to watch for and when: numbness or weakness i
 
 For the patient after a long prone spinal fusion with large blood loss, particularly a man with obesity on a Wilson frame, ask about vision explicitly on waking and again before discharge, because the risk factors were all present before the PACU could do anything about them [[povl-study-group-2012]]. [PRACTICE VARIES: whether a formal visual check is part of PACU discharge after spine surgery, and how peripheral nerve findings are documented, differ between institutions.]
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: Positioning practice commonly taught: abduct the arm no more than about 90 degrees, keep the forearm neutral or supinated rather than pronated, and pad the elbow at the cubital tunnel.]
+
+[GENERAL: After prone spine surgery in a high-risk patient, ask about vision as soon as the patient is alert enough to answer, and obtain urgent ophthalmology review for any visual complaint rather than waiting for it to declare itself.]
+
 ## Check yourself
 
 Three items. Every option carries an explanation. Progress is not saved.

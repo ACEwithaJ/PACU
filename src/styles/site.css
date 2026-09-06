@@ -229,3 +229,22 @@ a.cite { font-size: .8rem; }
   .q .opt { padding: .6rem .55rem; }
   main { padding-left: 1rem; padding-right: 1rem; }
 }
+
+/* --- general recommendations (director decision 2026-09-06) --------------- *
+   Widely taught statements that carry no ledger entry. They must never read
+   like the cited prose around them, so they sit in their own callout with a
+   standing caveat. If this ever looks like the rest of the page, the design
+   has failed.
+   ------------------------------------------------------------------------- */
+.general {
+  display: block;
+  margin: 1rem 0;
+  padding: .8rem 1rem;
+  border: 1px dashed var(--warn);
+  border-left: 3px solid var(--warn);
+  border-radius: 0 6px 6px 0;
+  background: var(--warn-soft);
+  font-size: .95rem;
+}
+.general strong { color: var(--warn); }
+.general em { display: block; margin-top: .4rem; font-size: .85rem; color: var(--ink-2); font-style: normal; }

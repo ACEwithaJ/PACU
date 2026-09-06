@@ -139,6 +139,15 @@ Above 35.5 °C, warming is comfort and shivering control, not outcome protection
 
 When a colleague quotes the 1996 and 1997 trials, ask what temperature their hypothermic arms reached, and compare it with what your patient's monitor says. The disagreement in the literature is a disagreement about a few tenths of a degree, and the patient in front of you is on one side of it or the other.
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: Nursing and national guidance commonly define hypothermia as a core temperature below 36.0 °C, ask for a temperature every 15 minutes in recovery, and do not transfer a patient to the ward below 36.0 °C. That threshold is half a degree above the level at which the randomized evidence of harm on this page applies, and the two are different kinds of number.]
+
+[GENERAL: For malignant hyperthermia: stop the volatile agent, hyperventilate with 100% oxygen, and give dantrolene, usually quoted as 2.5 mg/kg intravenously repeated until the signs resolve; cool the patient and treat hyperkalemia. The Malignant Hyperthermia Association of the United States hotline is 1-800-644-9737.]
+
 ## Check yourself
 
 Four items. Every option carries an explanation. Progress is not saved.

@@ -132,6 +132,15 @@ Before you sign a patient out to a ward where vital signs are taken every 4 to 6
 
 Treat the association as a reason to look and to act on a protocol, not as proof that the protocol changes outcome. Say so when you teach it.
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: A working differential for PACU hypotension: hypovolemia and ongoing bleeding; vasodilatation from residual anesthetic or a neuraxial sympathectomy; anaphylaxis; sepsis; and cardiac causes including ischemia, arrhythmia, tamponade, pulmonary embolism and tension pneumothorax.]
+
+[GENERAL: Commonly used first moves are a fluid bolus with phenylephrine about 50 to 100 micrograms or ephedrine about 5 to 10 mg by bolus, escalating to a norepinephrine infusion if the pressure does not hold. None of these agents has outcome evidence in this setting.]
+
 ## Check yourself
 
 Four items. Every option carries an explanation. Progress is not saved.

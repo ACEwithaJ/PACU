@@ -157,6 +157,15 @@ When a patient vomits in the PACU, the first question is which classes were alre
 
 [PRACTICE VARIES: the specific rescue agents stocked and the order in which they are used differ between institutions; the class-change rule does not.]
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: Adult prophylactic doses commonly used: ondansetron 4 mg intravenously toward the end of surgery; dexamethasone 4 to 8 mg intravenously at induction; droperidol 0.625 to 1.25 mg intravenously, subject to the boxed warning above; haloperidol 0.5 to 2 mg; aprepitant 40 mg by mouth or 32 mg intravenously; a scopolamine patch applied the evening before or 2 to 4 hours preoperatively; dimenhydrinate about 1 mg/kg; amisulpride 5 mg for prophylaxis and 10 mg for rescue; promethazine 6.25 to 12.5 mg; palonosetron 0.075 mg at induction.]
+
+[GENERAL: For a patient carrying three or more risk factors, adding a third agent to the two-intervention floor is widely taught, though the guideline itself notes there is little trial evidence for three or more interventions.]
+
 ## Check yourself
 
 Five items. Every option carries an explanation. Progress is not saved.

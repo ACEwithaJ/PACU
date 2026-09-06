@@ -109,6 +109,15 @@ Treat sedation during titration as a limit on the rate, not as the goal. If the 
 
 Do not discharge a patient who is sedated and still in pain as if the sedation had solved the pain; the case-control data say that patient has a bad night and is still in severe pain the next day [[frasca-2007]].
 
+
+### General recommendations
+
+These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+
+[GENERAL: Multimodal analgesia is the current standard around an opioid: acetaminophen and a nonsteroidal anti-inflammatory unless contraindicated, a site-appropriate regional technique, and ketamine in selected opioid-tolerant or high-pain patients. The opioid is titrated on top of that base, not instead of it.]
+
+[GENERAL: Use a named sedation scale and record it, so that sedation is measured rather than eyeballed. The Pasero opioid-induced sedation scale and the Ramsay scale are the two commonly used.]
+
 ## Check yourself
 
 Three items. Every option carries an explanation. Progress is not saved.
