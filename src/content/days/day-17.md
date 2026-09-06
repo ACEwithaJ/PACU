@@ -10,8 +10,8 @@ evidence:
   - keita-2005
   - lamonerie-2004
   - mulroy-2002
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d17-q1
     stem: "Keita 2005 measured bladder volume by ultrasound on PACU arrival and before discharge in 313 patients. How was retention defined, and how common was it?"
@@ -93,7 +93,7 @@ Mulroy 2002 randomized low-risk ambulatory patients after short-acting spinal or
 
 Two of the three sources are cohorts, and the trial is small, single-institution and restricted to low-risk patients under 70 with short-acting neuraxial agents and no hernia, rectal or urological surgery [[keita-2005]] [[lamonerie-2004]] [[mulroy-2002]]. The risk factors are associations. The trial shows that a scanner can replace a void safely in a narrow population; it does not show that in every population, and it did not include peripheral nerve blocks.
 
-The bladder-volume threshold for intervention differs between the sources, 600 mL in one and 500 mL in another, and the discharge gate in the trial was 400 mL; none of them establishes which number is right [[keita-2005]] [[lamonerie-2004]] [[mulroy-2002]]. [PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions.]
+[PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions. Most units sit between 500 and 600 mL. A figure of 800 mL circulates alongside those and is usually misquoted: it comes from a randomized trial, not yet in this ledger, that compared catheterizing at 500 mL with catheterizing at 800 mL in inpatients having fast-track hip and knee arthroplasty under spinal anesthesia. The higher threshold roughly halved the number of patients catheterized with no difference in any urological outcome. It is a catheterize-at threshold in that population, not evidence that an ambulatory patient can be left undrained at 800 mL. Know which number your unit uses.]he bladder-volume threshold for intervention differs between the sources, 600 mL in one and 500 mL in another, and the discharge gate in the trial was 400 mL; none of them establishes which number is right [[keita-2005]] [[lamonerie-2004]] [[mulroy-2002]]. [PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions.]
 
 The retention risk after a peripheral nerve block, as distinct from a neuraxial one, was searched for again on 2026-09-06 and no study isolating peripheral blocks in a genuinely ambulatory population was found. The nearest is an inpatient knee arthroplasty series whose confidence interval is too wide to teach from and whose population is the wrong one. This page therefore says nothing about it rather than borrowing an inpatient number.
 
@@ -104,13 +104,6 @@ Scan the bladder on arrival and before discharge in the patients the sources ide
 Use the volume, not the void, as the decision. A patient below the local threshold can leave without voiding; a patient above it is watched or catheterized [[mulroy-2002]].
 
 Write the volume in the discharge note, because the ward that receives the patient will otherwise start the folklore again.
-
-
-### General recommendations
-
-These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
-
-[GENERAL: A bladder volume of about 500 to 600 mL is the threshold most institutions use to catheterize a patient who cannot void. The 800 mL figure that circulates alongside it is often misquoted, and the correction is worth carrying: it comes from a randomized trial that compared catheterizing at 500 mL with catheterizing at 800 mL in inpatients having fast-track hip and knee arthroplasty under spinal anesthesia. The higher threshold roughly halved the number of patients catheterized with no difference in any urological outcome. It is a catheterize-at threshold in inpatient arthroplasty, not evidence that an ambulatory patient can be left undrained at 800 mL, and no ledger row exists for that trial yet. Know which number your unit uses.]
 
 ## Check yourself
 

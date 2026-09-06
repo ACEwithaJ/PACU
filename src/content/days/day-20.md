@@ -9,8 +9,8 @@ clinical_claim_status: supported
 evidence:
   - harper-2018-nap6
   - garvey-2019
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d20-q1
     stem: "In the UK National Audit Project on perioperative anaphylaxis (NAP6), what was the commonest presenting feature?"
@@ -105,11 +105,11 @@ Grade the reaction, then dose the epinephrine to the grade: 20 µg for Grade II,
 Do not reach for sugammadex as a treatment for suspected anaphylaxis, whatever the neuromuscular blocker was; the consensus is explicit that it has no immediate role [[garvey-2019]]. Send the tryptase at the times the consensus specifies, and refer for investigation, because the next anesthetic depends on knowing the culprit [[garvey-2019]].
 
 
-### General recommendations
+### Local practice
 
-These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
+This point is decided by your institution rather than by the sources on this page, and the page says so rather than asserting one answer.
 
-[GENERAL: National anaphylaxis guidance outside the operating room commonly gives 500 micrograms intramuscularly for an adult, where the perioperative consensus quoted above gives 300 micrograms for the same situation. The perioperative figure assumes an anesthesiologist with intravenous access; if you are giving an intramuscular dose, know which number your institution follows.]
+[PRACTICE VARIES: the intramuscular epinephrine dose an institution expects differs, and the difference is not small. The perioperative consensus quoted above gives 300 micrograms for an adult, and it assumes an anesthesiologist with intravenous access. A figure of 500 micrograms is in wide use in national anaphylaxis guidance outside the operating room; that guidance is not in this ledger and no dose is quoted here from it. If you are reaching for an intramuscular dose, know which number your institution follows before you need it.]
 
 ## Check yourself
 

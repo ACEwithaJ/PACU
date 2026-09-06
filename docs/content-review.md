@@ -10,7 +10,7 @@ general recommendation (rule 15): a page carrying either cannot be cleared. The 
 recommendations are the ones to replace first — each is a widely taught statement that
 carries no ledger entry, and a retrieval round should turn it into a cited sentence.
 
-Placeholders: 10 · Practice varies: 23 · General recommendations: 44
+Placeholders: 10 · Practice varies: 25 · General recommendations: 39
 
 ## src/content/cards/card-delayed-emergence.md
 
@@ -54,8 +54,7 @@ Placeholders: 10 · Practice varies: 23 · General recommendations: 44
 
 ## src/content/days/day-02.md
 
-- line 108 — practice varies: `[PRACTICE VARIES: the institutional laryngospasm algorithm and the dose and route of succinylcholine it specifies differ between hospitals; know yours.]`
-- line 117 — general recommendation: `[GENERAL: A commonly taught laryngospasm sequence: call for help and give 100% oxygen; remove the stimulus, including blood and secretions; jaw thrust with firm pressure in the laryngospasm notch behind the earlobe, the Larson maneuver; continuous positive airway pressure by a tight-fitting mask, avoiding vigorous inflation that fills the stomach; deepen anesthesia with propofol about 0.5 to 1 mg/kg intravenously; and if obstruction persists or the patient is desaturating, succinylcholine, often quoted as 0.1 to 0.5 mg/kg intravenously at low dose or 1 to 1.5 mg/kg with intubation, or 3 to 4 mg/kg intramuscularly to a maximum of 150 mg when there is no intravenous access, with atropine in children for bradycardia. No trial compares sequences.]`
+- line 109 — practice varies: `[PRACTICE VARIES: the institutional laryngospasm algorithm and the dose and route of succinylcholine it specifies differ between hospitals; know yours.]`
 
 ## src/content/days/day-04.md
 
@@ -63,9 +62,7 @@ Placeholders: 10 · Practice varies: 23 · General recommendations: 44
 
 ## src/content/days/day-05.md
 
-- line 129 — practice varies: `[PRACTICE VARIES: the absolute MAP or systolic threshold at which a PACU protocol triggers treatment, and the first-line treatment, differ between institutions; follow local protocol.]`
-- line 140 — general recommendation: `[GENERAL: A working differential for PACU hypotension: hypovolemia and ongoing bleeding; vasodilatation from residual anesthetic or a neuraxial sympathectomy; anaphylaxis; sepsis; and cardiac causes including ischemia, arrhythmia, tamponade, pulmonary embolism and tension pneumothorax.]`
-- line 142 — general recommendation: `[GENERAL: Commonly used first moves are a fluid bolus with phenylephrine about 50 to 100 micrograms or ephedrine about 5 to 10 mg by bolus, escalating to a norepinephrine infusion if the pressure does not hold. None of these agents has outcome evidence in this setting.]`
+- line 130 — practice varies: `[PRACTICE VARIES: the absolute MAP or systolic threshold at which a PACU protocol triggers treatment, and the first-line treatment, differ between institutions; follow local protocol.]`
 
 ## src/content/days/day-06.md
 
@@ -138,8 +135,8 @@ Placeholders: 10 · Practice varies: 23 · General recommendations: 44
 
 ## src/content/days/day-17.md
 
+- line 96 — practice varies: `[PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions. Most units sit between 500 and 600 mL. A figure of 800 mL circulates alongside those and is usually misquoted: it comes from a randomized trial, not yet in this ledger, that compared catheterizing at 500 mL with catheterizing at 800 mL in inpatients having fast-track hip and knee arthroplasty under spinal anesthesia. The higher threshold roughly halved the number of patients catheterized with no difference in any urological outcome. It is a catheterize-at threshold in that population, not evidence that an ambulatory patient can be left undrained at 800 mL. Know which number your unit uses.]`
 - line 96 — practice varies: `[PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions.]`
-- line 113 — general recommendation: `[GENERAL: A bladder volume of about 500 to 600 mL is the threshold most institutions use to catheterize a patient who cannot void. The 800 mL figure that circulates alongside it is often misquoted, and the correction is worth carrying: it comes from a randomized trial that compared catheterizing at 500 mL with catheterizing at 800 mL in inpatients having fast-track hip and knee arthroplasty under spinal anesthesia. The higher threshold roughly halved the number of patients catheterized with no difference in any urological outcome. It is a catheterize-at threshold in inpatient arthroplasty, not evidence that an ambulatory patient can be left undrained at 800 mL, and no ledger row exists for that trial yet. Know which number your unit uses.]`
 
 ## src/content/days/day-18.md
 
@@ -156,4 +153,4 @@ Placeholders: 10 · Practice varies: 23 · General recommendations: 44
 ## src/content/days/day-20.md
 
 - line 97 — practice varies: `[PRACTICE VARIES: the antibiotics, antiseptics and dyes in routine use, and therefore the likely culprits, differ between countries and institutions.]`
-- line 112 — general recommendation: `[GENERAL: National anaphylaxis guidance outside the operating room commonly gives 500 micrograms intramuscularly for an adult, where the perioperative consensus quoted above gives 300 micrograms for the same situation. The perioperative figure assumes an anesthesiologist with intravenous access; if you are giving an intramuscular dose, know which number your institution follows.]`
+- line 112 — practice varies: `[PRACTICE VARIES: the intramuscular epinephrine dose an institution expects differs, and the difference is not small. The perioperative consensus quoted above gives 300 micrograms for an adult, and it assumes an anesthesiologist with intravenous access. A figure of 500 micrograms is in wide use in national anaphylaxis guidance outside the operating room; that guidance is not in this ledger and no dose is quoted here from it. If you are reaching for an intramuscular dose, know which number your institution follows before you need it.]`
