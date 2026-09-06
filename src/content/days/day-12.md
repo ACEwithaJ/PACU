@@ -72,6 +72,7 @@ quiz:
       - text: "Delay any assessment until the patient reaches the ward the next morning"
         correct: false
         explanation: "That is the practice the guideline changed. Screening begins in the recovery room on the day of surgery, or at the latest on postoperative day 1."
+---
 ## Why it matters
 
 Delirium after surgery is diagnosed late because it is looked for late, and it is looked for late because screening has been treated as a ward activity. The 2024 European Society of Anesthesiology and Intensive Care guideline moves the start line: postoperative delirium, defined per DSM-5, is to be measured with a validated screening tool at least once daily for at least three days, starting in the recovery room or PACU on the day of surgery, or at latest on postoperative day 1 [[aldecoa-2024]]. That sentence puts the first screen inside the PACU.
