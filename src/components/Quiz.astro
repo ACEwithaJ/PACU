@@ -7,7 +7,16 @@
  * view-source; these items are formative and feed nothing, so that is fine.
  * Nothing is stored anywhere — not localStorage, not a server. The page says
  * so, because a resident who assumes otherwise will be misled.
+ *
+ * Option order: the correct option is placed deterministically by item id
+ * (src/lib/keyplace.mjs), and the validator's rule 13 checks the site-wide
+ * distribution. Audit 2026-09-05 found 64 of 67 keys rendered as "A".
+ *
+ * Accessibility (audit P2-009): options are a radiogroup; the chosen option
+ * carries aria-checked; the explanation region is linked by aria-describedby.
  */
+import { placeOptions } from "../lib/keyplace.mjs";
+
 interface Option {
   text: string;
   correct: boolean;
@@ -17,6 +26,9 @@ interface Item {
   id: string;
   stem: string;
   options: Option[];
+  teachingPoint?: string;
+  difficulty?: string;
+  examAlignment?: string[];
 }
 interface Props {
   items: Item[];
@@ -24,6 +36,7 @@ interface Props {
 }
 const { items, dayId } = Astro.props;
 const KEYS = ["A", "B", "C", "D", "E"];
+const placed = items.map((item) => ({ ...item, options: placeOptions(item.id, item.options) }));
 ---
 
 <div class="quiz" id="quiz" data-day-id={dayId}>
@@ -32,27 +45,32 @@ const KEYS = ["A", "B", "C", "D", "E"];
     leave it. There are no accounts and nothing is recorded.
   </p>
   {
-    items.map((item, i) => (
+    placed.map((item, i) => (
       <div class="q" data-quiz-item={item.id}>
         <div class="q-tag">
-          Item {i + 1} of {items.length} · {item.id}
+          Item {i + 1} of {placed.length}
+          {item.difficulty && <span> · {item.difficulty}</span>}
+          {item.examAlignment && item.examAlignment.length > 0 && <span> · {item.examAlignment.join(", ")}</span>}
         </div>
-        <p class="stem">{item.stem}</p>
-        <div class="opts" role="group" aria-label={`Item ${i + 1} options`}>
+        <p class="stem" id={`${item.id}-stem`}>{item.stem}</p>
+        <div class="opts" role="radiogroup" aria-labelledby={`${item.id}-stem`} aria-describedby={`${item.id}-why`}>
           {item.options.map((o, j) => (
             <button
               type="button"
               class="opt"
+              role="radio"
+              aria-checked="false"
               data-correct={o.correct ? "1" : "0"}
               data-why={o.explanation}
               data-key={KEYS[j]}
             >
-              <span class="k">{KEYS[j]}</span>
+              <span class="k" aria-hidden="true">{KEYS[j]}</span>
               <span>{o.text}</span>
             </button>
           ))}
         </div>
-        <div class="why" role="status" aria-live="polite" />
+        <div class="why" id={`${item.id}-why`} role="status" aria-live="polite" />
+        {item.teachingPoint && <p class="teaching" hidden data-teaching>{item.teachingPoint}</p>}
       </div>
     ))
   }
@@ -77,6 +95,7 @@ const KEYS = ["A", "B", "C", "D", "E"];
 
     buttons.forEach((b) => {
       b.disabled = true;
+      b.setAttribute("aria-checked", b === chosen ? "true" : "false");
       if (b.dataset.correct === "1") b.classList.add("correct");
       else if (b === chosen) b.classList.add("chosen-wrong");
       else b.classList.add("dim");
@@ -92,6 +111,8 @@ const KEYS = ["A", "B", "C", "D", "E"];
           parts.push(`<p><strong>${correctBtn.dataset.key} is correct.</strong> ${esc(correctBtn.dataset.why ?? "")}</p>`);
         }
       }
+      const teaching = card.querySelector<HTMLElement>("[data-teaching]");
+      if (teaching) parts.push(`<p class="tp"><strong>Take-away.</strong> ${esc(teaching.textContent ?? "")}</p>`);
       why.innerHTML = parts.join("");
       why.classList.add("show");
     }
@@ -107,8 +128,18 @@ const KEYS = ["A", "B", "C", "D", "E"];
   }
 
   root?.querySelectorAll<HTMLElement>("[data-quiz-item]").forEach((card) => {
-    card.querySelectorAll<HTMLButtonElement>(".opt").forEach((btn) => {
+    const buttons = Array.from(card.querySelectorAll<HTMLButtonElement>(".opt"));
+    buttons.forEach((btn, i) => {
       btn.addEventListener("click", () => answer(card, btn));
+      btn.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowDown" || e.key === "ArrowRight") {
+          e.preventDefault();
+          buttons[(i + 1) % buttons.length]?.focus();
+        } else if (e.key === "ArrowUp" || e.key === "ArrowLeft") {
+          e.preventDefault();
+          buttons[(i - 1 + buttons.length) % buttons.length]?.focus();
+        }
+      });
     });
   });
 </script>

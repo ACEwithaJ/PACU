@@ -14,7 +14,7 @@ import DraftBanner from "../../components/DraftBanner.astro";
 import EvidenceChip from "../../components/EvidenceChip.astro";
 import SourceCard from "../../components/SourceCard.astro";
 import Quiz from "../../components/Quiz.astro";
-import { DAY_COUNT } from "../../content/schema.mjs";
+import { DAY_COUNT, DAY_PLAN } from "../../content/schema.mjs";
 
 export async function getStaticPaths() {
   const days = await getCollection("days");
@@ -27,6 +27,15 @@ interface Props {
 const { entry } = Astro.props;
 const d = entry.data;
 const dayNumber = Number(d.id.slice(4));
+
+/* Previous and next authored day (audit P2-006). The plan is the order; days
+   that are not yet written are skipped rather than linked to a 404. */
+const authored = new Set((await getCollection("days")).map((e) => e.data.id));
+const planned = DAY_PLAN.filter((p) => authored.has(`day-${String(p.day).padStart(2, "0")}`));
+const here = planned.findIndex((p) => p.day === dayNumber);
+const prev = here > 0 ? planned[here - 1] : null;
+const next = here >= 0 && here < planned.length - 1 ? planned[here + 1] : null;
+const href = (p: { day: number }) => `/d/day-${String(p.day).padStart(2, "0")}/`;
 
 const sources = await getEntries(d.evidence);
 
@@ -67,9 +76,15 @@ const after = cut === -1 ? "" : html.slice(cut);
 
     <Quiz items={d.quiz} dayId={d.id} />
 
+    <nav class="daynav" aria-label="Day navigation">
+      {prev ? <a href={href(prev)} rel="prev">← Day {String(prev.day).padStart(2, "0")}: {prev.title}</a> : <span class="spacer" />}
+      {next ? <a href={href(next)} rel="next">Day {String(next.day).padStart(2, "0")}: {next.title} →</a> : <span class="spacer" />}
+    </nav>
+
     <footer class="colophon">
-      Evidence mode: {d.evidence_mode}{d.consensus_basis ? ` (${d.consensus_basis})` : ""}.
-      {d.review_due ? ` Review due ${d.review_due.toISOString().slice(0, 10)}.` : " No review date set; the weekly link check is the review process."}
+      Evidence: {d.evidence_mode === "trial_based" ? "trial based" : `consensus only (${d.consensus_basis?.replace(/_/g, " ")})`}.
+      {d.review_due ? ` Reviewed: ${d.review_due.toISOString().slice(0, 10)}.` : " Not yet cleared by the rotation director."}
+      <span> · <a href="/">All days</a></span>
     </footer>
   </main>
 </Base>

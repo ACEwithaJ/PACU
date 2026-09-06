@@ -173,3 +173,59 @@ h2.section { font-family: var(--font-display); font-weight: 500; font-size: 1.35
   .card-page { max-width: none; }
   .card-body { font-size: 14pt; }
 }
+
+/* --- audit 2026-09-05 remediation ---------------------------------------- *
+   P2-002  editorial markers are hidden from readers; ?editor=1 reveals them
+   P2-008  small text raised to >=12.5px and low-contrast ink darkened
+   P2-009  radio semantics need a visible focus ring
+   ------------------------------------------------------------------------- */
+
+/* Editorial notes: present in the DOM (so the validator and an editor can see
+   them) but not shown to readers unless the page is opened with ?editor=1,
+   which sets data-editor on <html>. */
+.ed-note { display: none; }
+:root[data-editor] .ed-note {
+  display: inline;
+  background: var(--warn-soft);
+  color: var(--warn);
+  border: 1px dashed var(--warn);
+  border-radius: 4px;
+  padding: 0 .3em;
+  font-family: var(--font-mono);
+  font-size: .8em;
+}
+
+/* Local-practice callout: reader-facing, and it should look like guidance
+   rather than like a note to the author. */
+.varies {
+  display: block;
+  margin: 1rem 0;
+  padding: .7rem .9rem;
+  border-left: 3px solid var(--accent);
+  background: var(--surface-2);
+  border-radius: 0 6px 6px 0;
+  font-size: .95rem;
+}
+.varies strong { color: var(--accent); }
+
+/* Contrast and size (P2-008): 11.2-12.5px at rgb(123,139,148) failed AA. */
+a.cite { font-size: .8rem; }
+.badge { font-size: .78rem; }
+.q .opt .k { font-size: .82rem; color: var(--ink-2); }
+.q .q-tag { font-size: .78rem; color: var(--ink-2); }
+.src .key { font-size: .85rem; }
+
+/* Keyboard focus for the radio options (P2-009). */
+.q .opt:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.q .why .tp { margin-top: .5rem; color: var(--ink-2); }
+
+/* Prev/next navigation (P2-006). */
+.daynav { display: flex; justify-content: space-between; gap: 1rem; margin: 2.5rem 0 0; padding-top: 1rem; border-top: 1px solid var(--rule); font-size: .95rem; }
+.daynav a { text-decoration: none; }
+.daynav a:hover { text-decoration: underline; }
+.daynav .spacer { flex: 1; }
+
+@media (max-width: 420px) {
+  .q .opt { padding: .6rem .55rem; }
+  main { padding-left: 1rem; padding-right: 1rem; }
+}

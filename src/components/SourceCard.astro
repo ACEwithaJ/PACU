@@ -1,8 +1,12 @@
 ---
 /**
- * One ledger row, rendered. Links go to DOI resolvers and PubMed only
- * (planning brief §3.3: no EZproxy). A row with neither identifier says so on
- * the card rather than hiding it; that is the debt the validator warns about.
+ * One ledger row, rendered. Links go to DOI resolvers, PubMed, DailyMed and
+ * society sites only (planning brief §3.3: no EZproxy).
+ *
+ * A regulatory or society document has no DOI and no PMID and never will.
+ * The card used to tell the reader to consult an internal debt file (audit
+ * P2-020); it now resolves the DailyMed set id recorded in the citation, or
+ * the society URL, so every row has a working link.
  */
 import type { CollectionEntry } from "astro:content";
 
@@ -23,6 +27,16 @@ const DESIGN: Record<string, string> = {
 };
 
 const superseded = s.currency.startsWith("superseded_by:") ? s.currency.slice("superseded_by:".length) : null;
+
+/* Regulatory and society rows carry their identifier inside the citation:
+   a DailyMed set id, or a URL. Surface whichever is there as a link. */
+const setId = /DailyMed set ID ([0-9a-f-]{36})/i.exec(s.citation)?.[1] ?? null;
+const url = /(https?:\/\/[^\s)]+)/.exec(s.citation)?.[1]?.replace(/[.,;]$/, "") ?? null;
+const fallback = setId
+  ? { href: `https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=${setId}`, label: "FDA label (DailyMed)" }
+  : url
+    ? { href: url, label: "Society document" }
+    : null;
 ---
 
 <article class="src" id={`src-${s.key}`}>
@@ -52,8 +66,11 @@ const superseded = s.currency.startsWith("superseded_by:") ? s.currency.slice("s
         PMID {s.pmid}
       </a>
     )}
-    {!s.doi && !s.pmid && (
-      <span class="none">No DOI or PMID on record — listed in docs/ledger-debt.md</span>
+    {!s.doi && !s.pmid && fallback && (
+      <a href={fallback.href} rel="noopener noreferrer" target="_blank">{fallback.label}</a>
+    )}
+    {!s.doi && !s.pmid && !fallback && (
+      <span class="none">No permanent identifier on record for this source</span>
     )}
   </div>
 </article>

@@ -38,7 +38,7 @@ quiz:
         correct: false
         explanation: The advisory is specifically pediatric, which is the source of its limitation for an adult curriculum.
   - id: pacu-d11-q2
-    stem: "A patient with a lower-limb block reports new, escalating pain in the blocked limb in the PACU, with a rising analgesic requirement. How does this day frame that finding?"
+    stem: "A patient with a lower-limb block reports new, escalating pain in the blocked limb in the PACU, with a rising analgesic requirement. What is the correct next step?"
     teachingPoint: Breakthrough pain in a blocked limb is the signal that clinical practice uses to look for compartment syndrome; the page states both positions and resolves neither.
     difficulty: expert
     examAlignment: [ABA-ADVANCED, ITE, nursing]
@@ -57,7 +57,7 @@ quiz:
         correct: false
         explanation: The advisory finds no evidence of delay; it does not say that breakthrough pain can be ignored.
   - id: pacu-d11-q3
-    stem: "The 2018 ASRA interim update on local anesthetic systemic toxicity is the source on this page for which point?"
+    stem: "According to the 2018 ASRA interim update on local anesthetic systemic toxicity, how have case presentations changed?"
     teachingPoint: LAST can present late and atypically, which is what makes it look unlike block regression in the PACU.
     difficulty: basic
     examAlignment: [ABA-BASIC, ITE, nursing]
@@ -71,7 +71,7 @@ quiz:
         explanation: The update carries updated frequency estimates, not a claim that the entity has disappeared.
       - text: The exact lipid emulsion dose in milliliters per kilogram
         correct: false
-        explanation: The dose is not in the held extract of the source and is a placeholder on this page.
+        explanation: The lipid dose comes from the ASRA checklist, not from the 2018 advisory; the advisory is the source for presentation patterns and prevention.
       - text: That the checklist graphic in the 2020 checklist paper is correct as first published
         correct: false
         explanation: "The opposite. The 2021 checklist paper carries a correction notice: Figure 1 was replaced after online-first publication."

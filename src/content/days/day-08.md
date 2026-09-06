@@ -29,7 +29,7 @@ quiz:
         explanation: Far too low. More than nine in ten MINS patients in the 2017 analysis were asymptomatic.
       - text: About 16%
         correct: false
-        explanation: This figure circulates from the earlier fourth-generation troponin era and does not describe the 2017 high-sensitivity cohort. Do not carry it into this day.
+        explanation: 15.8% is the proportion of MINS patients who did have an ischemic symptom in Botto 2014, which used a fourth-generation troponin T assay. It is the complement of silence in that older cohort, not the answer for the 2017 high-sensitivity analysis.
       - text: About 7%
         correct: false
         explanation: 6.9% is the proportion who did have a symptom. The question asks for those who did not.

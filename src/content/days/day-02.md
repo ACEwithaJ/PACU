@@ -1,7 +1,7 @@
 ---
 id: day-02
-title: Upper airway obstruction presents as a falling saturation
-claim: Upper airway obstruction in the recovering patient, whether laryngospasm or the tongue, is often visible as nothing more than a falling saturation, and its downstream harm is negative-pressure pulmonary edema, aspiration and severe hypoxemia.
+title: Airway obstruction is usually obvious, and the rest presents as desaturation
+claim: Airway obstruction after anesthesia is usually clinically obvious, but in about one case in twenty it presents as desaturation alone; whether the cause is the larynx or the tongue, the downstream harm is negative-pressure pulmonary edema, aspiration and severe hypoxemia.
 evidence_mode: consensus_only
 consensus_basis: registry
 physiology_status: established

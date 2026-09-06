@@ -31,7 +31,7 @@ quiz:
         explanation: No evidence grade supports a voiding requirement. The guideline reaches the opposite position by declaring the literature insufficient and reporting a survey.
       - text: Voiding is required only after neuraxial anesthesia, with Category A evidence
         correct: false
-        explanation: The guideline calls for case-by-case assessment for selected patients or procedures; it does not attach an evidence grade to a neuraxial rule. The neuraxial-versus-peripheral question is a placeholder on this page.
+        explanation: The guideline calls for case-by-case assessment for selected patients or procedures; it does not attach an evidence grade to a neuraxial rule. The neuraxial-versus-peripheral comparison is not settled by this guideline.
       - text: The guideline does not address voiding
         correct: false
         explanation: It addresses it directly, and the answer is the day's claim.

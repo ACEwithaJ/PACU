@@ -1,0 +1,44 @@
+---
+import Base from "../layouts/Base.astro";
+import { DAY_PLAN, CARD_PLAN } from "../content/schema.mjs";
+---
+
+<Base title="About this site" description="How the PACU rotation curriculum is built and what its labels mean.">
+  <main>
+    <header class="masthead">
+      <p class="kicker">About</p>
+      <h1>How this site is built</h1>
+    </header>
+    <div class="body">
+      <p>
+        This is a {DAY_PLAN.length}-day reading curriculum for the post-anesthesia care unit (PACU) rotation, written for
+        anesthesiology residents and the trainees who rotate with them. Each day states one claim, names the kind of evidence
+        it rests on, and cites every number to an entry in a source ledger. The ledger entry carries the citation, the design
+        of the study, and a link to the DOI, the PubMed record, or the regulatory or society document it came from.
+      </p>
+      <h2>What the labels mean</h2>
+      <p>
+        <strong>Trial based</strong> means randomized evidence supports the claim as stated. <strong>Consensus only</strong>
+        means it does not, and the chip says what the claim rests on instead: physiology, registry data, a guideline, a
+        practice advisory, or expert consensus. That is the common case in perioperative medicine and it is not a failure
+        state. Two further chips say whether the mechanism is settled and whether the clinical claim has survived testing.
+      </p>
+      <p>
+        <strong>DRAFT</strong> means the rotation director has not yet cleared the page. Nothing on a draft page should be
+        used clinically. <strong>Local practice differs</strong> marks a point where institutions do things differently; the
+        page says so rather than asserting one answer.
+      </p>
+      <h2>What is not here</h2>
+      <p>
+        No figures reproduced from any source. No hosted PDFs. No accounts and no saved progress; the quizzes are formative
+        and answers vanish when you leave the page. The {CARD_PLAN.length} algorithm cards on the index are planned and not yet written.
+      </p>
+      <h2>Privacy</h2>
+      <p>
+        The site is static. Cloudflare, which hosts it, collects anonymous, cookie-less page-view counts. Nothing else is
+        collected, and nothing you do on a quiz leaves your browser.
+      </p>
+      <p class="note">Educational material only. Not clinical decision support and not a substitute for institutional protocol.</p>
+    </div>
+  </main>
+</Base>
