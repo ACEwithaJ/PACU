@@ -12,11 +12,12 @@ const cardById = new Map(cards.map((c) => [c.data.id, c]));
 <Base title="PACU rotation curriculum" description="A PACU curriculum for anesthesiology residents.">
   <main>
     <header class="masthead">
-      <p class="kicker">{DAY_PLAN.length} days · {CARD_PLAN.length} algorithm cards</p>
+      <p class="kicker">{DAY_PLAN.length} days · algorithm cards in preparation</p>
       <h1>PACU rotation curriculum</h1>
       <p class="lede">
         One page per day. Each day states a claim, names the evidence mode it rests on, and cites
-        every number to a source ledger entry with a DOI or PMID. No account, nothing saved.
+        every number to a source ledger entry with a DOI, a PubMed identifier, or a regulatory or
+        society document. No account, nothing saved.
       </p>
     </header>
 
@@ -72,6 +73,8 @@ const cardById = new Map(cards.map((c) => [c.data.id, c]));
       }
     </ol>
 
-    <footer class="colophon">Phase 0 skeleton. Content is authored day by day and cleared by the rotation director.</footer>
+    <footer class="colophon">
+      Every day is a draft until the rotation director clears it. <a href="/about/">About this site</a>.
+    </footer>
   </main>
 </Base>

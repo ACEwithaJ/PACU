@@ -34,7 +34,7 @@ quiz:
         correct: false
         explanation: "It carries an explicit qualifier, and the qualifier is the teaching point: it describes agreement among people, not strength of evidence."
   - id: pacu-d14-q2
-    stem: "Why does this day describe the ASA discharge recommendation as circular as an operational rule?"
+    stem: "Why is the ASA OSA discharge recommendation circular when you try to use it as an operational rule?"
     teachingPoint: The obligation is defined by a condition the same document says the literature cannot identify.
     difficulty: expert
     examAlignment: [ABA-ADVANCED]
@@ -51,7 +51,7 @@ quiz:
         explanation: The SASM guideline hedges in a different register, acknowledging that few randomized studies exist, but it does not contradict the ASA recommendation.
       - text: It requires a monitored bed that most hospitals do not have
         correct: false
-        explanation: Bed availability is a real constraint but not what the day means by circular. The circularity is in the wording of the rule itself.
+        explanation: Bed availability is a real constraint but not the circularity at issue. The circularity is in the wording of the rule itself.
   - id: pacu-d14-q3
     stem: "The 2016 Society of Anesthesia and Sleep Medicine guideline includes a statement about its own evidence base. What does it say?"
     teachingPoint: A guideline that describes its own limits is telling you how to read it.

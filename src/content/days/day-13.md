@@ -30,7 +30,7 @@ quiz:
         explanation: "The label says the opposite: some opioids outlast naloxone, and re-narcotization is expected."
       - text: "Re-sedation after naloxone cannot be opioid-related and indicates an intracranial event"
         correct: false
-        explanation: "Re-narcotization is the first explanation. An intracranial event sits at the end of the ordered differential, not the beginning."
+        explanation: "Re-narcotization is the first explanation once oxygenation, ventilation, circulation and glucose have been checked. An intracranial event sits at the end of the ordered differential, not the beginning."
       - text: "The patient should be given flumazenil"
         correct: false
         explanation: "Flumazenil reverses benzodiazepines, not opioids, and carries its own boxed warning."
@@ -81,7 +81,9 @@ The consequence of getting this wrong runs two ways: a reversal agent given for 
 
 ## Mechanism
 
-Emergence requires that the drug effect at the brain has fallen below the threshold for consciousness, that the muscles can obey, that the brain is warm enough and fuelled, that carbon dioxide and sodium are within the range the brain tolerates, and that the brain itself is intact. Each of those is a separate mechanism with a separate test, and each can look like the others from the end of the bed. The order the day teaches follows the frequency and the reversibility: residual volatile, opioid or benzodiazepine first, because they are the commonest and the most immediately treatable; then residual paralysis, which a monitor answers in seconds; then temperature; then glucose; then carbon dioxide; then sodium and the other electrolytes; then oxygenation; and only then the intracranial event, which is the rarest, the least reversible, and the one that a delay costs the most. The order is expert consensus, not a trial result, and the status chip says so.
+Emergence requires that the airway is open and gas is moving, that the circulation is delivering it, that the brain is fuelled, that the muscles can obey, that the drug effect at the brain has fallen below the threshold for consciousness, that the brain is warm enough and its electrolytes are within the range it tolerates, and that the brain itself is intact. Each of those is a separate mechanism with a separate test, and each can look like the others from the end of the bed.
+
+The order the day teaches follows danger first, then frequency and reversibility. First, the things that kill in minutes and are already on the monitor: oxygenation, ventilation, and circulation. Second, glucose, because a meter answers in seconds. Third, residual paralysis, because a quantitative monitor answers in seconds and the patient cannot tell you. Fourth, residual drug: volatile, opioid, benzodiazepine, and the anticholinergic syndrome. Fifth, temperature, sodium and the other electrolytes. Last, because it is the rarest and the least reversible, the intracranial event. Putting oxygenation first is not a claim about what is commonest; it is a claim about what a delay costs, and it is the same order every resuscitation framework teaches. The order is expert consensus, not a trial result, and the status chip says so.
 
 Central anticholinergic syndrome sits inside the drug tier: a central effect of antimuscarinic drugs that presents as somnolence or agitation and responds to physostigmine [[link-1997]].
 
@@ -105,7 +107,7 @@ The anesthetic-specific numbers the list expects, how long each volatile agent o
 
 ## At the bedside
 
-Work the order and say it aloud. Drug, paralysis, temperature, glucose, carbon dioxide, sodium, oxygen, brain. Each step has a test that takes less time than waiting: the monitor for paralysis, the thermometer, the glucose meter, the blood gas, the electrolytes. Do not skip to the end, and do not stop before it.
+Work the order and say it aloud: oxygen and carbon dioxide, circulation, glucose, paralysis, drug, temperature and sodium, brain. Look at the saturation, the capnograph and the chest before anything else, and take a blood gas if the carbon dioxide is a question. Each step has a test that takes less time than waiting: the oximeter and capnograph, the blood pressure, the glucose meter, the twitch monitor, the drug chart, the thermometer, the electrolytes. Do not skip to the end, and do not stop before it.
 
 If you give naloxone, you have committed to watching the patient for longer than the naloxone lasts; the label says so, and the re-narcotized patient is the one who has been handed to the ward in the meantime [[fda-naloxone-label-2023]]. Give it in the label's small increments rather than a full ampoule, because abrupt reversal has its own list of harms [[fda-naloxone-label-2023]].
 

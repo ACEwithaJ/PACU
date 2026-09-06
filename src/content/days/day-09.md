@@ -77,24 +77,24 @@ quiz:
         correct: false
         explanation: The reverse. The guideline rounds the 1999 values, which are themselves internally inconsistent at the four-factor step, and bands them.
   - id: pacu-d09-q4
-    stem: "Apfel 1999 reports the four-factor risk as 79% in its abstract and 78% in its results text. Why does this matter when writing a teaching page?"
-    teachingPoint: A source can disagree with itself; say which value you are using and why.
-    difficulty: expert
-    examAlignment: [ABA-ADVANCED]
-    tags: [ponv, evidence-appraisal]
+    stem: "A 24-year-old woman who has never smoked, has a history of motion sickness, and will receive postoperative opioids is having laparoscopic surgery. How many Apfel risk factors does she carry, and what is her approximate risk of postoperative nausea and vomiting?"
+    teachingPoint: Four factors puts a patient at roughly 80% risk on the guideline's rounded ladder.
+    difficulty: basic
+    examAlignment: [ABA-BASIC, ITE, nursing]
+    tags: [ponv, risk-stratification]
     options:
-      - text: Because a page must pick one value and say which, rather than present the score as more precise than its source
+      - text: "Four factors; approximately 80%"
         correct: true
-        explanation: The paper is internally inconsistent at the four-factor value. Most citations use 79%. The honest move is to pick one, say which, or use the guideline's rounded 80%, which does not invite spurious precision.
-      - text: Because the discrepancy invalidates the score
+        explanation: "Female sex, non-smoking status, a history of motion sickness or previous PONV, and anticipated postoperative opioids are the four predictors. On the Fifth guideline's rounded ladder that is approximately 80%; Apfel 1999 gives 79% in its abstract and 78% in its results text, an internal inconsistency that is one reason to prefer the rounded value."
+      - text: "Three factors; approximately 60%"
         correct: false
-        explanation: A one-point discrepancy at one step does not invalidate a score cross-validated between two centers. It limits the precision one may claim.
-      - text: Because the abstract is always correct and the results text should be ignored
+        explanation: "Three factors is approximately 60%, but this patient carries all four: sex, non-smoking, motion sickness and planned opioids."
+      - text: "Two factors; approximately 40%"
         correct: false
-        explanation: Neither part of a paper has automatic priority. The point is to acknowledge the discrepancy, not to adjudicate it silently.
-      - text: Because the guideline uses 78% and the textbook uses 79%
+        explanation: "Two factors is approximately 40%. Counting only sex and motion sickness misses non-smoking status and the planned opioids."
+      - text: "Four factors, but the risk cannot be estimated because the score is not validated in laparoscopic surgery"
         correct: false
-        explanation: The Fifth guideline uses approximately 80%, a rounded value. Neither 78 nor 79 appears in its banding.
+        explanation: "The score was cross-validated between two centers and is used across surgical populations. Its limitation is that it sorts populations into bands rather than predicting an individual, with an area under the curve of about 0.75."
   - id: pacu-d09-q5
     stem: "An adult with no PONV risk factors is having general anesthesia. Under the Fifth Consensus Guidelines, what prophylaxis is recommended?"
     teachingPoint: "Two interventions for every adult, at any risk; the score estimates risk but no longer decides whether to give prophylaxis."

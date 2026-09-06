@@ -54,24 +54,24 @@ quiz:
         correct: false
         explanation: The prevention literature includes trials, but the guideline's overall range is very low to moderate.
   - id: pacu-d12-q3
-    stem: "Which of the following does the 2024 guideline supersede, and how should the older document be used on this site?"
-    teachingPoint: A superseded guideline is kept only to show what changed.
-    difficulty: basic
-    examAlignment: [ABA-BASIC, ITE]
-    tags: [delirium, guidelines]
+    stem: "A 78-year-old is quiet, inattentive and slow to answer 40 minutes after arriving in the PACU. Oxygen saturation is 97% on room air, glucose is normal and pain is rated 2 out of 10. What is the best next step?"
+    teachingPoint: The hypoactive form is the one most often missed, and screening is what finds it.
+    difficulty: advanced
+    examAlignment: [ABA-ADVANCED, ITE, nursing]
+    tags: [delirium, geriatrics, screening]
     options:
-      - text: The 2017 ESAIC guideline, which is kept only to show what the 2024 update changed
+      - text: "Apply the unit's validated delirium screening tool and document the result"
         correct: true
-        explanation: The ledger marks the 2017 guideline as superseded by the 2024 one, and the site cites it only for the comparison.
-      - text: The 2014 ASA OSA guideline
+        explanation: "The 2024 ESAIC guideline requires screening with a validated tool at least once daily for at least three days, starting in the recovery room on the day of surgery. A quiet, inattentive patient is the hypoactive presentation, which is missed precisely because it disturbs no one."
+      - text: "Reassure the family that the patient is simply sleepy after anesthesia and observe"
         correct: false
-        explanation: That is a different society and a different topic, on Day 14.
-      - text: Nothing; the 2024 guideline is the first on the subject
+        explanation: "Sleepiness and inattention are not the same finding. Attributing inattention to residual anesthesia without screening is how the hypoactive form goes undiagnosed."
+      - text: "Give a dose of dexmedetomidine to settle the patient"
         correct: false
-        explanation: The 2017 ESAIC guideline preceded it.
-      - text: The 2017 guideline, which remains the preferred source because it is shorter
+        explanation: "The patient is not agitated, and dexmedetomidine has no US indication for delirium or emergence agitation; its label covers intensive care and procedural sedation only."
+      - text: "Delay any assessment until the patient reaches the ward the next morning"
         correct: false
-        explanation: A superseded guideline is not a preferred source. Currency is what the ledger tracks.
+        explanation: "That is the practice the guideline changed. Screening begins in the recovery room on the day of surgery, or at the latest on postoperative day 1."
 ---
 ## Why it matters
 

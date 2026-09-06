@@ -33,7 +33,7 @@ quiz:
         correct: false
         explanation: The statement records an association with an absolute level and declines to recommend a general limit of either kind.
   - id: pacu-d06-q2
-    stem: "A patient in the PACU is hypertensive and tachycardic thirty minutes after arrival. Which action does this day put first?"
+    stem: "A patient in the PACU is hypertensive and tachycardic thirty minutes after arrival. Which action comes first?"
     teachingPoint: Explain the number before you treat it; most causes in the PACU are found by examination.
     difficulty: advanced
     examAlignment: [ABA-ADVANCED, ITE, nursing]
@@ -41,7 +41,7 @@ quiz:
     options:
       - text: Look for a cause at the bedside, including pain, a distended bladder, hypercarbia and hypoxemia, before giving an antihypertensive
         correct: true
-        explanation: The day's claim is that hypertension is a sign first. The reversible causes are found by examination and by looking at the ventilation and oxygenation, and treating them removes the number.
+        explanation: Postoperative hypertension is a sign before it is a number. The reversible causes are found by examination and by looking at the ventilation and oxygenation, and treating them removes the number.
       - text: Give an intravenous antihypertensive immediately to bring the pressure below 160 mmHg
         correct: false
         explanation: 160 mmHg is a level associated with injury in the consensus statement, not a treatment threshold, and the statement records that no general threshold is supported.

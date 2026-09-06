@@ -19,11 +19,16 @@ src/content/cards/card-*.md one file per algorithm card, YAML frontmatter + the 
 src/content/schema.mjs     the content contract (Zod) + DAY_PLAN + CARD_PLAN; imported by Astro AND the validator
 src/content.config.ts      Astro collections: ledger, days, cards
 scripts/ledger-import.mjs  CSV -> YAML + docs/ledger-debt.md      (npm run ledger:import)
-scripts/validate.mjs       the twelve-rule validator               (npm run validate)
+scripts/validate.mjs       the fourteen-rule validator               (npm run validate)
 scripts/selftest.mjs       proves each rule can fail               (npm run validate:selftest)
 scripts/fixtures/          one deliberately broken content tree per rule, plus clean/
+src/lib/keyplace.mjs       deterministic option rotation, shared by the page and the validator
+src/lib/remark-cite.mjs    renders [[key]] citations and the authoring markers
 src/pages/d/[id].astro     the day page — Day 3 is the visual contract
 src/pages/c/[id].astro     the card page — full-screen, prints on one sheet
+src/pages/about.astro      what the labels mean, and what the site does not collect
+src/pages/404.astro        real 404 (Cloudflare Pages serves it with a 404 status)
+src/pages/sitemap.xml.ts   generated sitemap
 docs/ledger-debt.md        generated: every ledger gap the import carried through unchanged
 docs/content-review.md     generated: every placeholder and practice-varies marker, for physician review
 .github/workflows/         ci.yml · links.yml · bootstrap.yml
@@ -76,6 +81,10 @@ All three markers are collected into `docs/content-review.md` on every validator
 placeholder in content with `draft: false` fails the build (rule 12): a placeholder cannot be
 published.
 
+`[NUMBER NEEDED]` and `[TODO_VERIFY]` are **hidden from readers**. They stay in the source and in
+the review file, and they render only when a page is opened with `?editor=1`. `[PRACTICE VARIES]`
+is reader-facing and renders as a "Local practice differs" callout.
+
 ### Quiz items
 
 Required: `id`, `stem`, `options` (3–5, each `text` / `correct` / `explanation`), exactly one
@@ -83,6 +92,17 @@ correct. Optional now, to be made required once every authored day carries them:
 `teachingPoint` (one sentence), `difficulty` (`basic` | `advanced` | `expert`),
 `examAlignment` (array of `ABA-BASIC` | `ABA-ADVANCED` | `ITE` | `nursing`), `tags`
 (lowercase-kebab). "All of the above" and "none of the above" are rejected (rule 11).
+
+**Write the correct option first.** It does not render first: `src/lib/keyplace.mjs` rotates the
+options by a hash of the item id, so the key lands in a position that varies between items, and
+rule 13 fails the build if any position holds more than 40% of the keys across the site. If it
+ever does, change `KEY_SALT` in that file and re-run; item ids are permanent and must not be
+renumbered to fix a distribution. An audit on 2026-09-05 found 64 of 67 keys rendering at
+position A, which is what this machinery exists to prevent.
+
+**Ask about the patient, not about the site.** Rule 14 rejects a stem containing "this day",
+"this page", "this site", "teaching page", "the ledger" or "the director". Editorial reasoning
+belongs in the "What this does not show" slot, not in an item.
 
 ## The validator
 
@@ -109,6 +129,8 @@ WARN RULE-NN <file> <line> <message>     warning — reported, does not fail
 | 10 | number with a unit in a paragraph with no `[[key]]` (days and cards) | validator |
 | 11 | quiz option reading "all / none of the above" | Zod |
 | 12 | placeholder marker in a day or card with `draft: false` | validator |
+| 13 | more than 40% of quiz keys render at the same option position | validator |
+| 14 | a quiz stem that asks about the site rather than about patient care | validator |
 
 Rules 5 and 9 flip from warning to error when `STRICT_LEDGER` in `src/content/schema.mjs`
 is set to `true`. Set it only when `docs/ledger-debt.md` sections 1 and 2 are empty. The

@@ -61,7 +61,7 @@ quiz:
         correct: false
         explanation: It completed with 5013 patients in the intention-to-treat analysis.
   - id: pacu-d07-q3
-    stem: "Frank 1997's hypothermic arm averaged 35.4 degrees and found a cardiac difference. PROTECT's routine-care arm averaged 35.6 degrees and found none. How does this day treat that pair?"
+    stem: "Frank 1997's hypothermic arm averaged 35.4 degrees and found a cardiac difference. PROTECT's routine-care arm averaged 35.6 °C and found none. What is the correct reading of that pair?"
     teachingPoint: Two randomized trials reach different conclusions across overlapping temperatures, and the field has not resolved it.
     difficulty: expert
     examAlignment: [ABA-ADVANCED, ITE]
@@ -69,7 +69,7 @@ quiz:
     options:
       - text: As an unresolved tension between a 1997 trial of 300 patients and a 2022 trial of 5013, stated plainly rather than reconciled
         correct: true
-        explanation: The two lower arms sit at essentially the same temperature. One found harm, the much larger one found nothing. The honest teaching is that the field has not resolved this, and the claim status on this page is uncertain for that reason.
+        explanation: The two lower arms sit at essentially the same temperature. One found harm, the much larger one found nothing. The field has not resolved this, which is why the clinical claim is labeled uncertain.
       - text: As proof that Frank 1997 was wrong
         correct: false
         explanation: A later larger trial with a different population and endpoint does not retroactively falsify an earlier double-blind result. It qualifies it.

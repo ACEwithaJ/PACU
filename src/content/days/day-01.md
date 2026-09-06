@@ -78,7 +78,7 @@ quiz:
         correct: false
         explanation: It remains a reasonable alternative from minimal block.
   - id: pacu-d01-q4
-    stem: "POPULAR (Kirmeier 2019) found that use of neuromuscular blocking agents was associated with postoperative pulmonary complications, adjusted OR 1.86, and that neither reversal agents nor neuromuscular monitoring reduced that risk in the cohort. How should this day treat that finding?"
+    stem: "POPULAR (Kirmeier 2019) found that use of neuromuscular blocking agents was associated with postoperative pulmonary complications, adjusted OR 1.86, and that neither reversal agents nor neuromuscular monitoring reduced that risk in the cohort. How should that finding be interpreted?"
     teachingPoint: A cohort can show that a problem is common and associated with harm without showing that the available prevention works.
     difficulty: expert
     examAlignment: [ABA-ADVANCED, ITE]
@@ -86,7 +86,7 @@ quiz:
     options:
       - text: As the boundary of the claim; the association with harm stands, but the benefit of monitoring and reversal is not established by this cohort
         correct: true
-        explanation: POPULAR is why the day does not claim residual block is the most preventable cause of PACU respiratory morbidity. Its endpoint was complications after PACU discharge, so PACU-treated block is largely excluded, but the finding still complicates any claim that prevention works.
+        explanation: POPULAR is the reason residual block cannot be called the most preventable cause of PACU respiratory morbidity. Its endpoint was complications after PACU discharge, so PACU-treated block is largely excluded, but the finding still complicates any claim that prevention works.
       - text: As proof that monitoring and reversal are useless
         correct: false
         explanation: An observational cohort cannot establish that. It failed to show benefit; it did not show harm from monitoring.
@@ -95,7 +95,7 @@ quiz:
         explanation: 22,803 patients in 211 hospitals across 28 countries is not a finding to dismiss by geography.
       - text: As superseded by the 2023 ASA guideline
         correct: false
-        explanation: The guideline postdates POPULAR and recommends monitoring; it does not overturn a cohort result. The two coexist, which is the day's point.
+        explanation: The guideline postdates POPULAR and recommends monitoring; it does not overturn a cohort result. The two coexist.
 ---
 ## Why it matters
 

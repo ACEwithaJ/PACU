@@ -37,10 +37,23 @@ const buildRef = (import.meta.env.CF_PAGES_COMMIT_SHA ?? process.env.CF_PAGES_CO
     <slot />
     <footer class="site-footer">
       <div class="inner">
-        Educational material for anesthesiology residents. Not clinical decision support and not
-        a substitute for institutional protocol. Where practice varies between institutions, a page
-        says so rather than asserting one answer.
+        <p>
+          Educational material for anesthesiology residents. Not clinical decision support and not
+          a substitute for institutional protocol. Where practice varies between institutions, a page
+          says so rather than asserting one answer.
+        </p>
+        <p>
+          <a href="/">All days</a> · <a href="/about/">About this site</a> · Anonymous, cookie-less
+          page-view counts are collected by the host; nothing you do on a quiz leaves your browser.
+        </p>
       </div>
     </footer>
+    <script is:inline>
+      // Editorial view: /d/day-05/?editor=1 reveals the [NUMBER NEEDED] and
+      // [TODO_VERIFY] markers that readers should not see (audit P2-002).
+      if (new URLSearchParams(location.search).has("editor")) {
+        document.documentElement.setAttribute("data-editor", "1");
+      }
+    </script>
   </body>
 </html>

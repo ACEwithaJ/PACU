@@ -28,6 +28,8 @@
  *   RULE-10  a number with a unit in a paragraph that has no [[key]] token
  *   RULE-11  a quiz option reading "all/none of the above"
  *   RULE-12  a [NUMBER NEEDED]/[TODO_VERIFY] placeholder in a day or card with draft: false
+ *   RULE-13  more than 40% of quiz keys render at the same option position
+ *   RULE-14  a quiz stem that asks about the site rather than about care
  *
  * Every placeholder and every [PRACTICE VARIES] marker, draft or not, is
  * written to docs/content-review.md (or --review) for physician review.
@@ -42,6 +44,7 @@ import { join, resolve, dirname, relative, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse as parseYaml } from "yaml";
 import { z } from "astro/zod";
+import { targetIndex } from "../src/lib/keyplace.mjs";
 import {
   STRICT_LEDGER,
   RANDOMISED_DESIGNS,
@@ -266,6 +269,7 @@ for (const row of ledger.values()) {
 
 const dayIds = new Map(); // id -> file
 const quizIds = new Map(); // quiz id -> file
+const keyPositions = []; // rule 13: where each key renders after rotation
 
 for (const f of listFiles(DAYS_DIR, ".md")) {
   const file = join(DAYS_DIR, f);
@@ -309,6 +313,20 @@ for (const f of listFiles(DAYS_DIR, ".md")) {
       error("08", file, lineOfField(yaml, "quiz", 1), `quiz id "${q.id}" is already used by ${quizIds.get(q.id)}`);
     } else {
       quizIds.set(q.id, rel(file));
+    }
+    // Rule 13 — record where the key will actually render, after the
+    // deterministic rotation the page applies (src/lib/keyplace.mjs).
+    keyPositions.push({
+      file: rel(file),
+      id: q.id,
+      index: targetIndex(q.id, q.options.length),
+      n: q.options.length,
+    });
+    // Rule 14 — an option that names the page or the project teaches nothing
+    // clinical. Audit 2026-09-05 found eight such items.
+    const meta = /\b(this day|this page|this site|teaching page|the ledger|the director)\b/i;
+    if (meta.test(q.stem)) {
+      error("14", file, lineOfField(yaml, "quiz", 1), `quiz item "${q.id}" asks about the site rather than about care`);
     }
   }
 
@@ -445,6 +463,34 @@ for (const [file, items] of byFile) {
 }
 mkdirSync(dirname(REVIEW), { recursive: true });
 writeFileSync(REVIEW, reviewMd.join("\n"), "utf8");
+
+/* ------------------------------------------------------------------ *
+ * Rule 13 — corpus-wide key position.
+ *
+ * The audit of 2026-09-05 found 64 of 67 rendered keys at position A: a
+ * reader who always picked the first option scored 95.5%. Options are now
+ * rotated deterministically by item id at render time, and this rule checks
+ * the distribution of the rendered positions, not of the authored ones.
+ * ------------------------------------------------------------------ */
+
+const MAX_KEY_SHARE = 0.4;
+if (keyPositions.length >= 10) {
+  const counts = new Map();
+  for (const k of keyPositions) counts.set(k.index, (counts.get(k.index) ?? 0) + 1);
+  const worstN = Math.max(...keyPositions.map((k) => k.n));
+  for (let i = 0; i < worstN; i++) {
+    const share = (counts.get(i) ?? 0) / keyPositions.length;
+    if (share > MAX_KEY_SHARE) {
+      error(
+        "13",
+        join(DAYS_DIR, "."),
+        1,
+        `${Math.round(share * 100)}% of quiz keys render at position ${String.fromCharCode(65 + i)}; ` +
+          `the limit is ${Math.round(MAX_KEY_SHARE * 100)}%. Change KEY_SALT in src/lib/keyplace.mjs and re-run.`
+      );
+    }
+  }
+}
 
 /* ------------------------------------------------------------------ *
  * Report

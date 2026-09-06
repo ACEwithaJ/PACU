@@ -99,7 +99,7 @@ for (const name of fixtures) {
 
 // Every numbered rule must have at least one fixture; a rule with no fixture
 // has never been seen to fail.
-const expected = ["clean", ...Array.from({ length: 12 }, (_, i) => `rule-${String(i + 1).padStart(2, "0")}`)];
+const expected = ["clean", ...Array.from({ length: 14 }, (_, i) => `rule-${String(i + 1).padStart(2, "0")}`)];
 for (const e of expected) {
   if (!fixtures.some((f) => f === e || f.startsWith(`${e}-`))) {
     console.log(`FAIL  fixture ${e} is missing`);

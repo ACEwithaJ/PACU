@@ -1,0 +1,16 @@
+---
+import Base from "../layouts/Base.astro";
+// Cloudflare Pages serves /404.html with a real 404 status for unknown routes
+// (audit finding P2-007: the site was returning the home page with 200).
+---
+
+<Base title="Not found">
+  <main>
+    <header class="masthead">
+      <p class="kicker">404</p>
+      <h1>That page does not exist</h1>
+      <p class="lede">The day pages live at <code>/d/day-NN/</code> and the cards at <code>/c/card-name/</code>.</p>
+    </header>
+    <p><a href="/">Back to the index</a></p>
+  </main>
+</Base>

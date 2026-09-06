@@ -67,9 +67,9 @@ Placeholders: 21 · Practice varies: 19
 
 ## src/content/days/day-13.md
 
-- line 102 — placeholder: `[TODO_VERIFY: a society standard or guideline statement requiring neurological examination before PACU discharge in delayed emergence.]`
-- line 104 — placeholder: `[NUMBER NEEDED: incidence of delayed emergence by anesthetic agent and the time thresholds used to define it]`
-- line 114 — practice varies: `[PRACTICE VARIES: the availability of physostigmine, and the local threshold for imaging a patient who has not woken, differ between institutions.]`
+- line 104 — placeholder: `[TODO_VERIFY: a society standard or guideline statement requiring neurological examination before PACU discharge in delayed emergence.]`
+- line 106 — placeholder: `[NUMBER NEEDED: incidence of delayed emergence by anesthetic agent and the time thresholds used to define it]`
+- line 116 — practice varies: `[PRACTICE VARIES: the availability of physostigmine, and the local threshold for imaging a patient who has not woken, differ between institutions.]`
 
 ## src/content/days/day-14.md
 
@@ -84,7 +84,7 @@ Placeholders: 21 · Practice varies: 19
 
 ## src/content/days/day-16.md
 
-- line 111 — practice varies: `[PRACTICE VARIES: the handover checklist used, who leads the handover, and whether the anesthesiologist remains until vital signs are stable differ between institutions.]`
+- line 111 — practice varies: `[PRACTICE VARIES: the handover checklist used and who leads the handover differ between institutions; the requirement to stay until the nurse accepts responsibility does not.]`
 
 ## src/content/days/day-17.md
 

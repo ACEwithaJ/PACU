@@ -108,7 +108,7 @@ The other half of the original Day 16, that PACU capacity is an operating room p
 
 Use a written checklist, not a memory of one, because verbal instruction to be thorough changed nothing in the trial that tested it [[salzwedel-2013]]. Expect the handover to take longer; the trials measured that cost and it is small [[salzwedel-2013]] [[lanefall-2020]].
 
-Make the transfer of responsibility explicit. Say, and hear said, that the PACU now holds the patient, so that the gap between the anesthesiologist leaving and the nurse accepting has a named owner [[agarwala-2019]]. [PRACTICE VARIES: the handover checklist used, who leads the handover, and whether the anesthesiologist remains until vital signs are stable differ between institutions.]
+Make the transfer of responsibility explicit. Say, and hear said, that the PACU now holds the patient, so that the moment the anesthesia team's responsibility ends has a named owner [[agarwala-2019]]. When that moment arrives is not a matter of local preference: Standard III requires that a member of the anesthesia care team shall remain with the patient until the receiving nurse accepts responsibility for the nursing care of the patient [[asa-pacu-standards-2024]]. [PRACTICE VARIES: the handover checklist used and who leads the handover differ between institutions; the requirement to stay until the nurse accepts responsibility does not.]
 
 Know that half the items still go missing with the best tool tested, and ask for what you have not been told rather than assuming it was not important [[salzwedel-2013]].
 
