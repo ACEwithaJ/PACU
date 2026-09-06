@@ -91,7 +91,7 @@ const after = cut === -1 ? "" : html.slice(cut);
 
     <footer class="colophon">
       Evidence: {d.evidence_mode === "trial_based" ? "trial based" : `consensus only (${d.consensus_basis?.replace(/_/g, " ")})`}.
-      {d.review_due ? ` Reviewed: ${d.review_due.toISOString().slice(0, 10)}.` : " Not yet cleared by the rotation director."}
+      {d.review_due ? ` Cleared by the rotation director; next review due ${d.review_due.toISOString().slice(0, 10)}.` : " Not yet cleared by the rotation director."}
       <span> · <a href="/">All days</a></span>
     </footer>
   </main>
