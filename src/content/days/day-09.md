@@ -161,18 +161,16 @@ A correction to this page's own provenance. Until 2026-09-06 the rationale for G
 
 Give every adult two interventions from different classes; that is the guideline's floor at any risk [[gan-2026]]. Count the factors anyway and write the band down, using the rounded ladder, because the band tells you how much absolute benefit the two interventions bought, and because the guideline is explicit that the general-prophylaxis policy does not retire the score [[gan-2026]] [[apfel-2004]]. If the patient carries three or more factors, the guideline's next move is to maximize risk mitigation rather than to add a third drug [[gan-2026]].
 
+One habit is worth naming because the guideline contradicts it. Adding a third drug for a patient with three or more risk factors is widely taught, and it is not what the guideline recommends. Its position is that clinical data on three or more prophylactic interventions are scarce, so it recommends maximizing risk mitigation instead, offering acupoint stimulation for patients who do require three or more interventions [[gan-2026]]. Treat a third agent as local practice, not as guideline.
 When a patient vomits in the PACU, the first question is which classes were already given. The rescue must come from a class the patient has not received [[gan-2026]]. Do not re-dose a long-acting agent, do not reach for a scopolamine patch as rescue, and reserve a second dose of the prophylactic class for the situation the guideline describes, more than 6 h elapsed and nothing else available [[gan-2026]].
 
 [PRACTICE VARIES: the specific rescue agents stocked and the order in which they are used differ between institutions; the class-change rule does not.]
-
 
 ### General recommendations
 
 These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
 
 [GENERAL: Two adult prophylactic doses in common use are not in the Fifth guideline's table: dimenhydrinate about 1 mg/kg intravenously, and promethazine 6.25 to 12.5 mg intravenously for prophylaxis rather than rescue. The guideline's own doses are cited in the evidence slot above and are not general recommendations.]
-
-[GENERAL: Adding a third agent for a patient with three or more risk factors is widely taught, and it is not what the guideline recommends. The guideline's position, quoted in the evidence slot, is to maximize risk mitigation instead, with acupoint stimulation offered where three or more interventions are required. Treat the third drug as local practice, not as guideline.]
 
 ## Check yourself
 
