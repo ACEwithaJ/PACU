@@ -11,8 +11,8 @@ evidence:
   - botto-2014
   - devereaux-2012
   - ruetzler-2021
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d08-q1
     stem: "In the VISION high-sensitivity troponin T analysis (Devereaux 2017), what proportion of patients meeting MINS criteria did not experience an ischemic symptom?"

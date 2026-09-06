@@ -13,8 +13,8 @@ evidence:
   - taenzer-2010
   - taenzer-2010-erratum
   - epstein-2014
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d04-q1
     stem: "In Driver 2021, a post hoc analysis of PRODIGY patients monitored on general care floors, what was the median time from the end of surgery to the start of monitoring, and why does it matter for a PACU curriculum?"

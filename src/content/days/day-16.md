@@ -13,8 +13,8 @@ evidence:
   - agarwala-2019
   - lanefall-2021-protocol
   - asa-pacu-standards-2024
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d16-q1
     stem: "In Salzwedel 2013, post-anesthesia handovers were video-recorded before and after a checklist was introduced. What happened to the proportion of items handed over?"
