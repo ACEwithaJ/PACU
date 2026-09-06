@@ -10,7 +10,7 @@ general recommendation (rule 15): a page carrying either cannot be cleared. The 
 recommendations are the ones to replace first — each is a widely taught statement that
 carries no ledger entry, and a retrieval round should turn it into a cited sentence.
 
-Placeholders: 10 · Practice varies: 23 · General recommendations: 44
+Placeholders: 10 · Practice varies: 25 · General recommendations: 42
 
 ## src/content/cards/card-delayed-emergence.md
 
@@ -138,8 +138,8 @@ Placeholders: 10 · Practice varies: 23 · General recommendations: 44
 
 ## src/content/days/day-17.md
 
+- line 96 — practice varies: `[PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions. Most units sit between 500 and 600 mL. A figure of 800 mL circulates alongside those and is usually misquoted: it comes from a randomized trial, not yet in this ledger, that compared catheterizing at 500 mL with catheterizing at 800 mL in inpatients having fast-track hip and knee arthroplasty under spinal anesthesia. The higher threshold roughly halved the number of patients catheterized with no difference in any urological outcome. It is a catheterize-at threshold in that population, not evidence that an ambulatory patient can be left undrained at 800 mL. Know which number your unit uses.]`
 - line 96 — practice varies: `[PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions.]`
-- line 113 — general recommendation: `[GENERAL: A bladder volume of about 500 to 600 mL is the threshold most institutions use to catheterize a patient who cannot void. The 800 mL figure that circulates alongside it is often misquoted, and the correction is worth carrying: it comes from a randomized trial that compared catheterizing at 500 mL with catheterizing at 800 mL in inpatients having fast-track hip and knee arthroplasty under spinal anesthesia. The higher threshold roughly halved the number of patients catheterized with no difference in any urological outcome. It is a catheterize-at threshold in inpatient arthroplasty, not evidence that an ambulatory patient can be left undrained at 800 mL, and no ledger row exists for that trial yet. Know which number your unit uses.]`
 
 ## src/content/days/day-18.md
 
@@ -156,4 +156,4 @@ Placeholders: 10 · Practice varies: 23 · General recommendations: 44
 ## src/content/days/day-20.md
 
 - line 97 — practice varies: `[PRACTICE VARIES: the antibiotics, antiseptics and dyes in routine use, and therefore the likely culprits, differ between countries and institutions.]`
-- line 112 — general recommendation: `[GENERAL: National anaphylaxis guidance outside the operating room commonly gives 500 micrograms intramuscularly for an adult, where the perioperative consensus quoted above gives 300 micrograms for the same situation. The perioperative figure assumes an anesthesiologist with intravenous access; if you are giving an intramuscular dose, know which number your institution follows.]`
+- line 112 — practice varies: `[PRACTICE VARIES: the intramuscular epinephrine dose an institution expects differs, and the difference is not small. The perioperative consensus quoted above gives 300 micrograms for an adult, and it assumes an anesthesiologist with intravenous access. A figure of 500 micrograms is in wide use in national anaphylaxis guidance outside the operating room; that guidance is not in this ledger and no dose is quoted here from it. If you are reaching for an intramuscular dose, know which number your institution follows before you need it.]`
