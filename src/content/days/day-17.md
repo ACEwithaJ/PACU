@@ -83,7 +83,7 @@ Micturition requires an intact sensory signal from a filling bladder, an intact 
 
 ## Evidence
 
-Keita 2005 followed 313 PACU patients with ultrasound bladder volume on entry and before discharge [[keita-2005]]. Retention, a bladder volume above 600 mL with inability to void within 30 min, occurred in 16%, and its independent predictors were age 50 years or more, intraoperative fluids of 750 mL or more, and a bladder volume on PACU entry of 270 mL or more [[keita-2005]]. The odds ratios for those predictors were not captured from the abstract: [NUMBER NEEDED: odds ratios for the three predictors in Keita 2005].
+Keita 2005 followed 313 PACU patients with ultrasound bladder volume on entry and before discharge [[keita-2005]]. Retention, a bladder volume above 600 mL with inability to void within 30 min, occurred in 16% [[keita-2005]]. The full text was read on 2026-09-06 and gives three independent predictors on multivariate analysis, each with an odds ratio and a P value: intraoperative fluids of 750 mL or more, odds ratio 2.3, P = 0.02; age 50 years or more, odds ratio 2.4, P = 0.008; and a bladder volume on PACU entry of 270 mL or more, odds ratio 4.8, P = 0.0001 [[keita-2005]]. The paper reports no confidence intervals for any of the three, so the precision of those estimates is unknown.
 
 Lamonerie 2004 scanned 177 adults at recovery-room discharge: 44% had a volume above 500 mL, and 54% of those, asymptomatic, could not void within 30 min [[lamonerie-2004]]. Age over 60 carried an odds ratio of 2.11 (95% CI 1.01 to 4.38), spinal anesthesia 3.97 (1.32 to 11.89), and surgery longer than 120 min 3.03 (1.39 to 6.61) [[lamonerie-2004]].
 
@@ -95,7 +95,7 @@ Two of the three sources are cohorts, and the trial is small, single-institution
 
 The bladder-volume threshold for intervention differs between the sources, 600 mL in one and 500 mL in another, and the discharge gate in the trial was 400 mL; none of them establishes which number is right [[keita-2005]] [[lamonerie-2004]] [[mulroy-2002]]. [PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions.]
 
-The retention risk after a peripheral nerve block, as distinct from a neuraxial one, was not retrieved: [NUMBER NEEDED: urinary retention risk after peripheral nerve block compared with neuraxial anesthesia].
+The retention risk after a peripheral nerve block, as distinct from a neuraxial one, was searched for again on 2026-09-06 and no study isolating peripheral blocks in a genuinely ambulatory population was found. The nearest is an inpatient knee arthroplasty series whose confidence interval is too wide to teach from and whose population is the wrong one. This page therefore says nothing about it rather than borrowing an inpatient number.
 
 ## At the bedside
 
@@ -110,7 +110,7 @@ Write the volume in the discharge note, because the ward that receives the patie
 
 These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
 
-[GENERAL: A bladder volume of about 500 to 600 mL is the threshold most institutions use to catheterize a patient who cannot void, though volumes up to about 800 mL have been studied without an excess of urological complications. Know which number your unit uses.]
+[GENERAL: A bladder volume of about 500 to 600 mL is the threshold most institutions use to catheterize a patient who cannot void. The 800 mL figure that circulates alongside it is often misquoted, and the correction is worth carrying: it comes from a randomized trial that compared catheterizing at 500 mL with catheterizing at 800 mL in inpatients having fast-track hip and knee arthroplasty under spinal anesthesia. The higher threshold roughly halved the number of patients catheterized with no difference in any urological outcome. It is a catheterize-at threshold in inpatient arthroplasty, not evidence that an ambulatory patient can be left undrained at 800 mL, and no ledger row exists for that trial yet. Know which number your unit uses.]
 
 ## Check yourself
 

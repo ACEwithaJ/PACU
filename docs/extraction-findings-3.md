@@ -33,3 +33,21 @@ cohort evidence (Murphy 2008, RECITE-US, POPULAR) is unchanged.
 Director decision 2026-09-06: the site's audience is US residents preparing for ABA
 examinations; authored prose uses American spelling. Ledger rows keep the spelling of their
 sources, and proper nouns (Association of Anaesthetists, journal titles) are unchanged.
+
+## Correction to the Day 9 entry above, 2026-09-06 (retrieval round 3)
+
+Round 3 read `gan-2026` in full on Ovid and reports two corrections to the confirmations
+recorded above. They are recorded here rather than silently applied to this file, because this
+file is the director's own record.
+
+1. The Guideline 3 heading ends "AT ANY RISK FOR PONV", not "AT ANY RISK".
+2. The rationale sentence above, that clinicians' adherence to risk-based adjustments in PONV
+   prophylaxis is suboptimal, is in the guideline but sits in Guideline 5, the pediatric
+   section, where it describes pediatric risk models. The adult reasoning is under Guideline 1
+   and names four drivers, closing with the qualifier that the shift towards general multimodal
+   prophylaxis does not discredit the validity of PONV prediction scores nor an appropriately
+   implemented risk-adapted protocol.
+
+Day 9 has been rewritten to the round-3 reading. See `docs/extraction-findings-r3-retrieval.md`
+section A1. If the director's own copy reads differently, the director's reading wins and Day 9
+should be changed back.

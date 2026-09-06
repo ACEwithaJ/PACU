@@ -37,3 +37,7 @@ Do not treat resolution as the end. The registry names post-obstructive pulmonar
 Watch for negative-pressure pulmonary edema: pink frothy sputum, hypoxemia, bilateral infiltrates. In a recovery-room series the precipitant was glossoptosis after extubation in four of five cases and laryngeal mask displacement in one, and none had a poor outcome [[bmc-nppe-2025]]. [GENERAL: Treat it with oxygen and continuous positive airway pressure, and reintubate if the patient cannot maintain oxygenation; it usually settles within 12 to 24 hours.]
 
 The registry authors judged that a structured approach would have brought earlier recognition or better management in 16% of their cases [[visvanathan-2005-laryngospasm]].
+
+## Where the ladder comes from
+
+It is not a society recommendation. On 2026-09-06 the Difficult Airway Society extubation guideline was read in full and the Association of Paediatric Anaesthetists index was searched: neither states a laryngospasm sequence, and the airway guideline's only pharmacological statement on the subject is that robust evidence for doxapram in this indication is lacking. The steps marked as general recommendations above are a textbook construction with primary support that has not yet been retrieved for each rung. Use your institution's protocol where it differs.
