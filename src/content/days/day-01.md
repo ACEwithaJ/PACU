@@ -148,7 +148,7 @@ Treat hypoxemia or airway obstruction in the first minutes of PACU stay as resid
 
 These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
 
-[GENERAL: Monitor at the adductor pollicis with the ulnar nerve stimulated at the wrist. Acceleromyographic devices read high and need normalization to a baseline; electromyographic devices do not.]
+[GENERAL: One monitoring detail carries no source. Acceleromyographic devices read high and need normalization to a baseline; electromyographic devices do not. The site itself is not general: the guideline recommends the adductor pollicis over the eye muscles, and that is cited in the evidence slot above.]
 
 [GENERAL: Sugammadex is not recommended when the creatinine clearance is below 30 mL/min, because the sugammadex-relaxant complex is cleared renally.]
 
