@@ -11,8 +11,8 @@ evidence:
   - chung-2016-sasm
   - chung-2008-stop
   - chung-2012-stopbang
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d14-q1
     stem: "The 2014 ASA guideline on perioperative management of patients with obstructive sleep apnea recommends that at-risk patients not be discharged from the recovery area to an unmonitored setting until they are no longer at risk of respiratory depression. What kind of qualifier does that recommendation carry?"
@@ -98,24 +98,17 @@ The two guidelines do not disagree; they hedge differently. The ASA document sta
 
 The screening instrument has its derivation. STOP asks four yes-or-no questions, Snoring, Tiredness, Observed apnea and blood Pressure; in surgical patients its sensitivity for an apnea-hypopnea index above 5, 15 and 30 was 65.6%, 74.3% and 79.5%, rising to 83.6%, 92.9% and 100% when body mass index, age, neck circumference and gender were added to make STOP-Bang [[chung-2008-stop]]. The four Bang thresholds were read from the full text on 2026-09-06 and are, verbatim, a body mass index greater than 35 kg/m2, age older than 50 years, male gender, and a neck circumference greater than 40 cm [[chung-2008-stop]]. The cut-off stated in that paper is not the STOP-Bang cut-off residents are taught: it is for STOP alone, where answering yes to two or more questions gave the best combination of sensitivity and specificity [[chung-2008-stop]]. What the score means at the top end is measured: among surgical patients with polysomnography, a STOP-Bang score of 5 carried an odds ratio of 4.8 for moderate-to-severe and 10.4 for severe sleep apnea, a score of 6 carried 6.3 and 11.6, and a score of 7 to 8 carried 6.9 and 14.9, with the predicted probability of moderate-to-severe disease rising from 0.36 at a score of 3 to 0.60 at 7 to 8; a score of 5 to 8 identifies a high probability of moderate-to-severe apnea [[chung-2012-stopbang]]. None of that supplies a monitoring duration, which is the number the guideline says does not exist.
 
+Two figures are quoted against this day often enough to need answering here, a median of about 3 hours of extra monitoring and a median of about 7 hours after the last episode of airway obstruction or hypoxemia on room air. They are not in the current guideline. Its full text was searched for each of those phrases on 2026-09-06 and both are absent; the document carries the discharge obligation and the room-air observation and no duration at all [[gross-2014]]. The figures belong to the superseded 2006 original, where they were consultant survey medians rather than evidence, and the update dropped them. That earlier document has no row in this ledger, so the numbers are not quoted here as guidance, and they should not be quoted as current ASA guidance anywhere.
+
+The familiar STOP-Bang banding needs the same treatment. Only the top of the scale is measured: a score of 5 to 8 identifies a high probability of moderate-to-severe apnea [[chung-2012-stopbang]]. The paper that derived the questionnaire gives its cut-off for STOP alone, two or more affirmative answers, not for STOP-Bang [[chung-2008-stop]]. The 3 to 4 intermediate band that residents are taught traces to a narrative review, which this project does not admit as a source, so treat that band as convention rather than as evidence.
 ## At the bedside
 
 Identify the patient at increased perioperative risk from OSA before they reach the PACU, and treat the discharge decision for that patient as an obligation with an undefined end point rather than a timer [[gross-2014]]. The question to ask is not how many hours, but what would tell you the patient is no longer at risk of respiratory depression, and whether the setting you are sending them to could detect it if you are wrong.
 
+The practical test the guidance points at is the room-air observation it does describe: watch the patient in an unstimulated environment, preferably while asleep, breathing room air, and see whether the saturation holds [[gross-2014]].
 When you write the disposition, write which guideline you are applying and what its qualifier is. A resident who documents that consultants strongly agree with the plan is being accurate; a resident who documents that evidence supports the timing is not [[gross-2014]].
 
 [PRACTICE VARIES: the monitored setting used after PACU discharge for patients at increased risk from OSA, the monitoring modality, and the criteria for ending it differ between institutions; follow local protocol and know which guideline it cites.]
-
-
-### General recommendations
-
-These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
-
-[GENERAL: The figures usually quoted here, a median of about 3 hours of extra monitoring and a median of about 7 hours after the last episode of airway obstruction or hypoxemia on room air, are not in the 2014 guideline. Its full text was searched on 2026-09-06 for each of those phrases and they are absent; the 2014 document carries the discharge obligation and the room-air observation but no duration at all. The figures belong to the superseded 2006 original, where they are consultant survey medians, and the 2014 update dropped them. They are not current ASA guidance, no row for the 2006 document exists in this ledger yet, and the numbers therefore stay off this page as anything other than this note.]
-
-[GENERAL: The room-air, unstimulated observation is the practical test the guidance points at: watch the patient asleep and undisturbed on room air and see whether the saturation holds.]
-
-[GENERAL: The STOP-Bang score is commonly banded as 0 to 2 low risk, 3 to 4 intermediate, and 5 to 8 high risk. Only the top of that scale has a source in this ledger: the 5 to 8 band is measured, and the 3 to 4 intermediate band traces to a narrative review, which this project does not admit as a source. Treat the intermediate band as convention rather than evidence. The four Bang item thresholds are no longer general and are cited in the evidence slot above.]
 
 ## Check yourself
 

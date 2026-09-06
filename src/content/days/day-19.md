@@ -102,16 +102,14 @@ The 2019 visual loss advisory has not been read: [TODO_VERIFY: the recommendatio
 
 Examine and document the arms and the vision of every patient who was prone, whose arms were abducted or tucked for a long case, or who is very thin or obese, before they leave the PACU, and write it as a baseline rather than a clearance, because most ulnar symptoms appear after the first day [[warner-1994]].
 
+One piece of commonly taught positioning practice is worth correcting against the advisory's own wording. Residents are taught to pad the elbow at the cubital tunnel. The advisory asks instead that the upper extremity be positioned to decrease pressure on the postcondylar groove of the humerus, and it mentions padding only inside a general category of positioning strategies, protective padding and equipment placement [[asa-neuropathy-2018]]. Padding is a means; decreasing pressure on the groove is the instruction, and the two come apart when a pad is placed but the arm is still resting on the groove.
 Tell the patient and the ward what to watch for and when: numbness or weakness in the hand, or any change in vision, in the first days after surgery. A complaint that arrives on day two with a documented normal baseline is a different problem from one with no baseline at all.
 
 For the patient after a long prone spinal fusion with large blood loss, particularly a man with obesity on a Wilson frame, ask about vision explicitly on waking and again before discharge, because the risk factors were all present before the PACU could do anything about them [[povl-study-group-2012]]. [PRACTICE VARIES: whether a formal visual check is part of PACU discharge after spine surgery, and how peripheral nerve findings are documented, differ between institutions.]
 
-
 ### General recommendations
 
 These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
-
-[GENERAL: One item of commonly taught positioning practice does not match the advisory's wording and is worth correcting. Residents are taught to pad the elbow at the cubital tunnel. The advisory asks instead that the upper extremity be positioned to decrease pressure on the postcondylar groove, and it mentions padding only inside a general list of positioning strategies, protective padding and equipment placement. Padding is a means; decreasing pressure on the groove is the instruction. The abduction limit and the forearm position are no longer general and are cited in the evidence slot above.]
 
 [GENERAL: After prone spine surgery in a high-risk patient, ask about vision as soon as the patient is alert enough to answer, and obtain urgent ophthalmology review for any visual complaint rather than waiting for it to declare itself.]
 
