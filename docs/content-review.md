@@ -10,7 +10,7 @@ general recommendation (rule 15): a page carrying either cannot be cleared. The 
 recommendations are the ones to replace first — each is a widely taught statement that
 carries no ledger entry, and a retrieval round should turn it into a cited sentence.
 
-Placeholders: 21 · Practice varies: 21 · General recommendations: 46
+Placeholders: 15 · Practice varies: 21 · General recommendations: 46
 
 ## src/content/cards/card-delayed-emergence.md
 
@@ -47,14 +47,13 @@ Placeholders: 21 · Practice varies: 21 · General recommendations: 46
 
 ## src/content/days/day-01.md
 
-- line 134 — placeholder: `[TODO_VERIFY: a ledger row for the Drugs@FDA record before this statement appears in a quiz item.]`
-- line 140 — practice varies: `[PRACTICE VARIES: the institutional preference between sugammadex and neostigmine, and the availability of quantitative monitors in the PACU, differ between hospitals.]`
-- line 149 — general recommendation: `[GENERAL: Monitor at the adductor pollicis with the ulnar nerve stimulated at the wrist. Acceleromyographic devices read high and need normalization to a baseline; electromyographic devices do not.]`
-- line 151 — general recommendation: `[GENERAL: Sugammadex is not recommended when the creatinine clearance is below 30 mL/min, because the sugammadex-relaxant complex is cleared renally.]`
+- line 136 — placeholder: `[TODO_VERIFY: a ledger row for the Drugs@FDA record before this statement appears in a quiz item.]`
+- line 142 — practice varies: `[PRACTICE VARIES: the institutional preference between sugammadex and neostigmine, and the availability of quantitative monitors in the PACU, differ between hospitals.]`
+- line 151 — general recommendation: `[GENERAL: Monitor at the adductor pollicis with the ulnar nerve stimulated at the wrist. Acceleromyographic devices read high and need normalization to a baseline; electromyographic devices do not.]`
+- line 153 — general recommendation: `[GENERAL: Sugammadex is not recommended when the creatinine clearance is below 30 mL/min, because the sugammadex-relaxant complex is cleared renally.]`
 
 ## src/content/days/day-02.md
 
-- line 100 — placeholder: `[NUMBER NEEDED: a sourced laryngospasm management sequence including the Larson maneuver]`
 - line 108 — practice varies: `[PRACTICE VARIES: the institutional laryngospasm algorithm and the dose and route of succinylcholine it specifies differ between hospitals; know yours.]`
 - line 117 — general recommendation: `[GENERAL: A commonly taught laryngospasm sequence: call for help and give 100% oxygen; remove the stimulus, including blood and secretions; jaw thrust with firm pressure in the laryngospasm notch behind the earlobe, the Larson maneuver; continuous positive airway pressure by a tight-fitting mask, avoiding vigorous inflation that fills the stomach; deepen anesthesia with propofol about 0.5 to 1 mg/kg intravenously; and if obstruction persists or the patient is desaturating, succinylcholine, often quoted as 0.1 to 0.5 mg/kg intravenously at low dose or 1 to 1.5 mg/kg with intubation, or 3 to 4 mg/kg intramuscularly to a maximum of 150 mg when there is no intravenous access, with atropine in children for bradycardia. No trial compares sequences.]`
 
@@ -83,8 +82,8 @@ Placeholders: 21 · Practice varies: 21 · General recommendations: 46
 ## src/content/days/day-07.md
 
 - line 138 — practice varies: `[PRACTICE VARIES: the PACU discharge temperature criterion and the warming devices available differ between institutions; follow local protocol.]`
-- line 147 — general recommendation: `[GENERAL: Nursing and national guidance commonly define hypothermia as a core temperature below 36.0 °C, ask for a temperature every 15 minutes in recovery, and do not transfer a patient to the ward below 36.0 °C. That threshold is half a degree above the level at which the randomized evidence of harm on this page applies, and the two are different kinds of number.]`
-- line 149 — general recommendation: `[GENERAL: For malignant hyperthermia: stop the volatile agent, hyperventilate with 100% oxygen, and give dantrolene, usually quoted as 2.5 mg/kg intravenously repeated until the signs resolve; cool the patient and treat hyperkalemia. The Malignant Hyperthermia Association of the United States hotline is 1-800-644-9737.]`
+- line 147 — general recommendation: `[GENERAL: National and nursing guidance commonly define hypothermia as a core temperature below 36.0 °C, ask for a temperature every 15 minutes in recovery, and do not transfer a patient to the ward below 36.0 °C. Be careful about attributing that threshold. It is the NICE inpatient warming guidance that carries the 36.0 °C transfer rule. The ASPAN normothermia guideline is often named alongside it, and this project has not read it: the current version was identified on 2026-09-06 as the second edition of 2010, its full text is paywalled, and its stated core-temperature target was not read and is not quoted here. That threshold is also half a degree above the level at which the randomized evidence of harm on this page applies, and the two are different kinds of number.]`
+- line 149 — general recommendation: `[GENERAL: For malignant hyperthermia: stop the volatile agent, hyperventilate with 100% oxygen, give dantrolene, cool the patient and treat hyperkalemia. The dose is the place where two authorities disagree, and the disagreement is worth knowing rather than smoothing over. The Malignant Hyperthermia Association of the United States says 2.5 mg/kg initially, repeated as frequently as needed until the patient responds, and states that large doses above 10 mg/kg may be required, with its own guidance going as far as 10 to 20 or more mg/kg in individual patients. The FDA labels for the intravenous products say the opposite at both ends: a minimum of 1 mg/kg and a maximum cumulative dose of 10 mg/kg. Neither document is in this ledger yet, so both are carried here as general recommendations, and the MHAUS page carries no revision date. Follow your institution's malignant hyperthermia protocol and its cart. The MHAUS hotline is 1-800-644-9737.]`
 
 ## src/content/days/day-08.md
 
@@ -92,11 +91,10 @@ Placeholders: 21 · Practice varies: 21 · General recommendations: 46
 
 ## src/content/days/day-09.md
 
-- line 142 — placeholder: `[TODO_VERIFY: Gan 2026 statements on three or more interventions and on recommended doses, from the full text.]`
-- line 148 — placeholder: `[TODO_VERIFY: a source for ondansetron's limited effect on vestibular nausea]`
-- line 158 — practice varies: `[PRACTICE VARIES: the specific rescue agents stocked and the order in which they are used differ between institutions; the class-change rule does not.]`
-- line 165 — general recommendation: `[GENERAL: Adult prophylactic doses commonly used: ondansetron 4 mg intravenously toward the end of surgery; dexamethasone 4 to 8 mg intravenously at induction; droperidol 0.625 to 1.25 mg intravenously, subject to the boxed warning above; haloperidol 0.5 to 2 mg; aprepitant 40 mg by mouth or 32 mg intravenously; a scopolamine patch applied the evening before or 2 to 4 hours preoperatively; dimenhydrinate about 1 mg/kg; amisulpride 5 mg for prophylaxis and 10 mg for rescue; promethazine 6.25 to 12.5 mg; palonosetron 0.075 mg at induction.]`
-- line 167 — general recommendation: `[GENERAL: For a patient carrying three or more risk factors, adding a third agent to the two-intervention floor is widely taught, though the guideline itself notes there is little trial evidence for three or more interventions.]`
+- line 156 — placeholder: `[TODO_VERIFY: a source for ondansetron's limited effect on vestibular nausea]`
+- line 166 — practice varies: `[PRACTICE VARIES: the specific rescue agents stocked and the order in which they are used differ between institutions; the class-change rule does not.]`
+- line 173 — general recommendation: `[GENERAL: Two adult prophylactic doses in common use are not in the Fifth guideline's table: dimenhydrinate about 1 mg/kg intravenously, and promethazine 6.25 to 12.5 mg intravenously for prophylaxis rather than rescue. The guideline's own doses are cited in the evidence slot above and are not general recommendations.]`
+- line 175 — general recommendation: `[GENERAL: Adding a third agent for a patient with three or more risk factors is widely taught, and it is not what the guideline recommends. The guideline's position, quoted in the evidence slot, is to maximize risk mitigation instead, with acupoint stimulation offered where three or more interventions are required. Treat the third drug as local practice, not as guideline.]`
 
 ## src/content/days/day-10.md
 
@@ -113,10 +111,9 @@ Placeholders: 21 · Practice varies: 21 · General recommendations: 46
 
 ## src/content/days/day-12.md
 
-- line 96 — placeholder: `[TODO_VERIFY: the 2024 ESAIC wording on excluding hypoxemia, hypoglycemia and pain before labeling delirium or agitation.]`
 - line 98 — placeholder: `[NUMBER NEEDED: absolute incidence of emergence delirium after sevoflurane in children.]`
 - line 104 — practice varies: `[PRACTICE VARIES: the screening tool used, who applies it, and how the result is recorded differ between institutions.]`
-- line 115 — general recommendation: `[GENERAL: Validated screening tools in adult use are the confusion assessment method for the intensive care unit, the nursing delirium screening scale, and the 4AT. Which one is used is an institutional choice; using none is not.]`
+- line 115 — general recommendation: `[GENERAL: Validated screening tools in adult use are the confusion assessment method for the intensive care unit, the nursing delirium screening scale, and the 4AT. None of the three is named in the body of the 2024 ESAIC guideline; its tool list sits in a supplementary table that has not been retrieved. Which one is used is an institutional choice; using none is not.]`
 - line 117 — general recommendation: `[GENERAL: Treatment is non-pharmacological first: reorientation, sleep, glasses and hearing aids, early mobilization, hydration, and pain control. Benzodiazepines are avoided unless the delirium is benzodiazepine withdrawal, and a low-dose antipsychotic is reserved for agitation that threatens the safety of the patient or of staff.]`
 
 ## src/content/days/day-13.md
@@ -128,11 +125,10 @@ Placeholders: 21 · Practice varies: 21 · General recommendations: 46
 
 ## src/content/days/day-14.md
 
-- line 99 — placeholder: `[NUMBER NEEDED: the STOP-Bang item thresholds and the cut-off score, from the full text]`
 - line 107 — practice varies: `[PRACTICE VARIES: the monitored setting used after PACU discharge for patients at increased risk from OSA, the monitoring modality, and the criteria for ending it differ between institutions; follow local protocol and know which guideline it cites.]`
-- line 114 — general recommendation: `[GENERAL: The 2014 guideline's discharge section is often quoted as recording consultant opinion that patients at increased perioperative risk from obstructive sleep apnea be monitored for a median of about 3 hours longer than patients without it, and for a median of about 7 hours after the last episode of airway obstruction or hypoxemia while breathing room air in an unstimulated environment. Those are opinion medians rather than evidence, and this project has not yet read them in the guideline itself.]`
+- line 114 — general recommendation: `[GENERAL: The figures usually quoted here, a median of about 3 hours of extra monitoring and a median of about 7 hours after the last episode of airway obstruction or hypoxemia on room air, are not in the 2014 guideline. Its full text was searched on 2026-09-06 for each of those phrases and they are absent; the 2014 document carries the discharge obligation and the room-air observation but no duration at all. The figures belong to the superseded 2006 original, where they are consultant survey medians, and the 2014 update dropped them. They are not current ASA guidance, no row for the 2006 document exists in this ledger yet, and the numbers therefore stay off this page as anything other than this note.]`
 - line 116 — general recommendation: `[GENERAL: The room-air, unstimulated observation is the practical test the guidance points at: watch the patient asleep and undisturbed on room air and see whether the saturation holds.]`
-- line 118 — general recommendation: `[GENERAL: The STOP-Bang score is commonly banded as 0 to 2 low risk, 3 to 4 intermediate, and 5 to 8 high risk, with the individual items being a body mass index above 35, age over 50, a neck circumference above about 40 cm, and male sex.]`
+- line 118 — general recommendation: `[GENERAL: The STOP-Bang score is commonly banded as 0 to 2 low risk, 3 to 4 intermediate, and 5 to 8 high risk. Only the top of that scale has a source in this ledger: the 5 to 8 band is measured, and the 3 to 4 intermediate band traces to a narrative review, which this project does not admit as a source. Treat the intermediate band as convention rather than evidence. The four Bang item thresholds are no longer general and are cited in the evidence slot above.]`
 
 ## src/content/days/day-15.md
 
@@ -145,14 +141,12 @@ Placeholders: 21 · Practice varies: 21 · General recommendations: 46
 
 ## src/content/days/day-16.md
 
-- line 111 — practice varies: `[PRACTICE VARIES: the handover checklist used and who leads the handover differ between institutions; the requirement to stay until the nurse accepts responsibility does not.]`
+- line 113 — practice varies: `[PRACTICE VARIES: the handover checklist used and who leads the handover differ between institutions; the requirement to stay until the nurse accepts responsibility does not.]`
 
 ## src/content/days/day-17.md
 
-- line 86 — placeholder: `[NUMBER NEEDED: odds ratios for the three predictors in Keita 2005]`
 - line 96 — practice varies: `[PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions.]`
-- line 98 — placeholder: `[NUMBER NEEDED: urinary retention risk after peripheral nerve block compared with neuraxial anesthesia]`
-- line 113 — general recommendation: `[GENERAL: A bladder volume of about 500 to 600 mL is the threshold most institutions use to catheterize a patient who cannot void, though volumes up to about 800 mL have been studied without an excess of urological complications. Know which number your unit uses.]`
+- line 113 — general recommendation: `[GENERAL: A bladder volume of about 500 to 600 mL is the threshold most institutions use to catheterize a patient who cannot void. The 800 mL figure that circulates alongside it is often misquoted, and the correction is worth carrying: it comes from a randomized trial that compared catheterizing at 500 mL with catheterizing at 800 mL in inpatients having fast-track hip and knee arthroplasty under spinal anesthesia. The higher threshold roughly halved the number of patients catheterized with no difference in any urological outcome. It is a catheterize-at threshold in inpatient arthroplasty, not evidence that an ambulatory patient can be left undrained at 800 mL, and no ledger row exists for that trial yet. Know which number your unit uses.]`
 
 ## src/content/days/day-18.md
 
@@ -161,10 +155,10 @@ Placeholders: 21 · Practice varies: 21 · General recommendations: 46
 
 ## src/content/days/day-19.md
 
-- line 99 — placeholder: `[TODO_VERIFY: the recommendation text of the 2018 ASA neuropathy advisory and the 2019 ASA visual loss advisory, from the PMC copy of the latter and the journal text of the former.]`
-- line 99 — placeholder: `[NUMBER NEEDED: incidence, mechanism and timing of perioperative brachial plexus injury]`
+- line 99 — placeholder: `[TODO_VERIFY: the recommendation text of the 2019 ASA perioperative visual loss advisory, from the PMC copy.]`
+- line 99 — placeholder: `[NUMBER NEEDED: incidence, mechanism and timing of perioperative brachial plexus injury outside cardiac surgery]`
 - line 107 — practice varies: `[PRACTICE VARIES: whether a formal visual check is part of PACU discharge after spine surgery, and how peripheral nerve findings are documented, differ between institutions.]`
-- line 114 — general recommendation: `[GENERAL: Positioning practice commonly taught: abduct the arm no more than about 90 degrees, keep the forearm neutral or supinated rather than pronated, and pad the elbow at the cubital tunnel.]`
+- line 114 — general recommendation: `[GENERAL: One item of commonly taught positioning practice does not match the advisory's wording and is worth correcting. Residents are taught to pad the elbow at the cubital tunnel. The advisory asks instead that the upper extremity be positioned to decrease pressure on the postcondylar groove, and it mentions padding only inside a general list of positioning strategies, protective padding and equipment placement. Padding is a means; decreasing pressure on the groove is the instruction. The abduction limit and the forearm position are no longer general and are cited in the evidence slot above.]`
 - line 116 — general recommendation: `[GENERAL: After prone spine surgery in a high-risk patient, ask about vision as soon as the patient is alert enough to answer, and obtain urgent ophthalmology review for any visual complaint rather than waiting for it to declare itself.]`
 
 ## src/content/days/day-20.md
