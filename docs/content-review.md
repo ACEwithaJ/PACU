@@ -10,7 +10,7 @@ general recommendation (rule 15): a page carrying either cannot be cleared. The 
 recommendations are the ones to replace first — each is a widely taught statement that
 carries no ledger entry, and a retrieval round should turn it into a cited sentence.
 
-Placeholders: 15 · Practice varies: 21 · General recommendations: 46
+Placeholders: 14 · Practice varies: 23 · General recommendations: 44
 
 ## src/content/cards/card-delayed-emergence.md
 
@@ -111,10 +111,9 @@ Placeholders: 15 · Practice varies: 21 · General recommendations: 46
 
 ## src/content/days/day-12.md
 
-- line 98 — placeholder: `[NUMBER NEEDED: absolute incidence of emergence delirium after sevoflurane in children.]`
 - line 104 — practice varies: `[PRACTICE VARIES: the screening tool used, who applies it, and how the result is recorded differ between institutions.]`
-- line 115 — general recommendation: `[GENERAL: Validated screening tools in adult use are the confusion assessment method for the intensive care unit, the nursing delirium screening scale, and the 4AT. None of the three is named in the body of the 2024 ESAIC guideline; its tool list sits in a supplementary table that has not been retrieved. Which one is used is an institutional choice; using none is not.]`
-- line 117 — general recommendation: `[GENERAL: Treatment is non-pharmacological first: reorientation, sleep, glasses and hearing aids, early mobilization, hydration, and pain control. Benzodiazepines are avoided unless the delirium is benzodiazepine withdrawal, and a low-dose antipsychotic is reserved for agitation that threatens the safety of the patient or of staff.]`
+- line 114 — practice varies: `[PRACTICE VARIES: which validated delirium screening tool a unit uses differs between institutions. The ones in common adult use are the confusion assessment method for the intensive care unit, the nursing delirium screening scale, and the 4AT. None of the three is named in the body of the 2024 ESAIC guideline; its tool list sits in a supplementary table that has not been retrieved, so treat the choice as institutional. Using none is not a choice.]`
+- line 116 — practice varies: `[PRACTICE VARIES: the non-pharmacological bundle applied before any drug differs between institutions. It commonly includes reorientation, protected sleep, restoring glasses and hearing aids, early mobilization, hydration and pain control. The guideline's graded position on what follows if that bundle fails is cited in the evidence slot above.]`
 
 ## src/content/days/day-13.md
 
