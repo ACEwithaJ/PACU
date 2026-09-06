@@ -249,3 +249,9 @@ a.cite { font-size: .8rem; }
 }
 .general strong { color: var(--warn); }
 .general em { display: block; margin-top: .4rem; font-size: .85rem; color: var(--ink-2); font-style: normal; }
+
+/* An algorithm card can carry six general recommendations in a row, so the
+   caveat is stated once under the masthead and the per-step repeat is
+   collapsed. The bold "General recommendation." lead stays on every step. */
+.general-standing { border-left: 3px solid var(--warn); padding-left: .9rem; margin: 0 0 1.5rem; }
+.card-page .general em { display: none; }
