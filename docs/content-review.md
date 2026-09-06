@@ -10,7 +10,7 @@ general recommendation (rule 15): a page carrying either cannot be cleared. The 
 recommendations are the ones to replace first — each is a widely taught statement that
 carries no ledger entry, and a retrieval round should turn it into a cited sentence.
 
-Placeholders: 10 · Practice varies: 25 · General recommendations: 34
+Placeholders: 10 · Practice varies: 27 · General recommendations: 32
 
 ## src/content/cards/card-delayed-emergence.md
 
@@ -49,7 +49,7 @@ Placeholders: 10 · Practice varies: 25 · General recommendations: 34
 
 - line 136 — placeholder: `[TODO_VERIFY: a ledger row for the Drugs@FDA record before this statement appears in a quiz item.]`
 - line 142 — practice varies: `[PRACTICE VARIES: the institutional preference between sugammadex and neostigmine, and the availability of quantitative monitors in the PACU, differ between hospitals.]`
-- line 151 — general recommendation: `[GENERAL: Monitor at the adductor pollicis with the ulnar nerve stimulated at the wrist. Acceleromyographic devices read high and need normalization to a baseline; electromyographic devices do not.]`
+- line 151 — general recommendation: `[GENERAL: One monitoring detail carries no source. Acceleromyographic devices read high and need normalization to a baseline; electromyographic devices do not. The site itself is not general: the guideline recommends the adductor pollicis over the eye muscles, and that is cited in the evidence slot above.]`
 - line 153 — general recommendation: `[GENERAL: Sugammadex is not recommended when the creatinine clearance is below 30 mL/min, because the sugammadex-relaxant complex is cleared renally.]`
 
 ## src/content/days/day-02.md
@@ -68,7 +68,7 @@ Placeholders: 10 · Practice varies: 25 · General recommendations: 34
 
 - line 94 — placeholder: `[TODO_VERIFY: the remainder of that warning sentence, paraphrased here beyond its first clause, to be re-quoted from the label; and a source for withdrawal of other antihypertensive classes.]`
 - line 104 — practice varies: `[PRACTICE VARIES: the pressure at which a PACU protocol calls for direct treatment, and the agent used, differ between institutions; follow local protocol and know that the threshold is a local decision, not an evidence-based one.]`
-- line 111 — general recommendation: `[GENERAL: Populations where an explicit upper pressure limit usually does exist, set by the surgical or obstetric service rather than by evidence: after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia.]`
+- line 111 — practice varies: `[PRACTICE VARIES: some services set an explicit upper pressure limit where the general literature sets none, and that limit is part of the order set rather than a finding. It is usual after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia. Find out what the limit is before the patient arrives, not after. The absence of a general threshold is not the absence of any threshold.]`
 - line 113 — general recommendation: `[GENERAL: When direct treatment is chosen, the agents usually stocked for the PACU are labetalol in 5 to 10 mg intravenous increments, hydralazine 5 to 10 mg intravenously, and a nicardipine or clevidipine infusion where titratable control is wanted.]`
 - line 115 — general recommendation: `[GENERAL: Beta-blockers a patient already takes are generally continued through the perioperative period rather than stopped, which is the other half of the withdrawal limb of this differential.]`
 
@@ -93,7 +93,7 @@ Placeholders: 10 · Practice varies: 25 · General recommendations: 34
 - line 100 — practice varies: `[PRACTICE VARIES: the opioid, bolus size, interval, pain-score threshold and sedation limit used for PACU titration differ between institutions; follow local protocol and know its endpoint.]`
 - line 102 — placeholder: `[TODO_VERIFY: the ASA 2012 acute pain guideline's statements on opioid titration and its currency.]`
 - line 117 — general recommendation: `[GENERAL: Multimodal analgesia is the current standard around an opioid: acetaminophen and a nonsteroidal anti-inflammatory unless contraindicated, a site-appropriate regional technique, and ketamine in selected opioid-tolerant or high-pain patients. The opioid is titrated on top of that base, not instead of it.]`
-- line 119 — general recommendation: `[GENERAL: Use a named sedation scale and record it, so that sedation is measured rather than eyeballed. The Pasero opioid-induced sedation scale and the Ramsay scale are the two commonly used.]`
+- line 119 — practice varies: `[PRACTICE VARIES: which named sedation scale a unit uses differs between institutions, and the two in common use are the Pasero opioid-induced sedation scale and the Ramsay scale. Using a named scale and recording it is the point, so that sedation is measured rather than eyeballed; which scale carries the measurement is a local decision.]`
 
 ## src/content/days/day-11.md
 
@@ -110,7 +110,7 @@ Placeholders: 10 · Practice varies: 25 · General recommendations: 34
 - line 104 — placeholder: `[TODO_VERIFY: a society standard or guideline statement requiring neurological examination before PACU discharge in delayed emergence.]`
 - line 106 — placeholder: `[NUMBER NEEDED: incidence of delayed emergence by anesthetic agent and the time thresholds used to define it]`
 - line 116 — practice varies: `[PRACTICE VARIES: the availability of physostigmine, and the local threshold for imaging a patient who has not woken, differ between institutions.]`
-- line 123 — general recommendation: `[GENERAL: Doses commonly used in this sequence: naloxone 0.04 to 0.1 mg intravenously in increments; flumazenil 0.2 mg intravenously repeated to a maximum of 1 mg; physostigmine 0.5 to 2 mg intravenously given slowly, with atropine available for bradycardia and an awareness of its seizure risk; sugammadex 2 to 4 mg/kg by measured depth of block; and dextrose for a low glucose.]`
+- line 123 — general recommendation: `[GENERAL: Three figures in this sequence carry no source. Naloxone in smaller increments of 0.04 to 0.1 mg is widely used to avoid abrupt reversal, and it is not the label figure; the label increments of 0.1 to 0.2 mg are cited in the evidence slot above, as is the flumazenil regimen. Physostigmine is usually quoted as 0.5 to 2 mg intravenously given slowly, with atropine available for bradycardia and an awareness of its seizure risk; that dose is not in any source this project holds. And dextrose for a low glucose is universal practice rather than a sourced recommendation.]`
 
 ## src/content/days/day-14.md
 
