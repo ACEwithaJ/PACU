@@ -116,7 +116,7 @@ These are the numbers residents are commonly taught and expected to know. This p
 
 [GENERAL: Multimodal analgesia is the current standard around an opioid: acetaminophen and a nonsteroidal anti-inflammatory unless contraindicated, a site-appropriate regional technique, and ketamine in selected opioid-tolerant or high-pain patients. The opioid is titrated on top of that base, not instead of it.]
 
-[GENERAL: Use a named sedation scale and record it, so that sedation is measured rather than eyeballed. The Pasero opioid-induced sedation scale and the Ramsay scale are the two commonly used.]
+[PRACTICE VARIES: which named sedation scale a unit uses differs between institutions, and the two in common use are the Pasero opioid-induced sedation scale and the Ramsay scale. Using a named scale and recording it is the point, so that sedation is measured rather than eyeballed; which scale carries the measurement is a local decision.]
 
 ## Check yourself
 

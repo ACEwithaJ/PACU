@@ -108,7 +108,7 @@ If nothing reversible explains it and the level is one you judge dangerous for t
 
 These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
 
-[GENERAL: Populations where an explicit upper pressure limit usually does exist, set by the surgical or obstetric service rather than by evidence: after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia.]
+[PRACTICE VARIES: some services set an explicit upper pressure limit where the general literature sets none, and that limit is part of the order set rather than a finding. It is usual after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia. Find out what the limit is before the patient arrives, not after. The absence of a general threshold is not the absence of any threshold.]
 
 [GENERAL: When direct treatment is chosen, the agents usually stocked for the PACU are labetalol in 5 to 10 mg intravenous increments, hydralazine 5 to 10 mg intravenously, and a nicardipine or clevidipine infusion where titratable control is wanted.]
 

@@ -120,7 +120,7 @@ When the commoner causes are excluded and the patient remains somnolent or agita
 
 These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
 
-[GENERAL: Doses commonly used in this sequence: naloxone 0.04 to 0.1 mg intravenously in increments; flumazenil 0.2 mg intravenously repeated to a maximum of 1 mg; physostigmine 0.5 to 2 mg intravenously given slowly, with atropine available for bradycardia and an awareness of its seizure risk; sugammadex 2 to 4 mg/kg by measured depth of block; and dextrose for a low glucose.]
+[GENERAL: Three figures in this sequence carry no source. Naloxone in smaller increments of 0.04 to 0.1 mg is widely used to avoid abrupt reversal, and it is not the label figure; the label increments of 0.1 to 0.2 mg are cited in the evidence slot above, as is the flumazenil regimen. Physostigmine is usually quoted as 0.5 to 2 mg intravenously given slowly, with atropine available for bradycardia and an awareness of its seizure risk; that dose is not in any source this project holds. And dextrose for a low glucose is universal practice rather than a sourced recommendation.]
 
 ## Check yourself
 
