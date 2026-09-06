@@ -10,7 +10,7 @@ general recommendation (rule 15): a page carrying either cannot be cleared. The 
 recommendations are the ones to replace first — each is a widely taught statement that
 carries no ledger entry, and a retrieval round should turn it into a cited sentence.
 
-Placeholders: 13 · Practice varies: 23 · General recommendations: 44
+Placeholders: 10 · Practice varies: 23 · General recommendations: 44
 
 ## src/content/cards/card-delayed-emergence.md
 
@@ -101,8 +101,6 @@ Placeholders: 13 · Practice varies: 23 · General recommendations: 44
 
 ## src/content/days/day-11.md
 
-- line 101 — placeholder: `[TODO_VERIFY: the full text of the Association of Anaesthetists guideline for the breakthrough-pain wording.]`
-- line 107 — placeholder: `[NUMBER NEEDED: incidence of Horner syndrome after interscalene block]`
 - line 111 — practice varies: `[PRACTICE VARIES: whether a block is used at all in limbs at risk of compartment syndrome, and who is called when breakthrough pain occurs, differ between institutions and surgical services.]`
 
 ## src/content/days/day-12.md
@@ -145,7 +143,6 @@ Placeholders: 13 · Practice varies: 23 · General recommendations: 44
 
 ## src/content/days/day-18.md
 
-- line 103 — placeholder: `[NUMBER NEEDED: incidence of post-dural puncture headache by needle gauge and tip design]`
 - line 111 — practice varies: `[PRACTICE VARIES: who performs the blood patch, where, and after how long a trial of conservative treatment differ between institutions.]`
 
 ## src/content/days/day-19.md

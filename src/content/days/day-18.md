@@ -9,8 +9,8 @@ clinical_claim_status: supported
 evidence:
   - uppal-2023
   - uppal-2024-rapm
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d18-q1
     stem: "According to the 2023 multisociety consensus guideline, within what interval after a neuraxial procedure should a new headache or neurological symptom raise suspicion of post-dural puncture headache?"
@@ -100,7 +100,7 @@ The guideline is consensus with graded evidence, and most of the conservative-tr
 
 Nothing here is specific to the PACU. The guideline is about the patient after any neuraxial procedure, and the PACU's role is the first review and the first instruction to report symptoms [[uppal-2023]].
 
-Incidence by needle type and size, and the effect of needle choice on prevention, are in the full guideline and not in the summary quoted here: [NUMBER NEEDED: incidence of post-dural puncture headache by needle gauge and tip design].
+Incidence by needle type and size, and the effect of needle choice on prevention, are in the full guideline and not in the summary quoted here, so this page gives no figure by gauge or tip design.
 
 ## At the bedside
 

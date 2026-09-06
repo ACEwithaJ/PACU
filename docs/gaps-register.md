@@ -35,3 +35,29 @@ showed desaturation fourfold higher on room air. The nearest rate is from the wa
 the page: `doufas-2023`, an incidence rate ratio of 2.7 for opioid-induced respiratory
 depression episodes on supplemental oxygen. This was target B10 in retrieval round 3, which
 ran out of budget before reaching it, and it is carried forward to round 4.
+
+## Day 11 — regional anesthesia complications in the PACU
+
+**The Association of Anaesthetists wording on breakthrough pain as the trigger to examine a
+blocked limb.** Moved here 2026-09-06 when the director cleared Day 11. The guideline is in the
+ledger as `nathanson-2021` and the parts read from its abstract are cited on the page: avoid
+dense long-duration blocks that significantly exceed the duration of surgery, lower-concentration
+blocks without adjuncts are not associated with diagnostic delay given appropriate surveillance,
+ward observations at set frequencies by trained staff, objective scoring charts, documented
+consent, and neither surgeon nor anesthesiologist able to veto the other. The specific
+breakthrough-pain sentence is in the full text, which has not been read. This was the single
+Section A item retrieval round 3 never attempted, and it leads round 4.
+
+**Incidence of Horner syndrome after interscalene block.** No source in this ledger reports it.
+`borgeat-2001` is the prospective series the page cites for the other complications and does not
+report Horner syndrome. Round 3 found a retrospective figure of 9 in 1322, 0.7%, in a source that
+has no ledger row and that its own authors call lower than previous reports; passive retrospective
+surveillance is not an incidence and this page will not carry it as one. Round 4 is asked to read
+`borgeat-2001` in full, which is now reachable, for a prospective denominator.
+
+## Day 18 — post-dural puncture headache
+
+**Incidence by needle gauge and tip design.** Moved here 2026-09-06 when the director cleared
+Day 18. The figures sit in the full guideline rather than in the summary this page quotes. This
+was target B8 in retrieval round 3, which ran out of budget before reaching it, and it is carried
+forward to round 4.
