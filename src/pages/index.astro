@@ -7,12 +7,17 @@ const days = await getCollection("days");
 const cards = await getCollection("cards");
 const dayByNumber = new Map(days.map((d) => [Number(d.data.id.slice(4)), d]));
 const cardById = new Map(cards.map((c) => [c.data.id, c]));
+
+/* How much of the site the director has cleared. A reader looking at a page
+   with no draft banner should be able to tell that from the index too. */
+const cleared = [...days, ...cards].filter((e) => !e.data.draft).length;
+const authored = days.length + cards.length;
 ---
 
 <Base title="PACU rotation curriculum" description="A PACU curriculum for anesthesiology residents.">
   <main>
     <header class="masthead">
-      <p class="kicker">{DAY_PLAN.length} days · {CARD_PLAN.length} algorithm cards</p>
+      <p class="kicker">{DAY_PLAN.length} days · {CARD_PLAN.length} algorithm cards · {cleared} of {authored} cleared</p>
       <h1>PACU rotation curriculum</h1>
       <p class="lede">
         One page per day. Each day states a claim, names the evidence mode it rests on, and cites
@@ -31,7 +36,7 @@ const cardById = new Map(cards.map((c) => [c.data.id, c]));
               {d ? (
                 <>
                   <a href={`/d/${d.data.id}/`}>{d.data.title}</a>
-                  {d.data.draft && <span class="chip mid">draft</span>}
+                  {d.data.draft ? <span class="chip mid">draft</span> : <span class="chip ok">cleared</span>}
                   <span class="chip mode">{d.data.evidence_mode === "trial_based" ? "trial based" : "consensus only"}</span>
                 </>
               ) : (
@@ -59,7 +64,7 @@ const cardById = new Map(cards.map((c) => [c.data.id, c]));
               {c ? (
                 <>
                   <a href={`/c/${c.data.id}/`}>{c.data.title}</a>
-                  {c.data.draft && <span class="chip mid">draft</span>}
+                  {c.data.draft ? <span class="chip mid">draft</span> : <span class="chip ok">cleared</span>}
                 </>
               ) : (
                 <>
@@ -74,7 +79,8 @@ const cardById = new Map(cards.map((c) => [c.data.id, c]));
     </ol>
 
     <footer class="colophon">
-      Every day is a draft until the rotation director clears it. <a href="/about/">About this site</a>.
+      A page is a draft until the rotation director clears it, and a cleared page still carries no
+      number this project has not read and no recommendation it cannot source. <a href="/about/">About this site</a>.
     </footer>
   </main>
 </Base>
