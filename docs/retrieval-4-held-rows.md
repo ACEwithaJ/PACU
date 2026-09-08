@@ -43,3 +43,22 @@ Identifiers are verified and recorded: DOI 10.1016/j.jpain.2015.12.008, PMID 268
 Its multimodal-analgesia recommendation text was never read and must not be quoted.
 
 Day 10's placeholder therefore stands.
+
+---
+
+## Resolved 2026-09-08 by retrieval round 5
+
+**`chou-2016` is admitted.** Round 5 opened the newer document that raised the currency doubt, the
+Association of Anaesthetists and British Pain Society consensus statement of 2024, and read it in
+full. It does not supersede Chou 2016: different jurisdiction and societies, it cites Chou as its
+own reference 2, it is explicitly ungraded, and it nowhere claims to replace a prior guideline.
+So `chou-2016` currency is `current` and the row is now in the ledger. Its access stays UNVERIFIED,
+because a 403 and a robots exclusion are blocks rather than paywalls, and its recommendation text
+is still unread and must not be quoted.
+
+The newer statement is in the ledger in its own right as `elboghdadly-2024`, which does give Day 10
+a usable multimodal sentence, ungraded, and the page says so.
+
+**`renew-2026` is still held out**, now for a second round, and the reason has sharpened from a
+prompt error into a real question about the design vocabulary. See
+`docs/renew-2026-schema-question.md`.
