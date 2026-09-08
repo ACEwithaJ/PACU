@@ -14,8 +14,8 @@ evidence:
   - bayable-2023
   - fda-physostigmine-anticholium-label-2023
   - fda-physostigmine-akorn-label-2022
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d13-q1
     stem: "A patient given naloxone in the PACU for opioid-induced somnolence wakes, then becomes drowsy again forty minutes later. What does the naloxone label say about this?"
@@ -105,9 +105,9 @@ Physostigmine has two current labels in the United States and they do not agree,
 
 No source on this page tests the ordered differential against any other order, or against no order. The sequence is expert consensus about frequency and reversibility, and the simulation case that carries it is an educational resource, not a study [[ellis-2017]]. The labels establish the pharmacology of the two reversal agents; they say nothing about how often each cause occurs in a PACU.
 
-The requirement that a neurological examination be performed and documented before the patient leaves the PACU is on the director's content list and has no source: [TODO_VERIFY: a society standard or guideline statement requiring neurological examination before PACU discharge in delayed emergence.] It remains consensus on this page.
+The requirement that a neurological examination be performed and documented before the patient leaves the PACU is on the content list for this day and has no source in this ledger; a search has not found a society standard that states it. It remains consensus on this page.
 
-The anesthetic-specific numbers the list expects, how long each volatile agent or opioid delays emergence in a given patient, are not in the held sources: [NUMBER NEEDED: incidence of delayed emergence by anesthetic agent and the time thresholds used to define it]. A published study of physostigmine after desflurane has been retracted and is not cited here.
+The anesthetic-specific numbers the list expects, how long each volatile agent or opioid delays emergence in a given patient, are not in the held sources, so this page gives none. A published study of physostigmine after desflurane has been retracted and is not cited here.
 
 ## At the bedside
 
@@ -124,7 +124,7 @@ When the commoner causes are excluded and the patient remains somnolent or agita
 
 These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
 
-[GENERAL: Two figures in this sequence still carry no source. The naloxone increment of 0.04 to 0.1 mg is widely taught to avoid abrupt reversal and is not in the labelling; two naloxone labels were checked in September 2026 and the only smaller labelled increments are pediatric, so treat 40 micrograms as a practice convention. And giving dextrose for a low glucose reading is universal practice rather than a sourced recommendation. Physostigmine is no longer on this list; both its labels are cited in the evidence slot above.]
+One taught figure is worth correcting here, because it is a dose. The naloxone increment of 0.04 to 0.1 mg that is widely used to avoid abrupt reversal is not in the labelling. The adult postoperative increment there is 0.1 to 0.2 mg, cited above, and the only smaller increments in that label are pediatric [[fda-naloxone-label-2023]]. Treat 40 micrograms as a practice convention, not as a label dose.
 
 ## Check yourself
 

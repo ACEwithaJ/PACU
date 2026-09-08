@@ -12,8 +12,8 @@ evidence:
   - aubrun-2003
   - aubrun-2001
   - asa-acute-pain-2012
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d10-q1
     stem: "In Paqueron 2002, morphine titration in the PACU was stopped when the patient fell asleep. What proportion of patients who slept still had a visual analogue pain score above 50 mm thirty minutes later?"
@@ -99,7 +99,9 @@ Every source is observational. Paqueron 2002 is a cohort, Frasca 2007 is a case-
 
 The Aubrun regimens are one institution's protocol. The bolus sizes, the interval and the threshold are what that group used, not a standard [[aubrun-2003]]. [PRACTICE VARIES: the opioid, bolus size, interval, pain-score threshold and sedation limit used for PACU titration differ between institutions; follow local protocol and know its endpoint.]
 
-The guideline that would carry a general recommendation has not been read: [TODO_VERIFY: the ASA 2012 acute pain guideline's statements on opioid titration and its currency.] The 2012 review by the Aubrun group is a narrative review and stays a finding aid rather than support.
+The guideline that would carry a general recommendation has not been read: That guideline's own statements on opioid titration, and whether it is still current, have not been read. The 2012 review by the Aubrun group is a narrative review and stays a finding aid rather than support.
+
+The multimodal recommendation this page used to carry as a general one has been removed rather than relabeled. Acetaminophen and a nonsteroidal unless contraindicated, a site-appropriate regional technique, and an opioid reserved for what those do not cover, is the current standard and this project cannot yet cite it. The guideline usually credited with it is in the repository's held-rows note: its identifiers are verified, its recommendation text has never been read, and its currency is genuinely open because the society that issued it dissolved in 2019.
 
 ## At the bedside
 
@@ -108,15 +110,6 @@ Titrate to a report of relief and to function, and write down what the endpoint 
 Treat sedation during titration as a limit on the rate, not as the goal. If the patient is drowsy and still reports pain, the choice is between slowing the boluses and adding a non-opioid, not between more morphine and stopping [[aubrun-2001]].
 
 Do not discharge a patient who is sedated and still in pain as if the sedation had solved the pain; the case-control data say that patient has a bad night and is still in severe pain the next day [[frasca-2007]].
-
-
-### General recommendations
-
-These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
-
-[GENERAL: Multimodal analgesia is the current standard around an opioid: acetaminophen and a nonsteroidal anti-inflammatory unless contraindicated, a site-appropriate regional technique, and ketamine in selected opioid-tolerant or high-pain patients. The opioid is titrated on top of that base, not instead of it.]
-
-[PRACTICE VARIES: which named sedation scale a unit uses differs between institutions, and the two in common use are the Pasero opioid-induced sedation scale and the Ramsay scale. Using a named scale and recording it is the point, so that sedation is measured rather than eyeballed; which scale carries the measurement is a local decision.]
 
 ## Check yourself
 

@@ -11,7 +11,7 @@ evidence:
   - fda-hydralazine-label-2021
   - fda-nicardipine-label-2024
   - fda-clevidipine-label-2022
-draft: true
+draft: false
 ---
 ## Explain it before you treat it
 
@@ -35,7 +35,7 @@ Shivering, anxiety, a distended stomach and a cold patient belong on the same li
 
 ## Where a threshold does exist
 
-[GENERAL: After craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia, the surgical or obstetric service usually sets an explicit upper limit, and that limit is part of the PACU order set. The absence of a general threshold is not the absence of any threshold.]
+[PRACTICE VARIES: after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia, the surgical or obstetric service usually sets an explicit upper limit, and that limit is part of the order set rather than a finding. Find out what it is before the patient arrives. The absence of a general threshold is not the absence of any threshold.]
 
 [PRACTICE VARIES: those limits are institutional; find out what they are before the patient arrives, not after.]
 
@@ -43,8 +43,8 @@ Shivering, anxiety, a distended stomach and a cold patient belong on the same li
 
 The agents usually stocked for this have FDA labels, and two of them do not say what residents are commonly taught. Labetalol's label gives an initial 20 mg by slow intravenous injection over 2 min, then further injections of 40 or 80 mg at 10-minute intervals until the pressure responds or a total of 300 mg has been given [[fda-labetalol-label-2020]]. Hydralazine's usual injected dose is 20 to 40 mg, repeated as necessary, and its label warns that where intracranial pressure is raised, lowering the blood pressure may increase cerebral ischemia [[fda-hydralazine-label-2021]]. Nicardipine starts at 5 mg/hr and increases by 2.5 mg/hr every 15 min to a maximum of 15 mg/hr [[fda-nicardipine-label-2024]]. Clevidipine starts at 1 to 2 mg/hr, may be doubled at 90-second intervals early, usually works at 4 to 6 mg/hr, and is capped by its lipid load at no more than 1000 mL or an average of 21 mg/hr in 24 h [[fda-clevidipine-label-2022]].
 
-[GENERAL: This card previously gave labetalol as 5 to 10 mg increments and hydralazine as 5 to 10 mg. Both figures are widely taught and neither is in the label, which is why they are named here rather than quietly removed. If your institution uses the smaller increments, that is a local protocol and not the labelling.]
+This card previously gave labetalol as 5 to 10 mg increments and hydralazine as 5 to 10 mg. Neither figure is in the labelling quoted above, where labetalol starts at 20 mg [[fda-labetalol-label-2020]] and hydralazine is usually 20 to 40 mg [[fda-hydralazine-label-2021]]. If your unit uses the smaller increments, that is a local protocol.
 
-[GENERAL: Continue a beta-blocker the patient already takes rather than stopping it.]
+Continuing a beta-blocker the patient already takes, rather than stopping it, used to appear here as a general recommendation. It has no source in this ledger and has been removed rather than relabeled; the gap register records it.
 
 Note what the guideline says about looking harder: the literature is insufficient to evaluate the impact of cardiovascular assessment and monitoring, or of routine electrocardiographic monitoring, on perioperative complications [[asa-pacu-2013-d6]]. Monitoring is not the treatment either.

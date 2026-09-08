@@ -132,3 +132,77 @@ Retrieval round 4 closed most of this register. What each entry above now stands
 - **Nothing yet identified.** A sourced differential for postoperative hypotension, a source for
   continuing a home beta-blocker perioperatively, and a primary source for the adult naloxone
   increment of 0.04 to 0.1 mg, which is in no FDA label.
+
+---
+
+# Moved off pages cleared on 2026-09-08
+
+Nine more pages were cleared. Everything removed from them is here, verbatim enough to be searched
+for again, with what each would need.
+
+## Day 1 — residual neuromuscular block
+
+- **Acceleromyography needs normalization to a baseline and electromyography does not.** A claim
+  about how the devices behave, with no source in this ledger. The guideline's recommendation of
+  the adductor pollicis over the eye muscles is cited on the page and is a different statement.
+- **Sugammadex is not recommended below a creatinine clearance of 30 mL/min.** The label covers how
+  long to wait before re-dosing a steroidal relaxant in renal impairment, 24 h, which is not the
+  same thing. No source here sets a clearance threshold.
+
+## Day 6 and the hypertension card — antihypertensives
+
+- **Continuing a patient's home beta-blocker perioperatively rather than stopping it.** Widely
+  taught, no source retrieved. Round 4 searched and did not find one.
+- The clonidine withdrawal sentence on Day 6 is paraphrased past its first clause and has not been
+  re-quoted word for word from the label. No source covers withdrawal of any other
+  antihypertensive class.
+
+## Day 7 — temperature
+
+- The 36.0 °C transfer threshold is now carried as local practice. The national warming guidance
+  usually credited with it is not in this ledger, and the ASPAN target remains unread and
+  paywalled.
+
+## Day 9 — PONV
+
+- **Dimenhydrinate about 1 mg/kg intravenously**, and **promethazine 6.25 to 12.5 mg intravenously
+  used for prophylaxis rather than rescue.** Neither is in the guideline's dose table.
+
+## Day 10 — opioid titration
+
+- **The multimodal standard**: acetaminophen and a nonsteroidal unless contraindicated, a
+  site-appropriate regional technique, and an opioid reserved for what those do not cover. The
+  guideline usually credited with it is held out of the ledger; see `retrieval-4-held-rows.md`.
+- The ASA 2012 acute pain guideline's own statements on opioid titration, and its currency, have
+  not been read.
+
+## Day 13 and the delayed emergence card
+
+- **A society standard requiring a documented neurological examination before PACU discharge in
+  delayed emergence.** Searched, not found.
+- **Delayed emergence by anesthetic agent, and the time thresholds that define it.** Not in the
+  held sources.
+- Giving dextrose for a low glucose reading is now stated as practice on the card without a marker,
+  because it is a description of what a meter is for rather than a dose.
+
+## Day 19 — positioning
+
+- **A visual complaint after prone spine surgery should reach ophthalmology the same hour rather
+  than be watched overnight.** The advisory's own instruction is cited on the page; this
+  same-hour corollary is teaching practice with no source.
+- A general perioperative brachial plexus injury rate. The large registry analysis has not been
+  reachable on a logged-out browser.
+
+## Still in draft, and why
+
+- **Day 15** carries the item lists of three discharge scores. Round 3 and round 4 both established
+  that no browser session can read them: one table is an image, and the institution does not hold
+  the other two. Removing them would leave a day about discharge scores that cannot name what is
+  on any of them.
+- **The hypotension card** carries a five-part differential with no source. Round 4 searched and
+  reported that it is unclear a sourced differential exists at all. Removing it would leave the
+  card without the reasoning it is for.
+- **The laryngospasm card** carries the ladder. Round 4 did not attempt its rungs, all of which sit
+  behind publishers a logged-out browser cannot reach.
+
+Those three need round 5 or a decision, not a rewording.

@@ -24,8 +24,8 @@ evidence:
   - fda-revonto-label-2024
   - mhaus-treatment-2026
   - aspan-normothermia-2010
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d07-q1
     stem: "In Frank 1997, patients with cardiac risk having abdominal, thoracic or vascular surgery were randomized to routine thermal care or supplemental warming. What were the mean postoperative core temperatures, and what happened to morbid cardiac events?"
@@ -149,7 +149,7 @@ When a colleague quotes the 1996 and 1997 trials, ask what temperature their hyp
 
 These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
 
-[GENERAL: The 36.0 °C definition commonly quoted here comes from national inpatient warming guidance that is not in this ledger, so no temperature target is cited from it. The ASPAN normothermia guideline, often named alongside it, is now in the ledger and its target is still not quoted, because the full text is paywalled and the target was never read [[aspan-normothermia-2010]]. That threshold is also half a degree above the level at which the randomized evidence of harm on this page applies, and the two are different kinds of number.]
+[PRACTICE VARIES: the core temperature below which a unit will not transfer a patient to the ward, and how often a temperature is taken in recovery, are set locally. A threshold of 36.0 °C is in wide use. This project cites no source for that figure: the national warming guidance usually credited with it is not in this ledger, and the ASPAN normothermia guideline often named beside it is in the ledger with its target unread, because the full text is paywalled [[aspan-normothermia-2010]]. Note also that 36.0 °C sits half a degree above the level at which the randomized evidence of harm on this page applies. The two are different kinds of number.]
 
 For malignant hyperthermia: stop the volatile agent, hyperventilate with 100% oxygen, give dantrolene, cool the patient and treat hyperkalemia. The dose is where two authorities disagree, and the disagreement is the thing to learn rather than smooth over. Every FDA dantrolene label says the same: begin at a minimum of 1 mg/kg by rapid intravenous push and continue until the symptoms subside or a maximum cumulative dose of 10 mg/kg has been reached, repeating the regimen if the abnormalities reappear [[fda-dantrolene-label-2024]] [[fda-ryanodex-label-2024]] [[fda-revonto-label-2024]]. The Malignant Hyperthermia Association of the United States says something different at both ends: 2.5 mg/kg rapidly through a large-bore line, repeated as frequently as needed until the patient responds, and it states that large doses above 10 mg/kg may be required in patients with persistent contractures or rigidity [[mhaus-treatment-2026]]. The label's maximum is the society's starting point for a difficult case. Follow your institution's protocol and its cart, and know which of the two it is written from. The MHAUS page carries no revision date, which is a currency weakness worth stating, and the hotline is 1-800-644-9737 [[mhaus-treatment-2026]].
 

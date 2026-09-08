@@ -10,19 +10,12 @@ general recommendation (rule 15): a page carrying either cannot be cleared. The 
 recommendations are the ones to replace first — each is a widely taught statement that
 carries no ledger entry, and a retrieval round should turn it into a cited sentence.
 
-Placeholders: 7 · Practice varies: 27 · General recommendations: 30
-
-## src/content/cards/card-delayed-emergence.md
-
-- line 25 — general recommendation: `[GENERAL: Give dextrose for a low reading rather than waiting for the laboratory.]`
-- line 39 — general recommendation: `[GENERAL: Smaller increments of 0.04 to 0.1 mg are widely taught to avoid abrupt reversal, and that figure is not in the labelling. Two naloxone labels were checked in September 2026: the adult postoperative increment is the 0.1 to 0.2 mg above, and the only smaller labelled increments are pediatric. Treat 40 micrograms as a practice convention, not as a label dose.]`
+Placeholders: 2 · Practice varies: 27 · General recommendations: 16
 
 ## src/content/cards/card-hypertension.md
 
-- line 38 — general recommendation: `[GENERAL: After craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia, the surgical or obstetric service usually sets an explicit upper limit, and that limit is part of the PACU order set. The absence of a general threshold is not the absence of any threshold.]`
+- line 38 — practice varies: `[PRACTICE VARIES: after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia, the surgical or obstetric service usually sets an explicit upper limit, and that limit is part of the order set rather than a finding. Find out what it is before the patient arrives. The absence of a general threshold is not the absence of any threshold.]`
 - line 40 — practice varies: `[PRACTICE VARIES: those limits are institutional; find out what they are before the patient arrives, not after.]`
-- line 46 — general recommendation: `[GENERAL: This card previously gave labetalol as 5 to 10 mg increments and hydralazine as 5 to 10 mg. Both figures are widely taught and neither is in the label, which is why they are named here rather than quietly removed. If your institution uses the smaller increments, that is a local protocol and not the labelling.]`
-- line 48 — general recommendation: `[GENERAL: Continue a beta-blocker the patient already takes rather than stopping it.]`
 
 ## src/content/cards/card-hypotension.md
 
@@ -46,9 +39,7 @@ Placeholders: 7 · Practice varies: 27 · General recommendations: 30
 
 ## src/content/days/day-01.md
 
-- line 143 — practice varies: `[PRACTICE VARIES: the institutional preference between sugammadex and neostigmine, and the availability of quantitative monitors in the PACU, differ between hospitals.]`
-- line 152 — general recommendation: `[GENERAL: One monitoring detail carries no source. Acceleromyographic devices read high and need normalization to a baseline; electromyographic devices do not. The site itself is not general: the guideline recommends the adductor pollicis over the eye muscles, and that is cited in the evidence slot above.]`
-- line 154 — general recommendation: `[GENERAL: Sugammadex is not recommended when the creatinine clearance is below 30 mL/min, because the sugammadex-relaxant complex is cleared renally.]`
+- line 145 — practice varies: `[PRACTICE VARIES: the institutional preference between sugammadex and neostigmine, and the availability of quantitative monitors in the PACU, differ between hospitals.]`
 
 ## src/content/days/day-02.md
 
@@ -64,16 +55,12 @@ Placeholders: 7 · Practice varies: 27 · General recommendations: 30
 
 ## src/content/days/day-06.md
 
-- line 102 — placeholder: `[TODO_VERIFY: the remainder of that warning sentence, paraphrased here beyond its first clause, to be re-quoted from the label; and a source for withdrawal of other antihypertensive classes.]`
-- line 112 — practice varies: `[PRACTICE VARIES: the pressure at which a PACU protocol calls for direct treatment, and the agent used, differ between institutions; follow local protocol and know that the threshold is a local decision, not an evidence-based one.]`
-- line 119 — practice varies: `[PRACTICE VARIES: some services set an explicit upper pressure limit where the general literature sets none, and that limit is part of the order set rather than a finding. It is usual after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia. Find out what the limit is before the patient arrives, not after. The absence of a general threshold is not the absence of any threshold.]`
-- line 121 — general recommendation: `[GENERAL: This page previously gave labetalol as 5 to 10 mg intravenous increments and hydralazine as 5 to 10 mg. Both are widely taught, and neither is in the FDA labelling; the label doses are cited in the evidence slot above. They are named here rather than quietly removed, because a resident who has learned the smaller figure should know where it comes from. If your institution uses it, it is a local protocol.]`
-- line 123 — general recommendation: `[GENERAL: Beta-blockers a patient already takes are generally continued through the perioperative period rather than stopped, which is the other half of the withdrawal limb of this differential.]`
+- line 114 — practice varies: `[PRACTICE VARIES: the pressure at which a PACU protocol calls for direct treatment, and the agent used, differ between institutions; follow local protocol and know that the threshold is a local decision, not an evidence-based one.]`
 
 ## src/content/days/day-07.md
 
 - line 143 — practice varies: `[PRACTICE VARIES: the PACU discharge temperature criterion and the warming devices available differ between institutions; follow local protocol.]`
-- line 152 — general recommendation: `[GENERAL: The 36.0 °C definition commonly quoted here comes from national inpatient warming guidance that is not in this ledger, so no temperature target is cited from it. The ASPAN normothermia guideline, often named alongside it, is now in the ledger and its target is still not quoted, because the full text is paywalled and the target was never read [[aspan-normothermia-2010]`
+- line 152 — practice varies: `[PRACTICE VARIES: the core temperature below which a unit will not transfer a patient to the ward, and how often a temperature is taken in recovery, are set locally. A threshold of 36.0 °C is in wide use. This project cites no source for that figure: the national warming guidance usually credited with it is not in this ledger, and the ASPAN normothermia guideline often named beside it is in the ledger with its target unread, because the full text is paywalled [[aspan-normothermia-2010]`
 
 ## src/content/days/day-08.md
 
@@ -81,15 +68,11 @@ Placeholders: 7 · Practice varies: 27 · General recommendations: 30
 
 ## src/content/days/day-09.md
 
-- line 168 — practice varies: `[PRACTICE VARIES: the specific rescue agents stocked and the order in which they are used differ between institutions; the class-change rule does not.]`
-- line 174 — general recommendation: `[GENERAL: Two adult prophylactic doses in common use are not in the Fifth guideline's table: dimenhydrinate about 1 mg/kg intravenously, and promethazine 6.25 to 12.5 mg intravenously for prophylaxis rather than rescue. The guideline's own doses are cited in the evidence slot above and are not general recommendations.]`
+- line 170 — practice varies: `[PRACTICE VARIES: the specific rescue agents stocked and the order in which they are used differ between institutions; the class-change rule does not.]`
 
 ## src/content/days/day-10.md
 
 - line 100 — practice varies: `[PRACTICE VARIES: the opioid, bolus size, interval, pain-score threshold and sedation limit used for PACU titration differ between institutions; follow local protocol and know its endpoint.]`
-- line 102 — placeholder: `[TODO_VERIFY: the ASA 2012 acute pain guideline's statements on opioid titration and its currency.]`
-- line 117 — general recommendation: `[GENERAL: Multimodal analgesia is the current standard around an opioid: acetaminophen and a nonsteroidal anti-inflammatory unless contraindicated, a site-appropriate regional technique, and ketamine in selected opioid-tolerant or high-pain patients. The opioid is titrated on top of that base, not instead of it.]`
-- line 119 — practice varies: `[PRACTICE VARIES: which named sedation scale a unit uses differs between institutions, and the two in common use are the Pasero opioid-induced sedation scale and the Ramsay scale. Using a named scale and recording it is the point, so that sedation is measured rather than eyeballed; which scale carries the measurement is a local decision.]`
 
 ## src/content/days/day-11.md
 
@@ -103,10 +86,7 @@ Placeholders: 7 · Practice varies: 27 · General recommendations: 30
 
 ## src/content/days/day-13.md
 
-- line 108 — placeholder: `[TODO_VERIFY: a society standard or guideline statement requiring neurological examination before PACU discharge in delayed emergence.]`
-- line 110 — placeholder: `[NUMBER NEEDED: incidence of delayed emergence by anesthetic agent and the time thresholds used to define it]`
 - line 120 — practice varies: `[PRACTICE VARIES: the availability of physostigmine, and the local threshold for imaging a patient who has not woken, differ between institutions.]`
-- line 127 — general recommendation: `[GENERAL: Two figures in this sequence still carry no source. The naloxone increment of 0.04 to 0.1 mg is widely taught to avoid abrupt reversal and is not in the labelling; two naloxone labels were checked in September 2026 and the only smaller labelled increments are pediatric, so treat 40 micrograms as a practice convention. And giving dextrose for a low glucose reading is universal practice rather than a sourced recommendation. Physostigmine is no longer on this list; both its labels are cited in the evidence slot above.]`
 
 ## src/content/days/day-14.md
 
@@ -136,9 +116,7 @@ Placeholders: 7 · Practice varies: 27 · General recommendations: 30
 
 ## src/content/days/day-19.md
 
-- line 100 — placeholder: `[NUMBER NEEDED: incidence, mechanism and timing of perioperative brachial plexus injury outside cardiac surgery]`
-- line 109 — practice varies: `[PRACTICE VARIES: whether a formal visual check is part of PACU discharge after spine surgery, and how peripheral nerve findings are documented, differ between institutions.]`
-- line 115 — general recommendation: `[GENERAL: The prone-position habit worth keeping is to ask about vision as soon as the patient can answer, which is what the advisory recommends and is now cited above. What has no source is the practical corollary residents are taught, that a visual complaint after prone spine surgery should go to ophthalmology the same hour rather than being watched overnight.]`
+- line 111 — practice varies: `[PRACTICE VARIES: whether a formal visual check is part of PACU discharge after spine surgery, and how peripheral nerve findings are documented, differ between institutions.]`
 
 ## src/content/days/day-20.md
 

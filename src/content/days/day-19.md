@@ -12,8 +12,8 @@ evidence:
   - asa-neuropathy-2018
   - asa-povl-2019
   - unlu-2007
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d19-q1
     stem: "In the Mayo series of more than a million sedated or anesthetized patients (Warner 1994), when were the initial symptoms of persistent ulnar neuropathy usually noticed?"
@@ -97,7 +97,9 @@ The current ASA practice advisories on the prevention of perioperative periphera
 
 Both primary sources are observational: a retrospective institutional series and a registry case-control study [[warner-1994]] [[povl-study-group-2012]]. They establish incidence, timing and association. They do not show that any positioning practice prevents either injury, and the series that looked for an association with position did not find one [[warner-1994]].
 
-The 2019 visual loss advisory has now been read, and it is open access. Its postoperative recommendation is explicit about where this happens: assess the vision of a high-risk patient when the patient becomes alert, for example in the recovery room, and if there is concern about visual loss obtain an urgent ophthalmologic consultation to determine the cause, with imaging used case by case to exclude intracranial causes and to visualize an abnormal optic nerve, and with additional management directed at hemoglobin, hemodynamic status and arterial oxygenation [[asa-povl-2019]]. The advisory grades its own basis for that in the same document: the literature is insufficient to evaluate the effect of assessing a high-risk patient's vision when the patient becomes alert [[asa-povl-2019]]. Brachial plexus injury still has no general rate. The nearest source is a series of 575 consecutive median sternotomy patients examined before and after operation with nerve conduction studies at 7 days, 4 weeks and 6 months, in which 3 patients (0.5%) had a brachial plexus injury, every one of them after harvest of the left internal mammary artery, presenting after extubation within the first three postoperative days, with two of the three resolved by six months [[unlu-2007]]. That is cardiac surgery and sternal retraction, not a general perioperative figure: [NUMBER NEEDED: incidence, mechanism and timing of perioperative brachial plexus injury outside cardiac surgery]. The prone-position risk factors for visual loss are specific to spinal fusion in the registry; other prone surgery is not covered by the case-control data [[povl-study-group-2012]].
+The 2019 visual loss advisory has now been read, and it is open access. Its postoperative recommendation is explicit about where this happens: assess the vision of a high-risk patient when the patient becomes alert, for example in the recovery room, and if there is concern about visual loss obtain an urgent ophthalmologic consultation to determine the cause, with imaging used case by case to exclude intracranial causes and to visualize an abnormal optic nerve, and with additional management directed at hemoglobin, hemodynamic status and arterial oxygenation [[asa-povl-2019]]. The advisory grades its own basis for that in the same document: the literature is insufficient to evaluate the effect of assessing a high-risk patient's vision when the patient becomes alert [[asa-povl-2019]]. Brachial plexus injury still has no general rate. The nearest source is a series of 575 consecutive median sternotomy patients examined before and after operation with nerve conduction studies at 7 days, 4 weeks and 6 months, in which 3 patients (0.5%) had a brachial plexus injury, every one of them after harvest of the left internal mammary artery, presenting after extubation within the first three postoperative days, with two of the three resolved by six months [[unlu-2007]]. That is cardiac surgery and sternal retraction, not a general perioperative figure, and this page gives none. The large registry analysis that would supply one has not been reachable. The prone-position risk factors for visual loss are specific to spinal fusion in the registry; other prone surgery is not covered by the case-control data [[povl-study-group-2012]].
+
+One general recommendation has been removed rather than relabeled: that a visual complaint after prone spine surgery should reach ophthalmology the same hour rather than be watched overnight. The advisory's own instruction, to assess vision when the patient becomes alert and to obtain an urgent consultation if there is concern, is cited above; the same-hour corollary is teaching practice with no source here.
 
 ## At the bedside
 
@@ -107,12 +109,6 @@ One piece of commonly taught positioning practice is worth correcting against th
 Tell the patient and the ward what to watch for and when: numbness or weakness in the hand, or any change in vision, in the first days after surgery. A complaint that arrives on day two with a documented normal baseline is a different problem from one with no baseline at all.
 
 For the patient after a long prone spinal fusion with large blood loss, particularly a man with obesity on a Wilson frame, ask about vision explicitly on waking and again before discharge, because the risk factors were all present before the PACU could do anything about them [[povl-study-group-2012]]. [PRACTICE VARIES: whether a formal visual check is part of PACU discharge after spine surgery, and how peripheral nerve findings are documented, differ between institutions.]
-
-### General recommendations
-
-These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
-
-[GENERAL: The prone-position habit worth keeping is to ask about vision as soon as the patient can answer, which is what the advisory recommends and is now cited above. What has no source is the practical corollary residents are taught, that a visual complaint after prone spine surgery should go to ophthalmology the same hour rather than being watched overnight.]
 
 ## Check yourself
 
