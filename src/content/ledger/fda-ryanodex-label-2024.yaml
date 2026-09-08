@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-ryanodex-label-2024
+day: 7
+citation: RYANODEX (dantrolene sodium) for injectable suspension, for intravenous use [prescribing information]. Eagle Pharmaceuticals, Inc. Label updated 30 October 2024. DailyMed set ID 8f7b3ac0-604d-4c78-b545-5e0f8ea3d698.
+doi: null
+pmid: null
+design: advisory
+year: 2024
+n: NA
+access: open
+currency: current
+topic: thermoregulation
+claim_support: magnitude
+supports: "FDA label section 2.1, Dosage for Treatment of Malignant Hyperthermia, VERBATIM: 'Administer RYANODEX by intravenous push at a minimum dose of 1 mg/kg. If the physiologic and metabolic abnormalities of MH continue, administer additional intravenous boluses up to the maximum cumulative dosage of 10 mg/kg.' And: 'If the physiologic and metabolic abnormalities reappear, repeat RYANODEX dosing by intravenous push starting with 1 mg/kg.' 250 mg per vial; initial US approval 1974."
+found_via: DailyMed label page opened directly
+verified_on: 2026-09-06, DailyMed label page read; set ID read off that page

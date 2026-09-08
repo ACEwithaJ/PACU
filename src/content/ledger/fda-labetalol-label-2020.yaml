@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-labetalol-label-2020
+day: 6
+citation: Labetalol Hydrochloride Injection, USP [prescribing information]. Hikma Pharmaceuticals USA Inc. Revised January 2020. DailyMed set ID 30f9fdef-8781-4327-9a8d-812cb31ff041. DailyMed updated 10 July 2024.
+doi: null
+pmid: null
+design: advisory
+year: 2020
+n: NA
+access: open
+currency: current
+topic: hypertension
+claim_support: magnitude
+supports: "FDA label, DOSAGE AND ADMINISTRATION, Repeated Intravenous Injection, VERBATIM: 'Initially, labetalol HCl injection should be given in a 20 mg dose (which corresponds to 0.25 mg/kg for an 80 kg patient) by slow intravenous injection over a 2 minute period.' And: 'Immediately before the injection and at 5 and 10 minutes after injection, supine blood pressure should be measured to evaluate response. Additional injections of 40 or 80 mg can be given at 10 minute intervals until a desired supine blood pressure is achieved or a total of 300 mg of labetalol HCl injection has been injected. The maximum effect usually occurs within 5 minutes of each injection.' Slow Continuous Infusion, VERBATIM: 'The diluted solution should be administered at a rate of 2 mL/min to deliver 2 mg/min' and 'The effective intravenous dose is usually in the range of 50 to 200 mg. A total dose of up to 300 mg may be required in some patients.' No boxed warning on this label. NOTE FOR THE CARD: the label's 20 mg initial dose is larger than the 5 to 10 mg increments the hypertension card currently teaches; the card's figure has no label source."
+found_via: DailyMed, searched and opened directly
+verified_on: 2026-09-08, DailyMed label page read by a delegated retrieval session in this round; set ID and revision date read off that page; not rendered in my own browser

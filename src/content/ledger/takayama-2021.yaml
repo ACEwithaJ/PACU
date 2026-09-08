@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: takayama-2021
+day: 11
+citation: "Takayama K, Shiode H, Ito H. Ultrasound-guided interscalene block anesthesia performed by an orthopedic surgeon: a study of 1322 cases of shoulder surgery. JSES Int. 2021;6(1):149-154."
+doi: 10.1016/j.jseint.2021.08.008
+pmid: null
+design: cohort
+year: 2021
+n: 1322 interscalene blocks (1225 arthroscopic, 97 open); comparator arm 428 general anaesthetics
+access: open
+currency: current
+topic: regional
+claim_support: magnitude
+supports: "Retrospective consecutive series, single orthopaedic surgeon, Dec 2012 to Dec 2019. Table IV, acute and perioperative complications related to interscalene block: Horner syndrome 9 cases (0.7%); hoarseness 8 (0.6%); nausea 6 (0.5%); vomiting 4 (0.3%); blood aspiration 3 (0.2%); total 30 (2.3%). Authors state: 'This study had a Horner syndrome incidence of 0.7%, which is lower than that reported in previous studies.' FLAG HARD: this is PASSIVE retrospective surveillance. Horner syndrome is far commoner when actively examined for. Do not present 0.7% as the incidence."
+found_via: doi.org resolution; full text read via the Europe PMC fullTextXML endpoint for PMC8811386 because the PMC page served reCAPTCHA
+verified_on: 2026-09-06, doi.org landing confirmed; numbers read from the full text

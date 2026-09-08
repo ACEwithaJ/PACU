@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: bjerregaard-2016
+day: 17
+citation: "Bjerregaard LS, Hornum U, Troldborg C, Bogoe S, Bagi P, Kehlet H. Postoperative Urinary Catheterization Thresholds of 500 versus 800 ml after Fast-track Total Hip and Knee Arthroplasty: A Randomized, Open-label, Controlled Trial. Anesthesiology. 2016 Jun;124(6):1256-1264."
+doi: 10.1097/ALN.0000000000001112
+pmid: null
+design: rct
+year: 2016
+n: 800 randomised; 721 (90%) in the per-protocol analysis (500 ml arm 354, 800 ml arm 367)
+access: open
+currency: current
+topic: urinary_retention
+claim_support: magnitude
+supports: "Randomised, open-label, controlled trial; 1:1 block randomisation, sealed opaque envelopes. Catheterisation occurred in 114/354 (32.2%) in the 500 ml arm versus 49/367 (13.4%) in the 800 ml arm; RR 0.4 (95% CI 0.3-0.6; P<0.0001). 'No difference between groups in any secondary outcome', including urinary tract infection (2% in both arms) and urology-related readmissions. Conclusion VERBATIM: 'In fast-track THA and TKA, a catheterization threshold of 800 ml significantly reduced the need for postoperative urinary catheterization, without increasing urological complications.' TWO CAVEATS: the population is fast-track hip and knee arthroplasty INPATIENTS under spinal anaesthesia, not ambulatory patients and not peripheral nerve block; and 800 ml was a CATHETERISE-AT threshold, not a demonstration that patients were left at 800 ml untreated."
+found_via: identified while searching for the primary source behind an external review's '800 ml' claim; full text read at the legacy ASA URL anesthesiology.pubs.asahq.org article 2513988 after the modern LWW paths returned HTTP 402
+verified_on: 2026-09-06, full text read; DOI read off the article itself

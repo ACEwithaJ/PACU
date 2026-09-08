@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: unlu-2007
+day: 19
+citation: Unlu Y, Velioglu Y, Kocak H, Becit N, Ceviz M. Brachial plexus injury following median sternotomy. Interact Cardiovasc Thorac Surg. 2007;6(2):235-237.
+doi: 10.1510/icvts.2006.137380
+pmid: null
+design: cohort
+year: 2007
+n: 575 consecutive median sternotomy patients; 3 injuries
+access: paywalled
+currency: current
+topic: positioning_injury
+claim_support: magnitude
+supports: "Retrospective analysis with a prospective neurological protocol (pre- and post-operative examination in all patients, EMG and nerve conduction studies at 7 days, 4 weeks and 6 months). Brachial plexus injury in 3 of 575 (0.5%). Mechanism, VERBATIM: 'The common feature was that in all cases the left internal mammary artery was harvested.' Timing: onset after extubation, within the first three postoperative days. Outcome, VERBATIM: 'While the symptoms were relieved in two patients about six months after the operation, the other one had intractable pain and paresthesia.' SCOPE CAVEAT: cardiac surgery and sternal retraction only. This is NOT a general perioperative brachial plexus injury rate. The general source, Welch 2009 Anesthesiology, could not be opened."
+found_via: doi.org resolution to the OUP article page
+verified_on: 2026-09-06, figures read from the OUP article page, not from the PDF

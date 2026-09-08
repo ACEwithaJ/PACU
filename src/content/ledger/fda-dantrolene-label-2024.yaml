@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-dantrolene-label-2024
+day: 7
+citation: Dantrolene Sodium for Injection, USP [prescribing information]. Hikma Pharmaceuticals USA Inc. Label updated 11 December 2024. DailyMed set ID ab0efc75-0598-4f4e-91ad-6195bb2661fe.
+doi: null
+pmid: null
+design: advisory
+year: 2024
+n: NA
+access: open
+currency: current
+topic: thermoregulation
+claim_support: magnitude
+supports: "FDA label, DOSAGE AND ADMINISTRATION, VERBATIM: 'As soon as the malignant hyperthermia reaction is recognized, all anesthetic agents should be discontinued; the administration of 100% oxygen is recommended. Dantrolene Sodium for Injection should be administered by continuous rapid intravenous push beginning at a minimum dose of 1 mg/kg, and continuing until symptoms subside or the maximum cumulative dose of 10 mg/kg has been reached. If the physiologic and metabolic abnormalities reappear, the regimen may be repeated.' NOTE THE CONFLICT WITH MHAUS: the label says a MINIMUM of 1 mg/kg and a MAXIMUM cumulative 10 mg/kg; MHAUS teaches 2.5 mg/kg initially and explicitly allows exceeding 10 mg/kg."
+found_via: DailyMed label page opened directly
+verified_on: 2026-09-06, DailyMed label page read; set ID read off that page

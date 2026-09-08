@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-hydralazine-label-2021
+day: 6
+citation: Hydralazine Hydrochloride Injection, USP [prescribing information]. Akorn, Inc. Revision code HY00N Rev. 04/21. DailyMed set ID e31239e0-8c5a-4d10-9404-af32278484a3. DailyMed updated 12 September 2022.
+doi: null
+pmid: null
+design: advisory
+year: 2021
+n: NA
+access: open
+currency: current
+topic: hypertension
+claim_support: magnitude
+supports: "FDA label, DOSAGE AND ADMINISTRATION, VERBATIM: 'When there is urgent need, therapy in the hospitalized patient may be initiated intramuscularly or as a rapid intravenous bolus injection directly into the vein. Hydralazine hydrochloride injection should be used only when the drug cannot be given orally. The usual dose is 20 to 40 mg, repeated as necessary.' And: 'Blood pressure should be checked frequently. It may begin to fall within a few minutes after injection, with the average maximal decrease occurring in 10 to 80 minutes. In cases where there has been increased intracranial pressure, lowering the blood pressure may increase cerebral ischemia.' No boxed warning on this label. NOTE FOR THE CARD: the label's usual dose is 20 to 40 mg, not the 5 to 10 mg the hypertension card currently teaches."
+found_via: DailyMed, searched and opened directly
+verified_on: 2026-09-08, DailyMed label page read by a delegated retrieval session in this round; set ID and revision date read off that page; not rendered in my own browser

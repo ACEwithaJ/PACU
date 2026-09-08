@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-ephedrine-label-2023
+day: 5
+citation: EPHEDRINE SULFATE injection [prescribing information]. Par Health USA, LLC. Revised 5/2023. DailyMed set ID a247857e-ba7b-4a37-b132-4ba9b0d1c4d1. DailyMed updated 31 May 2023.
+doi: null
+pmid: null
+design: advisory
+year: 2023
+n: NA
+access: open
+currency: current
+topic: hypotension
+claim_support: magnitude
+supports: "SECOND SOURCED VASOPRESSOR DOSE FOR THE HYPOTENSION CARD, and it matches what the card teaches. Section 1, VERBATIM: 'Ephedrine Sulfate Injection is indicated for the treatment of clinically important hypotension occurring in the setting of anesthesia.' Section 2.2, VERBATIM: 'The recommended dosages for the treatment of clinically important hypotension in the setting of anesthesia is an initial dose of 5 mg to 10 mg administered by intravenous bolus. Administer additional boluses as needed, not to exceed a total dosage of 50 mg. Adjust dosage according to the blood pressure goal (i.e., titrate to effect).' No boxed warning. Note the labelled ceiling of 50 mg total, which the card does not currently carry."
+found_via: DailyMed, searched and opened directly
+verified_on: 2026-09-08, DailyMed label page read by a delegated retrieval session in this round; set ID and revision date read off that page; not rendered in my own browser

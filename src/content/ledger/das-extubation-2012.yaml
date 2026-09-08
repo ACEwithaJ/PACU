@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: das-extubation-2012
+day: 2
+citation: Popat M, Mitchell V, Dravid R, Patel A, Swampillai C, Higgs A. Difficult Airway Society Guidelines for the management of tracheal extubation. Anaesthesia. 2012 Mar;67(3):318-340.
+doi: 10.1111/j.1365-2044.2012.07075.x
+pmid: null
+design: guideline
+year: 2012
+n: NA
+access: open
+currency: current
+topic: airway
+claim_support: magnitude
+supports: "NEGATIVE FINDING ROW. This is the society guideline nearest to the Day 2 laryngospasm ladder and IT DOES NOT CONTAIN ONE. It addresses laryngospasm only as a risk. VERBATIM: 'Laryngospasm is a protective exaggeration of the normal glottic closure reflex, and is produced by stimulation of the superior laryngeal nerve.' 'Typically, laryngospasm causes signs of upper airway obstruction (including stridor) that can precede complete airway obstruction and requires an immediate response.' 'If not relieved promptly, laryngospasm may result in post-obstructive pulmonary oedema (also known as negative pressure pulmonary oedema) and hypoxic cardiac arrest.' The only pharmacological statement is about doxapram: 'Doxapram has been used to prevent and/or treat laryngospasm, although it is associated with cardiovascular stimulation and robust evidence to support its use for this indication is lacking.' No jaw thrust, no laryngospasm notch, no succinylcholine for post-extubation laryngospasm. Currency checked on das.uk.com, which still lists this as the current DAS extubation guideline."
+found_via: das.uk.com guidelines index; full text read from a hosted PDF copy after the Wiley copy returned HTTP 403
+verified_on: 2026-09-06, DOI read off the guideline PDF itself and cross-checked against the DAS guidelines page; doi.org landing not reached

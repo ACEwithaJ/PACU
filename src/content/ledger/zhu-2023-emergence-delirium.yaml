@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: zhu-2023-emergence-delirium
+day: 12
+citation: "Zhu Z, et al. Association of volatile anesthesia exposure and depth with emergence agitation and delirium in children: Prospective observational cohort study. Front Pediatr. 2023;11:1115124."
+doi: 10.3389/fped.2023.1115124
+pmid: null
+design: cohort
+year: 2023
+n: 196 recruited, 137 analysed
+access: open
+currency: current
+topic: delirium
+claim_support: magnitude
+supports: "ABSOLUTE INCIDENCE WITH A DENOMINATOR, which is what Day 12 lacked. Single-centre prospective observational cohort; sevoflurane volatile induction and maintenance; paediatric ambulatory circumcision; age 4-12 years, median 9.0. VERBATIM: 'The overall prevalence of EA and ED was 73/137 (53.3%) and 75/137 (54.7%)'. Emergence delirium was diagnosed by PAED score >=10; emergence agitation by RASS >=1. Note that the day currently carries costi-2014 relative risks with no denominator; this supplies one, in a single narrow surgical population."
+found_via: search for a primary paediatric emergence delirium incidence study with sevoflurane named as the anaesthetic
+verified_on: 2026-09-08, open-access article read by a delegated retrieval session in this round; not rendered in my own browser

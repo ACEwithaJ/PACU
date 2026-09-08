@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: mhaus-treatment-2026
+day: 7
+citation: Malignant Hyperthermia Association of the United States. Managing a Crisis. mhaus.org, healthcare professionals section. Accessed 6 September 2026.
+doi: null
+pmid: null
+design: advisory
+year: 2026
+n: NA
+access: open
+currency: current
+topic: thermoregulation
+claim_support: magnitude
+supports: "MHAUS society page, VERBATIM: 'Give IV dantrolene 2.5 mg/kg rapidly through large-bore IV, if possible. Repeat as frequently as needed until the patient responds' and 'Large doses (>10mg/kg) may be required for patients with persistent contractures or rigidity.' MH Hotline, VERBATIM: 1-800-644-9737. The page carries NO revision date, which is a currency weakness. Its dose CONFLICTS with every FDA dantrolene label; cite the two separately and say which is which."
+found_via: mhaus.org opened directly
+verified_on: 2026-09-06, society page read; no revision date shown on the page

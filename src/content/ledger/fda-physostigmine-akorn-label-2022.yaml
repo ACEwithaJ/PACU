@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-physostigmine-akorn-label-2022
+day: 13
+citation: "Physostigmine Salicylate Injection [prescribing information]. Akorn Operating Company LLC. Revision code PS00N Rev. 10/22. DailyMed set ID a7d04b2c-fe34-480d-8f7c-7cbcf447a70b. DailyMed updated 13 September 2022. Marketing category: unapproved drug other."
+doi: null
+pmid: null
+design: advisory
+year: 2022
+n: NA
+access: open
+currency: current
+topic: emergence
+claim_support: magnitude
+supports: "SECOND PHYSOSTIGMINE LABEL, AND IT IS AN UNAPPROVED PRODUCT. The DailyMed page carries the FDA disclaimer VERBATIM: 'This drug has not been found by FDA to be safe and effective, and this labeling has not been approved by FDA.' Indication, VERBATIM: 'To reverse the effect upon the central nervous system, caused by clinical or toxic dosages of drugs capable of producing the anticholinergic syndrome.' Dose as printed: 'Past Anesthesia Care: 0.5 to 1.0 mg intramuscularly or intravenously. INTRAVENOUS ADMINISTRATION SHOULD BE AT A SLOW CONTROLLED RATE OF NO MORE THAN 1 MG PER MINUTE. Dosage may be repeated at intervals of 10 to 30 minutes if desired patient response is not obtained.' The words 'Past Anesthesia Care' are as returned and are probably a typographical error for 'Post Anesthesia Care'; VERIFY THE WORD BEFORE QUOTING. Warnings, VERBATIM: 'Rapid administration can cause bradycardia, hypersalivation leading to respiratory difficulties and possible convulsions.' Precautions, VERBATIM: 'Because of the possibility of hypersensitivity in an occasional patient, atropine sulfate injection should always be at hand since it is an antagonist and antidote for physostigmine.' The 0.5 to 1.0 mg figure the card teaches matches THIS label, which is the unapproved one, not the approved Anticholium label. The director should decide which to cite, and say which."
+found_via: DailyMed, searched and opened directly
+verified_on: 2026-09-08, DailyMed label page read by a delegated retrieval session in this round; set ID and revision date read off that page; not rendered in my own browser

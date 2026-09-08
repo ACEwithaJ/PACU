@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: chung-2020-capnography
+day: 3
+citation: "Chung F, Wong J, Mestek ML, Niebel KH, Lichtenthal P. Characterization of respiratory compromise and the potential clinical utility of capnography in the post-anesthesia care unit: a blinded observational trial. J Clin Monit Comput. 2020;34:541-551."
+doi: 10.1007/s10877-019-00333-9
+pmid: null
+design: cohort
+year: 2020
+n: 250 enrolled, 172 completed
+access: open
+currency: current
+topic: oxygenation
+claim_support: magnitude
+supports: "ANSWERS THE DAY 3 PLACEHOLDER, AND NOT IN THE DIRECTION THE PLACEHOLDER ASSUMES. Prospective multicentre blinded observational trial in adult PACU; capnography and oximetry recorded blinded alongside standard monitoring. Supplemental oxygen, VERBATIM: 'The average supplemental O2 rate in the PACU was 3.8+/-2.4 L/min, delivered to 81 patients by mask and 82 patients by nasal cannula; 82% of patients were transported out of the PACU with supplemental O2.' Level I thresholds: apnea >=10 s twice in a 15 min epoch; bradypnea <=6 bpm for more than 30 s; hypercapnia EtCO2 >=60 mmHg for more than 30 s. Incidence, VERBATIM: 'Within Level I notifcations, 2 patients had hypercapnia, 48 had hypocapnia, 113 had apnea, 6 had tachypnea, and 53 had bradypnea.' (sic, typo in the published text.) Also VERBATIM: '163 (95%) patients had a Level II notification and 135 (78%) had a Level I notification during standard monitoring.' READ THIS CAREFULLY BEFORE USING IT: on ~3.8 L/min of oxygen, capnography found apnoea in 113 of 172 and bradypnoea in 53 of 172, but measured hypercapnia in only 2 of 172. The day must not say 'hypercapnia is common in the PACU on oxygen'; this study says the opposite. What is common is apnoea and bradypnoea, which the oximeter also does not show."
+found_via: located through a 2025 scoping review in Nursing Reports used only as a finding aid; the primary paper was then opened directly on the Springer article page and as a PDF
+verified_on: 2026-09-08, Springer article page and PDF read by a delegated retrieval session in this round; not rendered in my own browser

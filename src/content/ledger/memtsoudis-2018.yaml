@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: memtsoudis-2018
+day: 14
+citation: Memtsoudis SG, Cozowicz C, Nagappa M, Wong J, Joshi GP, Wong DT, Doufas AG, Yilmaz M, Stein MH, Krajewski ML, Singh M, Pichler L, Ramachandran SK, Chung F. Society of Anesthesia and Sleep Medicine Guideline on Intraoperative Management of Adult Patients With Obstructive Sleep Apnea. Anesth Analg. 2018 Oct;127(4):967-987.
+doi: 10.1213/ANE.0000000000003434
+pmid: null
+design: guideline
+year: 2018
+n: NA
+access: paywalled
+currency: current
+topic: osa
+claim_support: magnitude
+supports: SASM guideline on INTRAOPERATIVE management of adult OSA patients; companion to chung-2016-sasm, which covers preoperative screening only. Recommendation text NOT READ. Crossref licence record shows CC BY-NC-ND 4.0 with zero embargo and Europe PMC reports PMCID PMC6135479, so the article is licensed open access, but no free full text rendered on any host tried.
+found_via: Crossref DOI registry record api.crossref.org/works/10.1213/ANE.0000000000003434 (title, volume, issue, pages, publisher all match)
+verified_on: 2026-09-06, Crossref record; PubMed record NOT reachable (reCAPTCHA); doi.org returned HTTP 402
