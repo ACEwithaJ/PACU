@@ -12,6 +12,8 @@ evidence:
   - salmasi-2017
   - mcevoy-2019
   - sessler-2019
+  - fda-phenylephrine-biorphen-label-2022
+  - fda-ephedrine-label-2023
 draft: false
 review_due: 2027-09-06
 quiz:
@@ -114,6 +116,10 @@ Salmasi 2017 supplies the comparison that makes a protocol possible: absolute MA
 
 The POQI postoperative statement gathers these into a bedside form: a systolic pressure below 90 mmHg, or more than 30% below baseline, is likely to put most patients at risk of end-organ injury, and risk rises with each 10-minute epoch of hypotension intraoperatively and on the day of surgery [[mcevoy-2019]].
 
+The two agents a recovery room reaches for first are both labelled for this situation, which is worth knowing precisely because the outcome evidence is what this day says it is. Ephedrine is indicated for clinically important hypotension occurring in the setting of anesthesia, at an initial 5 to 10 mg by intravenous bolus, with further boluses as needed and a labelled ceiling of 50 mg in total [[fda-ephedrine-label-2023]]. Phenylephrine is indicated for clinically important hypotension resulting primarily from vasodilation in the setting of anesthesia, and its dose depends on the product: the vial gives an initial 40 to 100 micrograms by bolus with further boluses up to 200 micrograms every 1 to 2 min, while the ready-to-use premix gives 50 to 250 micrograms [[fda-phenylephrine-biorphen-label-2022]]. Those two ranges do not match each other, so read the vial in your hand rather than a figure you remember.
+
+An indication is not an outcome. Both labels say the drug is for treating this hypotension; neither shows that treating it changes what happens to the patient, which is the gap the rest of this page describes.
+
 ## What this does not show
 
 None of these sources randomized anyone to a blood pressure. Sessler 2018 sits inside a randomized trial, but hypotension there was an observed exposure, not an allocated one, so the design is a cohort analysis within a trial population [[sessler-2018]]. Liem 2020, Salmasi 2017 and both POQI statements are cohort and consensus [[liem-2020]] [[salmasi-2017]] [[mcevoy-2019]] [[sessler-2019]]. The dose-and-duration structure is real and quantified, and it is associational. Whether treating the exposure changes any outcome is not established by anything on this page.
@@ -122,7 +128,7 @@ Liem 2020 also carries a result that cuts against the intuition the day builds o
 
 The 98.3% confidence intervals in Sessler 2018 are not a misprint: they reflect the trial's correction for multiple comparisons, and they should be quoted as printed [[sessler-2018]].
 
-Until this day was cleared it also carried a working differential for PACU hypotension and a set of first-move vasopressor doses, marked as general recommendations. Neither had a source in this ledger, and none of those agents has outcome evidence in this setting, so both were removed rather than relabeled as a local preference. What survives here is what the sources actually establish: that hypotension is an exposure that accrues, that absolute thresholds perform about as well as thresholds relative to a patient's own baseline, and that anaphylaxis presents as hypotension often enough to belong on any list you make.
+Until this day was cleared it also carried a working differential for PACU hypotension and a set of first-move vasopressor doses, marked as general recommendations. Neither had a source in this ledger. The doses have one now and are cited above; the differential still does not, and this page will not carry one until it does.
 ## At the bedside
 
 Record hypotension the way the sources measure it: how far below which number, and for how long. A single reading is a sample of an exposure, not the exposure.

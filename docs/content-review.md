@@ -10,30 +10,29 @@ general recommendation (rule 15): a page carrying either cannot be cleared. The 
 recommendations are the ones to replace first — each is a widely taught statement that
 carries no ledger entry, and a retrieval round should turn it into a cited sentence.
 
-Placeholders: 10 · Practice varies: 27 · General recommendations: 32
+Placeholders: 10 · Practice varies: 27 · General recommendations: 31
 
 ## src/content/cards/card-delayed-emergence.md
 
-- line 23 — general recommendation: `[GENERAL: Give dextrose for a low reading rather than waiting for the laboratory.]`
-- line 37 — general recommendation: `[GENERAL: Smaller increments of 0.04 to 0.1 mg are widely used to avoid abrupt reversal.]`
-- line 43 — general recommendation: `[GENERAL: The usual dose is 0.5 to 2 mg intravenously given slowly, with atropine available for bradycardia and an awareness of its seizure risk.]`
+- line 25 — general recommendation: `[GENERAL: Give dextrose for a low reading rather than waiting for the laboratory.]`
+- line 39 — general recommendation: `[GENERAL: Smaller increments of 0.04 to 0.1 mg are widely taught to avoid abrupt reversal, and that figure is not in the labelling. Two naloxone labels were checked in September 2026: the adult postoperative increment is the 0.1 to 0.2 mg above, and the only smaller labelled increments are pediatric. Treat 40 micrograms as a practice convention, not as a label dose.]`
 
 ## src/content/cards/card-hypertension.md
 
-- line 34 — general recommendation: `[GENERAL: After craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia, the surgical or obstetric service usually sets an explicit upper limit, and that limit is part of the PACU order set. The absence of a general threshold is not the absence of any threshold.]`
-- line 36 — practice varies: `[PRACTICE VARIES: those limits are institutional; find out what they are before the patient arrives, not after.]`
-- line 40 — general recommendation: `[GENERAL: The agents usually stocked for this are labetalol in 5 to 10 mg intravenous increments, hydralazine 5 to 10 mg intravenously, and a nicardipine or clevidipine infusion where titratable control is wanted. None has outcome evidence in this setting.]`
-- line 42 — general recommendation: `[GENERAL: Continue a beta-blocker the patient already takes rather than stopping it.]`
+- line 38 — general recommendation: `[GENERAL: After craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia, the surgical or obstetric service usually sets an explicit upper limit, and that limit is part of the PACU order set. The absence of a general threshold is not the absence of any threshold.]`
+- line 40 — practice varies: `[PRACTICE VARIES: those limits are institutional; find out what they are before the patient arrives, not after.]`
+- line 46 — general recommendation: `[GENERAL: This card previously gave labetalol as 5 to 10 mg increments and hydralazine as 5 to 10 mg. Both figures are widely taught and neither is in the label, which is why they are named here rather than quietly removed. If your institution uses the smaller increments, that is a local protocol and not the labelling.]`
+- line 48 — general recommendation: `[GENERAL: Continue a beta-blocker the patient already takes rather than stopping it.]`
 
 ## src/content/cards/card-hypotension.md
 
-- line 24 — general recommendation: `[GENERAL: Hypovolemia and ongoing bleeding. Look at the drains, the dressing, the abdomen and the hemoglobin. This is the first thing to exclude in a patient who was fine in the operating room.]`
-- line 26 — general recommendation: `[GENERAL: Vasodilatation from residual anesthetic, or a neuraxial sympathectomy that is still ascending. Warm, well-perfused peripheries with a low pressure and a low or normal heart rate.]`
-- line 28 — general recommendation: `[GENERAL: Anaphylaxis.]`
-- line 30 — general recommendation: `[GENERAL: Cardiac causes: ischemia, a new arrhythmia, tamponade, pulmonary embolism, tension pneumothorax. Look at the rhythm, the neck veins and the breath sounds, and get an electrocardiogram.]`
-- line 32 — general recommendation: `[GENERAL: Sepsis, particularly after abdominal or urological surgery in a patient who was febrile beforehand.]`
-- line 36 — general recommendation: `[GENERAL: A fluid bolus with phenylephrine about 50 to 100 micrograms or ephedrine about 5 to 10 mg, chosen by the heart rate, and escalation to a norepinephrine infusion if the pressure does not hold. None of these agents has outcome evidence in this setting.]`
-- line 38 — practice varies: `[PRACTICE VARIES: the pressure at which a PACU protocol triggers treatment, and the first-line agent, differ between institutions; follow local protocol.]`
+- line 26 — general recommendation: `[GENERAL: Hypovolemia and ongoing bleeding. Look at the drains, the dressing, the abdomen and the hemoglobin. This is the first thing to exclude in a patient who was fine in the operating room.]`
+- line 28 — general recommendation: `[GENERAL: Vasodilatation from residual anesthetic, or a neuraxial sympathectomy that is still ascending. Warm, well-perfused peripheries with a low pressure and a low or normal heart rate.]`
+- line 30 — general recommendation: `[GENERAL: Anaphylaxis.]`
+- line 32 — general recommendation: `[GENERAL: Cardiac causes: ischemia, a new arrhythmia, tamponade, pulmonary embolism, tension pneumothorax. Look at the rhythm, the neck veins and the breath sounds, and get an electrocardiogram.]`
+- line 34 — general recommendation: `[GENERAL: Sepsis, particularly after abdominal or urological surgery in a patient who was febrile beforehand.]`
+- line 40 — general recommendation: `[GENERAL: Escalation to a norepinephrine infusion when the pressure will not hold is standard practice and carries no source in this ledger.]`
+- line 44 — practice varies: `[PRACTICE VARIES: the pressure at which a PACU protocol triggers treatment, and the first-line agent, differ between institutions; follow local protocol.]`
 
 ## src/content/cards/card-laryngospasm.md
 
@@ -62,15 +61,15 @@ Placeholders: 10 · Practice varies: 27 · General recommendations: 32
 
 ## src/content/days/day-05.md
 
-- line 130 — practice varies: `[PRACTICE VARIES: the absolute MAP or systolic threshold at which a PACU protocol triggers treatment, and the first-line treatment, differ between institutions; follow local protocol.]`
+- line 136 — practice varies: `[PRACTICE VARIES: the absolute MAP or systolic threshold at which a PACU protocol triggers treatment, and the first-line treatment, differ between institutions; follow local protocol.]`
 
 ## src/content/days/day-06.md
 
-- line 94 — placeholder: `[TODO_VERIFY: the remainder of that warning sentence, paraphrased here beyond its first clause, to be re-quoted from the label; and a source for withdrawal of other antihypertensive classes.]`
-- line 104 — practice varies: `[PRACTICE VARIES: the pressure at which a PACU protocol calls for direct treatment, and the agent used, differ between institutions; follow local protocol and know that the threshold is a local decision, not an evidence-based one.]`
-- line 111 — practice varies: `[PRACTICE VARIES: some services set an explicit upper pressure limit where the general literature sets none, and that limit is part of the order set rather than a finding. It is usual after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia. Find out what the limit is before the patient arrives, not after. The absence of a general threshold is not the absence of any threshold.]`
-- line 113 — general recommendation: `[GENERAL: When direct treatment is chosen, the agents usually stocked for the PACU are labetalol in 5 to 10 mg intravenous increments, hydralazine 5 to 10 mg intravenously, and a nicardipine or clevidipine infusion where titratable control is wanted.]`
-- line 115 — general recommendation: `[GENERAL: Beta-blockers a patient already takes are generally continued through the perioperative period rather than stopped, which is the other half of the withdrawal limb of this differential.]`
+- line 102 — placeholder: `[TODO_VERIFY: the remainder of that warning sentence, paraphrased here beyond its first clause, to be re-quoted from the label; and a source for withdrawal of other antihypertensive classes.]`
+- line 112 — practice varies: `[PRACTICE VARIES: the pressure at which a PACU protocol calls for direct treatment, and the agent used, differ between institutions; follow local protocol and know that the threshold is a local decision, not an evidence-based one.]`
+- line 119 — practice varies: `[PRACTICE VARIES: some services set an explicit upper pressure limit where the general literature sets none, and that limit is part of the order set rather than a finding. It is usual after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia. Find out what the limit is before the patient arrives, not after. The absence of a general threshold is not the absence of any threshold.]`
+- line 121 — general recommendation: `[GENERAL: This page previously gave labetalol as 5 to 10 mg intravenous increments and hydralazine as 5 to 10 mg. Both are widely taught, and neither is in the FDA labelling; the label doses are cited in the evidence slot above. They are named here rather than quietly removed, because a resident who has learned the smaller figure should know where it comes from. If your institution uses it, it is a local protocol.]`
+- line 123 — general recommendation: `[GENERAL: Beta-blockers a patient already takes are generally continued through the perioperative period rather than stopped, which is the other half of the withdrawal limb of this differential.]`
 
 ## src/content/days/day-07.md
 
@@ -107,10 +106,10 @@ Placeholders: 10 · Practice varies: 27 · General recommendations: 32
 
 ## src/content/days/day-13.md
 
-- line 104 — placeholder: `[TODO_VERIFY: a society standard or guideline statement requiring neurological examination before PACU discharge in delayed emergence.]`
-- line 106 — placeholder: `[NUMBER NEEDED: incidence of delayed emergence by anesthetic agent and the time thresholds used to define it]`
-- line 116 — practice varies: `[PRACTICE VARIES: the availability of physostigmine, and the local threshold for imaging a patient who has not woken, differ between institutions.]`
-- line 123 — general recommendation: `[GENERAL: Three figures in this sequence carry no source. Naloxone in smaller increments of 0.04 to 0.1 mg is widely used to avoid abrupt reversal, and it is not the label figure; the label increments of 0.1 to 0.2 mg are cited in the evidence slot above, as is the flumazenil regimen. Physostigmine is usually quoted as 0.5 to 2 mg intravenously given slowly, with atropine available for bradycardia and an awareness of its seizure risk; that dose is not in any source this project holds. And dextrose for a low glucose is universal practice rather than a sourced recommendation.]`
+- line 108 — placeholder: `[TODO_VERIFY: a society standard or guideline statement requiring neurological examination before PACU discharge in delayed emergence.]`
+- line 110 — placeholder: `[NUMBER NEEDED: incidence of delayed emergence by anesthetic agent and the time thresholds used to define it]`
+- line 120 — practice varies: `[PRACTICE VARIES: the availability of physostigmine, and the local threshold for imaging a patient who has not woken, differ between institutions.]`
+- line 127 — general recommendation: `[GENERAL: Two figures in this sequence still carry no source. The naloxone increment of 0.04 to 0.1 mg is widely taught to avoid abrupt reversal and is not in the labelling; two naloxone labels were checked in September 2026 and the only smaller labelled increments are pediatric, so treat 40 micrograms as a practice convention. And giving dextrose for a low glucose reading is universal practice rather than a sourced recommendation. Physostigmine is no longer on this list; both its labels are cited in the evidence slot above.]`
 
 ## src/content/days/day-14.md
 
