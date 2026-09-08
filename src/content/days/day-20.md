@@ -9,6 +9,7 @@ clinical_claim_status: supported
 evidence:
   - harper-2018-nap6
   - garvey-2019
+  - rcuk-anaphylaxis-2021
 draft: false
 review_due: 2027-09-06
 quiz:
@@ -109,7 +110,7 @@ Do not reach for sugammadex as a treatment for suspected anaphylaxis, whatever t
 
 This point is decided by your institution rather than by the sources on this page, and the page says so rather than asserting one answer.
 
-[PRACTICE VARIES: the intramuscular epinephrine dose an institution expects differs, and the difference is not small. The perioperative consensus quoted above gives 300 micrograms for an adult, and it assumes an anesthesiologist with intravenous access. A figure of 500 micrograms is in wide use in national anaphylaxis guidance outside the operating room; that guidance is not in this ledger and no dose is quoted here from it. If you are reaching for an intramuscular dose, know which number your institution follows before you need it.]
+[PRACTICE VARIES: the intramuscular epinephrine dose an institution expects differs, and the difference is not small. The perioperative consensus quoted above gives 300 micrograms for an adult, and it assumes an anesthesiologist with intravenous access. The community guidance used outside the operating room gives 500 micrograms, and both figures are now cited on this page. If you are reaching for an intramuscular dose, know which number your institution follows before you need it.]
 
 ## Check yourself
 

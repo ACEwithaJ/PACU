@@ -19,6 +19,11 @@ evidence:
   - fda-dexmedetomidine-label-2026
   - litman-2008
   - larach-2010
+  - fda-dantrolene-label-2024
+  - fda-ryanodex-label-2024
+  - fda-revonto-label-2024
+  - mhaus-treatment-2026
+  - aspan-normothermia-2010
 draft: true
 review_due: null
 quiz:
@@ -144,9 +149,9 @@ When a colleague quotes the 1996 and 1997 trials, ask what temperature their hyp
 
 These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
 
-[GENERAL: National and nursing guidance commonly define hypothermia as a core temperature below 36.0 °C, ask for a temperature every 15 minutes in recovery, and do not transfer a patient to the ward below 36.0 °C. Be careful about attributing that threshold. It is the NICE inpatient warming guidance that carries the 36.0 °C transfer rule. The ASPAN normothermia guideline is often named alongside it, and this project has not read it: the current version was identified on 2026-09-06 as the second edition of 2010, its full text is paywalled, and its stated core-temperature target was not read and is not quoted here. That threshold is also half a degree above the level at which the randomized evidence of harm on this page applies, and the two are different kinds of number.]
+[GENERAL: The 36.0 °C definition commonly quoted here comes from national inpatient warming guidance that is not in this ledger, so no temperature target is cited from it. The ASPAN normothermia guideline, often named alongside it, is now in the ledger and its target is still not quoted, because the full text is paywalled and the target was never read [[aspan-normothermia-2010]]. That threshold is also half a degree above the level at which the randomized evidence of harm on this page applies, and the two are different kinds of number.]
 
-[GENERAL: For malignant hyperthermia: stop the volatile agent, hyperventilate with 100% oxygen, give dantrolene, cool the patient and treat hyperkalemia. The dose is the place where two authorities disagree, and the disagreement is worth knowing rather than smoothing over. The Malignant Hyperthermia Association of the United States says 2.5 mg/kg initially, repeated as frequently as needed until the patient responds, and states that large doses above 10 mg/kg may be required, with its own guidance going as far as 10 to 20 or more mg/kg in individual patients. The FDA labels for the intravenous products say the opposite at both ends: a minimum of 1 mg/kg and a maximum cumulative dose of 10 mg/kg. Neither document is in this ledger yet, so both are carried here as general recommendations, and the MHAUS page carries no revision date. Follow your institution's malignant hyperthermia protocol and its cart. The MHAUS hotline is 1-800-644-9737.]
+For malignant hyperthermia: stop the volatile agent, hyperventilate with 100% oxygen, give dantrolene, cool the patient and treat hyperkalemia. The dose is where two authorities disagree, and the disagreement is the thing to learn rather than smooth over. Every FDA dantrolene label says the same: begin at a minimum of 1 mg/kg by rapid intravenous push and continue until the symptoms subside or a maximum cumulative dose of 10 mg/kg has been reached, repeating the regimen if the abnormalities reappear [[fda-dantrolene-label-2024]] [[fda-ryanodex-label-2024]] [[fda-revonto-label-2024]]. The Malignant Hyperthermia Association of the United States says something different at both ends: 2.5 mg/kg rapidly through a large-bore line, repeated as frequently as needed until the patient responds, and it states that large doses above 10 mg/kg may be required in patients with persistent contractures or rigidity [[mhaus-treatment-2026]]. The label's maximum is the society's starting point for a difficult case. Follow your institution's protocol and its cart, and know which of the two it is written from. The MHAUS page carries no revision date, which is a currency weakness worth stating, and the hotline is 1-800-644-9737 [[mhaus-treatment-2026]].
 
 ## Check yourself
 

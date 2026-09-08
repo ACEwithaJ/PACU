@@ -9,6 +9,7 @@ clinical_claim_status: supported
 evidence:
   - fu-2004
   - doufas-2023
+  - chung-2020-capnography
   - guay-2009
   - barker-1989
   - fda-methylene-blue-label-2025
@@ -63,7 +64,9 @@ quiz:
 ---
 ## Why it matters
 
-Most patients arrive in the PACU breathing supplemental oxygen, and most are monitored with a pulse oximeter. The oximeter is trusted as the monitor that will announce respiratory trouble. On supplemental oxygen it cannot do that job for hypoventilation: a patient can retain carbon dioxide for a long time while the saturation stays reassuring. How often that happens on a typical PACU has never been measured, so this page teaches the mechanism rather than a rate. The nearest measurement is from the ward, where patients on supplemental oxygen had 2.7 times the rate of opioid-induced respiratory depression episodes of patients on room air (incidence rate ratio 2.7, 95% CI 1.4 to 5.1) while their desaturation events did not differ [[doufas-2023]].
+Most patients arrive in the PACU breathing supplemental oxygen, and most are monitored with a pulse oximeter. The oximeter is trusted as the monitor that will announce respiratory trouble. On supplemental oxygen it cannot do that job for hypoventilation: a patient can retain carbon dioxide for a long time while the saturation stays reassuring.
+
+How often that happens has now been measured, and the answer is not the one this page assumed. A blinded multicenter trial recorded capnography and oximetry alongside standard monitoring in adult recovery rooms, on an average of 3.8 L/min of supplemental oxygen, and analyzed 172 patients [[chung-2020-capnography]]. Applying its most severe thresholds, apnea appeared in 113 patients and bradypnea in 53, while measured hypercapnia appeared in only 2 [[chung-2020-capnography]]. So the common finding on oxygen is not a rising carbon dioxide; it is periodic apnea and a slow respiratory rate, and 78% of patients triggered at least one severe notification during standard monitoring [[chung-2020-capnography]]. That is the point of this day stated from the other side: the events were there, and the monitor in use was not showing them.
 
 The consequence of getting this wrong is not a missed alarm. It is an alarm that is structurally impossible on the monitor you are watching.
 
