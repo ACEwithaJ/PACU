@@ -14,8 +14,8 @@ Placeholders: 2 · Practice varies: 27 · General recommendations: 16
 
 ## src/content/cards/card-hypertension.md
 
-- line 38 — practice varies: `[PRACTICE VARIES: after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia, the surgical or obstetric service usually sets an explicit upper limit, and that limit is part of the order set rather than a finding. Find out what it is before the patient arrives. The absence of a general threshold is not the absence of any threshold.]`
-- line 40 — practice varies: `[PRACTICE VARIES: those limits are institutional; find out what they are before the patient arrives, not after.]`
+- line 39 — practice varies: `[PRACTICE VARIES: after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia, the surgical or obstetric service usually sets an explicit upper limit, and that limit is part of the order set rather than a finding. Find out what it is before the patient arrives. The absence of a general threshold is not the absence of any threshold.]`
+- line 41 — practice varies: `[PRACTICE VARIES: those limits are institutional; find out what they are before the patient arrives, not after.]`
 
 ## src/content/cards/card-hypotension.md
 
@@ -55,7 +55,7 @@ Placeholders: 2 · Practice varies: 27 · General recommendations: 16
 
 ## src/content/days/day-06.md
 
-- line 114 — practice varies: `[PRACTICE VARIES: the pressure at which a PACU protocol calls for direct treatment, and the agent used, differ between institutions; follow local protocol and know that the threshold is a local decision, not an evidence-based one.]`
+- line 118 — practice varies: `[PRACTICE VARIES: the pressure at which a PACU protocol calls for direct treatment, and the agent used, differ between institutions; follow local protocol and know that the threshold is a local decision, not an evidence-based one.]`
 
 ## src/content/days/day-07.md
 
@@ -72,7 +72,7 @@ Placeholders: 2 · Practice varies: 27 · General recommendations: 16
 
 ## src/content/days/day-10.md
 
-- line 100 — practice varies: `[PRACTICE VARIES: the opioid, bolus size, interval, pain-score threshold and sedation limit used for PACU titration differ between institutions; follow local protocol and know its endpoint.]`
+- line 101 — practice varies: `[PRACTICE VARIES: the opioid, bolus size, interval, pain-score threshold and sedation limit used for PACU titration differ between institutions; follow local protocol and know its endpoint.]`
 
 ## src/content/days/day-11.md
 
@@ -86,7 +86,7 @@ Placeholders: 2 · Practice varies: 27 · General recommendations: 16
 
 ## src/content/days/day-13.md
 
-- line 120 — practice varies: `[PRACTICE VARIES: the availability of physostigmine, and the local threshold for imaging a patient who has not woken, differ between institutions.]`
+- line 122 — practice varies: `[PRACTICE VARIES: the availability of physostigmine, and the local threshold for imaging a patient who has not woken, differ between institutions.]`
 
 ## src/content/days/day-14.md
 

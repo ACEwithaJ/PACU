@@ -10,8 +10,10 @@ evidence:
   - ellis-2017
   - link-1997
   - fda-naloxone-label-2023
+  - kim-2016-naloxone
   - fda-flumazenil-label-2025
   - bayable-2023
+  - asa-pacu-standards-2024
   - fda-physostigmine-anticholium-label-2023
   - fda-physostigmine-akorn-label-2022
 draft: false
@@ -105,7 +107,7 @@ Physostigmine has two current labels in the United States and they do not agree,
 
 No source on this page tests the ordered differential against any other order, or against no order. The sequence is expert consensus about frequency and reversibility, and the simulation case that carries it is an educational resource, not a study [[ellis-2017]]. The labels establish the pharmacology of the two reversal agents; they say nothing about how often each cause occurs in a PACU.
 
-The requirement that a neurological examination be performed and documented before the patient leaves the PACU is on the content list for this day and has no source in this ledger; a search has not found a society standard that states it. It remains consensus on this page.
+The requirement that a neurological examination be performed and documented before the patient leaves the PACU is on the content list for this day and it is not in the sources. Both American Society of Anesthesiologists documents were opened and searched on 2026-09-08. The standards ask that the patient be observed and monitored by methods appropriate to their condition, with particular attention to oxygenation, ventilation, circulation, level of consciousness and temperature, and that an accurate written report of the recovery period be maintained, encouraging a scoring system to assist with management and discharge readiness [[asa-pacu-standards-2024]]. The practice guideline asks that mental status be periodically assessed during emergence and recovery [[asa-pacu-2013]]. Neither requires a documented neurological examination, neither ties any assessment to the discharge decision, and neither mentions delayed emergence at all. Level of consciousness appears as one parameter among several, and the discharge criteria themselves are delegated to the local department.
 
 The anesthetic-specific numbers the list expects, how long each volatile agent or opioid delays emergence in a given patient, are not in the held sources, so this page gives none. A published study of physostigmine after desflurane has been retracted and is not cited here.
 
@@ -124,7 +126,7 @@ When the commoner causes are excluded and the patient remains somnolent or agita
 
 These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
 
-One taught figure is worth correcting here, because it is a dose. The naloxone increment of 0.04 to 0.1 mg that is widely used to avoid abrupt reversal is not in the labelling. The adult postoperative increment there is 0.1 to 0.2 mg, cited above, and the only smaller increments in that label are pediatric [[fda-naloxone-label-2023]]. Treat 40 micrograms as a practice convention, not as a label dose.
+One taught figure is worth correcting here, because it is a dose. The small naloxone increment that residents learn for avoiding abrupt reversal is not in the labelling: the adult postoperative increment there is 0.1 to 0.2 mg, cited above, and the only smaller increments in that label are pediatric [[fda-naloxone-label-2023]]. A search for a primary source found exactly one, and it does not support the range as it is usually taught. It is a retrospective case series of 15 patients treated in an emergency department on toxicology advice, 12 of them after ingesting methadone, started at 0.04 mg intravenously and titrated to a median total of 0.08 mg with an observed range up to 0.12 mg, and 2 of the 15 developed acute opioid withdrawal [[kim-2016-naloxone]]. Its own conclusion is limited to emergency department patients with moderate to severe opioid-induced ventilatory depression [[kim-2016-naloxone]]. So the starting figure has a source, in the wrong population and the wrong setting, with no control group; the upper bound usually taught alongside it matches nothing; and no society guideline recommends an adult increment of this size at all.
 
 ## Check yourself
 

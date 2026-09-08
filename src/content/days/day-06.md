@@ -14,6 +14,8 @@ evidence:
   - fda-hydralazine-label-2021
   - fda-nicardipine-label-2024
   - fda-clevidipine-label-2022
+  - thompson-2024-accaha
+  - fleisher-2014
 draft: false
 review_due: 2027-09-06
 quiz:
@@ -103,7 +105,9 @@ The differential itself, pain, bladder distension, hypercarbia, hypoxemia and dr
 
 This day has two ledger rows, both consensus documents, and no primary study. It is the thinnest day with sources on the site, and the topic term it carries was added to the vocabulary for it.
 
-One general recommendation has been removed rather than relabeled: that a beta-blocker a patient already takes is continued through the perioperative period rather than stopped. It is the other half of the withdrawal limb above and it has no source in this ledger. It is recorded in the repository's gap register.
+The beta-blocker question this page lost content over now has an answer, and the answer is newer than the version usually quoted. The 2024 perioperative cardiovascular guideline makes it a Class 1 recommendation, on moderate-quality non-randomized evidence, that beta blockers be continued through the perioperative period in patients already on stable doses, as appropriate to the clinical circumstances [[thompson-2024-accaha]]. Two neighbouring recommendations belong with it, because together they are the teaching point. A new indication for beta blockade should be started far enough ahead of elective surgery, optimally more than 7 days, to allow tolerability to be assessed and the dose titrated, which is a weak recommendation. And beta blockers should not be started on the day of surgery in a patient with no immediate need, which is graded as harm on randomized evidence [[thompson-2024-accaha]]. The predecessor guideline said the same thing more bluntly, that beta blockers should be continued in patients who have been on them chronically; the current wording adds both the stable-dose condition and the clinical-circumstances qualifier, and the softening is the part worth teaching [[fleisher-2014]].
+
+A note on how that was read. The journal page confirms the article and its open status, but truncated its own recommendation section, so the wording above was taken from the society's official slide set for this guideline, which reproduces the recommendation tables with their class and level of evidence. It is a publication of the same society and it is not the journal article, so this page states the substance and the grades rather than presenting a verbatim quotation, and one confirmatory read of the printed page is still owed.
 
 ## At the bedside
 

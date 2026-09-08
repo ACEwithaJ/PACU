@@ -206,3 +206,51 @@ for again, with what each would need.
   behind publishers a logged-out browser cannot reach.
 
 Those three need round 5 or a decision, not a rewording.
+
+---
+
+# Round 5 outcomes, 2026-09-08
+
+Round 5 ran logged out, so most of what it was sent for is still unread. Four things it did settle
+are now on the pages, and one flag is new.
+
+| Entry | Status after round 5 |
+|---|---|
+| Day 11, a prospective Horner denominator | **CLOSED as impossible from this source.** `borgeat-2001` was read in full from a PDF and Horner syndrome is not in the paper at all. The site keeps the retrospective 0.7%, flagged. A prospective figure needs a different study |
+| Day 6 and the hypertension card, continuing a home beta-blocker | **CLOSED.** The 2024 perioperative cardiovascular guideline makes it a Class 1 recommendation for patients on stable doses, and grades starting one on the day of surgery as harm. Both pages carry it |
+| Day 10, multimodal analgesia | **CLOSED, ungraded.** A 2024 multidisciplinary consensus statement supports it and says of itself that it did not grade its recommendations. The page says so |
+| Day 13, an adult naloxone increment below the label | **SOURCED, and it does not support the taught range.** One retrospective 15-patient emergency department series, mostly methadone, median total 0.08 mg, 2 of 15 withdrew. Both the day and the card now say what it is |
+| Day 13, a society standard requiring a neurological examination before discharge | **CLOSED as NOT FOUND.** Both ASA documents were read. Neither requires one, neither ties an assessment to discharge, and neither mentions delayed emergence |
+
+## New flag, worth one check
+
+A 2026 ASA guideline on perioperative pain management using local and regional analgesia may
+exist: Anesthesiology, DOI 10.1097/ALN.0000000000005790, PMID 41363869, both seen only in search
+results and unverified, publisher returned 402. Its title suggests a narrower scope than the
+guideline Day 10 rests on. Day 10 is already cleared, so if it turns out to supersede that
+material the page will need revisiting.
+
+## What round 5 could not reach, and the fastest route to each
+
+Round 5's own recommendation, which is worth following: a PDF attached to the conversation is the
+highest-yield route available. `borgeat-2001` went from unreachable across three rounds to fully
+read in one step, and produced the round's most consequential finding, which was a negative one.
+
+In order of how much each unblocks:
+
+1. `white-1999`, then `chung-1995-padss` and `aldrete-1995` — the three discharge-score item lists,
+   which together are the whole of Day 15. Neither of the last two is held by the institution, so
+   no browser session of any kind will reach them.
+2. Chung and Rowbottom 1993, and Batra 2005 — the laryngospasm rungs, still the largest block on
+   the site. Round 3's flag that Batra is about prevention rather than rescue is still unconfirmed.
+3. Welch 2009 — Day 19's general nerve-injury denominator.
+4. Chou 2016's recommendation text, now less urgent because Day 10 has an ungraded substitute.
+5. `renew-2026` — one article, and it closes the schema question in
+   `docs/renew-2026-schema-question.md`.
+
+The ASPAN normothermia target is a genuine paywall, not a block: the guidelines now sit inside a
+purchase-only standards volume. That one will not yield to any session.
+
+**A note for round 6 on which browser to use.** Round 3's authenticated session was the Windows
+browser. Round 5 ran on the macOS one, which is not signed in to the institution. If entitlement
+matters, that is the choice that decides the round.
