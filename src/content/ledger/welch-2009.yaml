@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: welch-2009
+day: 19
+citation: "Welch MB, Brummett CM, Welch TD, Tremper KK, Shanks AM, Guglani P, Mashour GA. Perioperative peripheral nerve injuries: a retrospective study of 380,680 cases during a 10-year period at a single institution. Anesthesiology. 2009 Sep;111(3):490-497."
+doi: 10.1097/ALN.0b013e3181af61cb
+pmid: "19672188"
+design: cohort
+year: 2009
+n: 380,680 anaesthetics; 112 injuries
+access: paywalled
+currency: current
+topic: positioning_injury
+claim_support: magnitude
+supports: "The general perioperative nerve injury denominator Day 19 lacked. VERBATIM: 'Of all patients undergoing 380,680 anesthetics during a 10-yr period, 185 patients were initially identified as having nerve injuries, and after review, 112 met our definition of a perioperative nerve injury (frequency = 0.03%).' Associations found: hypertension, tobacco use, diabetes mellitus; general and epidural anaesthesia; neurosurgery, cardiac, general and orthopaedic surgery. QUALIFIERS THE PAGE MUST CARRY: injury was defined as a new sensory and/or motor deficit; nerve complications from the surgical procedure itself were EXCLUDED; case-finding was retrospective from quality assurance, closed claims and billing-code databases at a single tertiary care university hospital. This is a DETECTED AND REPORTED frequency, not a prospectively screened incidence, and should be presented as a lower bound."
+found_via: PubMed record
+verified_on: 2026-09-08, round 6

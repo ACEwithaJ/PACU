@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: batra-2005
+day: 2
+citation: Batra YK, Ivanova M, Ali SS, Shamsah M, Al Qattan AR, Belani KG. The efficacy of a subhypnotic dose of propofol in preventing laryngospasm following tonsillectomy and adenoidectomy in children. Paediatr Anaesth. 2005 Dec;15(12):1094-1097.
+doi: 10.1111/j.1460-9592.2005.01633.x
+pmid: "16324030"
+design: rct
+year: 2005
+n: 120 children ASA I-II aged 3 to 14
+access: paywalled
+currency: current
+topic: airway
+claim_support: magnitude
+supports: "THIS IS PREVENTION, NOT RESCUE, AND THE CARD MUST NOT CITE IT AS RESCUE. Round 3 flagged this and round 6 confirmed it. Timing VERBATIM: 'Before extubation, the patients were randomized and received in a blinded fashion either propofol 0.5 mg.kg(-1) or saline (control) intravenously. Tracheal extubation was performed 60 s after administration of study drug.' Result VERBATIM: 'Laryngospasm was seen in 20% (n = 12) of the 60 children in the control group and in only 6.6% (n = 4) of 60 children in the propofol group (P < 0.05).' Conclusion VERBATIM: propofol in a subhypnotic dose decreases the likelihood of laryngospasm upon tracheal extubation in children. PubMed publication type Randomized Controlled Trial; MeSH Laryngismus / prevention and control. The drug was given to children who had NOT developed laryngospasm. A rescue-facing paper exists and was not retrieved: Afshan G et al, Is there a role of a small dose of propofol in the treatment of laryngeal spasm, Paediatr Anaesth 2002;12(7):625-628."
+found_via: PubMed record; publication type and MeSH read from that record
+verified_on: 2026-09-08, round 6

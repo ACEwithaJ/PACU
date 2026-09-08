@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: abelson-2015
+day: 2
+citation: "Abelson D. Laryngospasm notch pressure (Larson maneuver) may have a role in laryngospasm management in children: highlighting a so far unproven technique. Paediatr Anaesth. 2015 Nov;25(11):1175-1176."
+doi: 10.1111/pan.12731
+pmid: "26426878"
+design: case_series
+year: 2015
+n: 1 infant
+access: paywalled
+currency: current
+topic: airway
+claim_support: magnitude
+supports: "The rebuttal that keeps the Larson maneuver honest, and the only source found that places jaw thrust and CPAP in sequence. VERBATIM: 'Although LNP is an accepted technique advocated by eminent anesthesiologists, there is insufficient published data to systematically evaluate its efficacy. Furthermore, the line is blurred between LNP (which incorporates a special jaw thrust) and simple jaw thrust (which may inadvertently overlap LNP).' SEQUENCING, VERBATIM: 'First, one has optimized the upper airway with routine maneuvers (e.g., CPAP, chin lift, jaw thrust) to exclude supraglottic obstruction. Second, there is sufficient cardiopulmonary reserve to allow time to rescue the patient with paralysis if LNP was to fail. One should not wait for desaturation before changing course.' Single case: 8-month-old, 6.7 kg, born at 28 weeks, in whom the maneuver broke laryngospasm under continuous fiberoptic view of the larynx, which removes the usual diagnostic subjectivity. Calls for a controlled study with fiberoptic evaluation. PROVENANCE WARNING: its claim that paralysis treats or rules out laryngospasm in 100% of cases is cited to Weiss and Engelhardt 2012, which PubMed classifies as an Editorial with no abstract; that figure traces to an editorial, not a study."
+found_via: Wiley full text under entitlement; per-article badge reads Full Access, which is session-derived and is NOT a Free or Open badge
+verified_on: 2026-09-08, round 6
