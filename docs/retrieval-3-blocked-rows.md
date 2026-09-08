@@ -38,3 +38,18 @@ marked as general recommendations, and the pages say so in the places a reader w
 - `gross-2014` carries no free or open badge, unlike every other ASA guideline row checked,
   while the ledger recorded it as `open`. Its access has been set back to UNVERIFIED so that it
   reappears as debt rather than asserting an access status in either direction.
+
+---
+
+## Resolved 2026-09-08 by retrieval round 4
+
+The round 3 `new-ledger-rows.csv` was recovered from that session's disk rather than rebuilt, so
+no transcription error could enter. Every row this file describes as blocked now exists in the
+ledger, plus `fda-revonto-label-2024`, which round 3 had folded into the Hikma row's prose instead
+of giving it its own row, and `memtsoudis-2018`, which round 3 created and this file never listed.
+
+Two rows still cannot be admitted, for schema reasons rather than retrieval reasons. See
+`docs/retrieval-4-held-rows.md`.
+
+This file is kept as the record of what the missing spreadsheet cost, which was two rounds of
+pages describing sources they could not cite.
