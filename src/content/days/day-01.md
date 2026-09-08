@@ -18,8 +18,8 @@ evidence:
   - herbstreit-2010
   - fda-sugammadex-label-2026
   - fda-edrophonium-drugsfda-2026
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d01-q1
     stem: "In RECITE-US (Saager 2019), patients were judged ready for extubation by routine clinical judgment and qualitative peripheral nerve stimulation. What proportion had a train-of-four ratio below 0.9 at extubation?"
@@ -136,6 +136,8 @@ Sugammadex is dosed by depth: 2 mg/kg at the reappearance of the second twitch, 
 
 Edrophonium has no marketed finished product in the United States: every FDA application for it, under the brand names Enlon, Enlon-Plus, Reversol and Tensilon and as generics, was listed as discontinued in Drugs@FDA when this was checked on 2026-09-06, and the one DailyMed listing has both of its national drug codes inactivated. No reversal content on this site names it. Two cautions attach to that sentence. It is a dated claim rather than a settled fact, because the FDA approved a labeling supplement for Enlon-Plus in October 2025 and an active sponsor maintaining an application is consistent with an intent to re-market, so it needs re-checking rather than repeating. It now has a ledger row, recording every application and its marketing status, the one inactivated DailyMed listing, and the October 2025 supplement as the reason this is a claim to re-check rather than repeat [[fda-edrophonium-drugsfda-2026]].
 
+Two things this page used to carry as general recommendations have been removed rather than relabeled, because both are factual claims with no source in this ledger. One was that acceleromyographic monitors read high and need normalization to a baseline while electromyographic monitors do not. The other was that sugammadex is not recommended below a creatinine clearance of 30 mL/min: its label covers how long to wait before re-dosing a steroidal relaxant in renal impairment, which is a different statement, and no source here sets that threshold. Both are recorded in the repository's gap register.
+
 ## At the bedside
 
 Measure, do not judge. A quantitative TOF ratio is the only bedside finding on this page that distinguishes a recovered junction from a blocked one, and the guideline recommends it over clinical assessment [[thilen-2023]]. A head lift or a hand grip tells you about large muscles that recover first.
@@ -143,15 +145,6 @@ Measure, do not judge. A quantitative TOF ratio is the only bedside finding on t
 If the ratio is documented at 0.9 or more, no antagonism is needed; if it is below 0.9, the choice of agent depends on the measured depth, with neostigmine reasonable only from minimal block [[thilen-2023]]. [PRACTICE VARIES: the institutional preference between sugammadex and neostigmine, and the availability of quantitative monitors in the PACU, differ between hospitals.]
 
 Treat hypoxemia or airway obstruction in the first minutes of PACU stay as residual block until a monitor says otherwise, because those were the two commonest events in the matched cohort and the cases were, on average, still deeply blocked [[murphy-2008]].
-
-
-### General recommendations
-
-These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
-
-[GENERAL: One monitoring detail carries no source. Acceleromyographic devices read high and need normalization to a baseline; electromyographic devices do not. The site itself is not general: the guideline recommends the adductor pollicis over the eye muscles, and that is cited in the evidence slot above.]
-
-[GENERAL: Sugammadex is not recommended when the creatinine clearance is below 30 mL/min, because the sugammadex-relaxant complex is cleared renally.]
 
 ## Check yourself
 

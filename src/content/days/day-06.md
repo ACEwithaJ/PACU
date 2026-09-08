@@ -14,8 +14,8 @@ evidence:
   - fda-hydralazine-label-2021
   - fda-nicardipine-label-2024
   - fda-clevidipine-label-2022
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d06-q1
     stem: "What does the POQI consensus statement on perioperative arterial pressure say about a general upper limit at which treatment of hypertension should begin in adult noncardiac surgical patients?"
@@ -99,9 +99,11 @@ None of that is outcome evidence. These are labelled doses for treating a blood 
 
 Neither source tests any treatment of postoperative hypertension against any outcome. The POQI document is a consensus statement and the ASA document is a guideline that describes its own literature as insufficient [[sessler-2019-d6]] [[asa-pacu-2013-d6]]. The association above 160 mmHg is an association, and the statement that draws attention to it declines, in the same sentence, to turn it into a threshold [[sessler-2019-d6]].
 
-The differential itself, pain, bladder distension, hypercarbia, hypoxemia and drug withdrawal, is clinical reasoning that the held sources support only in part: the bladder limb is in the ASA guideline, and the rest is physiology [[asa-pacu-2013-d6]]. The withdrawal limb has one sourced member. The clonidine label warns that sudden cessation of clonidine treatment has, in some cases, resulted in symptoms such as nervousness, agitation, headache and tremor accompanied or followed by a rapid rise in blood pressure and elevated catecholamine concentrations in the plasma, more likely after higher doses or with a beta-blocker, with rare hypertensive encephalopathy, stroke and death, and it instructs that clonidine be continued to within four hours of surgery and resumed as soon as possible afterwards [[fda-clonidine-label-2022]]. [TODO_VERIFY: the remainder of that warning sentence, paraphrased here beyond its first clause, to be re-quoted from the label; and a source for withdrawal of other antihypertensive classes.]
+The differential itself, pain, bladder distension, hypercarbia, hypoxemia and drug withdrawal, is clinical reasoning that the held sources support only in part: the bladder limb is in the ASA guideline, and the rest is physiology [[asa-pacu-2013-d6]]. The withdrawal limb has one sourced member. The clonidine label warns that sudden cessation of clonidine treatment has, in some cases, resulted in symptoms such as nervousness, agitation, headache and tremor accompanied or followed by a rapid rise in blood pressure and elevated catecholamine concentrations in the plasma, more likely after higher doses or with a beta-blocker, with rare hypertensive encephalopathy, stroke and death, and it instructs that clonidine be continued to within four hours of surgery and resumed as soon as possible afterwards [[fda-clonidine-label-2022]]. Two limits on that: the sentence above is paraphrased past its first clause and has not been re-quoted word for word from the label, and no source here covers withdrawal of any other antihypertensive class.
 
 This day has two ledger rows, both consensus documents, and no primary study. It is the thinnest day with sources on the site, and the topic term it carries was added to the vocabulary for it.
+
+One general recommendation has been removed rather than relabeled: that a beta-blocker a patient already takes is continued through the perioperative period rather than stopped. It is the other half of the withdrawal limb above and it has no source in this ledger. It is recorded in the repository's gap register.
 
 ## At the bedside
 
@@ -110,17 +112,6 @@ When the pressure is high, examine the patient before you examine the drug chart
 Treat what you find. A pressure that falls when the pain is treated or the bladder is emptied was never a hypertension problem.
 
 If nothing reversible explains it and the level is one you judge dangerous for this patient, then treat the pressure, knowing that no general threshold has evidence behind it and that the number above which injury has been associated is 160 mmHg [[sessler-2019-d6]]. [PRACTICE VARIES: the pressure at which a PACU protocol calls for direct treatment, and the agent used, differ between institutions; follow local protocol and know that the threshold is a local decision, not an evidence-based one.]
-
-
-### General recommendations
-
-These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
-
-[PRACTICE VARIES: some services set an explicit upper pressure limit where the general literature sets none, and that limit is part of the order set rather than a finding. It is usual after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia. Find out what the limit is before the patient arrives, not after. The absence of a general threshold is not the absence of any threshold.]
-
-[GENERAL: This page previously gave labetalol as 5 to 10 mg intravenous increments and hydralazine as 5 to 10 mg. Both are widely taught, and neither is in the FDA labelling; the label doses are cited in the evidence slot above. They are named here rather than quietly removed, because a resident who has learned the smaller figure should know where it comes from. If your institution uses it, it is a local protocol.]
-
-[GENERAL: Beta-blockers a patient already takes are generally continued through the perioperative period rather than stopped, which is the other half of the withdrawal limb of this differential.]
 
 ## Check yourself
 

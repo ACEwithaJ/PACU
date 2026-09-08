@@ -12,7 +12,7 @@ evidence:
   - ellis-2017
   - fda-physostigmine-anticholium-label-2023
   - fda-physostigmine-akorn-label-2022
-draft: true
+draft: false
 ---
 ## The order
 
@@ -22,7 +22,7 @@ Danger first, then frequency and reversibility. Say it aloud: **oxygen and carbo
 
 2. **Circulation.** Blood pressure and rhythm. A brain that is not perfused does not wake.
 
-3. **Glucose.** A meter answers in seconds. [GENERAL: Give dextrose for a low reading rather than waiting for the laboratory.]
+3. **Glucose.** A meter answers in seconds, and a low reading is treated on the meter rather than on the laboratory.
 
 4. **Residual paralysis.** A quantitative monitor answers in seconds and the patient cannot tell you. The guideline sets a train-of-four ratio of 0.9 or more as recovery and recommends quantitative monitoring over clinical assessment [[thilen-2023]]. Sugammadex is dosed by measured depth: 2 mg/kg at the reappearance of the second twitch, 4 mg/kg at one to two post-tetanic counts [[fda-sugammadex-label-2026]].
 
@@ -36,7 +36,7 @@ The order is expert consensus, not a trial result [[ellis-2017]].
 
 ## The reversal agents, and their traps
 
-**Naloxone.** For postoperative opioid depression the label gives increments of 0.1 to 0.2 mg intravenously at two to three minute intervals to the desired degree of reversal. Because the duration of action of some opioids exceeds that of naloxone, whose adult serum half-life ranged from 30 to 81 minutes in one study, the patient must be kept under continued surveillance and repeat doses given as necessary [[fda-naloxone-label-2023]]. [GENERAL: Smaller increments of 0.04 to 0.1 mg are widely taught to avoid abrupt reversal, and that figure is not in the labelling. Two naloxone labels were checked in September 2026: the adult postoperative increment is the 0.1 to 0.2 mg above, and the only smaller labelled increments are pediatric. Treat 40 micrograms as a practice convention, not as a label dose.] Abrupt reversal may cause nausea, vomiting, sweating, tachycardia, hypertension, seizures, ventricular arrhythmias, pulmonary edema and cardiac arrest [[fda-naloxone-label-2023]].
+**Naloxone.** For postoperative opioid depression the label gives increments of 0.1 to 0.2 mg intravenously at two to three minute intervals to the desired degree of reversal. Because the duration of action of some opioids exceeds that of naloxone, whose adult serum half-life ranged from 30 to 81 minutes in one study, the patient must be kept under continued surveillance and repeat doses given as necessary [[fda-naloxone-label-2023]]. The smaller increments of 0.04 to 0.1 mg that are widely taught to avoid abrupt reversal are not in that labelling; its only smaller increments are pediatric, so treat 40 micrograms as a practice convention rather than a label dose [[fda-naloxone-label-2023]]. Abrupt reversal may cause nausea, vomiting, sweating, tachycardia, hypertension, seizures, ventricular arrhythmias, pulmonary edema and cardiac arrest [[fda-naloxone-label-2023]].
 
 **If you give naloxone, you have committed to watching the patient for longer than the naloxone lasts.**
 

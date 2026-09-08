@@ -17,8 +17,8 @@ evidence:
   - fda-ondansetron-inj-label-2025
   - fda-scopolamine-label-2026
   - muth-2007
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d09-q1
     stem: "In the IMPACT factorial trial (Apfel 2004), how did the authors say the effect of combined antiemetic interventions should be estimated?"
@@ -158,6 +158,8 @@ The drug-specific points on the day's content list now have sources. Dexamethaso
 
 A correction to this page's own provenance. Until 2026-09-06 the rationale for Guideline 3 was given here as the sentence that clinicians' adherence to risk-based adjustments in PONV prophylaxis is suboptimal. That sentence is in the guideline, but it sits in Guideline 5, the pediatric section, and describes pediatric risk models; it is not the stated rationale for the adult recommendation. The adult reasoning quoted above was read from Guideline 1 in the full text on 2026-09-06, along with the Guideline 3 and Guideline 4 headings, the dose table, and the three-or-more-risk-factor recommendation [[gan-2026]].
 
+Two prophylactic agents in common use have been removed from this page rather than relabeled, because what this page carried for them were doses and the doses have no source here: dimenhydrinate, and promethazine used for prophylaxis rather than rescue. Neither appears in the guideline's dose table, which is cited above. Both, and the figures that were removed, are recorded in the repository's gap register.
+
 ## At the bedside
 
 Give every adult two interventions from different classes; that is the guideline's floor at any risk [[gan-2026]]. Count the factors anyway and write the band down, using the rounded ladder, because the band tells you how much absolute benefit the two interventions bought, and because the guideline is explicit that the general-prophylaxis policy does not retire the score [[gan-2026]] [[apfel-2004]]. If the patient carries three or more factors, the guideline's next move is to maximize risk mitigation rather than to add a third drug [[gan-2026]].
@@ -166,12 +168,6 @@ One habit is worth naming because the guideline contradicts it. Adding a third d
 When a patient vomits in the PACU, the first question is which classes were already given. The rescue must come from a class the patient has not received [[gan-2026]]. Do not re-dose a long-acting agent, do not reach for a scopolamine patch as rescue, and reserve a second dose of the prophylactic class for the situation the guideline describes, more than 6 h elapsed and nothing else available [[gan-2026]].
 
 [PRACTICE VARIES: the specific rescue agents stocked and the order in which they are used differ between institutions; the class-change rule does not.]
-
-### General recommendations
-
-These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
-
-[GENERAL: Two adult prophylactic doses in common use are not in the Fifth guideline's table: dimenhydrinate about 1 mg/kg intravenously, and promethazine 6.25 to 12.5 mg intravenously for prophylaxis rather than rescue. The guideline's own doses are cited in the evidence slot above and are not general recommendations.]
 
 ## Check yourself
 
