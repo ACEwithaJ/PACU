@@ -1,67 +1,45 @@
-# The `design` vocabulary now blocks real content — a decision for the director
+# The `design` vocabulary — decided 2026-09-08
 
-This supersedes `docs/renew-2026-schema-question.md`, which framed the same problem when it
-affected one row. Round 6 turned it into a content blocker.
+The director's decision: **add `expert_opinion` and `survey`.** Done, and this file is now the
+record of why rather than a request.
 
-## What is blocked
+## What changed
 
-Three rows read in full, whose design is known, cannot enter the ledger because `DESIGNS` has no
-term for what they are.
+`DESIGNS` gains two terms:
 
-| Row | What it is | What it would unlock |
+- **`expert_opinion`** — correspondence, letters and editorials. Carries no data by definition;
+  what such a document does and does not contain belongs in the row's `supports` field.
+- **`survey`** — a survey of clinicians, which is not a cohort of patients.
+
+## Why it was needed
+
+Three documents had been read in full and could not enter the ledger, because every available term
+would have been a fabrication indistinguishable from a design somebody verified. Two retrieval
+rounds refused to guess, correctly, and the gap moved from bookkeeping to blocking content.
+
+| Row | What it is | What it unlocked |
 |---|---|---|
-| `larson-1998` | Letter to the editor, expert opinion. Anesthesiology 1998;89(5):1293-1294, PMID 9822036 | **The Larson maneuver rung of the laryngospasm card.** This is the origin of the technique |
-| `weiss-engelhardt-2012` | Editorial, no abstract. Paediatr Anaesth 2012;22(12):1147-1149, PMID 23134160 | Provenance for the claim that paralysis treats or excludes laryngospasm in every case, which turns out to trace to an editorial |
-| `renew-2026` | Cross-sectional survey of ASA members, 915 analysed, 3% response | Day 1's currency: how little the 2023 monitoring guideline changed practice |
+| `larson-1998` | Letter. Anesthesiology 1998;89(5):1293-1294 | The Larson maneuver on the laryngospasm card, with its evidence base visible |
+| `weiss-engelhardt-2012` | Editorial, no abstract. Paediatr Anaesth 2012;22(12):1147-1149 | Provenance for the claim that paralysis resolves or excludes laryngospasm in every case |
+| `renew-2026` | Cross-sectional survey, 915 analysed, 3% response | Day 1's currency: how little the 2023 monitoring guideline changed practice |
 
-`aldrete-1995` is a fourth instance, already in the ledger with a placeholder design, because the
-publisher classifies it as correspondence.
+`aldrete-1995` was a fourth instance, carrying a placeholder design since round 3 because its
+publisher classifies it as correspondence. It is now `expert_opinion`.
 
-## Why the existing terms do not fit
+## The guarantee this does not weaken
 
-`DESIGNS` is rct, meta_rct, cohort, case_series, guideline, consensus_statement, advisory.
+Every other term in the vocabulary is a claim about study design that somebody verified, and the
+worry was that adding terms for documents carrying no design would dilute that.
 
-A letter reporting no cases is not a case series. An editorial is not an advisory, which this
-project uses for regulatory documents and society advisories. A survey of clinicians is not a
-cohort of patients. Writing any of those would be a fabrication, and once written it would be
-indistinguishable from a design somebody verified.
+It does not, because rule 2 already does the work: a day whose `evidence_mode` is `trial_based`
+must cite at least one key whose design is `rct` or `meta_rct`. Neither new term can carry a page
+that claims to rest on trials. No validator change was needed.
 
-Round 6 refused to guess, and delivered the rows with the field empty and an explanation. That was
-correct behaviour and it is the second round running that the field has forced this.
+## What it looks like on the page
 
-## Why it matters more than it looks
-
-The laryngospasm card is the largest unsourced block on the site, and it is built substantially
-out of correspondence. The Larson maneuver has no trial behind it; its evidence base is a 1998
-letter in which the author writes that he has used the technique countless times with complete
-success, that a literature search revealed no mention of it, and that no sound scientific answer
-can be given for why it works. That is precisely the kind of provenance this site exists to make
-visible, and the vocabulary currently prevents it from being cited at all.
-
-The alternative to citing it is describing it without a citation, which is the one thing this
-project does not do.
-
-## The options
-
-1. **Add `expert_opinion` and `survey`.** Round 6's recommendation. `expert_opinion` would cover
-   letters and editorials; `survey` covers clinician surveys. Both are honest labels for real
-   document types, and both would carry their weakness on the face of the row.
-2. **Add `expert_opinion` only**, and hold surveys out. Two of the three blocked rows are
-   correspondence.
-3. **Change nothing** and accept that correspondence cannot be cited on this site. The
-   laryngospasm card then keeps unsourced steps indefinitely, or loses them.
-
-## The argument against option 1, stated fairly
-
-Every current term is a claim about study design that somebody verified. Adding terms for document
-types that carry no design weakens that guarantee unless the validator treats them specially, for
-example by refusing to let a `trial_based` day rest on an `expert_opinion` row, which rule 2
-already does for randomized designs.
-
-## Recommendation
-
-Option 1, with rule 2 extended so that a page resting on `expert_opinion` cannot claim to be
-trial-based. That keeps the guarantee where it matters and lets the site say plainly that the
-Larson maneuver rests on a letter.
-
-This is a schema change and therefore not something this session will make unasked.
+The Larson maneuver is the case worth reading. The card now states where the technique comes from
+and, in the same breath, that its author reports no cases, that his own literature search found no
+mention of it, and that he cannot say why it works. Before this change the site had two options:
+assert the maneuver with no source, or drop a technique that is taught everywhere. Neither was
+honest. A term for correspondence made the third option possible, which is to teach it and show
+exactly what it rests on.

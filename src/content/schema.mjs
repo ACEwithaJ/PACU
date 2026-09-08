@@ -91,6 +91,22 @@ export const CARD_PLAN = [
  * Controlled vocabularies
  * ------------------------------------------------------------------ */
 
+/**
+ * Study design. The last two were added on 2026-09-08 on the director's decision,
+ * after three rows read in full could not enter the ledger because the
+ * vocabulary had no term for what they are: a letter, an editorial and a
+ * clinician survey. Writing one of the other terms would have been a
+ * fabrication indistinguishable from a verified design.
+ *
+ *   expert_opinion  correspondence, letters and editorials. Carries no data
+ *                  by definition; the row's supports field says what it does
+ *                  and does not contain.
+ *   survey          a survey of clinicians, which is not a cohort of patients.
+ *
+ * Rule 2 already protects the claim that matters: a trial_based day must
+ * cite at least one RANDOMISED_DESIGNS key, so neither new term can carry
+ * a page that claims to rest on trials.
+ */
 export const DESIGNS = [
   "rct",
   "meta_rct",
@@ -99,6 +115,8 @@ export const DESIGNS = [
   "guideline",
   "consensus_statement",
   "advisory",
+  "expert_opinion",
+  "survey",
 ];
 
 /** UNVERIFIED is not permitted (rule 9). */

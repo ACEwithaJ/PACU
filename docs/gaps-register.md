@@ -309,3 +309,23 @@ to a published sequence with data behind it.
 - **Day 10 versus the 2026 ASA regional analgesia guideline is an open comparison.** The guideline
   is confirmed to exist and to be current; its recommendations have not been read, and no row has
   been marked superseded by it. Day 10 says so on the page.
+
+---
+
+# Vocabulary decision, 2026-09-08
+
+The director added `expert_opinion` and `survey` to the design vocabulary. Three rows that two
+retrieval rounds had correctly refused to falsify are now in the ledger, and with them:
+
+- The **Larson maneuver** is cited on the laryngospasm card, together with the fact that its source
+  letter reports no cases, that its author's own literature search found no mention of the
+  technique, and that he states no scientific explanation can be given.
+- The **succinylcholine doses** commonly quoted for laryngospasm are attributed to what that same
+  letter records textbooks recommending in 1998, rather than floating unsourced.
+- **Day 1** carries how little the 2023 monitoring guideline changed practice, with the survey's
+  3% response rate attached.
+
+The laryngospasm card falls from seven unsourced statements to three: removing the stimulus,
+avoiding vigorous positive pressure, and the management of negative-pressure pulmonary edema. The
+first two have not been searched for. The third has a named, free, unretrieved target, Scarbrough
+1997 in Anesth Prog.

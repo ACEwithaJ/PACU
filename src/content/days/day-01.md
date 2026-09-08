@@ -18,6 +18,7 @@ evidence:
   - herbstreit-2010
   - fda-sugammadex-label-2026
   - fda-edrophonium-drugsfda-2026
+  - renew-2026
 draft: false
 review_due: 2027-09-06
 quiz:
@@ -136,6 +137,8 @@ Sugammadex is dosed by depth: 2 mg/kg at the reappearance of the second twitch, 
 
 Edrophonium has no marketed finished product in the United States: every FDA application for it, under the brand names Enlon, Enlon-Plus, Reversol and Tensilon and as generics, was listed as discontinued in Drugs@FDA when this was checked on 2026-09-06, and the one DailyMed listing has both of its national drug codes inactivated. No reversal content on this site names it. Two cautions attach to that sentence. It is a dated claim rather than a settled fact, because the FDA approved a labeling supplement for Enlon-Plus in October 2025 and an active sponsor maintaining an application is consistent with an intent to re-market, so it needs re-checking rather than repeating. It now has a ledger row, recording every application and its marketing status, the one inactivated DailyMed listing, and the October 2025 supplement as the reason this is a claim to re-check rather than repeat [[fda-edrophonium-drugsfda-2026]].
 
+
+How much of this has reached practice is worth knowing, and the answer is not much. Two years after the guideline, a survey of American Society of Anesthesiologists members found quantitative monitors used consistently by 19% of respondents, a majority of 53% never using quantitative monitoring to confirm recovery, and 61% reporting no change in their use of such devices since the guideline appeared; 6% were unaware of it [[renew-2026]]. Weigh that against how it was collected. It is a cross-sectional survey with a 3% response rate, and its authors say plainly that conclusions must be tempered by that [[renew-2026]]. A 3% response is the kind of number that tells you which way the wind blows and not how hard.
 Two things this page used to carry as general recommendations have been removed rather than relabeled, because both are factual claims with no source in this ledger. One was that acceleromyographic monitors read high and need normalization to a baseline while electromyographic monitors do not. The other was that sugammadex is not recommended below a creatinine clearance of 30 mL/min: its label covers how long to wait before re-dosing a steroidal relaxant in renal impairment, which is a different statement, and no source here sets that threshold. Both are recorded in the repository's gap register.
 
 ## At the bedside

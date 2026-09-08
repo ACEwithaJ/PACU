@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: larson-1998
+day: 2
+citation: Larson CP Jr. Laryngospasm - the best treatment. Anesthesiology. 1998 Nov;89(5):1293-1294.
+doi: 10.1097/00000542-199811000-00056
+pmid: "9822036"
+design: expert_opinion
+year: 1998
+n: none; the author reports no cases
+access: paywalled
+currency: current
+topic: airway
+claim_support: magnitude
+supports: "THE ORIGIN OF THE LARSON MANEUVER, AND IT CONTAINS NO DATA. Read in full 2026-09-08 under institutional entitlement. Notch location VERBATIM: This notch is behind the lobule of the pinna of each ear. It is bounded anteriorly by the ascending ramus of the mandible adjacent to the condyle, posteriorly by the mastoid process of the temporal bone, and cephalad by the base of the skull. Technique VERBATIM: The therapist presses very firmly inward toward the base of the skull with both fingers, while at the same time lifting the mandible at a right angle to the plane of the body (i.e., forward displacement of the mandible or jaw thrust). Properly performed, it will convert laryngospasm within one or two breaths to laryngeal stridor and in another few breaths to unobstructed respirations. THE EVIDENCE BASE, IN THE AUTHOR OWN WORDS, VERBATIM: Almost 40 years ago, Dr. N. P. Guadagni showed me a technique for prompt termination of laryngospasm, which I have used countless times with complete success. And: a thorough literature search has not revealed any mention of it. And on mechanism: The obvious question is, Why does it work? Unfortunately, a sound, scientific answer cannot be provided. NO CASES AND NO DATA ARE REPORTED; this is personal practice. It also summarises what textbooks said in 1998, VERBATIM: standard textbooks of anesthesiology suggest virtually the same sequence: namely jaw thrust at the angle of the mandible while applying positive-pressure ventillation with oxygen, 100%, by bag and mask and, if that fails, administering succinylcholine, the recommended dose varying from 0.25 to 1 mg/kg intravenously or 4 mg/kg intramuscularly. (The misspelling is the source own.) That is the author characterising textbooks, not primary evidence. CITATION TRAP: the publisher byline renders the author as Philip C. Larson; the signature block reads C. Philip Larson, Jr. Cite as Larson CP Jr."
+found_via: journals.lww.com full text under institutional entitlement; PubMed record for the identifiers and publication type Letter
+verified_on: 2026-09-08, round 6
