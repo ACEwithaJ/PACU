@@ -254,3 +254,58 @@ purchase-only standards volume. That one will not yield to any session.
 **A note for round 6 on which browser to use.** Round 3's authenticated session was the Windows
 browser. Round 5 ran on the macOS one, which is not signed in to the institution. If entitlement
 matters, that is the choice that decides the round.
+
+---
+
+# Round 6 outcomes, 2026-09-08
+
+Round 6 ran with institutional entitlement live, which is what rounds 5 and 6 turned on. Two more
+pages clear, one teaching error is corrected, and one card is rewritten around what is actually
+sourced.
+
+| Entry | Status after round 6 |
+|---|---|
+| Day 15, the three discharge score item lists | **One solved, two closed as unreachable.** The fast-track items were transcribed by eye from the paper's own table image. The other two are not held by the institution and no browser session will reach them; the page says so. Day 15 is cleared |
+| The hypotension card, a sourced differential | **CLOSED as not existing in what is reachable.** The consensus statement on postoperative blood pressure contains anaphylaxis, sepsis, vasodilatation and sympathectomy zero times. The card is rewritten around what that statement does support, and it contradicts the reflexive-fluids framing the card used to teach. Card is cleared |
+| The laryngospasm card, propofol | **CORRECTED.** The trial cited for it gave propofol before extubation to children who had not developed laryngospasm. It is prevention, not rescue, and the card said rescue |
+| The laryngospasm card, low-dose succinylcholine | **SOURCED, and it is thin.** Three episodes of vocal cord spasm relieved by 0.1 mg/kg. That is the whole primary evidence |
+| The laryngospasm card, jaw thrust and CPAP | **SOURCED for their place in the order**, before the notch maneuver, from the letter that also calls the maneuver unproven |
+| The laryngospasm card, atropine | **NOT FOUND after six rounds.** The problem is sourced, the drug is not, and the card now separates the two |
+| Day 19, a general nerve injury rate | **CLOSED.** 112 injuries in 380,680 anesthetics, 0.03%, carried as a floor rather than a rate because case-finding was retrospective and unscreened |
+
+## What is still open
+
+**The laryngospasm card is the only page left in draft**, and its remaining blocks are:
+
+1. **The Larson maneuver itself.** Its source is a 1998 letter, read in full, in which the author
+   states he has used the technique countless times with complete success, that a literature search
+   revealed no mention of it, and that no sound scientific answer can be given for why it works.
+   That row cannot enter the ledger because `DESIGNS` has no term for correspondence. See
+   `docs/design-vocabulary-decision.md`. This is the single decision holding up the last card.
+2. **Removing the stimulus**, suction and stopping airway manipulation. No source sought.
+3. **Treating negative-pressure pulmonary edema.** Incidence is sourced at 4% of laryngospasm
+   incidents; management is not. Round 6 names Scarbrough 1997 in Anesth Prog, free at PMC, as the
+   cheapest next target and did not retrieve it.
+4. **A rescue-facing propofol paper**, if the card wants one: Afshan 2002 in Paediatr Anaesth.
+   Not retrieved.
+
+## The single highest-value attachment
+
+Round 6's own recommendation, and it is specific: **attach PMC1744026 as a PDF**, the laryngospasm
+crisis-management paper. It contains a published laryngospasm sub-algorithm validated against 189
+real incidents, reporting that correct application would have led to earlier recognition or better
+management in 16% of cases. The abstract gave the incidence figures this site already cites; the
+sub-algorithm is only in the PDF, which PMC serves into a viewer the browser tools cannot read.
+
+Since round 3 this site has said, correctly, that no society guideline states a laryngospasm
+sequence. That paper is not a society guideline, but it is the closest thing six rounds have found
+to a published sequence with data behind it.
+
+## New debts opened this round
+
+- **thompson-2024-accaha carries a published correction that has not been read.** Its beta-blocker
+  wording is quoted on Day 6 and the hypertension card. If the correction touches that section the
+  wording needs revisiting.
+- **Day 10 versus the 2026 ASA regional analgesia guideline is an open comparison.** The guideline
+  is confirmed to exist and to be current; its recommendations have not been read, and no row has
+  been marked superseded by it. Day 10 says so on the page.

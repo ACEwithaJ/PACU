@@ -9,9 +9,10 @@ evidence:
   - mcevoy-2019
   - salmasi-2017
   - garvey-2019
+  - mcevoy-2019
   - fda-phenylephrine-biorphen-label-2022
   - fda-ephedrine-label-2023
-draft: true
+draft: false
 ---
 ## Confirm, then start the clock
 
@@ -21,23 +22,23 @@ Every 10 minutes counts. In the trial substudy, the odds of myocardial infarctio
 
 An absolute number is enough to act on: absolute mean-pressure thresholds perform about as well as percentage reductions from a patient's own baseline [[salmasi-2017]].
 
-## Work the differential while you treat
+## Work out why, while you treat
 
-1. [GENERAL: Hypovolemia and ongoing bleeding. Look at the drains, the dressing, the abdomen and the hemoglobin. This is the first thing to exclude in a patient who was fine in the operating room.]
+The cause list residents are taught for this has no source, and that is a finding rather than an omission. It was searched for across two retrieval rounds, and the one consensus statement that covers postoperative blood pressure contains the words anaphylaxis, sepsis, vasodilatation and sympathectomy zero times between them [[mcevoy-2019]]. So this card no longer teaches a five-cause differential as though somebody had established it.
 
-2. [GENERAL: Vasodilatation from residual anesthetic, or a neuraxial sympathectomy that is still ascending. Warm, well-perfused peripheries with a low pressure and a low or normal heart rate.]
+What is sourced is an approach, and it contradicts the reflex this card used to encourage. The consensus statement asks for a structured bedside assessment in response to postoperative hypotension, in order to determine the cause, select treatment if any is indicated, and reconsider how closely the patient should be watched [[mcevoy-2019]]. It says plainly that much postoperative hypotension is not caused by hypovolemia [[mcevoy-2019]].
 
-3. [GENERAL: Anaphylaxis.] Hypotension is the presenting feature in 46% of perioperative anaphylaxis, and skin signs may be absent in the severe grades until perfusion is restored [[garvey-2019]]. If this is on your list, go to the anaphylaxis dosing on Day 20 now rather than after a fluid bolus.
+The numbers behind that are worth carrying. In a recovery-room study of spontaneously breathing patients with suspected hypovolemia, only 54% responded to a fluid bolus, which means the usual reflex of correcting a low pressure with fluid is wrong about half the time [[mcevoy-2019]]. Across a meta-analysis of 2260 patients, fluid responsiveness averaged 50%, the typical signs of hypovolemia did not predict it, and a rise in cardiac output after a passive leg raise did, at a positive likelihood ratio of 11 (95% CI 7.6 to 17) [[mcevoy-2019]].
 
-4. [GENERAL: Cardiac causes: ischemia, a new arrhythmia, tamponade, pulmonary embolism, tension pneumothorax. Look at the rhythm, the neck veins and the breath sounds, and get an electrocardiogram.]
+So: assess, do not assume. Use a passive leg raise to decide between fluid and a vasopressor, because for a positive test fluid is appropriate in many instances, and where preload does not need augmenting a vasopressor or inotrope is what is indicated [[mcevoy-2019]]. Anaphylaxis still belongs on any list you make, for the reason below, and the rest of the causes you were taught belong to your own reasoning rather than to a citable source.
 
-5. [GENERAL: Sepsis, particularly after abdominal or urological surgery in a patient who was febrile beforehand.]
+Hypotension is the presenting feature in 46% of perioperative anaphylaxis, and skin signs may be absent in the severe grades until perfusion is restored [[garvey-2019]]. If that is on your list, go to the anaphylaxis dosing on Day 20 now rather than after a fluid bolus.
 
 ## First moves
 
 A fluid bolus, and a vasopressor chosen by the heart rate. Both agents are labelled for exactly this situation. Ephedrine is indicated for clinically important hypotension occurring in the setting of anesthesia, at an initial 5 to 10 mg by intravenous bolus with further boluses as needed, not exceeding a total of 50 mg [[fda-ephedrine-label-2023]]. Phenylephrine is indicated for clinically important hypotension resulting primarily from vasodilation in the setting of anesthesia, and the dose depends on which product you are holding: the vial gives an initial 40 to 100 micrograms by bolus with further boluses up to 200 micrograms every 1 to 2 min, while the ready-to-use premix gives 50 to 250 micrograms [[fda-phenylephrine-biorphen-label-2022]]. Read the vial rather than a remembered range.
 
-[GENERAL: Escalation to a norepinephrine infusion when the pressure will not hold is standard practice and carries no source in this ledger.]
+Escalating to a norepinephrine infusion when the pressure will not hold is standard practice and it has no source here. The consensus statement mentions norepinephrine exactly once, describing a trial of an infusion run during and for four hours after surgery, not as a recovery-room escalation [[mcevoy-2019]].
 
 An indication is not outcome evidence. No label here shows that treating the number changes what happens to the patient.
 

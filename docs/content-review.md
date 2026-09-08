@@ -10,7 +10,7 @@ general recommendation (rule 15): a page carrying either cannot be cleared. The 
 recommendations are the ones to replace first — each is a widely taught statement that
 carries no ledger entry, and a retrieval round should turn it into a cited sentence.
 
-Placeholders: 2 · Practice varies: 27 · General recommendations: 16
+Placeholders: 0 · Practice varies: 27 · General recommendations: 7
 
 ## src/content/cards/card-hypertension.md
 
@@ -19,23 +19,17 @@ Placeholders: 2 · Practice varies: 27 · General recommendations: 16
 
 ## src/content/cards/card-hypotension.md
 
-- line 26 — general recommendation: `[GENERAL: Hypovolemia and ongoing bleeding. Look at the drains, the dressing, the abdomen and the hemoglobin. This is the first thing to exclude in a patient who was fine in the operating room.]`
-- line 28 — general recommendation: `[GENERAL: Vasodilatation from residual anesthetic, or a neuraxial sympathectomy that is still ascending. Warm, well-perfused peripheries with a low pressure and a low or normal heart rate.]`
-- line 30 — general recommendation: `[GENERAL: Anaphylaxis.]`
-- line 32 — general recommendation: `[GENERAL: Cardiac causes: ischemia, a new arrhythmia, tamponade, pulmonary embolism, tension pneumothorax. Look at the rhythm, the neck veins and the breath sounds, and get an electrocardiogram.]`
-- line 34 — general recommendation: `[GENERAL: Sepsis, particularly after abdominal or urological surgery in a patient who was febrile beforehand.]`
-- line 40 — general recommendation: `[GENERAL: Escalation to a norepinephrine infusion when the pressure will not hold is standard practice and carries no source in this ledger.]`
-- line 44 — practice varies: `[PRACTICE VARIES: the pressure at which a PACU protocol triggers treatment, and the first-line agent, differ between institutions; follow local protocol.]`
+- line 45 — practice varies: `[PRACTICE VARIES: the pressure at which a PACU protocol triggers treatment, and the first-line agent, differ between institutions; follow local protocol.]`
 
 ## src/content/cards/card-laryngospasm.md
 
-- line 22 — general recommendation: `[GENERAL: Remove the stimulus: suction blood and secretions, stop any airway manipulation, and take out an airway device the patient is fighting.]`
-- line 24 — general recommendation: `[GENERAL: Jaw thrust with firm pressure in the laryngospasm notch behind the earlobe, the Larson maneuver, with chin lift; place an oral or nasal airway if the tongue is the obstruction.]`
-- line 26 — general recommendation: `[GENERAL: Continuous positive airway pressure by a tight-fitting mask with the reservoir bag. Avoid vigorous positive pressure, which inflates the stomach and makes everything worse.]`
-- line 28 — general recommendation: `[GENERAL: If it is not breaking, deepen anesthesia: propofol about 0.5 to 1 mg/kg intravenously in a patient with access.]`
-- line 30 — general recommendation: `[GENERAL: If still obstructed or desaturating, succinylcholine. Doses commonly quoted are 0.1 to 0.5 mg/kg intravenously at low dose, or 1 to 1.5 mg/kg with intubation. No trial compares these sequences.]`
-- line 32 — general recommendation: `[GENERAL: In a child, give atropine for the bradycardia that accompanies hypoxia and succinylcholine.]`
-- line 38 — general recommendation: `[GENERAL: Treat it with oxygen and continuous positive airway pressure, and reintubate if the patient cannot maintain oxygenation; it usually settles within 12 to 24 hours.]`
+- line 25 — general recommendation: `[GENERAL: Remove the stimulus: suction blood and secretions, stop any airway manipulation, and take out an airway device the patient is fighting.]`
+- line 27 — general recommendation: `[GENERAL: Jaw thrust with firm pressure in the laryngospasm notch behind the earlobe, the Larson maneuver, with chin lift; place an oral or nasal airway if the tongue is the obstruction. The maneuver's origin is a 1998 letter whose author reports no cases and no mechanism, and that letter cannot be cited here yet because this project's source vocabulary has no term for correspondence.]`
+- line 29 — general recommendation: `[GENERAL: Avoid vigorous positive pressure, which inflates the stomach and makes everything worse.]`
+- line 31 — general recommendation: `[GENERAL: Deepening anesthesia with propofol to break an established laryngospasm is widely taught, and the paper that gets cited for it does not show that. A rescue-facing study exists and has not been retrieved.]`
+- line 33 — general recommendation: `[GENERAL: Larger doses are also quoted, commonly 1 to 1.5 mg/kg intravenously with intubation, or 3 to 4 mg/kg intramuscularly when there is no intravenous access. No trial compares these sequences.]`
+- line 35 — general recommendation: `[GENERAL: In a child, give atropine for the bradycardia that accompanies hypoxia and succinylcholine. No source found in six retrieval rounds supports atropine as the treatment; what is sourced is the problem, not the drug.]`
+- line 41 — general recommendation: `[GENERAL: Treat it with oxygen and continuous positive airway pressure, and reintubate if the patient cannot maintain oxygenation; it usually settles within 12 to 24 hours.]`
 
 ## src/content/days/day-01.md
 
@@ -72,7 +66,7 @@ Placeholders: 2 · Practice varies: 27 · General recommendations: 16
 
 ## src/content/days/day-10.md
 
-- line 101 — practice varies: `[PRACTICE VARIES: the opioid, bolus size, interval, pain-score threshold and sedation limit used for PACU titration differ between institutions; follow local protocol and know its endpoint.]`
+- line 102 — practice varies: `[PRACTICE VARIES: the opioid, bolus size, interval, pain-score threshold and sedation limit used for PACU titration differ between institutions; follow local protocol and know its endpoint.]`
 
 ## src/content/days/day-11.md
 
@@ -94,12 +88,7 @@ Placeholders: 2 · Practice varies: 27 · General recommendations: 16
 
 ## src/content/days/day-15.md
 
-- line 101 — placeholder: `[NUMBER NEEDED: the modified Aldrete items and threshold, the five PADSS items, and the fast-track items, from the full texts.]`
-- line 101 — placeholder: `[NUMBER NEEDED: urinary retention risk after peripheral nerve block in ambulatory patients.]`
-- line 105 — practice varies: `[PRACTICE VARIES: whether voiding is required before discharge, and for whom, differs between institutions and after neuraxial anesthesia in particular; follow local protocol and be able to say what it rests on.]`
-- line 116 — general recommendation: `[GENERAL: The modified Aldrete score has five items, activity, respiration, circulation, consciousness and oxygen saturation, each scored 0 to 2, with 9 or more of 10 usually required for discharge.]`
-- line 118 — general recommendation: `[GENERAL: The post-anesthetic discharge scoring system has five items, vital signs, activity, nausea and vomiting, pain, and surgical bleeding, each scored 0 to 2, with 9 or more of 10 usually required for home readiness.]`
-- line 120 — general recommendation: `[GENERAL: The White fast-track criteria have seven items, level of consciousness, physical activity, hemodynamic stability, respiratory stability, oxygen saturation, pain and emetic symptoms, each scored 0 to 2, with 12 or more of 14 and no single item scored 0 usually required to bypass phase one recovery.]`
+- line 111 — practice varies: `[PRACTICE VARIES: whether voiding is required before discharge, and for whom, differs between institutions and after neuraxial anesthesia in particular; follow local protocol and be able to say what it rests on.]`
 
 ## src/content/days/day-16.md
 
@@ -116,7 +105,7 @@ Placeholders: 2 · Practice varies: 27 · General recommendations: 16
 
 ## src/content/days/day-19.md
 
-- line 111 — practice varies: `[PRACTICE VARIES: whether a formal visual check is part of PACU discharge after spine surgery, and how peripheral nerve findings are documented, differ between institutions.]`
+- line 112 — practice varies: `[PRACTICE VARIES: whether a formal visual check is part of PACU discharge after spine surgery, and how peripheral nerve findings are documented, differ between institutions.]`
 
 ## src/content/days/day-20.md
 

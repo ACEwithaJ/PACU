@@ -11,6 +11,7 @@ evidence:
   - frasca-2007
   - aubrun-2003
   - elboghdadly-2024
+  - asa-2026-regional-analgesia
   - aubrun-2001
   - asa-acute-pain-2012
 draft: false
@@ -105,6 +106,8 @@ The guideline that would carry a general recommendation has not been read: That 
 The multimodal recommendation this page lost now has a source, though a qualified one. A 2024 multidisciplinary consensus statement asks that multimodal analgesia be encouraged throughout the perioperative pathway where not contraindicated, naming paracetamol, non-steroidal anti-inflammatory drugs, alpha-2 adrenergic agonists, N-methyl-D-aspartate antagonists, corticosteroids and regional analgesia, and that intraoperative analgesia be multimodal and extend into the postoperative period [[elboghdadly-2024]]. Its own account of its method matters as much as its content: it did not include a full systematic review with quantitative or qualitative synthesis, nor grading of recommendations, so its recommendations are unnumbered and ungraded and it says several are supported by modest evidence [[elboghdadly-2024]]. Take it as a statement of what a multidisciplinary group agreed, arrived at by a four-round Delphi with a 75% consensus threshold, rather than as a graded recommendation [[elboghdadly-2024]].
 
 The United States guideline usually credited with this material is in the ledger and its recommendation text has still never been read, so nothing is quoted from it here [[chou-2016]]. A newer document was checked as a possible replacement for it and does not replace it: different jurisdiction, different societies, explicitly ungraded, and it cites the older guideline as its own reference rather than superseding it [[elboghdadly-2024]].
+
+One currency question on this page is open and the reader should know it. A 2026 American Society of Anesthesiologists practice guideline exists on perioperative pain management using local and regional analgesia for cardiothoracic, mastectomy and abdominal surgery in adults and children [[asa-2026-regional-analgesia]]. Its recommendations have not been read, so nothing here is quoted from it and no source on this page has been marked superseded by it. Whether it changes any of what is above is an open comparison, not a settled one.
 
 ## At the bedside
 
