@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: chou-2016
+day: 10
+citation: "Chou R, Gordon DB, de Leon-Casasola OA, Rosenberg JM, Bickler S, Brennan T, Carter T, Cassidy CL, Chittenden EH, Degenhardt E, Griffith S, Manworren R, McCarberg B, Montgomery R, Murphy J, Perkal MF, Suresh S, Sluka K, Strassels S, Thirlby R, Viscusi E, Walco GA, Warner L, Weisman SJ, Wu CL. Management of Postoperative Pain: A Clinical Practice Guideline From the American Pain Society, the American Society of Regional Anesthesia and Pain Medicine, and the American Society of Anesthesiologists' Committee on Regional Anesthesia, Executive Committee, and Administrative Council. J Pain. 2016;17(2):131-157."
+doi: 10.1016/j.jpain.2015.12.008
+pmid: "26827847"
+design: guideline
+year: 2016
+n: NA
+access: paywalled
+currency: current
+topic: analgesia
+claim_support: magnitude
+supports: "ROW CREATED WITHOUT ITS RECOMMENDATION TEXT. The multimodal-analgesia recommendation, its strength and its evidence grade were NOT READ and must not be quoted until they are. Every full-text route failed for bot reasons rather than paywall reasons (jpain.org 403 on both fulltext and pdf, ScienceDirect robots-disallowed, linkinghub empty), so access is UNVERIFIED, not paywalled. CURRENCY IS ALSO UNVERIFIED: the American Pain Society dissolved in 2019, and a newer overlapping document exists (Association of Anaesthetists and British Pain Society, Peri-operative pain management in adults, Anaesthesia, DOI 10.1111/anae.16391, seen in search results and NOT opened). Whether Chou 2016 is still the current US document is an open question."
+found_via: PubMed record 26827847, which rendered once before the site began blocking; DOI independently confirmed by resolving doi.org to the correct Elsevier PII
+verified_on: 2026-09-08, PubMed record page and doi.org resolution read by a delegated retrieval session in this round

@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fleisher-2014
+day: 6
+citation: Fleisher LA, Fleischmann KE, Auerbach AD, Barnason SA, Beckman JA, Bozkurt B, Davila-Roman VG, Gerhard-Herman MD, Holly TA, Kane GC, Marine JE, Nelson MT, Spencer CC, Thompson A, Ting HH, Uretsky BF, Wijeysundera DN. 2014 ACC/AHA Guideline on Perioperative Cardiovascular Evaluation and Management of Patients Undergoing Noncardiac Surgery. J Am Coll Cardiol. 2014;64(22):e77-e137.
+doi: 10.1016/j.jacc.2014.07.944
+pmid: null
+design: guideline
+year: 2014
+n: NA
+access: open
+currency: superseded_by:thompson-2024-accaha
+topic: hypertension
+claim_support: magnitude
+supports: "PREDECESSOR ROW, kept only to show what changed. Class I recommendation, VERBATIM: 'Beta blockers should be continued in patients undergoing surgery who have been on beta blockers chronically.' Level of Evidence returned as B with an 'SR' annotation, which in that document marks recommendations supported by its commissioned systematic review; how the SR tag is typeset on the printed page could not be confirmed, so treat the LOE as B with the SR annotation uncertain. The 2024 ACC/AHA guideline is the current version and its wording differs, adding 'on stable doses' and 'as appropriate based on the clinical circumstances'."
+found_via: JACC article page for DOI 10.1016/j.jacc.2014.07.944; the Circulation version at 10.1161/CIR.0000000000000106 returned 403, which is a block and not a paywall
+verified_on: 2026-09-08, JACC article page read by a delegated retrieval session in this round

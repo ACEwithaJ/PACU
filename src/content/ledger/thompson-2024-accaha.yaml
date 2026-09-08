@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: thompson-2024-accaha
+day: 6
+citation: Thompson A, Fleischmann KE, Smilowitz NR, de Las Fuentes L, Mukherjee D, Aggarwal NR, Ahmad FS, Allen RB, Altin SE, Auerbach A, Berger JS, Chow B, Dakik HA, Eisenstein EL, Gerhard-Herman M, Ghadimi K, Kachulis B, Leclerc J, Lee CS, Macaulay TE, Mates G, Merli GJ, Parwani P, Poole JE, Rich MW, Ruetzler K, Stain SC, Sweitzer B, Talbot AW, Vallabhajosyula S, Whittle J, Williams KA. 2024 AHA/ACC/ACS/ASNC/HRS/SCA/SCCT/SCMR/SVM Guideline for Perioperative Cardiovascular Management for Noncardiac Surgery. Circulation. 2024;150(19):e351-e442.
+doi: 10.1161/CIR.0000000000001285
+pmid: null
+design: guideline
+year: 2024
+n: NA
+access: open
+currency: current
+topic: hypertension
+claim_support: magnitude
+supports: "ANSWERS THE DAY 6 / HYPERTENSION CARD BETA-BLOCKER QUESTION. Section 7.7 Perioperative Beta Blockers, COR 1, LOE B-NR, VERBATIM: 'In patients on stable doses of beta blockers undergoing NCS, beta blockers should be continued through the perioperative period as appropriate based on the clinical circumstances.' Adjacent, COR 2b LOE B-NR: 'In patients scheduled for elective NCS who have a new indication for beta blockade, beta blockers may be initiated far enough before surgery (optimally >7 days) to permit assessments of tolerability and drug titration if needed.' And COR 3 Harm, LOE B-R: 'In patients undergoing NCS and with no immediate need for beta blockers, beta blockers should not be initiated on the day of surgery due to increased risk for postoperative mortality.' ROUTE CAVEAT THAT MUST BE RESOLVED BEFORE THIS IS QUOTED AS VERBATIM FROM THE JOURNAL: the Circulation article page loaded and is marked Free Access, but its section 7.7 body text was truncated out of what the fetcher returned. The quoted text above was read from the AHA's own official slide set for this guideline on professional.heart.org, which reproduces the recommendation tables with COR and LOE. That is an AHA publication but it is not the journal article. One confirmatory read of Circulation page e399 is recommended."
+found_via: ahajournals.org article page for the DOI, which confirmed pages e351-e442, 'Originally published September 24, 2024' and 'Free Access'; recommendation text from the AHA official slide set on professional.heart.org
+verified_on: 2026-09-08, article page and AHA slide set read by a delegated retrieval session in this round; PMID 39316661 from the Europe PMC REST record only, therefore UNVERIFIED

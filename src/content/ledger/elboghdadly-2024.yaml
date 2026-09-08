@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: elboghdadly-2024
+day: 10
+citation: "El-Boghdadly K, Levy NA, Fawcett WJ, Knaggs RD, Laycock H, Baird E, Cox FJ, Eardley W, Kemp H, Malpus Z, Partridge A, Partridge J, Patel A, Price C, Robinson J, Russon K, Walumbe J, Lobo DN. Peri-operative pain management in adults: a multidisciplinary consensus statement from the Association of Anaesthetists and the British Pain Society. Anaesthesia. 2024;79(11):1220-1236."
+doi: 10.1111/anae.16391
+pmid: null
+design: consensus_statement
+year: 2024
+n: NA
+access: open
+currency: current
+topic: analgesia
+claim_support: magnitude
+supports: "DOES NOT SUPERSEDE chou-2016; use as an additional current UK-side citation. Recommendations box, VERBATIM: 'Throughout the peri-operative pathway and, where not contraindicated, multimodal analgesia should be encouraged, including paracetamol; non-steroidal anti-inflammatory drugs; a-2 adrenergic agonists; N-methyl-D-aspartate antagonists; corticosteroids; and regional analgesia.' Intra-operative, VERBATIM: 'Intra-operative analgesia should be multimodal and extend into the postoperative period.' General principles, VERBATIM: 'The principle of multimodal analgesia is that improved pain relief can be achieved by combining analgesics with different mechanisms of action that work synergistically' and 'Opioids continue to have a pivotal role in peri-operative pain management.' CRITICAL QUALIFIER, VERBATIM: 'Our methodology did not include a full systematic review with quantitative or qualitative synthesis, nor grading of recommendations, due to the breadth of the topic and expected heterogeneity in evidence.' The recommendations are therefore UNNUMBERED AND UNGRADED. Method was a four-round modified Delphi with a 75% consensus threshold; the document also says 'many of the recommendations are supported by modest evidence'. It cites Chou 2016 as its reference 2 rather than replacing it, is a UK document from different societies, and nowhere claims to supersede any prior guideline."
+found_via: full-text PDF opened on the British Pain Society site, britishpainsociety.org
+verified_on: 2026-09-08, full text read by a delegated retrieval session in this round; volume/issue/pages and PMID 39319373 come from the Europe PMC REST record, NOT from a PubMed page, so the PMID is UNVERIFIED and pagination is unconfirmed (the free PDF is the early-view version with no page numbers; Wiley returned 403)
