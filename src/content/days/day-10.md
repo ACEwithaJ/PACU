@@ -10,6 +10,7 @@ evidence:
   - paqueron-2002
   - frasca-2007
   - aubrun-2003
+  - elboghdadly-2024
   - aubrun-2001
   - asa-acute-pain-2012
 draft: false
@@ -101,7 +102,9 @@ The Aubrun regimens are one institution's protocol. The bolus sizes, the interva
 
 The guideline that would carry a general recommendation has not been read: That guideline's own statements on opioid titration, and whether it is still current, have not been read. The 2012 review by the Aubrun group is a narrative review and stays a finding aid rather than support.
 
-The multimodal recommendation this page used to carry as a general one has been removed rather than relabeled. Acetaminophen and a nonsteroidal unless contraindicated, a site-appropriate regional technique, and an opioid reserved for what those do not cover, is the current standard and this project cannot yet cite it. The guideline usually credited with it is in the repository's held-rows note: its identifiers are verified, its recommendation text has never been read, and its currency is genuinely open because the society that issued it dissolved in 2019.
+The multimodal recommendation this page lost now has a source, though a qualified one. A 2024 multidisciplinary consensus statement asks that multimodal analgesia be encouraged throughout the perioperative pathway where not contraindicated, naming paracetamol, non-steroidal anti-inflammatory drugs, alpha-2 adrenergic agonists, N-methyl-D-aspartate antagonists, corticosteroids and regional analgesia, and that intraoperative analgesia be multimodal and extend into the postoperative period [[elboghdadly-2024]]. Its own account of its method matters as much as its content: it did not include a full systematic review with quantitative or qualitative synthesis, nor grading of recommendations, so its recommendations are unnumbered and ungraded and it says several are supported by modest evidence [[elboghdadly-2024]]. Take it as a statement of what a multidisciplinary group agreed, arrived at by a four-round Delphi with a 75% consensus threshold, rather than as a graded recommendation [[elboghdadly-2024]].
+
+The United States guideline usually credited with this material is in the ledger and its recommendation text has still never been read, so nothing is quoted from it here [[chou-2016]]. A newer document was checked as a possible replacement for it and does not replace it: different jurisdiction, different societies, explicitly ungraded, and it cites the older guideline as its own reference rather than superseding it [[elboghdadly-2024]].
 
 ## At the bedside
 

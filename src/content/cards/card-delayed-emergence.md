@@ -5,6 +5,7 @@ purpose: The patient is not waking, and the order you work in decides what you f
 day: 13
 evidence:
   - fda-naloxone-label-2023
+  - kim-2016-naloxone
   - fda-flumazenil-label-2025
   - link-1997
   - thilen-2023
@@ -36,7 +37,7 @@ The order is expert consensus, not a trial result [[ellis-2017]].
 
 ## The reversal agents, and their traps
 
-**Naloxone.** For postoperative opioid depression the label gives increments of 0.1 to 0.2 mg intravenously at two to three minute intervals to the desired degree of reversal. Because the duration of action of some opioids exceeds that of naloxone, whose adult serum half-life ranged from 30 to 81 minutes in one study, the patient must be kept under continued surveillance and repeat doses given as necessary [[fda-naloxone-label-2023]]. The smaller increments of 0.04 to 0.1 mg that are widely taught to avoid abrupt reversal are not in that labelling; its only smaller increments are pediatric, so treat 40 micrograms as a practice convention rather than a label dose [[fda-naloxone-label-2023]]. Abrupt reversal may cause nausea, vomiting, sweating, tachycardia, hypertension, seizures, ventricular arrhythmias, pulmonary edema and cardiac arrest [[fda-naloxone-label-2023]].
+**Naloxone.** For postoperative opioid depression the label gives increments of 0.1 to 0.2 mg intravenously at two to three minute intervals to the desired degree of reversal. Because the duration of action of some opioids exceeds that of naloxone, whose adult serum half-life ranged from 30 to 81 minutes in one study, the patient must be kept under continued surveillance and repeat doses given as necessary [[fda-naloxone-label-2023]]. The small increment widely taught to avoid abrupt reversal is not in that labelling, whose only smaller increments are pediatric [[fda-naloxone-label-2023]]. Its one primary source is a 15-patient retrospective emergency department case series, mostly methadone ingestions, starting at 0.04 mg and titrating to a median total of 0.08 mg, in which 2 of 15 went into acute withdrawal [[kim-2016-naloxone]]. Wrong setting, wrong population, no control group. Treat it as a practice convention. Abrupt reversal may cause nausea, vomiting, sweating, tachycardia, hypertension, seizures, ventricular arrhythmias, pulmonary edema and cardiac arrest [[fda-naloxone-label-2023]].
 
 **If you give naloxone, you have committed to watching the patient for longer than the naloxone lasts.**
 
