@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: muth-2007
+day: 9
+citation: Muth ER, Elkins AN. High dose ondansetron for reducing motion sickness in highly susceptible subjects. Aviat Space Environ Med. 2007;78:686-692.
+doi: null
+pmid: null
+design: rct
+year: 2007
+n: "63"
+access: open
+currency: current
+topic: ponv
+claim_support: magnitude
+supports: "PARTIAL ANSWER TO THE DAY 9 PLACEHOLDER, AND THE DIRECTOR SHOULD DECIDE WHETHER IT IS ENOUGH. Randomised, double-blind, placebo-controlled, between-subjects; 63 highly motion-sickness-susceptible subjects (23 men, 40 women, mean age 19.5 y); rotation at 20 rpm in darkness with coordinated head movements; ondansetron 24 mg as three 8 mg orally disintegrating tablets versus placebo versus dimenhydrinate 100 mg. VERBATIM: 'There were no differences between the groups in number of head movements tolerated, time rotating, or symptom questionnaire scores.' Conclusion VERBATIM: 'Neither ondansetron or dimenhydrinate prevented motion sickness in groups of highly susceptible people. Continued development of new treatments is necessary.' WHAT IT DOES NOT SHOW: this is ondansetron versus placebo for motion sickness. It is not a head-to-head demonstration that ondansetron is LESS effective against vestibular input than against other emetic inputs, which is how Day 9 currently frames the claim. It supports only the first half."
+found_via: search for a primary study of ondansetron in motion-induced nausea; PDF hosted at a third-party mirror, publisher access not tested
+verified_on: 2026-09-08, article PDF read by a delegated retrieval session in this round; DOI not present on the document; PMID seen only in a search-result URL and therefore UNVERIFIED

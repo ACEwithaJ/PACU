@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-clevidipine-label-2022
+day: 6
+citation: CLEVIPREX (clevidipine) injectable emulsion [prescribing information]. Chiesi USA, Inc. Revised 9/2022. DailyMed set ID f9290625-b723-4eda-bab8-a97bef6041f6. DailyMed updated 6 November 2025.
+doi: null
+pmid: null
+design: advisory
+year: 2022
+n: NA
+access: open
+currency: current
+topic: hypertension
+claim_support: magnitude
+supports: "FDA label section 2.2, VERBATIM: 'Initiate the intravenous infusion of Cleviprex at 1-2 mg/hour.' And: 'The dose may be doubled at short (90 second) intervals initially. As the blood pressure approaches goal, the increase in doses should be less than doubling and the time between dose adjustments should be lengthened to every 5-10 minutes. An approximately 1-2 mg/hour increase will generally produce an additional 2-4 mmHg decrease in systolic pressure.' And: 'The desired therapeutic response for most patients occurs at doses of 4-6 mg/hour. Patients with severe hypertension may require doses up to 32 mg/hour, but there is limited experience at this dose rate.' Lipid-load limit, VERBATIM: 'Because of lipid load restrictions, no more than 1000 mL or an average of 21 mg/hour of Cleviprex infusion is recommended per 24 hour period.' Section 2.1, VERBATIM: 'Patients who receive prolonged Cleviprex infusions and are not transitioned to other antihypertensive therapies should be monitored for the possibility of rebound hypertension for at least 8 hours after the infusion is stopped.' No boxed warning on this label. Note: the DailyMed product title prints the drug name as 'clevipidine', a typographical error in the label title."
+found_via: DailyMed, searched and opened directly
+verified_on: 2026-09-08, DailyMed label page read by a delegated retrieval session in this round; set ID and revision date read off that page; not rendered in my own browser

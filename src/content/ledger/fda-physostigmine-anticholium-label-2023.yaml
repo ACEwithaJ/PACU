@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-physostigmine-anticholium-label-2023
+day: 13
+citation: ANTICHOLIUM (physostigmine salicylate) injection [prescribing information]. Provepharm Inc. Revised July 2023. DailyMed set ID b90b50e8-c8f1-4f2d-be6e-4d269b8c362c. DailyMed updated 11 November 2025.
+doi: null
+pmid: null
+design: advisory
+year: 2023
+n: NA
+access: open
+currency: current
+topic: emergence
+claim_support: magnitude
+supports: "THIS IS THE ROW DAY 13 AND THE DELAYED EMERGENCE CARD NEED. This label names the indication explicitly, VERBATIM: 'the treatment of postoperative disorders: Central anticholinergic syndrome (CAS), Delayed postoperative awakening, Shivering'. Adult dose, VERBATIM: 'Slowly inject physostigmine intravenously at a dose of 0.04 mg/kg bodyweight (approx. 1 mg/min), the maximum individual dose is 2 mg.' And: 'In case of insufficient effect, give subsequent injections after 5 to 20 minutes at the earliest.' Administration, VERBATIM: 'Intravenously slowly or as brief infusion in 50 ml physiological saline solution over 10-15 minutes.' Harms, VERBATIM: 'Bradycardia and convulsions, if intravenous administration is too rapid'; 'An overdose of ANTICHOLIUM can cause bradycardia, hypersalivation, vomiting, and generalized tonic-clonic seizures. Patients should be closely monitored by ECG'; and 'Acute cardiac arrest may be possible during treatment with tricyclic antidepressants; therefore, Anticholium should only be considered as an antidote for this indication while the patient has continuous ECG monitoring.' NOTE THE DIVERGENCE FROM THE CARD: the card teaches 0.5 to 2 mg; this label teaches 0.04 mg/kg to a maximum single dose of 2 mg. No label examined contains the word asystole. CAVEAT: some warnings text returned in patient-facing phrasing, so section headings should be re-checked before being cited as Warnings and Precautions."
+found_via: DailyMed, searched and opened directly
+verified_on: 2026-09-08, DailyMed label page read by a delegated retrieval session in this round; set ID and revision date read off that page; not rendered in my own browser

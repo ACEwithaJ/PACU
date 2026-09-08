@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: rcuk-anaphylaxis-2021
+day: 20
+citation: "Resuscitation Council UK. Emergency treatment of anaphylaxis: Guidelines for healthcare providers. May 2021. Stated review date May 2026."
+doi: null
+pmid: null
+design: guideline
+year: 2021
+n: NA
+access: open
+currency: current
+topic: anaphylaxis
+claim_support: magnitude
+supports: "Adult and over-12 intramuscular adrenaline dose, VERBATIM: '500 micrograms IM (0.5 mL of 1 mg/ml adrenaline)'. Site, VERBATIM: 'The anterolateral aspect of the middle third of the thigh'. Repeat, VERBATIM: 'Repeat the IM adrenaline dose after 5 minutes if there is no improvement in the patient's condition.' Paediatric table: >12 y 500 micrograms; 6-12 y 300 micrograms; 6 months-6 y 150 micrograms; <6 months 100-150 micrograms; with the note 'Give 300 micrograms IM (0.3 mL) in a child who is small or prepubertal'. THIS IS THE OUT-OF-THEATRE COMPARATOR for the perioperative consensus figure of 300 micrograms in garvey-2019; the gap between 500 and 300 is the safety point Day 20 wants to teach. CURRENCY CAVEAT: the document's own stated review date of May 2026 has passed, but RCUK material dated February 2026 carries identical doses."
+found_via: resus.org.uk, the society's own site; currency cross-checked against the RCUK 2025 Resuscitation Guidelines Special circumstances page, which defers to this document rather than superseding it, and against RCUK Paediatric emergency algorithms and resources Version 6, February 2026
+verified_on: 2026-09-08, PDF on the society's own site read by a delegated retrieval session in this round; not rendered in my own browser

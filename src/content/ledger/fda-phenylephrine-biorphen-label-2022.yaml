@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-phenylephrine-biorphen-label-2022
+day: 5
+citation: BIORPHEN (phenylephrine hydrochloride) injection, solution [prescribing information]. Eton Pharmaceuticals, Inc. Revised 03/2022. DailyMed set ID bf7daa65-2a6c-4d59-a6f3-3af70edcc7e2. DailyMed updated 29 August 2022.
+doi: null
+pmid: null
+design: advisory
+year: 2022
+n: NA
+access: open
+currency: current
+topic: hypotension
+claim_support: magnitude
+supports: "FIRST SOURCED VASOPRESSOR DOSE FOR THE HYPOTENSION CARD. Section 1, VERBATIM: 'BIORPHEN is indicated for the treatment of clinically important hypotension resulting primarily from vasodilation in the setting of anesthesia.' Section 2, VERBATIM: 'Initial dose is 40 mcg to 100 mcg administered by intravenous bolus. Additional boluses up to 200 mcg may be administered every 1 to 2 minutes as needed.' Infusion after dilution, VERBATIM: '10 mcg/min to 35 mcg/min, titrating to effect, not to exceed 200 mcg/min.' No boxed warning. IMPORTANT DIVERGENCE BETWEEN PRODUCTS: the ready-to-use premix (Phenylephrine Hydrochloride in 0.9% Sodium Chloride Injection, Dr. Reddy's, set ID 71b8fb8a-e13a-246f-f7b4-aa912b9ccd54, revised June 2025) gives a different bolus, VERBATIM: '50 mcg to 250 mcg by intravenous bolus administration'. The card's current figure of 50 to 100 micrograms matches neither label exactly. Cite a product, not a range."
+found_via: DailyMed, searched and opened directly
+verified_on: 2026-09-08, DailyMed label page read by a delegated retrieval session in this round; set ID and revision date read off that page; not rendered in my own browser

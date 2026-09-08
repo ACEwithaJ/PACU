@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: fda-edrophonium-drugsfda-2026
+day: 1
+citation: "US Food and Drug Administration. Drugs@FDA: FDA-Approved Drugs, application NDA 007959 (TENSILON; TENSILON PRESERVATIVE FREE), edrophonium chloride. accessdata.fda.gov. Accessed 6 September 2026."
+doi: null
+pmid: null
+design: advisory
+year: 2026
+n: NA
+access: open
+currency: current
+topic: residual_block
+claim_support: magnitude
+supports: "Every edrophonium finished-product application in Drugs@FDA shows marketing status 'Discontinued' as of 2026-09-06: NDA 007959 Tensilon and Tensilon Preservative Free; ANDA 088873 Enlon; NDA 019677 and NDA 019678 Enlon-Plus; ANDA 089624 Reversol; ANDA 040131 edrophonium chloride (Hospira); ANDA 040043 and ANDA 040044 (Watson, confirmed via the openFDA API only, not the human-readable page). DailyMed holds one edrophonium SPL (Enlon, Baxter, updated 2006-10-17) with both NDCs inactivated. CAVEAT THAT MUST TRAVEL WITH THIS ROW: FDA approved labelling supplement NDA 019678/S-010 for Enlon-Plus on 28 October 2025 (sponsor Pharmobedient Consulting LLC), covering product name, salt equivalency, strength expression, excipient quantity and package type. That supplement says nothing about marketing status and Drugs@FDA still shows Discontinued, but an active sponsor is maintaining the application. Any statement that edrophonium is unavailable must carry the date it was checked."
+found_via: Drugs@FDA application overview pages opened individually; openFDA API for two Watson ANDAs; DailyMed search for corroboration
+verified_on: 2026-09-06, Drugs@FDA overview pages read; approval letter 019678Orig1s010ltr.pdf read

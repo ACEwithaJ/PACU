@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: gross-2006
+day: 14
+citation: "American Society of Anesthesiologists Task Force on Perioperative Management of Patients with Obstructive Sleep Apnea. Practice Guidelines for the Perioperative Management of Patients with Obstructive Sleep Apnea: A Report by the American Society of Anesthesiologists Task Force on Perioperative Management of Patients with Obstructive Sleep Apnea. Anesthesiology. 2006 May;104(5):1081-1093."
+doi: 10.1097/00000542-200605000-00026
+pmid: null
+design: guideline
+year: 2006
+n: NA
+access: paywalled
+currency: superseded_by:gross-2014
+topic: osa
+claim_support: magnitude
+supports: "VERBATIM, Criteria for Discharge to Unmonitored Settings: 'The consultants indicated that patients with OSA should be monitored for a median of 3 h longer than their non-OSA counterparts before discharge from the facility. They also indicated that monitoring of patients with OSA should continue for a median of 7 h after the last episode of airway obstruction or hypoxemia while breathing room air in an unstimulating environment.' These are CONSULTANT SURVEY MEDIANS, not evidence, and they were DROPPED from the 2014 update. Note the 2006 word is 'unstimulating'; the 2014 guideline uses 'unstimulated environment' in a different sentence."
+found_via: doi.org resolution of 10.1097/00000542-200605000-00026 to the LWW full text, after the 3 h / 7 h sentences were confirmed ABSENT from gross-2014
+verified_on: 2026-09-06, LWW full text read in an institutionally authenticated browser session
