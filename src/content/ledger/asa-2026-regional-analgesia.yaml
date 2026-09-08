@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: asa-2026-regional-analgesia
+day: 10
+citation: Joshi GP, Mariano ER, Elkassabany NM, et al. 2026 American Society of Anesthesiologists Practice Guideline on Perioperative Pain Management Using Local and Regional Analgesia for Cardiothoracic Surgeries, Mastectomy, and Abdominal Surgeries. Anesthesiology. 2026 Jan 1;144(1):19-43.
+doi: 10.1097/ALN.0000000000005790
+pmid: "41363869"
+design: guideline
+year: 2026
+n: NA
+access: paywalled
+currency: current
+topic: analgesia
+claim_support: magnitude
+supports: "CURRENCY ROW. EXISTENCE CONFIRMED; RECOMMENDATIONS NOT READ, SO NOTHING MAY BE QUOTED FROM IT YET. Scope VERBATIM from the abstract opening: 'This practice guideline addresses perioperative pain management using local and regional anesthesia for cardiothoracic, mastectomy, and abdominal surgery in adults and children.' Day 10 is already cleared and rests on older material, so this row exists to record that a current ASA practice guideline covering overlapping ground has not been compared against it. No superseded_by value has been written against any Day 10 row, because that comparison requires reading the recommendations. That comparison is the top item for the next retrieval round."
+found_via: PubMed record
+verified_on: 2026-09-08, round 6

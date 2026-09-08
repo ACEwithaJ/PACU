@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: chung-rowbottom-1993
+day: 2
+citation: Chung DC, Rowbottom SJ. A very small dose of suxamethonium relieves laryngospasm. Anaesthesia. 1993 Mar;48(3):229-230.
+doi: 10.1111/j.1365-2044.1993.tb06908.x
+pmid: "8460802"
+design: case_series
+year: 1993
+n: 3 episodes of vocal cord spasm; the number of individual patients was not read
+access: open
+currency: current
+topic: airway
+claim_support: magnitude
+supports: "Primary support for the low-dose succinylcholine rung of the laryngospasm ladder, and it is thin. Summary VERBATIM: 'Intravenous suxamethonium, in a dose as small as 0.1 mg.kg-1, has been found to be reliable in the treatment of laryngeal spasm. Three episodes of vocal cord spasm observed during direct laryngoscopy were relieved by this dose of suxamethonium.' PubMed publication type Case Reports. QUALIFIER: this is three episodes. The Wiley HTML page carries only the Summary and the body did not render, so the number of individual patients was NOT READ. The word reliable is the authors claim about three episodes, not a measured reliability. DOI CORRECTION: the DOI ends tb06908; tb06907 is a different article entirely (Grace and Orr, continuous spinal anaesthesia, same issue, pages 226-228)."
+found_via: PubMed record then Wiley full text; Wiley per-article badge Free Access and PubMed badge Free article
+verified_on: 2026-09-08, round 6, read in browser under institutional entitlement
