@@ -9,6 +9,9 @@ evidence:
   - fda-succinylcholine-label-2022
   - bmc-nppe-2025
   - das-extubation-2012
+  - chung-rowbottom-1993
+  - batra-2005
+  - abelson-2015
 draft: true
 ---
 ## Recognize
@@ -21,15 +24,15 @@ Obstruction from the tongue looks the same from the end of the bed and is common
 
 1. Call for help. Give 100% oxygen. [GENERAL: Remove the stimulus: suction blood and secretions, stop any airway manipulation, and take out an airway device the patient is fighting.]
 
-2. [GENERAL: Jaw thrust with firm pressure in the laryngospasm notch behind the earlobe, the Larson maneuver, with chin lift; place an oral or nasal airway if the tongue is the obstruction.]
+2. [GENERAL: Jaw thrust with firm pressure in the laryngospasm notch behind the earlobe, the Larson maneuver, with chin lift; place an oral or nasal airway if the tongue is the obstruction. The maneuver's origin is a 1998 letter whose author reports no cases and no mechanism, and that letter cannot be cited here yet because this project's source vocabulary has no term for correspondence.] What can be said with a source is the order. Optimize the upper airway first with routine maneuvers, continuous positive airway pressure, chin lift and jaw thrust, to exclude obstruction above the cords, and do not wait for desaturation before changing course [[abelson-2015]]. The same author is blunt that there is insufficient published data to systematically evaluate laryngospasm notch pressure, and that the line between it and a simple jaw thrust is blurred [[abelson-2015]].
 
-3. [GENERAL: Continuous positive airway pressure by a tight-fitting mask with the reservoir bag. Avoid vigorous positive pressure, which inflates the stomach and makes everything worse.]
+3. Continuous positive airway pressure by a tight-fitting mask with the reservoir bag, as part of that first step [[abelson-2015]]. [GENERAL: Avoid vigorous positive pressure, which inflates the stomach and makes everything worse.]
 
-4. [GENERAL: If it is not breaking, deepen anesthesia: propofol about 0.5 to 1 mg/kg intravenously in a patient with access.]
+4. Propofol is where this card has been teaching something the evidence does not support, and the correction matters. The trial usually cited for it gave propofol 0.5 mg/kg intravenously 60 s **before** extubation to children who had not developed laryngospasm, and found it in 20% of 60 controls against 6.6% of 60 given propofol [[batra-2005]]. That is prevention at extubation, not rescue of a spasm in progress, and the paper says so in its title and its conclusion [[batra-2005]]. [GENERAL: Deepening anesthesia with propofol to break an established laryngospasm is widely taught, and the paper that gets cited for it does not show that. A rescue-facing study exists and has not been retrieved.]
 
-5. [GENERAL: If still obstructed or desaturating, succinylcholine. Doses commonly quoted are 0.1 to 0.5 mg/kg intravenously at low dose, or 1 to 1.5 mg/kg with intubation. No trial compares these sequences.] The label gives an average intravenous dose of 0.6 mg/kg to produce blockade and facilitate intubation, and for the intramuscular route up to 3 to 4 mg/kg not exceeding 150 mg in total, with onset usually in about 2 to 3 min [[fda-succinylcholine-label-2022]].
+5. If still obstructed or desaturating, succinylcholine. A dose as small as 0.1 mg/kg intravenously relieved three episodes of vocal cord spasm seen during direct laryngoscopy, which is the whole of the primary evidence for the low-dose approach: three episodes, described by their authors as reliable on that basis [[chung-rowbottom-1993]]. [GENERAL: Larger doses are also quoted, commonly 1 to 1.5 mg/kg intravenously with intubation, or 3 to 4 mg/kg intramuscularly when there is no intravenous access. No trial compares these sequences.] The label gives an average intravenous dose of 0.6 mg/kg to produce blockade and facilitate intubation, and for the intramuscular route up to 3 to 4 mg/kg not exceeding 150 mg in total, with onset usually in about 2 to 3 min [[fda-succinylcholine-label-2022]].
 
-6. [GENERAL: In a child, give atropine for the bradycardia that accompanies hypoxia and succinylcholine.] Bradycardia occurred in 6% of registry cases overall and in 23% of patients under one year [[visvanathan-2005-laryngospasm]].
+6. [GENERAL: In a child, give atropine for the bradycardia that accompanies hypoxia and succinylcholine. No source found in six retrieval rounds supports atropine as the treatment; what is sourced is the problem, not the drug.] Bradycardia occurred in 6% of registry cases overall and in 23% of patients under one year [[visvanathan-2005-laryngospasm]].
 
 ## After it breaks
 

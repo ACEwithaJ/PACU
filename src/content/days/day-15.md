@@ -13,8 +13,8 @@ evidence:
   - aldrete-1995
   - chung-1995-padss
   - white-1999
-draft: true
-review_due: null
+draft: false
+review_due: 2027-09-06
 quiz:
   - id: pacu-d15-q1
     stem: "What does the 2013 ASA practice guideline for postanesthetic care say about requiring patients to urinate before discharge?"
@@ -98,7 +98,13 @@ This day has one ledger row. That is sufficient, because the source is the entir
 
 The guideline is also not the whole picture. The ASA Standards for Postanesthesia Care, last amended 23 October 2024, state in Standard V, verbatim: a physician is responsible for the discharge of the patient from the postanesthesia care unit; when discharge criteria are used, they must be approved by the Department of Anesthesiology and the medical staff, and they may vary depending upon whether the patient is discharged to a hospital room, to the ICU, to a short stay unit or home; in the absence of the physician responsible for the discharge, the PACU nurse shall determine that the patient meets the discharge criteria, and the name of the physician accepting responsibility for discharge shall be noted on the record [[asa-pacu-standards-2024]]. The obligation is current and the content of the criteria is left to the institution. A search for a newer practice guideline found only the 2013 update and the 2002 original; the 2024 change is to the Standards, not the guideline [[asa-pacu-2013]].
 
-The discharge instruments the day's content list expects have their source papers in the ledger but not yet their items. The modified Aldrete score comes from a 1995 paper with no abstract on its record; the Post-Anesthetic Discharge Scoring System's threshold of at least 9 is confirmed in its abstract, which also reports a correlation of 0.89 between the score and clinical fitness for discharge and an internal consistency of 0.65 against 0.14 for clinical criteria; and the fast-track criteria come from a 1999 paper with no abstract on its record [[aldrete-1995]] [[chung-1995-padss]] [[white-1999]]. [NUMBER NEEDED: the modified Aldrete items and threshold, the five PADSS items, and the fast-track items, from the full texts.] The neuraxial comparison has its trial: low-risk ambulatory patients after short-acting spinal or epidural anesthesia were discharged without voiding when a bladder ultrasound was below 400 mL, 22 min sooner than the standard pathway, P=0.002, with no urinary problems or returns; retention risk after a peripheral nerve block was not retrieved [[mulroy-2002]]. [NUMBER NEEDED: urinary retention risk after peripheral nerve block in ambulatory patients.]
+One of the three discharge instruments now has its items, and the other two have been established as unreachable rather than merely unread. The fast-track criteria were read on 2026-09-08 from the source paper's own scoring table, which the publisher renders as an image with no alternative text, so they were transcribed by eye. There are seven categories, each scored 0, 1 or 2 for a maximum of 14: level of consciousness, physical activity, hemodynamic stability, respiratory stability, oxygen saturation status, postoperative pain assessment, and postoperative emetic symptoms [[white-1999]]. The threshold is quoted in that paper's own appendix caption: a minimal score of 12, with no score below 1 in any individual category, would be required for a patient to be fast-tracked, that is to bypass the recovery unit, after general anesthesia [[white-1999]].
+
+Hold that instrument as loosely as its authors do. It is a brief communication reporting a retrospective analysis of recovery data from 216 consenting female outpatients having laparoscopic tubal ligation or cholecystectomy at a single center, all of whom received analgesic and antiemetic prophylaxis, and the authors state that additional prospective clinical studies are required to validate the utility of this new scoring system [[white-1999]]. It is a proposal compared against an existing score, not a validated one.
+
+The other two item lists are not available and this project now says so rather than leaving a marker. The post-anesthetic discharge scoring system's threshold of at least 9 is confirmed, along with its design as a randomized open study in 247 ambulatory patients, a correlation of 0.89 with clinical fitness for discharge, and an internal consistency of 0.65 against 0.14 for clinical criteria; its five items are not in the abstract and the institution does not hold the full text [[chung-1995-padss]]. The modified Aldrete paper is classified by its publisher as correspondence, carries no abstract at all, and is likewise not held [[aldrete-1995]]. Three retrieval rounds have failed on both by every available route, and no browser session will change that. What the fast-track paper does supply, second hand, is that its own score takes into consideration pain and emetic symptoms as well as the Aldrete assessments of consciousness, physical activity, and hemodynamic and respiratory stability, which is one author characterizing another's instrument rather than the instrument itself [[white-1999]].
+
+The neuraxial comparison has its trial: low-risk ambulatory patients after short-acting spinal or epidural anesthesia were discharged without voiding when a bladder ultrasound was below 400 mL, 22 min sooner than the standard pathway, P=0.002, with no urinary problems or returns [[mulroy-2002]]. Retention risk after a peripheral nerve block in ambulatory patients has been searched for across two retrieval rounds and not found, so this page gives no figure for it.
 
 ## At the bedside
 
@@ -107,17 +113,6 @@ Know which of your PACU's discharge criteria are sourced and which are habit. Th
 Assess the bladder case by case, in the patients and after the procedures where retention is likely, because that is what the guideline replaces the blanket rule with [[asa-pacu-2013]].
 
 Write the discharge against the criteria your institution has approved, and know who is accountable for the decision, because the obligation is current even where its content is not specified.
-
-
-### General recommendations
-
-These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
-
-[GENERAL: The modified Aldrete score has five items, activity, respiration, circulation, consciousness and oxygen saturation, each scored 0 to 2, with 9 or more of 10 usually required for discharge.]
-
-[GENERAL: The post-anesthetic discharge scoring system has five items, vital signs, activity, nausea and vomiting, pain, and surgical bleeding, each scored 0 to 2, with 9 or more of 10 usually required for home readiness.]
-
-[GENERAL: The White fast-track criteria have seven items, level of consciousness, physical activity, hemodynamic stability, respiratory stability, oxygen saturation, pain and emetic symptoms, each scored 0 to 2, with 12 or more of 14 and no single item scored 0 usually required to bypass phase one recovery.]
 
 ## Check yourself
 
