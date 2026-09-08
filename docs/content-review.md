@@ -10,7 +10,7 @@ general recommendation (rule 15): a page carrying either cannot be cleared. The 
 recommendations are the ones to replace first — each is a widely taught statement that
 carries no ledger entry, and a retrieval round should turn it into a cited sentence.
 
-Placeholders: 0 · Practice varies: 27 · General recommendations: 7
+Placeholders: 0 · Practice varies: 27 · General recommendations: 3
 
 ## src/content/cards/card-hypertension.md
 
@@ -23,17 +23,13 @@ Placeholders: 0 · Practice varies: 27 · General recommendations: 7
 
 ## src/content/cards/card-laryngospasm.md
 
-- line 25 — general recommendation: `[GENERAL: Remove the stimulus: suction blood and secretions, stop any airway manipulation, and take out an airway device the patient is fighting.]`
-- line 27 — general recommendation: `[GENERAL: Jaw thrust with firm pressure in the laryngospasm notch behind the earlobe, the Larson maneuver, with chin lift; place an oral or nasal airway if the tongue is the obstruction. The maneuver's origin is a 1998 letter whose author reports no cases and no mechanism, and that letter cannot be cited here yet because this project's source vocabulary has no term for correspondence.]`
-- line 29 — general recommendation: `[GENERAL: Avoid vigorous positive pressure, which inflates the stomach and makes everything worse.]`
-- line 31 — general recommendation: `[GENERAL: Deepening anesthesia with propofol to break an established laryngospasm is widely taught, and the paper that gets cited for it does not show that. A rescue-facing study exists and has not been retrieved.]`
-- line 33 — general recommendation: `[GENERAL: Larger doses are also quoted, commonly 1 to 1.5 mg/kg intravenously with intubation, or 3 to 4 mg/kg intramuscularly when there is no intravenous access. No trial compares these sequences.]`
-- line 35 — general recommendation: `[GENERAL: In a child, give atropine for the bradycardia that accompanies hypoxia and succinylcholine. No source found in six retrieval rounds supports atropine as the treatment; what is sourced is the problem, not the drug.]`
-- line 41 — general recommendation: `[GENERAL: Treat it with oxygen and continuous positive airway pressure, and reintubate if the patient cannot maintain oxygenation; it usually settles within 12 to 24 hours.]`
+- line 27 — general recommendation: `[GENERAL: Remove the stimulus: suction blood and secretions, stop any airway manipulation, and take out an airway device the patient is fighting.]`
+- line 31 — general recommendation: `[GENERAL: Avoid vigorous positive pressure, which inflates the stomach and makes everything worse.]`
+- line 43 — general recommendation: `[GENERAL: Treat it with oxygen and continuous positive airway pressure, and reintubate if the patient cannot maintain oxygenation; it usually settles within 12 to 24 hours.]`
 
 ## src/content/days/day-01.md
 
-- line 145 — practice varies: `[PRACTICE VARIES: the institutional preference between sugammadex and neostigmine, and the availability of quantitative monitors in the PACU, differ between hospitals.]`
+- line 148 — practice varies: `[PRACTICE VARIES: the institutional preference between sugammadex and neostigmine, and the availability of quantitative monitors in the PACU, differ between hospitals.]`
 
 ## src/content/days/day-02.md
 

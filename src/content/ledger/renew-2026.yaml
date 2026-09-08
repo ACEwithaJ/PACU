@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: renew-2026
+day: 1
+citation: Renew JR, Linn DD, Logvinov II, Ma Y, Brull SJ. The Impact of the 2023 American Society of Anesthesiologists Practice Guidelines for Monitoring and Antagonism of Neuromuscular Blockade on Quantitative Neuromuscular Monitoring Two Years Later. Anesth Analg. 2026 Jun 25. Publish ahead of print.
+doi: 10.1213/ANE.0000000000008190
+pmid: "42361319"
+design: survey
+year: 2026
+n: 915 analysed of 981 responses
+access: paywalled
+currency: current
+topic: residual_block
+claim_support: magnitude
+supports: "HOW LITTLE THE 2023 MONITORING GUIDELINE CHANGED PRACTICE. Article type RESEARCH LETTER. Design read from the full text 2026-09-08 under entitlement: a cross-sectional electronic survey of ASA members, 32,918 e-mails sent 20 February 2025 with reminders on 28 February and 8 March, a 19-question instrument built de novo and not piloted. 981 responses, 66 partial excluded, 915 analysed. Findings VERBATIM: The use of a PNS occurred in >50% of cases by a majority (64%) of respondents, while quantitative neuromuscular monitors are used consistently by only 19% of respondents. Additionally, a majority (53%) never use quantitative monitoring to confirm recovery and 61% of respondents reported no change in use of such devices since the publication of the ASA neuromuscular block and antagonism guidelines. Also 6% were unaware of the guidelines and 25% reported some degree of increase. THE AUTHORS OWN LIMITATION, VERBATIM: Conclusions from this survey must be tempered by our low response rate (3%). A 3 percent response rate is severe and must travel with any figure taken from this row. Publish ahead of print, so there is no volume, issue or page range yet."
+found_via: journals.lww.com full text under institutional entitlement; PubMed record confirms the article carries no abstract
+verified_on: 2026-09-08, round 6

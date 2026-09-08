@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: weiss-engelhardt-2012
+day: 2
+citation: Weiss M, Engelhardt T. Cannot ventilate - paralyze! Paediatr Anaesth. 2012 Dec;22(12):1147-1149.
+doi: 10.1111/pan.12054
+pmid: "23134160"
+design: expert_opinion
+year: 2012
+n: none
+access: paywalled
+currency: current
+topic: airway
+claim_support: magnitude
+supports: PROVENANCE ROW ONLY. This is the source cited for the claim that paralysis treats laryngospasm, or otherwise rules it out, in 100% of cases. PubMed classifies it as an EDITORIAL with no abstract. The claim therefore traces to an editorial, not to a study, and any page repeating that figure should say so. Nothing else is quoted from it because nothing else was read.
+found_via: PubMed record
+verified_on: 2026-09-08, round 6
