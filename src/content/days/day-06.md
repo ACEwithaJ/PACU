@@ -10,6 +10,10 @@ evidence:
   - sessler-2019-d6
   - asa-pacu-2013-d6
   - fda-clonidine-label-2022
+  - fda-labetalol-label-2020
+  - fda-hydralazine-label-2021
+  - fda-nicardipine-label-2024
+  - fda-clevidipine-label-2022
 draft: true
 review_due: null
 quiz:
@@ -85,7 +89,11 @@ Blood pressure rises after surgery when the sympathetic nervous system is driven
 
 The POQI consensus statement is the primary source. For adult noncardiac surgical patients it finds insufficient evidence to recommend a general upper limit of arterial pressure at which therapy should be initiated, while recording that pressures above 160 mmHg have been associated with myocardial injury and infarction [[sessler-2019-d6]].
 
-The 2013 ASA guideline on postanesthetic care states that the literature continues to be insufficient to evaluate the impact of cardiovascular assessment and monitoring, or of routine electrocardiographic monitoring, on perioperative complications [[asa-pacu-2013-d6]]. The same guideline states that assessment of urine output and voiding should be done case by case, which is the bladder limb of this day's differential [[asa-pacu-2013-d6]].
+The 2013 ASA guideline on postanesthetic care states that the literature continues to be insufficient to evaluate the impact of cardiovascular assessment and monitoring, or of routine electrocardiographic monitoring, on perioperative complications [[asa-pacu-2013-d6]].
+
+The agents a PACU stocks for this do have labels, and two of them do not say what residents are commonly taught. Labetalol's label gives an initial 20 mg by slow intravenous injection over 2 min, then further injections of 40 or 80 mg at 10-minute intervals until the pressure responds or a total of 300 mg has been given; by continuous infusion the effective dose is usually 50 to 200 mg [[fda-labetalol-label-2020]]. Hydralazine's usual injected dose is 20 to 40 mg, repeated as necessary, with the pressure beginning to fall within a few minutes and the average maximal decrease at 10 to 80 min; its label warns that where intracranial pressure is raised, lowering the blood pressure may increase cerebral ischemia [[fda-hydralazine-label-2021]]. Nicardipine, labelled for short-term treatment of hypertension when oral therapy is not feasible, starts at 5 mg/hr and increases by 2.5 mg/hr every 15 min to a maximum of 15 mg/hr [[fda-nicardipine-label-2024]]. Clevidipine starts at 1 to 2 mg/hr, may be doubled at 90-second intervals early, usually achieves its effect at 4 to 6 mg/hr, and is capped by its lipid load at no more than 1000 mL or an average of 21 mg/hr in 24 h; patients on a prolonged infusion who are not transitioned to another agent should be watched for rebound hypertension for at least 8 h after it stops [[fda-clevidipine-label-2022]].
+
+None of that is outcome evidence. These are labelled doses for treating a blood pressure, in a day whose whole argument is that no source establishes the pressure at which treating one helps.
 
 ## What this does not show
 
@@ -110,7 +118,7 @@ These are the numbers residents are commonly taught and expected to know. This p
 
 [PRACTICE VARIES: some services set an explicit upper pressure limit where the general literature sets none, and that limit is part of the order set rather than a finding. It is usual after craniotomy, after carotid endarterectomy because of cerebral hyperperfusion, after aortic or cardiac surgery, and in preeclampsia. Find out what the limit is before the patient arrives, not after. The absence of a general threshold is not the absence of any threshold.]
 
-[GENERAL: When direct treatment is chosen, the agents usually stocked for the PACU are labetalol in 5 to 10 mg intravenous increments, hydralazine 5 to 10 mg intravenously, and a nicardipine or clevidipine infusion where titratable control is wanted.]
+[GENERAL: This page previously gave labetalol as 5 to 10 mg intravenous increments and hydralazine as 5 to 10 mg. Both are widely taught, and neither is in the FDA labelling; the label doses are cited in the evidence slot above. They are named here rather than quietly removed, because a resident who has learned the smaller figure should know where it comes from. If your institution uses it, it is a local protocol.]
 
 [GENERAL: Beta-blockers a patient already takes are generally continued through the perioperative period rather than stopped, which is the other half of the withdrawal limb of this differential.]
 

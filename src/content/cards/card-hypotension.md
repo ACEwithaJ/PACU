@@ -9,6 +9,8 @@ evidence:
   - mcevoy-2019
   - salmasi-2017
   - garvey-2019
+  - fda-phenylephrine-biorphen-label-2022
+  - fda-ephedrine-label-2023
 draft: true
 ---
 ## Confirm, then start the clock
@@ -33,7 +35,11 @@ An absolute number is enough to act on: absolute mean-pressure thresholds perfor
 
 ## First moves
 
-[GENERAL: A fluid bolus with phenylephrine about 50 to 100 micrograms or ephedrine about 5 to 10 mg, chosen by the heart rate, and escalation to a norepinephrine infusion if the pressure does not hold. None of these agents has outcome evidence in this setting.]
+A fluid bolus, and a vasopressor chosen by the heart rate. Both agents are labelled for exactly this situation. Ephedrine is indicated for clinically important hypotension occurring in the setting of anesthesia, at an initial 5 to 10 mg by intravenous bolus with further boluses as needed, not exceeding a total of 50 mg [[fda-ephedrine-label-2023]]. Phenylephrine is indicated for clinically important hypotension resulting primarily from vasodilation in the setting of anesthesia, and the dose depends on which product you are holding: the vial gives an initial 40 to 100 micrograms by bolus with further boluses up to 200 micrograms every 1 to 2 min, while the ready-to-use premix gives 50 to 250 micrograms [[fda-phenylephrine-biorphen-label-2022]]. Read the vial rather than a remembered range.
+
+[GENERAL: Escalation to a norepinephrine infusion when the pressure will not hold is standard practice and carries no source in this ledger.]
+
+An indication is not outcome evidence. No label here shows that treating the number changes what happens to the patient.
 
 [PRACTICE VARIES: the pressure at which a PACU protocol triggers treatment, and the first-line agent, differ between institutions; follow local protocol.]
 

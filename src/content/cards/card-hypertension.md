@@ -7,6 +7,10 @@ evidence:
   - sessler-2019-d6
   - asa-pacu-2013-d6
   - fda-clonidine-label-2022
+  - fda-labetalol-label-2020
+  - fda-hydralazine-label-2021
+  - fda-nicardipine-label-2024
+  - fda-clevidipine-label-2022
 draft: true
 ---
 ## Explain it before you treat it
@@ -37,7 +41,9 @@ Shivering, anxiety, a distended stomach and a cold patient belong on the same li
 
 ## If you do treat
 
-[GENERAL: The agents usually stocked for this are labetalol in 5 to 10 mg intravenous increments, hydralazine 5 to 10 mg intravenously, and a nicardipine or clevidipine infusion where titratable control is wanted. None has outcome evidence in this setting.]
+The agents usually stocked for this have FDA labels, and two of them do not say what residents are commonly taught. Labetalol's label gives an initial 20 mg by slow intravenous injection over 2 min, then further injections of 40 or 80 mg at 10-minute intervals until the pressure responds or a total of 300 mg has been given [[fda-labetalol-label-2020]]. Hydralazine's usual injected dose is 20 to 40 mg, repeated as necessary, and its label warns that where intracranial pressure is raised, lowering the blood pressure may increase cerebral ischemia [[fda-hydralazine-label-2021]]. Nicardipine starts at 5 mg/hr and increases by 2.5 mg/hr every 15 min to a maximum of 15 mg/hr [[fda-nicardipine-label-2024]]. Clevidipine starts at 1 to 2 mg/hr, may be doubled at 90-second intervals early, usually works at 4 to 6 mg/hr, and is capped by its lipid load at no more than 1000 mL or an average of 21 mg/hr in 24 h [[fda-clevidipine-label-2022]].
+
+[GENERAL: This card previously gave labetalol as 5 to 10 mg increments and hydralazine as 5 to 10 mg. Both figures are widely taught and neither is in the label, which is why they are named here rather than quietly removed. If your institution uses the smaller increments, that is a local protocol and not the labelling.]
 
 [GENERAL: Continue a beta-blocker the patient already takes rather than stopping it.]
 

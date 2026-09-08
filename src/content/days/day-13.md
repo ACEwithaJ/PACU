@@ -12,6 +12,8 @@ evidence:
   - fda-naloxone-label-2023
   - fda-flumazenil-label-2025
   - bayable-2023
+  - fda-physostigmine-anticholium-label-2023
+  - fda-physostigmine-akorn-label-2022
 draft: true
 review_due: null
 quiz:
@@ -97,6 +99,8 @@ The naloxone label states that, since the duration of action of some opioids may
 
 The flumazenil label carries a boxed warning: the use of flumazenil has been associated with the occurrence of seizures, most frequent in patients who have been on benzodiazepines for long-term sedation or in overdose cases showing signs of serious cyclic antidepressant overdose [[fda-flumazenil-label-2025]]. For reversal of sedation in adults the dose is 0.2 mg intravenously over 15 s, with further 0.2 mg doses at 60-s intervals up to four additional doses and a maximum cumulative dose of 1 mg; re-sedation occurred in 3% to 9% of conscious-sedation studies and the terminal half-life is 40 to 80 min [[fda-flumazenil-label-2025]].
 
+Physostigmine has two current labels in the United States and they do not agree, which matters because this is the drug for the central anticholinergic syndrome above. The approved product names the indication in as many words, listing central anticholinergic syndrome, delayed postoperative awakening and shivering, and doses by weight: 0.04 mg/kg injected slowly at about 1 mg/min, a maximum single dose of 2 mg, and a repeat after 5 to 20 min at the earliest; it warns of bradycardia and convulsions if given too fast, and asks for continuous electrocardiographic monitoring where tricyclic overdose is the indication [[fda-physostigmine-anticholium-label-2023]]. The other product is marked an unapproved drug and its label carries the statement that it has not been found by the FDA to be safe and effective; its dose is 0.5 to 1.0 mg intramuscularly or intravenously at no more than 1 mg per minute, and it asks that atropine always be at hand as the antidote [[fda-physostigmine-akorn-label-2022]]. The 0.5 to 2 mg figure this page used to carry matched the unapproved label at its lower end and neither label at its upper end.
+
 ## What this does not show
 
 No source on this page tests the ordered differential against any other order, or against no order. The sequence is expert consensus about frequency and reversibility, and the simulation case that carries it is an educational resource, not a study [[ellis-2017]]. The labels establish the pharmacology of the two reversal agents; they say nothing about how often each cause occurs in a PACU.
@@ -120,7 +124,7 @@ When the commoner causes are excluded and the patient remains somnolent or agita
 
 These are the numbers residents are commonly taught and expected to know. This project has not yet read them from a primary source, so each is labeled and none carries a ledger key. Where one conflicts with your institution's protocol, the protocol wins.
 
-[GENERAL: Three figures in this sequence carry no source. Naloxone in smaller increments of 0.04 to 0.1 mg is widely used to avoid abrupt reversal, and it is not the label figure; the label increments of 0.1 to 0.2 mg are cited in the evidence slot above, as is the flumazenil regimen. Physostigmine is usually quoted as 0.5 to 2 mg intravenously given slowly, with atropine available for bradycardia and an awareness of its seizure risk; that dose is not in any source this project holds. And dextrose for a low glucose is universal practice rather than a sourced recommendation.]
+[GENERAL: Two figures in this sequence still carry no source. The naloxone increment of 0.04 to 0.1 mg is widely taught to avoid abrupt reversal and is not in the labelling; two naloxone labels were checked in September 2026 and the only smaller labelled increments are pediatric, so treat 40 micrograms as a practice convention. And giving dextrose for a low glucose reading is universal practice rather than a sourced recommendation. Physostigmine is no longer on this list; both its labels are cited in the evidence slot above.]
 
 ## Check yourself
 
