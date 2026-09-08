@@ -1,0 +1,18 @@
+# Generated from data/ledger.csv by scripts/ledger-import.mjs.
+# This file is now authoritative; the CSV is provenance. Edit here.
+# Rerunning the import will not overwrite it without --force.
+key: kim-2016-naloxone
+day: 13
+citation: "Kim HK, Nelson LS. Reversal of Opioid-Induced Ventilatory Depression Using Low-Dose Naloxone (0.04 mg): a Case Series. J Med Toxicol. 2016;12(1):107-110."
+doi: 10.1007/s13181-015-0499-3
+pmid: null
+design: case_series
+year: 2016
+n: "15"
+access: paywalled
+currency: current
+topic: emergence
+claim_support: magnitude
+supports: "THE ONLY PRIMARY SOURCE FOUND FOR A 0.04 mg ADULT NALOXONE INCREMENT, AND IT DOES NOT SUPPORT THE CLAIM AS THE CARD WORDS IT. Retrospective case series, medical-record review, no control group. Setting was the EMERGENCY DEPARTMENT via medical toxicology consultation, not the PACU. 15 patients, of whom 12 had ingested methadone 30-180 mg. Starting dose 0.04 mg IV, titrated; median total 0.08 mg, range 0.04-0.12 mg. 2 of 15 developed acute opioid withdrawal after the 0.08 mg dose. Conclusion, VERBATIM: 'ED patients with moderate to severe opioid-induced ventilatory depression can be reversed using 0.04 mg IV naloxone with appropriate dose titration.' NOTE THE MISMATCH: the card states an increment range of 0.04 to 0.1 mg; this study's observed range runs to 0.12 mg, and the population and setting are both wrong for a PACU page. No society guideline recommending 0.04 mg adult increments was found; the ASA/ASRA neuraxial-opioid respiratory depression guideline gives no naloxone dose at all."
+found_via: targeted search for a primary source for the 0.04 mg adult increment after round 4 established it is in no FDA label; Springer article page opened
+verified_on: 2026-09-08, Springer article page read by a delegated retrieval session in this round; PMID 26289651 and PMCID PMC4781798 from the Europe PMC REST record only, therefore UNVERIFIED; PMC page served a reCAPTCHA, which is a block and not a paywall
