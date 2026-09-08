@@ -100,3 +100,35 @@ phenylephrine about 50 to 100 micrograms or ephedrine about 5 to 10 mg escalatin
 norepinephrine. None had a source in this ledger and none of those agents has outcome evidence in
 this setting. The card at /c/card-hypotension/ still carries both and is still a draft. Round 4
 has no target for this yet and should be given one.
+
+---
+
+# Round 4 outcomes, 2026-09-08
+
+Retrieval round 4 closed most of this register. What each entry above now stands at:
+
+| Entry | Status after round 4 |
+|---|---|
+| Day 3, hypoventilation or hypercapnia on oxygen | **CLOSED, and it answered the opposite way.** A blinded multicenter capnography trial found apnea in 113 of 172 patients and bradypnea in 53, but measured hypercapnia in only 2. The page now teaches that, and it is a stronger version of the day's own argument |
+| Day 11, breakthrough-pain wording | **CLOSED.** Read in full, and it carries a qualifier the page was missing: breakthrough pain is called a cardinal feature and the same sentence says it may not always be present |
+| Day 11, Horner syndrome incidence | **PARTLY.** A retrospective series gives 9 of 1322, 0.7%, and the page carries it flagged as passive surveillance rather than as an incidence. `borgeat-2001` was unreachable logged out and would still give a prospective denominator |
+| Day 12, pediatric emergence delirium incidence | **CLOSED, with a caveat that changed how it is written.** Two cohorts give 54.7% and 51%, and a third of 1222 children shows the figure moving from 89.0% to 19.3% on the cut-off alone. The page now always names the instrument and threshold |
+| Day 17, the 800 mL catheterization trial | **CLOSED.** The trial is in the ledger and its numbers are cited |
+| Day 18, headache by needle gauge and tip | **CLOSED.** Tip design has a Grade A recommendation and a clean 11% to 4.2%; gauge is weaker and non-linear, and the page keeps them apart |
+| Day 20, intramuscular epinephrine outside theatre | **CLOSED.** The community guidance gives 500 micrograms and is cited beside the perioperative 300 |
+| Day 2 and the laryngospasm card, the ladder | **OPEN.** The negative finding is now cited to the airway guideline, but the individual rungs were not attempted: all are behind publishers a logged-out browser cannot reach |
+| Day 5, the vasopressor doses | **CLOSED.** Both agents are labelled for this exact indication and both are cited |
+| Day 5, a sourced differential for hypotension | **OPEN.** Nothing found, and it is unclear a source exists |
+| Day 12, the exclusion rule and the named tools | **OPEN**, unchanged |
+
+## Still open after round 4, and what each needs
+
+- **An authenticated session.** Chung and Rowbottom 1993, Batra 2005 and the Larson letter for the
+  laryngospasm rungs; `borgeat-2001`; Welch 2009 for a general nerve-injury rate; the Chou 2016
+  multimodal recommendation text; the ASPAN temperature target.
+- **A person with a PDF.** The item lists of the three discharge scores. `white-1999` renders its
+  table as an image, and the institution does not hold `chung-1995-padss` or `aldrete-1995`.
+  No browser session of either kind will solve these.
+- **Nothing yet identified.** A sourced differential for postoperative hypotension, a source for
+  continuing a home beta-blocker perioperatively, and a primary source for the adult naloxone
+  increment of 0.04 to 0.1 mg, which is in no FDA label.

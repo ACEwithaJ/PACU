@@ -10,7 +10,7 @@ general recommendation (rule 15): a page carrying either cannot be cleared. The 
 recommendations are the ones to replace first — each is a widely taught statement that
 carries no ledger entry, and a retrieval round should turn it into a cited sentence.
 
-Placeholders: 10 · Practice varies: 27 · General recommendations: 31
+Placeholders: 7 · Practice varies: 27 · General recommendations: 30
 
 ## src/content/cards/card-delayed-emergence.md
 
@@ -36,24 +36,23 @@ Placeholders: 10 · Practice varies: 27 · General recommendations: 31
 
 ## src/content/cards/card-laryngospasm.md
 
-- line 21 — general recommendation: `[GENERAL: Remove the stimulus: suction blood and secretions, stop any airway manipulation, and take out an airway device the patient is fighting.]`
-- line 23 — general recommendation: `[GENERAL: Jaw thrust with firm pressure in the laryngospasm notch behind the earlobe, the Larson maneuver, with chin lift; place an oral or nasal airway if the tongue is the obstruction.]`
-- line 25 — general recommendation: `[GENERAL: Continuous positive airway pressure by a tight-fitting mask with the reservoir bag. Avoid vigorous positive pressure, which inflates the stomach and makes everything worse.]`
-- line 27 — general recommendation: `[GENERAL: If it is not breaking, deepen anesthesia: propofol about 0.5 to 1 mg/kg intravenously in a patient with access.]`
-- line 29 — general recommendation: `[GENERAL: If still obstructed or desaturating, succinylcholine. Doses commonly quoted are 0.1 to 0.5 mg/kg intravenously at low dose, or 1 to 1.5 mg/kg with intubation. No trial compares these sequences.]`
-- line 31 — general recommendation: `[GENERAL: In a child, give atropine for the bradycardia that accompanies hypoxia and succinylcholine.]`
-- line 37 — general recommendation: `[GENERAL: Treat it with oxygen and continuous positive airway pressure, and reintubate if the patient cannot maintain oxygenation; it usually settles within 12 to 24 hours.]`
+- line 22 — general recommendation: `[GENERAL: Remove the stimulus: suction blood and secretions, stop any airway manipulation, and take out an airway device the patient is fighting.]`
+- line 24 — general recommendation: `[GENERAL: Jaw thrust with firm pressure in the laryngospasm notch behind the earlobe, the Larson maneuver, with chin lift; place an oral or nasal airway if the tongue is the obstruction.]`
+- line 26 — general recommendation: `[GENERAL: Continuous positive airway pressure by a tight-fitting mask with the reservoir bag. Avoid vigorous positive pressure, which inflates the stomach and makes everything worse.]`
+- line 28 — general recommendation: `[GENERAL: If it is not breaking, deepen anesthesia: propofol about 0.5 to 1 mg/kg intravenously in a patient with access.]`
+- line 30 — general recommendation: `[GENERAL: If still obstructed or desaturating, succinylcholine. Doses commonly quoted are 0.1 to 0.5 mg/kg intravenously at low dose, or 1 to 1.5 mg/kg with intubation. No trial compares these sequences.]`
+- line 32 — general recommendation: `[GENERAL: In a child, give atropine for the bradycardia that accompanies hypoxia and succinylcholine.]`
+- line 38 — general recommendation: `[GENERAL: Treat it with oxygen and continuous positive airway pressure, and reintubate if the patient cannot maintain oxygenation; it usually settles within 12 to 24 hours.]`
 
 ## src/content/days/day-01.md
 
-- line 136 — placeholder: `[TODO_VERIFY: a ledger row for the Drugs@FDA record before this statement appears in a quiz item.]`
-- line 142 — practice varies: `[PRACTICE VARIES: the institutional preference between sugammadex and neostigmine, and the availability of quantitative monitors in the PACU, differ between hospitals.]`
-- line 151 — general recommendation: `[GENERAL: One monitoring detail carries no source. Acceleromyographic devices read high and need normalization to a baseline; electromyographic devices do not. The site itself is not general: the guideline recommends the adductor pollicis over the eye muscles, and that is cited in the evidence slot above.]`
-- line 153 — general recommendation: `[GENERAL: Sugammadex is not recommended when the creatinine clearance is below 30 mL/min, because the sugammadex-relaxant complex is cleared renally.]`
+- line 143 — practice varies: `[PRACTICE VARIES: the institutional preference between sugammadex and neostigmine, and the availability of quantitative monitors in the PACU, differ between hospitals.]`
+- line 152 — general recommendation: `[GENERAL: One monitoring detail carries no source. Acceleromyographic devices read high and need normalization to a baseline; electromyographic devices do not. The site itself is not general: the guideline recommends the adductor pollicis over the eye muscles, and that is cited in the evidence slot above.]`
+- line 154 — general recommendation: `[GENERAL: Sugammadex is not recommended when the creatinine clearance is below 30 mL/min, because the sugammadex-relaxant complex is cleared renally.]`
 
 ## src/content/days/day-02.md
 
-- line 109 — practice varies: `[PRACTICE VARIES: the institutional laryngospasm algorithm and the dose and route of succinylcholine it specifies differ between hospitals; know yours.]`
+- line 110 — practice varies: `[PRACTICE VARIES: the institutional laryngospasm algorithm and the dose and route of succinylcholine it specifies differ between hospitals; know yours.]`
 
 ## src/content/days/day-04.md
 
@@ -73,9 +72,8 @@ Placeholders: 10 · Practice varies: 27 · General recommendations: 31
 
 ## src/content/days/day-07.md
 
-- line 138 — practice varies: `[PRACTICE VARIES: the PACU discharge temperature criterion and the warming devices available differ between institutions; follow local protocol.]`
-- line 147 — general recommendation: `[GENERAL: National and nursing guidance commonly define hypothermia as a core temperature below 36.0 °C, ask for a temperature every 15 minutes in recovery, and do not transfer a patient to the ward below 36.0 °C. Be careful about attributing that threshold. It is the NICE inpatient warming guidance that carries the 36.0 °C transfer rule. The ASPAN normothermia guideline is often named alongside it, and this project has not read it: the current version was identified on 2026-09-06 as the second edition of 2010, its full text is paywalled, and its stated core-temperature target was not read and is not quoted here. That threshold is also half a degree above the level at which the randomized evidence of harm on this page applies, and the two are different kinds of number.]`
-- line 149 — general recommendation: `[GENERAL: For malignant hyperthermia: stop the volatile agent, hyperventilate with 100% oxygen, give dantrolene, cool the patient and treat hyperkalemia. The dose is the place where two authorities disagree, and the disagreement is worth knowing rather than smoothing over. The Malignant Hyperthermia Association of the United States says 2.5 mg/kg initially, repeated as frequently as needed until the patient responds, and states that large doses above 10 mg/kg may be required, with its own guidance going as far as 10 to 20 or more mg/kg in individual patients. The FDA labels for the intravenous products say the opposite at both ends: a minimum of 1 mg/kg and a maximum cumulative dose of 10 mg/kg. Neither document is in this ledger yet, so both are carried here as general recommendations, and the MHAUS page carries no revision date. Follow your institution's malignant hyperthermia protocol and its cart. The MHAUS hotline is 1-800-644-9737.]`
+- line 143 — practice varies: `[PRACTICE VARIES: the PACU discharge temperature criterion and the warming devices available differ between institutions; follow local protocol.]`
+- line 152 — general recommendation: `[GENERAL: The 36.0 °C definition commonly quoted here comes from national inpatient warming guidance that is not in this ledger, so no temperature target is cited from it. The ASPAN normothermia guideline, often named alongside it, is now in the ledger and its target is still not quoted, because the full text is paywalled and the target was never read [[aspan-normothermia-2010]`
 
 ## src/content/days/day-08.md
 
@@ -83,9 +81,8 @@ Placeholders: 10 · Practice varies: 27 · General recommendations: 31
 
 ## src/content/days/day-09.md
 
-- line 156 — placeholder: `[TODO_VERIFY: a source for ondansetron's limited effect on vestibular nausea]`
-- line 167 — practice varies: `[PRACTICE VARIES: the specific rescue agents stocked and the order in which they are used differ between institutions; the class-change rule does not.]`
-- line 173 — general recommendation: `[GENERAL: Two adult prophylactic doses in common use are not in the Fifth guideline's table: dimenhydrinate about 1 mg/kg intravenously, and promethazine 6.25 to 12.5 mg intravenously for prophylaxis rather than rescue. The guideline's own doses are cited in the evidence slot above and are not general recommendations.]`
+- line 168 — practice varies: `[PRACTICE VARIES: the specific rescue agents stocked and the order in which they are used differ between institutions; the class-change rule does not.]`
+- line 174 — general recommendation: `[GENERAL: Two adult prophylactic doses in common use are not in the Fifth guideline's table: dimenhydrinate about 1 mg/kg intravenously, and promethazine 6.25 to 12.5 mg intravenously for prophylaxis rather than rescue. The guideline's own doses are cited in the evidence slot above and are not general recommendations.]`
 
 ## src/content/days/day-10.md
 
@@ -96,13 +93,13 @@ Placeholders: 10 · Practice varies: 27 · General recommendations: 31
 
 ## src/content/days/day-11.md
 
-- line 111 — practice varies: `[PRACTICE VARIES: whether a block is used at all in limbs at risk of compartment syndrome, and who is called when breakthrough pain occurs, differ between institutions and surgical services.]`
+- line 116 — practice varies: `[PRACTICE VARIES: whether a block is used at all in limbs at risk of compartment syndrome, and who is called when breakthrough pain occurs, differ between institutions and surgical services.]`
 
 ## src/content/days/day-12.md
 
-- line 104 — practice varies: `[PRACTICE VARIES: the screening tool used, who applies it, and how the result is recorded differ between institutions.]`
-- line 114 — practice varies: `[PRACTICE VARIES: which validated delirium screening tool a unit uses differs between institutions. The ones in common adult use are the confusion assessment method for the intensive care unit, the nursing delirium screening scale, and the 4AT. None of the three is named in the body of the 2024 ESAIC guideline; its tool list sits in a supplementary table that has not been retrieved, so treat the choice as institutional. Using none is not a choice.]`
-- line 116 — practice varies: `[PRACTICE VARIES: the non-pharmacological bundle applied before any drug differs between institutions. It commonly includes reorientation, protected sleep, restoring glasses and hearing aids, early mobilization, hydration and pain control. The guideline's graded position on what follows if that bundle fails is cited in the evidence slot above.]`
+- line 108 — practice varies: `[PRACTICE VARIES: the screening tool used, who applies it, and how the result is recorded differ between institutions.]`
+- line 118 — practice varies: `[PRACTICE VARIES: which validated delirium screening tool a unit uses differs between institutions. The ones in common adult use are the confusion assessment method for the intensive care unit, the nursing delirium screening scale, and the 4AT. None of the three is named in the body of the 2024 ESAIC guideline; its tool list sits in a supplementary table that has not been retrieved, so treat the choice as institutional. Using none is not a choice.]`
+- line 120 — practice varies: `[PRACTICE VARIES: the non-pharmacological bundle applied before any drug differs between institutions. It commonly includes reorientation, protected sleep, restoring glasses and hearing aids, early mobilization, hydration and pain control. The guideline's graded position on what follows if that bundle fails is cited in the evidence slot above.]`
 
 ## src/content/days/day-13.md
 
@@ -113,7 +110,7 @@ Placeholders: 10 · Practice varies: 27 · General recommendations: 31
 
 ## src/content/days/day-14.md
 
-- line 111 — practice varies: `[PRACTICE VARIES: the monitored setting used after PACU discharge for patients at increased risk from OSA, the monitoring modality, and the criteria for ending it differ between institutions; follow local protocol and know which guideline it cites.]`
+- line 112 — practice varies: `[PRACTICE VARIES: the monitored setting used after PACU discharge for patients at increased risk from OSA, the monitoring modality, and the criteria for ending it differ between institutions; follow local protocol and know which guideline it cites.]`
 
 ## src/content/days/day-15.md
 
@@ -130,8 +127,8 @@ Placeholders: 10 · Practice varies: 27 · General recommendations: 31
 
 ## src/content/days/day-17.md
 
-- line 96 — practice varies: `[PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions. Most units sit between 500 and 600 mL. A figure of 800 mL circulates alongside those and is usually misquoted: it comes from a randomized trial, not yet in this ledger, that compared catheterizing at 500 mL with catheterizing at 800 mL in inpatients having fast-track hip and knee arthroplasty under spinal anesthesia. The higher threshold roughly halved the number of patients catheterized with no difference in any urological outcome. It is a catheterize-at threshold in that population, not evidence that an ambulatory patient can be left undrained at 800 mL. Know which number your unit uses.]`
-- line 96 — practice varies: `[PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions.]`
+- line 97 — practice varies: `[PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions. Most units sit between 500 and 600 mL. A figure of 800 mL circulates alongside those and is usually misquoted. The trial behind it is now in the ledger: it compared catheterizing at 500 mL with catheterizing at 800 mL in inpatients having fast-track hip and knee arthroplasty under spinal anesthesia. Catheterization occurred in 114 of 354 patients at the 500 mL threshold against 49 of 367 at 800 mL, a relative risk of 0.4 (95% CI 0.3 to 0.6), with no difference in any secondary outcome including urinary tract infection at 2% in both arms [[bjerregaard-2016]`
+- line 97 — practice varies: `[PRACTICE VARIES: the bladder volume at which a PACU catheterizes, and whether a scan or a void is the discharge criterion, differ between institutions.]`
 
 ## src/content/days/day-18.md
 
@@ -139,12 +136,11 @@ Placeholders: 10 · Practice varies: 27 · General recommendations: 31
 
 ## src/content/days/day-19.md
 
-- line 99 — placeholder: `[TODO_VERIFY: the recommendation text of the 2019 ASA perioperative visual loss advisory, from the PMC copy.]`
-- line 99 — placeholder: `[NUMBER NEEDED: incidence, mechanism and timing of perioperative brachial plexus injury outside cardiac surgery]`
-- line 108 — practice varies: `[PRACTICE VARIES: whether a formal visual check is part of PACU discharge after spine surgery, and how peripheral nerve findings are documented, differ between institutions.]`
-- line 114 — general recommendation: `[GENERAL: After prone spine surgery in a high-risk patient, ask about vision as soon as the patient is alert enough to answer, and obtain urgent ophthalmology review for any visual complaint rather than waiting for it to declare itself.]`
+- line 100 — placeholder: `[NUMBER NEEDED: incidence, mechanism and timing of perioperative brachial plexus injury outside cardiac surgery]`
+- line 109 — practice varies: `[PRACTICE VARIES: whether a formal visual check is part of PACU discharge after spine surgery, and how peripheral nerve findings are documented, differ between institutions.]`
+- line 115 — general recommendation: `[GENERAL: The prone-position habit worth keeping is to ask about vision as soon as the patient can answer, which is what the advisory recommends and is now cited above. What has no source is the practical corollary residents are taught, that a visual complaint after prone spine surgery should go to ophthalmology the same hour rather than being watched overnight.]`
 
 ## src/content/days/day-20.md
 
-- line 97 — practice varies: `[PRACTICE VARIES: the antibiotics, antiseptics and dyes in routine use, and therefore the likely culprits, differ between countries and institutions.]`
-- line 112 — practice varies: `[PRACTICE VARIES: the intramuscular epinephrine dose an institution expects differs, and the difference is not small. The perioperative consensus quoted above gives 300 micrograms for an adult, and it assumes an anesthesiologist with intravenous access. A figure of 500 micrograms is in wide use in national anaphylaxis guidance outside the operating room; that guidance is not in this ledger and no dose is quoted here from it. If you are reaching for an intramuscular dose, know which number your institution follows before you need it.]`
+- line 98 — practice varies: `[PRACTICE VARIES: the antibiotics, antiseptics and dyes in routine use, and therefore the likely culprits, differ between countries and institutions.]`
+- line 113 — practice varies: `[PRACTICE VARIES: the intramuscular epinephrine dose an institution expects differs, and the difference is not small. The perioperative consensus quoted above gives 300 micrograms for an adult, and it assumes an anesthesiologist with intravenous access. The community guidance used outside the operating room gives 500 micrograms, and both figures are now cited on this page. If you are reaching for an intramuscular dose, know which number your institution follows before you need it.]`

@@ -8,6 +8,7 @@ evidence:
   - visvanathan-2005-airway
   - fda-succinylcholine-label-2022
   - bmc-nppe-2025
+  - das-extubation-2012
 draft: true
 ---
 ## Recognize
@@ -40,4 +41,4 @@ The registry authors judged that a structured approach would have brought earlie
 
 ## Where the ladder comes from
 
-It is not a society recommendation. On 2026-09-06 the Difficult Airway Society extubation guideline was read in full and the Association of Paediatric Anaesthetists index was searched: neither states a laryngospasm sequence, and the airway guideline's only pharmacological statement on the subject is that robust evidence for doxapram in this indication is lacking. The steps marked as general recommendations above are a textbook construction with primary support that has not yet been retrieved for each rung. Use your institution's protocol where it differs.
+It is not a society recommendation. The Difficult Airway Society extubation guideline is the nearest society document and it states no sequence: it treats laryngospasm only as a risk, warns that if it is not relieved promptly it may result in post-obstructive pulmonary edema and hypoxic cardiac arrest, and its single pharmacological statement is that robust evidence for doxapram in this indication is lacking [[das-extubation-2012]]. It contains no jaw thrust, no laryngospasm notch and no succinylcholine for post-extubation laryngospasm. The paediatric anaesthesia association has no laryngospasm guideline at all. The steps marked as general recommendations above are a textbook construction whose individual rungs have primary support that has not yet been retrieved. Use your institution's protocol where it differs.

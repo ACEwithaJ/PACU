@@ -11,6 +11,8 @@ evidence:
   - aldecoa-2017
   - sikich-2004
   - costi-2014
+  - zhu-2023-emergence-delirium
+  - zhao-2026-emergence-delirium
   - fda-dexmedetomidine-label-2026
 draft: false
 review_due: 2027-09-06
@@ -96,6 +98,8 @@ The guideline rests on a large randomized literature for prevention. It does not
 The rule the director's content list places here, that hypoxemia, hypoglycemia and pain must be excluded before either the delirium or the emergence-agitation label is applied, was searched for in the full text of the guideline on 2026-09-06 and is not there. None of its 13 recommendations states it. The nearest text is its statement that alcohol-withdrawal delirium is a clinical diagnosis of exclusion after considering all other diagnoses [[aldecoa-2024]]. The rule is sound practice and it is not this guideline's; it needs a different source or it should be carried as local teaching.
 
 Pediatric emergence delirium after sevoflurane has its scale and its relative risks. The Pediatric Anesthesia Emergence Delirium scale has five items, eye contact with the caregiver, purposeful actions, awareness of surroundings, restlessness and inconsolability, each scored 1 to 4 and summed, with internal consistency 0.89 and reliability 0.84 (0.76 to 0.90); scores were higher after sevoflurane than halothane, P less than 0.008, and the abstract gives no diagnostic cut-off [[sikich-2004]]. A Cochrane review of 158 trials in 14,045 children found, against sevoflurane, a relative risk of 0.51 (0.41 to 0.63) with halothane and 0.35 (0.25 to 0.51) with propofol throughout, and as adjuncts a relative risk of 0.37 (0.29 to 0.47) with dexmedetomidine and 0.37 (0.27 to 0.50) with fentanyl, with the authors flagging pain as a confounder of the diagnosis; it gives relative risks, not an absolute incidence [[costi-2014]].
+
+Two studies now give an absolute incidence, which this day previously lacked, and they come with a warning about how to read it. In a prospective cohort of 137 children aged 4 to 12 having ambulatory circumcision under sevoflurane induction and maintenance, emergence delirium occurred in 75 of 137 (54.7%) by a PAED score of 10 or more, and emergence agitation in 73 of 137 (53.3%) by a RASS of 1 or more [[zhu-2023-emergence-delirium]]. In 155 children aged 0 to 3 having fundus examination under sevoflurane, the incidence was 51%, also by the PAED scale, though the cut-off used is not stated and must not be assumed [[zhao-2026-emergence-delirium]]. Quote either figure with its instrument and its threshold attached. In one cohort of 1222 children the reported incidence moved from 89.0% at a PAED of 10 or more to 19.3% at a PAED above 12, in the same patients. A number for pediatric emergence delirium without its cut-off is not a fact about children; it is a fact about where somebody drew a line.
 
 Dexmedetomidine has no US indication for delirium, emergence agitation or shivering. Its label indications are sedation of intubated adults in intensive care by infusion not exceeding 24 h, and procedural sedation of non-intubated adults and children; emergence delirium and agitation appear only as pediatric adverse reactions after discontinuation; and its principal warnings are hypotension and bradycardia, including fatalities, and transient hypertension during loading [[fda-dexmedetomidine-label-2026]]. Any use for delirium or agitation is off-label, and this page recommends none.
 

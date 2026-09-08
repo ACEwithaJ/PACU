@@ -100,7 +100,7 @@ The guideline is consensus with graded evidence, and most of the conservative-tr
 
 Nothing here is specific to the PACU. The guideline is about the patient after any neuraxial procedure, and the PACU's role is the first review and the first instruction to report symptoms [[uppal-2023]].
 
-Incidence by needle type and size, and the effect of needle choice on prevention, are in the full guideline and not in the summary quoted here, so this page gives no figure by gauge or tip design.
+Incidence by needle type and size has now been read from the full guideline, which turned out to be open access. Tip design is the part with a clear answer. Spinal needles are cutting or non-cutting by tip configuration, and compared with cutting needles, non-cutting needles reduced the risk of headache from 11% to 4.2%, severe headache from 4.2% to 1.2%, and the need for a blood patch from 3.0% to 1.1%; routine use of non-cutting needles is recommended for all populations, graded A with high certainty [[uppal-2024-rapm]]. Gauge is weaker and the page should not flatten the two together. The guideline describes the size effect as an interaction between size, needle type and the risk of multiple redirections, and as probably non-linear, more pronounced for mid to wider gauges; among cutting needles eight of ten studies showed a reduction with a narrower gauge, but among non-cutting needles five randomized trials found no significant difference and four found only a modest benefit [[uppal-2024-rapm]]. There is also limited evidence about any particular non-cutting design, at low certainty [[uppal-2024-rapm]].
 
 ## At the bedside
 

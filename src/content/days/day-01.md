@@ -17,6 +17,7 @@ evidence:
   - fda-neostigmine-label-2024
   - herbstreit-2010
   - fda-sugammadex-label-2026
+  - fda-edrophonium-drugsfda-2026
 draft: true
 review_due: null
 quiz:
@@ -133,7 +134,7 @@ Neostigmine has a ceiling written on its label: a dose of 0.03 to 0.07 mg/kg wil
 
 Sugammadex is dosed by depth: 2 mg/kg at the reappearance of the second twitch, 4 mg/kg at one to two post-tetanic counts, and 16 mg/kg about 3 min after 1.2 mg/kg of rocuronium [[fda-sugammadex-label-2026]]. Its label records anaphylaxis in 0.3% of 299 healthy volunteers (one case, in the 16 mg/kg group), marked bradycardia, some resulting in cardiac arrest, within minutes of administration, a higher risk of recurrent block after lower-than-recommended doses, an effect on hormonal contraceptives equivalent to a missed dose with a non-hormonal back-up method advised for the next 7 days, and waits before re-dosing a steroidal blocker of 5 min after 1.2 mg/kg rocuronium, 4 h after 0.6 mg/kg rocuronium or 0.1 mg/kg vecuronium, and 24 h after a 16 mg/kg dose or in renal impairment [[fda-sugammadex-label-2026]].
 
-Edrophonium has no marketed finished product in the United States: every FDA application for it, under the brand names Enlon, Enlon-Plus, Reversol and Tensilon and as generics, was listed as discontinued in Drugs@FDA when this was checked on 2026-09-06, and the one DailyMed listing has both of its national drug codes inactivated. No reversal content on this site names it. Two cautions attach to that sentence. It is a dated claim rather than a settled fact, because the FDA approved a labeling supplement for Enlon-Plus in October 2025 and an active sponsor maintaining an application is consistent with an intent to re-market, so it needs re-checking rather than repeating. And it still has no ledger row: [TODO_VERIFY: a ledger row for the Drugs@FDA record before this statement appears in a quiz item.]
+Edrophonium has no marketed finished product in the United States: every FDA application for it, under the brand names Enlon, Enlon-Plus, Reversol and Tensilon and as generics, was listed as discontinued in Drugs@FDA when this was checked on 2026-09-06, and the one DailyMed listing has both of its national drug codes inactivated. No reversal content on this site names it. Two cautions attach to that sentence. It is a dated claim rather than a settled fact, because the FDA approved a labeling supplement for Enlon-Plus in October 2025 and an active sponsor maintaining an application is consistent with an intent to re-market, so it needs re-checking rather than repeating. It now has a ledger row, recording every application and its marketing status, the one inactivated DailyMed listing, and the October 2025 supplement as the reason this is a claim to re-check rather than repeat [[fda-edrophonium-drugsfda-2026]].
 
 ## At the bedside
 
